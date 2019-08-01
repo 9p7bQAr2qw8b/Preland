@@ -1,0 +1,17 @@
+/* ::::: http://money4leads.biz/form/css/style.css ::::: */
+
+/* ::::: http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic ::::: */
+
+/*
+html { height: 100%; font-family: inherit; }
+body { margin: 0px; padding: 0px; height: 100%; }
+#form-main { width: 100%; padding-top: 0px; margin-left: 0px; }
+#form-div { background-color: rgba(172, 172, 172, 0.4); padding: 20px 15px 15px; width: 100%; box-sizing: border-box; float: left;  }
+.feedback-input { color: rgb(60, 60, 60); font-size: 16px; border-radius: 0px; line-height: 22px; background-color: rgb(251, 251, 251); padding: 10px; margin-bottom: 10px; width: 100%; box-sizing: border-box; border: 3px solid transparent; }
+.feedback-input:focus { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 3px solid rgb(171, 171, 171); color: rgb(0, 0, 0); outline: medium none; padding: 10px; }
+.label { font-size: 18px; margin-bottom: 10px; display: inline-block; }
+input:hover, textarea:hover, input:focus, textarea:focus { background-color: white; }
+#button-blue { font-family: Arial,Helvetica,sans-serif; float: left; width: 100%; border: medium none; cursor: pointer; background-color: #D61820; color: white; font-size: 20px; padding-top: 15px; padding-bottom: 15px; transition: all 0.3s ease 0s; }
+#button-blue:hover { background-color: transparent; color: #D61820; }
+.submit:hover { color: rgb(52, 152, 219); }
+.ease { width: 0px; height: 53px; background-color: rgb(251, 251, 251); transition: all 0.3s ease 0s; }.submit:hover .ease { width: 100%; background-color: white; }

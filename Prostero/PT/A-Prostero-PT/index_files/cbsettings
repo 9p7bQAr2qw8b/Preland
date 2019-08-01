@@ -1,0 +1,25 @@
+CpaLand.initLandData({
+    "version": 1,
+    "tid": "1561386204841180164",
+    "status": false,
+    "type": "layer",
+    "combacker": {
+        "imageSrc": "\/iclick\/comebacker\/images\/comebacker_all_pt.jpg",
+        "innerHtml": "",
+        "landingUrl": "l\/",
+        "reinitable": "1",
+        "soundUrl": "\/iclick\/comebacker\/sound\/pt-woman.mp3",
+        "status": false,
+        "text": ""
+    },
+    "metrics": {
+        "GA": "",
+        "FB": "0",
+        "MAIL": "",
+        "VK": "",
+        "YA": "0"
+    },
+    "landing_id": "23167",
+    "landingUrl": "l\/",
+    "product_id": "3965"
+})

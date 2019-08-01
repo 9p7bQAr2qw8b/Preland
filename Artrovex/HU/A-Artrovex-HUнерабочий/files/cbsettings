@@ -1,0 +1,25 @@
+CpaLand.initLandData({
+    "version": 1,
+    "tid": "1553175431311475854",
+    "status": false,
+    "type": "layer",
+    "combacker": {
+        "imageSrc": "\/iclick\/comebacker\/images\/comebacker_all_hu.jpg",
+        "innerHtml": "",
+        "landingUrl": "http:\/\/pl.artro-vex.site?tid=1553175431311475854&c=BY",
+        "reinitable": "1",
+        "soundUrl": "\/iclick\/comebacker\/sound\/hu-women.mp3",
+        "status": false,
+        "text": ""
+    },
+    "metrics": {
+        "GA": "",
+        "FB": "0",
+        "MAIL": "",
+        "VK": "",
+        "YA": "0"
+    },
+    "landing_id": "20527",
+    "landingUrl": "http:\/\/pl.artro-vex.site?tid=1553175431311475854&c=BY",
+    "product_id": "3623"
+})

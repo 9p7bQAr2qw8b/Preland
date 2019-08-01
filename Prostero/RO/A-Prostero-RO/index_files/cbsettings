@@ -1,0 +1,25 @@
+CpaLand.initLandData({
+    "version": 1,
+    "tid": "1561044247671200267",
+    "status": false,
+    "type": "layer",
+    "combacker": {
+        "imageSrc": "\/iclick\/comebacker\/images\/comebacker_all_ro.jpg",
+        "innerHtml": "",
+        "landingUrl": "l\/",
+        "reinitable": "1",
+        "soundUrl": "\/iclick\/comebacker\/sound\/ro-man.mp3",
+        "status": false,
+        "text": ""
+    },
+    "metrics": {
+        "GA": "",
+        "FB": "",
+        "MAIL": "",
+        "VK": "",
+        "YA": ""
+    },
+    "landing_id": "23159",
+    "landingUrl": "l\/",
+    "product_id": "3965"
+})
