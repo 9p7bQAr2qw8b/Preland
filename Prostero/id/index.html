@@ -1,3 +1,6 @@
+<?php
+include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clickapi.php';
+?>
 <html data-scrapbook-source="http://bloggerzlive.com/prost-ero/eu/id/laravista/" data-scrapbook-create="20190828125652739">
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -28,93 +31,736 @@
 
 
 <link rel="shortcut icon" href="favicon.ico.gif">
+<style type="text/css">
+  #report_post {
+  cursor: pointer
+}
+iframe {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 0;
+  border: none;
+}
+#facebook_popup {
+  z-index: 9999999;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4) none repeat scroll 0% 0%;
+  font-family: Tahoma
+}
+.report_window {
+  width: 480px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -167px auto auto;
+  max-width: 98%;
+  border-width: 1px 2px 1px 1px;
+  border-style: solid;
+  border-color: rgb(85, 85, 85);
+  top: 50%
+}
+.relative_div {
+  position: relative;
+  overflow: auto;
+  height: auto;
+  display: block
+}
+.fb_header {
+  background: rgb(109, 132, 180) none repeat scroll 0% 0%;
+  height: 30px
+}
+.fb_lock {
+  float: right;
+  margin-top: 3px
+}
+.fb_footer {
+  position: absolute;
+  bottom: 0;
+  height: 44px;
+  width: 100%;
+  background: rgb(242, 242, 242) none repeat scroll 0% 0%;
+  border-top: 1px solid rgb(204, 204, 204)
+}
+.rep_text {
+  float: left;
+  color: white;
+  margin-left: 3%;
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: Tahoma;
+  font-weight: 700
+}
+#fb_text_content {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 13px;
+  color: rgb(96, 51, 133);
+  margin-bottom: 70px
+}
+#fb_text_content b {
+  color: black
+}
+input[type="radio"] {
+  margin-right: 6px
+}
+#fb_submit {
+  cursor: pointer;
+  width: 95px;
+  height: 21px;
+  float: right;
+  background: rgb(96, 121, 171) none repeat scroll 0% 0%;
+  text-align: center;
+  padding-top: 4px;
+  margin-top: 7px;
+  border: 1px solid rgb(41, 68, 126);
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+  margin-right: 7px;
+  opacity: 1;
+  box-sizing: content-box
+}
+#fb_cancel {
+  cursor: pointer;
+  width: 95px;
+  height: 21px;
+  float: right;
+  background: rgb(230, 230, 230) none repeat scroll 0% 0%;
+  text-align: center;
+  padding-top: 4px;
+  margin-top: 7px;
+  border: 1px solid rgb(153, 153, 153);
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  margin-right: 20px;
+  box-sizing: content-box
+}
+.blocked_button {
+  opacity: 0.3!important;
+  cursor: default!important
+}
+.blocked_button:hover {
+  box-shadow: none!important
+}
+#fb_textarea {
+  margin-top: 4px;
+  width: 70%;
+  height: 48px
+}
+#fb_submit:hover, #fb_cancel:hover, #report_post:hover {
+  box-shadow: 0 0 6px rgb(104, 115, 121)
+}
+#fb_thanks {
+  text-align: center;
+  margin-left: -50px;
+  font-size: 35px;
+  margin-top: 35px;
+  color: rgb(76, 99, 148);
+  text-shadow: -1px 0 rgb(228, 222, 222), 0 1px rgb(228, 222, 222), 1px 0 rgb(228, 222, 222), 0 -1px rgb(228, 222, 222);
+  font-weight: 700
+}
+#fb_thanks span {
+  font-size: 18px
+}
+#get_content {
+  display: none
+}
+#report_post {
+  display: inline-block;
+  background: rgb(58, 87, 151) none repeat scroll 0% 0%;
+  border-radius: 4px;
+  padding: 6px 9px 6px 10px;
+  cursor: pointer;
+  color: white;
+  font-family: Tahoma;
+  font-size: 12px;
+  font-weight: 700;
+  float: right
+}
+#report_post img {
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-top: -3px
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+body {
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/body-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 0%;
+  background-color: lightgrey;
+  margin: 0 auto;
+  padding: 0
+}
+input {
+  outline: medium none
+}
+a {
+  color: rgb(22, 151, 206)
+}
+a:hover {
+  color: rgb(176, 73, 59)
+}
+a img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+a:focus {
+  outline: medium none
+}
+h1 {
+  font-size: 24px;
+  font-weight: 400
+}
+h2 {
+  font-size: 22px;
+  font-weight: 400
+}
+img {
+  border-radius: 5px
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 960px;
+  overflow: auto
+}
+button {
+  background: red none repeat scroll 0 0;
+  border: 3px solid white;
+  border-radius: 8px;
+  box-shadow: 0 3px 7px rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 250px;
+  cursor: pointer
+}
+button:hover {
+  background-color: rgb(0, 174, 239);
+  box-shadow: 0 0 5px rgb(63, 91, 119);
+  text-decoration: none!important;
+  text-shadow: 0 0 3px rgb(0, 0, 0);
+  border-radius: 20px;
+  color: white;
+  transition: all 0.3s ease 0s
+}
+.fixedbtn {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  background: red none repeat scroll 0 0;
+  border: 2px solid rgb(228, 228, 228);
+  box-shadow: 5px 5px 10px rgb(194, 194, 194);
+  position: fixed;
+  right: 46%;
+  padding: 20px;
+  text-decoration: none;
+  margin: 200px -675px 0 0;
+  z-index: 999999999
+}
+.footer {
+  background: rgba(255, 255, 255, .8) none repeat scroll 0% 0%;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 10px auto 55px;
+  text-align: center
+}
+.box {
+  background-color: rgba(43, 97, 150, .2);
+  padding: 10px;
+  overflow: auto;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .25)
+}
+.box p {
+  line-height: 1.8!important
+}
+.date {
+  font-size: 11px;
+  float: right
+}
+.logo {
+  display: table;
+  float: left;
+  margin: 10px 0
+}
+.logo>* {
+  display: table-cell;
+  vertical-align: middle;
+  margin-right: 10px
+}
+.logo h1 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700
+}
+.menu {
+  background-color: rgba(43, 97, 150, .8);
+  height: 50px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, .38)
+}
+.menu ul {
+  list-style: outside none none;
+  width: 960px;
+  margin: 0 auto
+}
+ul li {
+  display: inline-block;
+  float: left;
+  margin-right: 23px;
+  padding: 14px 10px;
+  position: relative
+}
+.menu a {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  text-decoration: none
+}
+.inner p {
+  color: rgb(42, 42, 42);
+  margin: 15px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5
+}
+.inner h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px
+}
+.inner h3 span {
+  font-size: 18px
+}
+.statements {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+  background: rgba(111, 156, 165, .55) none repeat scroll 0% 0%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .75);
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.statements p {
+  font-size: 18px
+}
+.box img {
+  float: left;
+  margin-right: 15px;
+  width: 170px
+}
+.inner {
+  background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+  padding: 0 30px 10px;
+  line-height: 1.5
+}
+.inner h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 20px 0
+}
+.comments {
+  font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+  font-size: 15px;
+  color: black;
+  text-decoration: none
+}
+.comments_header {
+  background: rgb(218, 226, 232) none repeat scroll 0% 0%;
+  padding: 4px 4px 14px 6px;
+  margin-bottom: 10px;
+  color: rgb(69, 104, 142);
+  font-weight: 700
+}
+.comment {
+  margin-bottom: 15px;
+  position: relative;
+  border-bottom: 1px solid rgb(218, 225, 232);
+  padding-bottom: 15px
+}
+.comment img {
+  float: left;
+  margin-right: 10px
+}
+.comment_name {
+  color: rgb(43, 88, 122);
+  font-weight: 700;
+  font-size: 12px
+}
+@media screen and (max-width:1480px) {
+  .fixedbtn {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    background: red none repeat scroll 0 0;
+    border: 2px solid rgb(228, 228, 228);
+    box-shadow: 5px 5px 10px rgb(194, 194, 194);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    margin: 10px auto;
+    z-index: 999999999;
+    width: 50%
+  }
+}
+@media screen and (max-width:1020px) {
+  .menu {
+    display: none
+  }
+  .container {
+    width: auto
+  }
+  .inner {
+    padding: 0 10px
+  }
+  body img {
+    max-width: 100%
+  }
+  body {
+    font-size: 16px
+  }
+}
+@media screen and (max-width:720px) {
+  ul>li {
+    width: 50%
+  }
+  .inner {
+    width: 100%
+  }
+  .box p {
+    line-height: 1.5!important
+  }
+  p {
+    margin: 2px
+  }
+}
+@media screen and (max-width:520px) {
+  .fixedbtn {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px
+  }
+  .logo {
+    margin: 2px 0
+  }
+  .logo h1 {
+    font-size: 12px
+  }
+  .inner h2 {
+    font-size: 21px
+  }
+  .inner p {
+    font-size: 15px;
+    margin: 15px 0
+  }
+  .logo img {
+    width: 40px;
+    margin-left: 10px
+  }
+}
+@media screen and (max-width:420px) {
+  .inner h3 {
+    font-size: 16px
+  }
+  .inner h3 span {
+    font-size: 14px
+  }
+  .inner p {
+    font-size: 16px
+  }
+  .container {
+    padding: 0
+  }
+  .box img {
+    width: 50%
+  }
+  .inner {
+    font-size: 14px
+  }
+  .date {
+    display: none
+  }
+}
+.un-overlay {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  width:437px;
+  height:322px;
+  padding:20px 18px;
+  margin-top:-181px;
+  margin-left:-238px;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+      border-radius: 15px;
+  }
+.un-overlay.mod-static {
+  position:relative;
+  top: 0px;
+  left: 0px;
+  margin:0px;
+  }
+.un-overlay.mod-auto {
+  position:relative;
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+  margin:0px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+      border-radius: 0px;
+  }
+.un-overlay .un-wrapper {
+  position:relative;
+  width:100%;
+  height:50%;
+  }
+.un-overlay .un-wrapper .line {
+  position:relative;
+  padding:0 20px 20px 0;
+  text-align:center;
+  }
+.un-overlay .un-wrapper .line input[type="text"],
+.un-overlay .un-wrapper .line select {
+  display:block;
+  width:100%;
+  height:31px;
+  padding:0px 10px;
+  border: 2px solid #eee;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+      border-radius: 5px;
+  font-size: 15px;
+  color: #353535;
+  line-height: 2;
+  }
+.un-overlay .un-wrapper .line input[type="text"]:hover,
+.un-overlay .un-wrapper .line select:hover {
+  outline: 2px solid #8e8e8e;
+}
+.un-overlay .un-wrapper .line input[type="text"]:focus,
+.un-overlay .un-wrapper .line select:focus {
+  outline: 2px solid #e38e54;
+}
+.un-overlay .un-wrapper .line select {
+  height:33px;
+  }
+.un-overlay .un-wrapper .line.mod-select {
+  padding-right:0px;
+  }
+.un-overlay .un-wrapper .line.mod-gray {
+  line-height:49px;
+  padding-left:146px;
+  padding-bottom:0px;
+  margin:0px -18px;
+  background-color:#dddddd;
+  }
+.un-overlay .un-wrapper .line.mod-gray label {
+  top:0px;
+  left:20px;
+  }
+.submit {
+  position:relative;
+  margin:0 auto;
+  width:100%;
+  border:0px;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.4;
+  background:#005f88;
+  border-radius:5px;
+  cursor:pointer;
+  outline: 0;
+  transition: background-color 0.8s, color 0.8s;
+  }
+.submit:hover {background:#fff;color:#005f88;}
+</style>
 </head>
 <body>
 
 <div class="container">
   <div class="logo">
-    <img alt="" src="logo.png">
+    <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/logo.png">
     <h1 class="lt0">Majalah tentang urologi</h1>
   </div><!-- FACEBOOK REPORT BUTTON -->
-  <div class="lt1" id="report_post"><img alt="" src="face_icon.jpg">Keluhkan tentang halaman</div><!-- END FACEBOOK REPORT BUTTON -->
+  <div class="lt1" id="report_post"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/face_icon.jpg">Keluhkan tentang halaman</div><!-- END FACEBOOK REPORT BUTTON -->
 </div>
 <div class="menu">
   <ul>
     <li>
-      <a class="lt2" href="" target="_blank">Kesehatan</a> 
+      <a class="lt2" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">Kesehatan</a> 
     </li>
     <li>
-      <a class="lt3" href="" target="_blank">Aktiviti</a> 
+      <a class="lt3" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">Aktiviti</a> 
     </li>
     <li>
-      <a class="lt4" href="" target="_blank">Artikel dan wawancara</a> 
+      <a class="lt4" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">Artikel dan wawancara</a> 
     </li>
     <li>
-      <a class="lt5" href="" target="_blank">Berita</a> 
+      <a class="lt5" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">Berita</a> 
     </li>
     <li>
-      <a class="lt6" href="" target="_blank">Penelitian</a> 
+      <a class="lt6" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">Penelitian</a> 
     </li>
   </ul>
 </div>
 <div class="container">
-  <a href=""><button class="fixedbtn lt7">Pesan di sini!</button></a> 
+  <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><button class="fixedbtn lt7">Pesan di sini!</button></a> 
   <div class="inner">
     <h2 class="lt8">PROSTATITIS BERBAHAYA BAGI KESEHATAN, ITU ADALAH PENYAKIT YANG MEMBAHAYAKAN NYAWA!</h2>
     <div class="box">
-      <img alt="" src="doctor.jpg">
+      <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/doctor.jpg">
       <h3 class="lt9">Dr. John Don <br><span>Kepala Ahli Urologi </span></h3>
-      <p class="lt10">Direktur Pusat prostat dan onkologi, Anggota Presidium dari Perguruan Tinggi Urologi, profesor dan ahli bedah di Eropa dan Amerika Serikat. Lakukan operasi berikut: Prostatektomi radikal dengan menggunakan robot TURP (reseksi transurethral kelenjar prostat) <a href="" target="_blank">prostat </a> dan ablasi laser<a href="" target="_blank"> adenoma prostat</a> .</p>
+      <p class="lt10">Direktur Pusat prostat dan onkologi, Anggota Presidium dari Perguruan Tinggi Urologi, profesor dan ahli bedah di Eropa dan Amerika Serikat. Lakukan operasi berikut: Prostatektomi radikal dengan menggunakan robot TURP (reseksi transurethral kelenjar prostat) <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank">prostat </a> dan ablasi laser<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> adenoma prostat</a> .</p>
     </div>
     <p><strong class="lt11">prostatitis membawa berbagai masalah bagi seseorang, seperti berikut:</strong></p>
     <p class="lt12">● IMPOTENSI</p>
     <p class="lt13">● HYPERPLASIA PROSTATIK</p>
-    <p class="lt14">● KANKER PROSTAT</p><a href="" target="_blank"><img alt="" src="prostate.jpg"></a> 
-    <p class="lt15">Berita buruknya adalah <a href="" target="_blank"> bahwa pada 96,7% kasus, pria yang menderita prostatitis cepat atau lambat akan menyakiti impotensi </a> .</p>
-    <p class="lt16">Kanker prostat terjadi pada tahap akhir peradangan kelenjar prostat, menjadi hasil keseluruhan setelah tidak dirawat prostatitis. Pria yang mengabaikan prostatitis sebenarnya mempertaruhkan kehidupan mereka. Jika Anda ingin menjalani hidup yang panjang dan sehat, jika Anda memerlukan ereksi yang tepat dan libido normal, Anda perlu mengobati <a href="" target="_blank"> peradangan prostat</a> . Dan ini harus dilakukan secepat mungkin.</p>
+    <p class="lt14">● KANKER PROSTAT</p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/prostate.jpg"></a> 
+    <p class="lt15">Berita buruknya adalah <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> bahwa pada 96,7% kasus, pria yang menderita prostatitis cepat atau lambat akan menyakiti impotensi </a> .</p>
+    <p class="lt16">Kanker prostat terjadi pada tahap akhir peradangan kelenjar prostat, menjadi hasil keseluruhan setelah tidak dirawat prostatitis. Pria yang mengabaikan prostatitis sebenarnya mempertaruhkan kehidupan mereka. Jika Anda ingin menjalani hidup yang panjang dan sehat, jika Anda memerlukan ereksi yang tepat dan libido normal, Anda perlu mengobati <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> peradangan prostat</a> . Dan ini harus dilakukan secepat mungkin.</p>
     <p class="lt17">masalahnya adalah meskipun sebagian besar orang yang tertarik dengan masalah ini, mereka tetap tidak pergi ke dokter. Ini semua karena beberapa dari mereka tidak menganggap peradangan kelenjar prostat sebagai fenomena berbahaya, dan memperlakukan masalah ini seolah-olah itu sesuatu yang memalukan dan mereka ingin menyembunyikannya. Akibatnya, sebagian besar pasien lupa tentang penyakit tanpa perawatan yang tepat, dan ketika mereka sudah memutuskan untuk mencari bantuan (jika ini terjadi), seringkali sudah terlambat dan kanker sudah mulai berkembang.</p>
-    <p class="lt18">Harus dipahami bahwa <a href="" target="_blank"> prostatitis</a> ini adalah penyakit mematikan yang dapat merosot dan menyebabkan tumor kanker. Penyakit yang tidak diobati dan tidak terkontrol berkembang dengan cepat dan dapat menyebabkan kanker hanya dalam 1-2 tahun dan sering menyebabkan kematian pasien.</p>
+    <p class="lt18">Harus dipahami bahwa <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> prostatitis</a> ini adalah penyakit mematikan yang dapat merosot dan menyebabkan tumor kanker. Penyakit yang tidak diobati dan tidak terkontrol berkembang dengan cepat dan dapat menyebabkan kanker hanya dalam 1-2 tahun dan sering menyebabkan kematian pasien.</p>
     <p class="lt19">Sekarang pria memiliki kesempatan unik untuk mencegah dan mengobati pembesaran prostat dan peradangan selamanya - bahkan tanpa kunjungan rutin ke klinik.</p>
-    <p class="lt20">Pada tahun 2016, sebuah produk revolusioner muncul di pasar yang dengan cepat mengembalikan fungsi kelenjar prostat, menghilangkan peradangan, dan membantu dengan<a href="" target="_blank"> prostatitis</a> bahkan jika ia sudah kronis, dan juga meningkatkan kekuatan pria dan durasi hubungan seksual. Produk alami ini bernama<a href="" target="_blank"> <strong>ProstEro</strong></a> . Ini adalah produk yang mudah dan sederhana, Anda dapat menggunakannya di mana pun Anda berada, dan sepenuhnya tersedia bagi siapa pun. Proyek dan penelitian berlangsung dua tahun dan dilakukan oleh dokter AS.</p><a href="" target="_blank"><img alt="" src="product.png" style="max-width: 250px"></a> <a href=""><button class="lt21"> Pesan di sini!</button></a> 
-    <p class="lt22">Tahun ini, Asosiasi Dokter dan Ahli Bedah berhasil menyelesaikan uji klinis dari produk generasi baru<a href="" target="_blank"> <strong>ProstEro</strong></a> , yang diciptakan untuk membantu mengobati prostatitis melalui cara yang paling efektif. Pernyataan berikut diterbitkan oleh layanan pers Institut:</p>
+    <p class="lt20">Pada tahun 2016, sebuah produk revolusioner muncul di pasar yang dengan cepat mengembalikan fungsi kelenjar prostat, menghilangkan peradangan, dan membantu dengan<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> prostatitis</a> bahkan jika ia sudah kronis, dan juga meningkatkan kekuatan pria dan durasi hubungan seksual. Produk alami ini bernama<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> <strong>ProstEro</strong></a> . Ini adalah produk yang mudah dan sederhana, Anda dapat menggunakannya di mana pun Anda berada, dan sepenuhnya tersedia bagi siapa pun. Proyek dan penelitian berlangsung dua tahun dan dilakukan oleh dokter AS.</p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/product.png" style="max-width: 250px"></a> <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><button class="lt21"> Pesan di sini!</button></a> 
+    <p class="lt22">Tahun ini, Asosiasi Dokter dan Ahli Bedah berhasil menyelesaikan uji klinis dari produk generasi baru<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> <strong>ProstEro</strong></a> , yang diciptakan untuk membantu mengobati prostatitis melalui cara yang paling efektif. Pernyataan berikut diterbitkan oleh layanan pers Institut:</p>
     <div class="statements">
-      <p class="lt23">1. <a href="" target="_blank"> ProstEro</a> terbukti efektif pada 98% kasus. Persentase diukur dengan menggunakan metode standar (jumlah pria yang sepenuhnya pulih dibandingkan dengan jumlah total pasien dalam kelompok 100 pria yang menerima terapi).</p>
+      <p class="lt23">1. <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro</a> terbukti efektif pada 98% kasus. Persentase diukur dengan menggunakan metode standar (jumlah pria yang sepenuhnya pulih dibandingkan dengan jumlah total pasien dalam kelompok 100 pria yang menerima terapi).</p>
       <p class="lt24">2. Dalam 96% kasus, setelah menghentikan terapi, tidak ada sama sekali gejala penyakit (persentase yang diperoleh berdasarkan pengamatan yang dilakukan dalam waktu enam bulan).</p>
       <p class="lt25">3. Setelah seminggu menggunakan obat, semua pasien melihat peningkatan yang signifikan dalam libido dan kekuatan pria.</p>
       <p class="lt26">4. Dalam 95% kasus terjadi peningkatan durasi hubungan seksual.</p>
       <p class="lt27">5. Tidak ada efek samping atau reaksi alergi yang terlihat.</p>
-      <p class="lt28">6. <a href="" target="_blank"> <strong>ProstEro</strong></a>  terbukti sebagai produk revolusioner dan harus diakui sebagai salah satu alat utama untuk memerangi prostatitis.</p>
+      <p class="lt28">6. <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> <strong>ProstEro</strong></a>  terbukti sebagai produk revolusioner dan harus diakui sebagai salah satu alat utama untuk memerangi prostatitis.</p>
     </div>
     <div class="box">
-      <img alt="" src="expert.jpg">
+      <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/expert.jpg">
       <h3 class="lt29">Parman Sayed Kurnoto<br><span>Kepala ahli urologi dari institut terkenal</span></h3>
       <p class="lt30">Pengalaman kerja adalah 18 tahun. Dia sangat terkenal di dunia, karena dia adalah ahli bedah terbaik dalam operasi sistem kemih, termasuk invasif minimal.</p>
       <p class="lt31">Anggota Perhimpunan Urologi, Asosiasi Onkologi Urologi, dan Asosiasi Urologi Amerika (AAU).</p>
     </div><br>
-    <p class="lt32">Untuk waktu yang lama di negara kita tidak ada solusi efektif, tetapi di atas semua solusi yang tersedia untuk pengobatan prostatitis, dan ini telah menyebabkan akibat yang sangat mengerikan. Penyakit ini telah berkembang pada 45% populasi orang dewasa, dan bahkan lebih buruk lagi pada 25% orang muda.<a href="" target="_blank"> <strong>ProstEro</strong></a>  Ini adalah revolusi dalam pengobatan prostatitis, obat mujarab nyata. Efektivitas tetes telah dibuktikan dalam amalan di Amerika Serikat dan Eropa. Komposisi unik dan penemuan sel-sel hidup oleh para ilmuwan dibuat <a href="" target="_blank"> ProstEro</a>  sangat diperlukan dalam memerangi prostatitis.</p><a href="" target="_blank"><img alt="" src="book.jpg"></a> 
-    <p class="lt33">Produk diuji dan hasilnya luar biasa. Hampir<a href="" target="_blank"> 98% dari semua pasien sembuh,</a>  dan penyakitnya tidak kembali. Dan gejalanya hilang sepenuhnya, seperti halnya peradangan pada kelenjar prostat. Dalam kasus kekambuhan, setelah penggunaan ProstEro lebih lanjut, gejalanya hilang selamanya.</p>
-    <p class="lt34">Selain itu, berkat kompleks dari bahan-bahan alami yang kuat, <a href="" target="_blank"> ProstEro</a>  meningkatkan kekuatan pria dan memperpanjang durasi hubungan seksual.</p>
-    <p class="lt35"> <a href="" target="_blank"> <strong>ProstEro</strong></a>  ini adalah metode yang sangat efektif, karena memecahkan masalah di semua tahap. Ini memiliki efek terapi yang belum pernah terjadi sebelumnya untuk seluruh sistem genitourinari pria. Dengan kata-kata sederhana, setelah kursus produk alami ini, tubuh laki-laki mulai bekerja dengan cara yang sama seperti seorang pria muda berusia 25 tahun. Itu sebabnya saya sangat merekomendasikannya untuk semua pria. Bahkan ketika tidak ada prostatitis <a href="" target="_blank"> pengobatan dengan obat ini adalah pencegahan yang sangat baik dan bantuan bagi  kekuatan pria .</a> </p>
+    <p class="lt32">Untuk waktu yang lama di negara kita tidak ada solusi efektif, tetapi di atas semua solusi yang tersedia untuk pengobatan prostatitis, dan ini telah menyebabkan akibat yang sangat mengerikan. Penyakit ini telah berkembang pada 45% populasi orang dewasa, dan bahkan lebih buruk lagi pada 25% orang muda.<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> <strong>ProstEro</strong></a>  Ini adalah revolusi dalam pengobatan prostatitis, obat mujarab nyata. Efektivitas tetes telah dibuktikan dalam amalan di Amerika Serikat dan Eropa. Komposisi unik dan penemuan sel-sel hidup oleh para ilmuwan dibuat <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro</a>  sangat diperlukan dalam memerangi prostatitis.</p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/book.jpg"></a> 
+    <p class="lt33">Produk diuji dan hasilnya luar biasa. Hampir<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> 98% dari semua pasien sembuh,</a>  dan penyakitnya tidak kembali. Dan gejalanya hilang sepenuhnya, seperti halnya peradangan pada kelenjar prostat. Dalam kasus kekambuhan, setelah penggunaan ProstEro lebih lanjut, gejalanya hilang selamanya.</p>
+    <p class="lt34">Selain itu, berkat kompleks dari bahan-bahan alami yang kuat, <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro</a>  meningkatkan kekuatan pria dan memperpanjang durasi hubungan seksual.</p>
+    <p class="lt35"> <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> <strong>ProstEro</strong></a>  ini adalah metode yang sangat efektif, karena memecahkan masalah di semua tahap. Ini memiliki efek terapi yang belum pernah terjadi sebelumnya untuk seluruh sistem genitourinari pria. Dengan kata-kata sederhana, setelah kursus produk alami ini, tubuh laki-laki mulai bekerja dengan cara yang sama seperti seorang pria muda berusia 25 tahun. Itu sebabnya saya sangat merekomendasikannya untuk semua pria. Bahkan ketika tidak ada prostatitis <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> pengobatan dengan obat ini adalah pencegahan yang sangat baik dan bantuan bagi  kekuatan pria .</a> </p>
     <p class="lt36">Selain itu, produk lulus semua ujian untuk mendapatkan sertifikat paling penting. Ujian klinis telah sepenuhnya mengkonfirmasi efektivitas produk.</p>
-    <p><strong class="lt37">Para lelaki terkasih, jangan abaikan kesehatan Anda. Jangan menghakimi diri sendiri karena tidak berdaya dan jangan membahayakan diri sendiri! <a href="" target="_blank"> PERLU MENJAGA KESEHATAN ANDA!</a> </strong></p>
-    <p class="lt38">Saat ini, ProstEro ortogonal hanya dapat dipesan melalui <a href="" target="_blank"> situs web resmi </a>  dari produsen.</p><a href="" target="_blank"><img alt="" src="product.png" style="max-width: 250px"></a> <a href=""><button class="lt39">Pesan di sini!</button></a> 
+    <p><strong class="lt37">Para lelaki terkasih, jangan abaikan kesehatan Anda. Jangan menghakimi diri sendiri karena tidak berdaya dan jangan membahayakan diri sendiri! <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> PERLU MENJAGA KESEHATAN ANDA!</a> </strong></p>
+    <p class="lt38">Saat ini, ProstEro ortogonal hanya dapat dipesan melalui <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> situs web resmi </a>  dari produsen.</p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/product.png" style="max-width: 250px"></a> <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><button class="lt39">Pesan di sini!</button></a>
+    <div class="un-overlay mod-auto">
+ <div class="un-wrapper">
+            <form action="order.php" id="order_form" class="order_form cpa__order_form" method="POST">
+          <input type="hidden" name="sub1" value="<?php echo $getClick->DataClick['clickid']?>">
+          <input type="hidden" name="pixel" value="<?php echo $_GET['t1'];?>">
+                <select name="country" class="country_select" hidden></select>
+                <div class="line">
+                    <label for="name">Nama lengkap</label>
+                    <div class="field">
+                      <input type="text" id="name" name="name" value="" required>
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="phone">Ponsel Anda</label>
+                    <div class="field">
+                        <input type="text" id="phone" name="phone" value="" required>
+                    </div>
+                </div>
+          <center><b><span style="font-size: 25px;" class="price_main">490000IDR</span></b><br>
+          <span style="text-decoration: line-through" class="price_old">980000IDR</span></center><br>
+                <button class="submit green" type="submit">Untuk membeli</button>
+                <input type="hidden" name="product_id[]" value="0"><input type="hidden" name="sid" value="">
+<input type="hidden" name="tid" value="1563355012954482615">
+<input type="hidden" name="cpaland" value="1">
+            </form>
+        </div>
+    </div> 
     <div class="comments">
       <div class="comments_header lt40">12 komentar</div>
-      <div class="comment lt41"><img alt="" src="comm1.jpg"><div class="comment_name"><div class="date"><script></script>20.08.2019</div>Rahem Susanto</div> Saya memesannya sekitar sebulan yang lalu, dan merasakan efeknya segera setelah minggu pertama. Saya pikir saya harus melakukan operasi, tetapi sekarang semuanya berbeda. Saya berumur 54 tahun, dan saya merasa seolah-olah saya berusia 34 tahun lagi, saya tidak mengharapkan ini:)</div>
-      <div class="comment lt42"><img alt="" src="comm2.jpg"><div class="comment_name"><div class="date"><script></script>21.08.2019</div>Habib Lukito</div> Saya bisa konfirmasi! Produk yang fantastis! Saya membelinya baru-baru ini, kira-kira enam bulan yang lalu, dan sejak itu saya tidak punya masalah. Prostatitis hilang sepenuhnya, walaupun saya dulu sering mengobatinya tanpa hasil, dan ereksi saya menjadi lebih baik. Saya merekomendasikannya kepada semua orang, terutama bagi pria yang berusia di atas 40! Ngomong-ngomong, hubungan seks dengan istri saya menjadi jauh lebih baik!<br>Terima kasih <a href="" target="_blank"> ProstEro</a> !</div>
-      <div class="comment lt43"><img alt="" src="comm3.jpg"><div class="comment_name"><div class="date"><script></script>22.08.2019</div>Andin</div>Hai, teman-teman, jangan abaikan penyakit ini, prostatitis begitu berbahaya, karena jika ia kronis dan Anda tidak mengobatinya, penyakit ini dapat menyebar menjadi penyakit yang bahkan lebih mengerikan, seperti kanker. Kerabat saya meninggal karena penyakit ini, sehingga segera setelah saya memiliki masalah dengan prostat, saya segera pergi ke dokter. Saya pergi kepadanya selama satu tahun, tetapi tidak ada yang berubah. Tetapi dengan ProstEro, perkembangannya sangat cepat sehingga penyakitnya telah surut setiap hari!</div>
-      <div class="comment lt44"><img alt="" src="comm4.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Bagus Bin Riyanto</div>Selama satu setengah tahun terakhir, prostat saya terus-menerus terasa sakit, jadi saya melakukan pijatan dan mencoba semua yang saya bisa untuk memperbaiki keadaan. Tetapi<a href="" target="_blank"> ProstEro menyelesaikan semua masalah saya hanya dalam 2 minggu</a> , dan saya benar-benar lupa tentang prostat, meskipun faktanya dokter menganggap prostatitis saya kronis. Obat ini yang saya butuhkan.</div>
-      <div class="comment lt45"><img alt="" src="comm5.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Rizki</div>Saya mulai dengan produk terkenal yang saya pakai selama hampir dua bulan dengan resep dokter, dan semuanya sia-sia. Situasi saya tidak membaik sama sekali, dan saya harus berlari ke toilet semakin sering. Dengan demikian, terapi tidak berhasil. Kemudian saya belajar tentang ProstEro di Internet. Saya pikir saya perlu mencoba, karena obat tradisional tidak berguna. Tetapi<a href="" target="_blank"> ProstEro menyelesaikan masalah saya sepenuhnya dan yang terpenting dengan cepat!</a> </div>
-      <div class="comment lt46"><img alt="" src="comm6.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Mahmud Santoso</div>Saya tidak berpikir bahwa suatu hari saya akan mendengar diagnosis yang mengerikan ini. Bagi seorang pria muda, itu seperti pukulan dari sudut pandang emosional, pukulan yang sama untuk kehidupan seksual. Yah, saya tidak putus asa, saya benar-benar menyembuhkan masalah di semua tahap. Saya tidak menyisihkan uang untuk perawatan. Butuh waktu lama untuk perawatan, tetapi pada akhirnya <a href="" target="_blank"> ProstEro</a> adalah satu-satunya yang membantu saya! Saya bahkan tidak mengharapkan hasil yang cepat dan efektif</div>
-      <div class="comment lt47"><img alt="" src="comm7.jpg"><div class="comment_name"><div class="date"><script></script>24.08.2019</div>Sayed Abidin</div>Saya bisa konfirmasi. Saya mencobanya sendiri. Pada awalnya, saya minum banyak antibiotik, melakukan pijatan, dan menghabiskan banyak usaha dan uang untuk perawatan. Dan semuanya tampak menjadi lebih baik, tetapi setelah beberapa bulan prostat mulai terasa lagi. Setelah saya mengambil ProstEro, sudah 4 bulan berlalu<a href="" target="_blank"> . Dan saya sudah lama lupa bahwa saya pernah menderita prostatitis.</a> </div>
-      <div class="comment lt48"><img alt="" src="comm8.jpg"><div class="comment_name"><div class="date"><script></script>24.08.2019</div>Mohammad Zaenuddin</div> Teman-teman, ini mimpi buruk. Saya hidup dengan prostatitis selama lima tahun! Saya mengalami peradangan hingga sepuluh kali setahun! Hanya sedikit lebih dingin, dan saya merasakan semua gejalanya lagi. Saya pergi ke dokter: mereka meresepkan antibiotik, tetapi tidak ada yang membantu saya. Hanya peningkatan sementara dan kekambuhan lagi! Saya tidak ingin minum antibiotik lagi, saya pikir bahwa tubuh saya tidak akan mempertahankannya. Menurut Anda, apakah ProstEro akan membantu?</div>
-      <div class="comment lt49"><img alt="" src="comm9.jpg"><div class="comment_name"><div class="date"><script></script>25.08.2019</div>Adni</div>Saya mengobati prostatitis dengan "Vitafon" Membelinya pada tahun 2000. Saya juga melakukan berbagai latihan, itu sangat membantu saya, tetapi kemudian masalahnya kembali, dan semuanya dimulai lagi seperti sebelumnya. Setelah ProstEro, saya tidak punya masalah, semuanya menghilang sekali dan selamanya.</div>
-      <div class="comment lt50"><img alt="" src="comm10.jpg"><div class="comment_name"><div class="date"><script></script>26.08.2019</div>Maulana</div>Suamiku juga telah punya masalah, sudah lama ia mencoba menyembuhkan dirinya sendiri, tetapi tidak berhasil. Kemudian dokter mengatakan bahwa bakteri yang menyebabkan prostatitis menjadi kebal terhadap antibiotik yang dikonsumsi suami saya. Karena itu, dokter menyarankan kami ProstEro.</div>
-      <div class="comment lt51"><img alt="" src="comm11.jpg"><div class="comment_name"><div class="date"><script></script>26.08.2019</div>Wahyu</div>Yah, saya berkonsultasi dengan dokter saya tentang ProstEro, dan dia mengatakan kepada saya bahwa dia tidak dapat menjamin apa pun, tetapi jika saya mencoba, dia akan senang melihat hasilnya. Dan hasilnya sangat bagus, <a href="" target="_blank"> saya sendiri menyembuhkan prostatitis </a> , dan dokter hanya bisa terkejut...</div>
-      <div class="comment lt52"><img alt="" src="comm12.jpg"><div class="comment_name"><div class="date"><script></script>27.08.2019</div>Karno Kurnian</div>ProstEro tidak memiliki analog di pasar. Produk ini bahkan membantu mencegah perkembangan tumor kanker. <a href="" target="_blank"> Ini adalah satu-satunya obat yang bekerja 100%</a> . Saya menguji efeknya pada diri saya sendiri, dan dia juga membantu dua teman saya. Secara umum, saya dapat mengatakan bahwa ini bukan pendapat subjektif, tetapi obat nyata bagi orang-orang.</div><a href=""><button class="lt53">Pesan di sini!</button></a> 
+      <div class="comment lt41"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm1.jpg"><div class="comment_name"><div class="date"><script></script>20.08.2019</div>Rahem Susanto</div> Saya memesannya sekitar sebulan yang lalu, dan merasakan efeknya segera setelah minggu pertama. Saya pikir saya harus melakukan operasi, tetapi sekarang semuanya berbeda. Saya berumur 54 tahun, dan saya merasa seolah-olah saya berusia 34 tahun lagi, saya tidak mengharapkan ini:)</div>
+      <div class="comment lt42"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm2.jpg"><div class="comment_name"><div class="date"><script></script>21.08.2019</div>Habib Lukito</div> Saya bisa konfirmasi! Produk yang fantastis! Saya membelinya baru-baru ini, kira-kira enam bulan yang lalu, dan sejak itu saya tidak punya masalah. Prostatitis hilang sepenuhnya, walaupun saya dulu sering mengobatinya tanpa hasil, dan ereksi saya menjadi lebih baik. Saya merekomendasikannya kepada semua orang, terutama bagi pria yang berusia di atas 40! Ngomong-ngomong, hubungan seks dengan istri saya menjadi jauh lebih baik!<br>Terima kasih <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro</a> !</div>
+      <div class="comment lt43"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm3.jpg"><div class="comment_name"><div class="date"><script></script>22.08.2019</div>Andin</div>Hai, teman-teman, jangan abaikan penyakit ini, prostatitis begitu berbahaya, karena jika ia kronis dan Anda tidak mengobatinya, penyakit ini dapat menyebar menjadi penyakit yang bahkan lebih mengerikan, seperti kanker. Kerabat saya meninggal karena penyakit ini, sehingga segera setelah saya memiliki masalah dengan prostat, saya segera pergi ke dokter. Saya pergi kepadanya selama satu tahun, tetapi tidak ada yang berubah. Tetapi dengan ProstEro, perkembangannya sangat cepat sehingga penyakitnya telah surut setiap hari!</div>
+      <div class="comment lt44"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm4.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Bagus Bin Riyanto</div>Selama satu setengah tahun terakhir, prostat saya terus-menerus terasa sakit, jadi saya melakukan pijatan dan mencoba semua yang saya bisa untuk memperbaiki keadaan. Tetapi<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro menyelesaikan semua masalah saya hanya dalam 2 minggu</a> , dan saya benar-benar lupa tentang prostat, meskipun faktanya dokter menganggap prostatitis saya kronis. Obat ini yang saya butuhkan.</div>
+      <div class="comment lt45"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm5.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Rizki</div>Saya mulai dengan produk terkenal yang saya pakai selama hampir dua bulan dengan resep dokter, dan semuanya sia-sia. Situasi saya tidak membaik sama sekali, dan saya harus berlari ke toilet semakin sering. Dengan demikian, terapi tidak berhasil. Kemudian saya belajar tentang ProstEro di Internet. Saya pikir saya perlu mencoba, karena obat tradisional tidak berguna. Tetapi<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro menyelesaikan masalah saya sepenuhnya dan yang terpenting dengan cepat!</a> </div>
+      <div class="comment lt46"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm6.jpg"><div class="comment_name"><div class="date"><script></script>23.08.2019</div>Mahmud Santoso</div>Saya tidak berpikir bahwa suatu hari saya akan mendengar diagnosis yang mengerikan ini. Bagi seorang pria muda, itu seperti pukulan dari sudut pandang emosional, pukulan yang sama untuk kehidupan seksual. Yah, saya tidak putus asa, saya benar-benar menyembuhkan masalah di semua tahap. Saya tidak menyisihkan uang untuk perawatan. Butuh waktu lama untuk perawatan, tetapi pada akhirnya <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> ProstEro</a> adalah satu-satunya yang membantu saya! Saya bahkan tidak mengharapkan hasil yang cepat dan efektif</div>
+      <div class="comment lt47"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm7.jpg"><div class="comment_name"><div class="date"><script></script>24.08.2019</div>Sayed Abidin</div>Saya bisa konfirmasi. Saya mencobanya sendiri. Pada awalnya, saya minum banyak antibiotik, melakukan pijatan, dan menghabiskan banyak usaha dan uang untuk perawatan. Dan semuanya tampak menjadi lebih baik, tetapi setelah beberapa bulan prostat mulai terasa lagi. Setelah saya mengambil ProstEro, sudah 4 bulan berlalu<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> . Dan saya sudah lama lupa bahwa saya pernah menderita prostatitis.</a> </div>
+      <div class="comment lt48"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm8.jpg"><div class="comment_name"><div class="date"><script></script>24.08.2019</div>Mohammad Zaenuddin</div> Teman-teman, ini mimpi buruk. Saya hidup dengan prostatitis selama lima tahun! Saya mengalami peradangan hingga sepuluh kali setahun! Hanya sedikit lebih dingin, dan saya merasakan semua gejalanya lagi. Saya pergi ke dokter: mereka meresepkan antibiotik, tetapi tidak ada yang membantu saya. Hanya peningkatan sementara dan kekambuhan lagi! Saya tidak ingin minum antibiotik lagi, saya pikir bahwa tubuh saya tidak akan mempertahankannya. Menurut Anda, apakah ProstEro akan membantu?</div>
+      <div class="comment lt49"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm9.jpg"><div class="comment_name"><div class="date"><script></script>25.08.2019</div>Adni</div>Saya mengobati prostatitis dengan "Vitafon" Membelinya pada tahun 2000. Saya juga melakukan berbagai latihan, itu sangat membantu saya, tetapi kemudian masalahnya kembali, dan semuanya dimulai lagi seperti sebelumnya. Setelah ProstEro, saya tidak punya masalah, semuanya menghilang sekali dan selamanya.</div>
+      <div class="comment lt50"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm10.jpg"><div class="comment_name"><div class="date"><script></script>26.08.2019</div>Maulana</div>Suamiku juga telah punya masalah, sudah lama ia mencoba menyembuhkan dirinya sendiri, tetapi tidak berhasil. Kemudian dokter mengatakan bahwa bakteri yang menyebabkan prostatitis menjadi kebal terhadap antibiotik yang dikonsumsi suami saya. Karena itu, dokter menyarankan kami ProstEro.</div>
+      <div class="comment lt51"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm11.jpg"><div class="comment_name"><div class="date"><script></script>26.08.2019</div>Wahyu</div>Yah, saya berkonsultasi dengan dokter saya tentang ProstEro, dan dia mengatakan kepada saya bahwa dia tidak dapat menjamin apa pun, tetapi jika saya mencoba, dia akan senang melihat hasilnya. Dan hasilnya sangat bagus, <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> saya sendiri menyembuhkan prostatitis </a> , dan dokter hanya bisa terkejut...</div>
+      <div class="comment lt52"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/comm12.jpg"><div class="comment_name"><div class="date"><script></script>27.08.2019</div>Karno Kurnian</div>ProstEro tidak memiliki analog di pasar. Produk ini bahkan membantu mencegah perkembangan tumor kanker. <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" target="_blank"> Ini adalah satu-satunya obat yang bekerja 100%</a> . Saya menguji efeknya pada diri saya sendiri, dan dia juga membantu dua teman saya. Secara umum, saya dapat mengatakan bahwa ini bukan pendapat subjektif, tetapi obat nyata bagi orang-orang.</div><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><button class="lt53">Pesan di sini!</button></a> 
+    </div>
+    <div class="un-overlay mod-auto">
+ <div class="un-wrapper">
+            <form action="order.php" id="order_form" class="order_form cpa__order_form" method="POST">
+          <input type="hidden" name="sub1" value="<?php echo $getClick->DataClick['clickid']?>">
+          <input type="hidden" name="pixel" value="<?php echo $_GET['t1'];?>">
+                <select name="country" class="country_select" hidden></select>
+                <div class="line">
+                    <label for="name">Nama lengkap</label>
+                    <div class="field">
+                      <input type="text" id="name" name="name" value="" required>
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="phone">Ponsel Anda</label>
+                    <div class="field">
+                        <input type="text" id="phone" name="phone" value="" required>
+                    </div>
+                </div>
+          <center><b><span style="font-size: 25px;" class="price_main">490000IDR</span></b><br>
+          <span style="text-decoration: line-through" class="price_old">980000IDR</span></center><br>
+                <button class="submit green" type="submit">Untuk membeli</button>
+                <input type="hidden" name="product_id[]" value="0"><input type="hidden" name="sid" value="">
+<input type="hidden" name="tid" value="1563355012954482615">
+<input type="hidden" name="cpaland" value="1">
+            </form>
+        </div>
     </div>
   </div>
-</div><img class="social" src="urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/login.php" style="display: none"><img class="social" src="urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/ServiceLogin" style="display: none"><img class="social" src="urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/login" style="display: none">
+</div><img class="social" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/login.php" style="display: none"><img class="social" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/ServiceLogin" style="display: none"><img class="social" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Prostero/id/urn:scrapbook:download:error:http://bloggerzlive.com/prost-ero/eu/id/laravista/img/login" style="display: none">
 		<script></script>
 <script async=""></script></body>
 </html>
