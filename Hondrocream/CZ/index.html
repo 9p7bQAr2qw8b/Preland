@@ -1,3 +1,6 @@
+<?php
+include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clickapi.php';
+?>
 <html data-scrapbook-source="http://lifestyle.notta-belle.ru/q4fe/?sub1=sub1&amp;sub2=sub2&amp;sub3=sub3&amp;sub4=sub4&amp;sub5=sub5&amp;c=cz&amp;ver=1" data-scrapbook-create="20190830112954193">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,19 +22,2026 @@
 
     
     
+<style type="text/css">
+    
 
+    /* =============
+    === COMMENTS ===
+    ============= */
+
+.comments-item {
+  max-width: 90%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e1e2e3;
+}
+
+.comment-avatar {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  
+  font-size: 0;
+}
+
+.comment-text {
+  display: inline-block;
+  max-width: 79%;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.comment-username {
+  color: #365899;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.comment-username:hover {
+  text-decoration: underline;
+}
+
+.comment-action {
+  padding-left: 43px;
+}
+
+.like,
+.reply,
+.like-count {
+  color: #365899;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.like:hover,
+.reply:hover {
+  text-decoration: underline;
+}
+
+.like:after,
+.reply:after {
+  content: "  ·  ";
+  position: absolute;
+  font-weight: bold;
+  right: -10px;
+  top: 0;
+  color: #90949c;
+}
+
+
+.like-count {
+  padding-left: 20px;
+  position: relative;
+}
+
+.like-count:before {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsLike.png");
+}
+
+.like-count-liked {
+  animation: 0.5s like-change;
+}
+
+.like-count-unliked {
+  animation: 0.5s like-unchange;
+}
+
+@keyframes like-change {
+  50% {
+    top: -10px;
+    opacity: 0;
+  }
+  51% {
+    bottom: -10px;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+
+@keyframes like-unchange {
+  50% {
+    bottom: -10px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+.comment-date {
+  font-size: 13px;
+  color: #90949c;
+  position: relative;
+}
+.comment-input {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.comment-input-area {
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  font-size: 0;
+    perspective: 800px;
+}
+.comment-input input[type="text"] {
+  width: 150px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  transition: 0.4s;
+  word-wrap: wrap;
+}
+.textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+  font-family: "Arial", sans-serif;
+  transition: 0.5s;
+}
+
+.textarea-focus {
+  height: 80px;
+}
+
+.input-action {
+  display: none;
+  transition: 0.4s;
+  background-color: #f6f7f9;
+  border: 1px solid #ccc;
+  border-top: none;
+  padding: 10px 10px;
+  transform-origin: top;
+  padding: 10px 10px;
+}
+
+.input-action-focus {
+  display: block;
+  animation: 0.6s action-appear;
+}
+.comment-appear {
+  animation: comment-appear .4s;
+}
+@keyframes comment-appear {
+  from {
+    transform: scale(0);
+  }
+  to {
+ transform: scale(1);
+  }
+}
+@keyframes action-appear {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  60% {
+    transform: rotateX(30deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+
+.send-btn {
+  float: right;
+  padding: 5px 10px;
+  background-color: #4267b2;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.send-btn:hover {
+  background-color: #365899;
+}
+
+
+@media all and (max-width: 720px) {
+    main {
+        width: 100%;
+    }
+    .sidebar {
+        display: none;
+    }
+    .mobile-header {
+        display: block;
+    }
+}
+@media all and (max-width: 460px) {
+.wheel {
+  width: 280px;
+}
+}
+
+/*BUTTON STYLES*/
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 15px;
+    background-color: #F44336;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .5px;
+    border: none;
+    margin: 10px 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.2);
+    box-shadow: 0 0 2px rgba(0,0,0,.12), 0 2px 2px rgba(0,0,0,.2);
+    transition: .3s ease-out;
+}
+
+.button:hover {
+    background-color: #f55a4e;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+
+.pulse {
+    position: relative;
+    z-index: 1;
+}
+
+.pulse:hover:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #F44336;
+    border-radius: inherit;
+    transition: opacity .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s;
+    transition: opacity .3s, transform .3s, -webkit-transform .3s;
+    -webkit-animation: pulse-animation 5s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    animation: pulse-animation 5s  cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    z-index: -1;
+}
+
+@-webkit-keyframes pulse-animation {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  15% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  15% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+
+.comments-refreshing-wrapper {
+    background-color: #d7f2d8;
+    padding: 1px 0;
+    margin:  10px 0;
+    min-height: 150px;
+    /*border: 3px solid red;*/
+    border-radius: 5px;
+        text-align: left !important;
+}
+.comments-refreshing-wrapper .comments-refreshing-title {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.comments-refreshing-title {
+    padding: 10px 20px !important;
+}
+.comments-refreshing-wrapper .comments-item {
+    display: none;
+    border-bottom: none;
+}
+.comments-refreshing-wrapper .comments-newly-showed {
+    display: block;
+    animation: new-comment-show .5s;
+}
+.comments-refreshing {
+    display: none;
+    text-align: center;
+}
+.comments-refreshing img {
+    max-width: 100px;
+}
+.refresh-appear {
+    display: block;
+    animation:  typing-show .5s;
+}
+@keyframes typing-show {
+0% {
+    opacity: 0
+}
+
+100% {
+        opacity: 1;
+}
+}
+
+@keyframes new-comment-show {
+0% {
+    transform: scale(.2)
+}
+80% {
+    transform: scale(1.2);
+}
+100% {
+    transform: scale(1);
+}
+}
+.order_block {
+    
+    font-family: 'Arial', sans-serif;
+}
+.prod_img_wrapper {
+    
+    max-width: 300px;
+    margin: 15px auto;
+    position: relative;
+}
+.prod_img {
+    width: 100%;
+    max-width: 300px;
+}
+.priceс {
+    position: absolute;
+        font-family: 'Arial', sans-serif;
+    right: 0; 
+    bottom: 0;
+     
+    color:#000;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 30px;
+    width: 165px;
+    height: 98px;
+    text-align: center !important;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.3;
+    transform: rotateZ(-7deg);
+    margin: -0px auto 0px;
+    background: linear-gradient(to right, rgb(238, 165, 19) 0%, rgb(253, 237, 19) 100%);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 19%;  
+}
+ span.discountс {
+    display: block;
+    margin-top: 9px;
+    font-size: 18px;             
+}              
+.price_main {
+    border-bottom: 2px solid #d31812;
+    font-size: 24px;
+    line-height: 0px;
+    margin: 0 auto;
+}
+.js_old_price {
+    display: block;
+    margin: 0 auto;
+}
+.wheel_input {
+    padding: 10px !important;
+    display: block !important;
+    margin: 0 auto 20px!important;
+    padding: 10px !important;
+    width: 50% !important;
+    border: 2px solid grey !important;
+    border-radius: 5px !important;
+}
+.data_label {
+    line-height: 30px;
+}
+.country_select {
+    display: none!important;
+    width: 52%!important;
+}
+
+.order_form {
+    display: block !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+@media screen and (max-width: 480px) {
+    .wheel_input {
+        width: 90%!important;
+    }
+    .country_select {
+        width: 96%!important;
+
+    }
+}
+.main-link {
+    display: block;
+    margin: 40px auto ;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #de0606;
+    text-align: center;
+    color: #fff!important;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.main-link:hover {
+    opacity: 0.8;
+}
+
+.time_remains{
+    font-size: 1.1em; 
+    color: red; 
+    font-weight: bold;
+}
+.time_remains_title {
+    padding-top: 15px; 
+    text-align: center; 
+    font-size: 22px;
+}
+/* POPUPS */
+
+.show-message__info {
+  font-family: 'Raleway-Regular', sans-serif;
+  position: relative;
+  z-index: 100000000;
+}
+.show-message>div:after, .show-message>div:before {
+  position: absolute;
+  right: 7px;
+  top: 15px;
+  width: 20px;
+  height: 1px;
+  /* background: #989898;*/
+  background: #fff;
+  content: "";
+}
+.show-message p {
+  margin: 0 !important;
+}
+.show-message>div:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.show-message>div:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.show-message__info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 60px;
+  width: 248px;
+  line-height: normal;
+  color: #fff;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.show-message__info #js-user-id {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+.show-message__left {
+  font-size: 14px;
+}
+.show-message__left span {
+  font-size: 15px;
+}
+.show-message_call {
+  background-color: #363636;
+}
+.package_left, .package_left span {
+  font-size: 15px !important;
+}
+#ouibounce-modal {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.show-message_online {
+  background-color: #CD5555;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.show-message__emph {
+  color: #ffc107;
+  font-weight: bold;
+}
+.show-message__item, .show-message__item-first {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 120px;
+  width: 300px;
+  /*  background-color: #111;*/
+  background-color: rgba(0, 0, 0, 0.79);
+  /* border: 2px solid #ccc;*/
+  border-radius: 5px;
+  color: #cbcbcb;
+  padding: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  border-radius: 0px;
+  display: none;
+  z-index: 999;
+}
+.lost_position {
+  display: none !important;
+  opacity: 0 !important;
+}
+.block_position {
+  display: block !important;
+  opacity: 1 !important;
+}
+.popup-off {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+.product-number {
+  white-space: nowrap;
+}
+@media screen and (max-width: 767px) {
+  .show-message__info #js-user-id {
+    font-size: 18px;
+    color: #fff;
+  }
+  .show-message__info {
+    width: 230px;
+  }
+  .show-message__item, .show-message__item-first {
+    top: auto;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .show-message__item, .show-message__item-first {
+    width: 225px;
+  }
+  .show-message__info {
+    width: 170px;
+    font-size: 11px;
+  }
+  .show-message__info span {
+    font-size: 17px;
+  }
+  .show-message__icon {
+    width: 38px !important;
+  }
+  .show-message__info br {
+    display: none;
+  }
+}
+.show-message__info.icon-box.horizon {
+  padding-left: 65px;
+  padding-bottom: 0 !important;
+}
+.show-message__info.icon-box.horizon::before {
+  width: 43px;
+  height: 43px;
+  top: 10px;
+  left: 10px;
+  background-size: 43px 43px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.show-message__info.icon-box::before {
+  content: " ";
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/count-user_white.png");
+}
+.everad-sprite-callback+.show-message__info.icon-box::before {
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/urn:scrapbook:download:error:http://lifestyle.notta-belle.ru/cdn/img/count-call-25b.arb.png");
+}
+.everad-sprite-bucket+.show-message__info.icon-box::before {
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/count-order-984_white.png");
+}
+@media (max-width: 767px) {
+  .show-message__info.icon-box.horizon {
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+    font-size: 0.9rem;
+  }
+  .show-message__info.icon-box.horizon span {
+    font-size: 0.95em;
+  }
+  .show-message__info.icon-box.horizon::before {
+    top: 0px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+  }
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+    background: #f7f7f7;
+}
+
+textarea,
+input {
+    outline: medium none;
+}
+
+a {
+    color: #1697ce;
+}
+
+a:hover {
+    color: #b0493b;
+}
+
+a img {
+    border: medium none;
+}
+
+a:focus {
+    outline: medium none;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.block2 {
+    width: 650px;
+    background: #ffffff;
+    padding: 5px;
+    border: solid 1px red;
+}
+
+.block3 {
+    width: 665px;
+    background: #ffffff;
+    padding: 5px;
+    border: solid 1px red;
+    margin: auto;
+}
+
+.red {
+    font-size: 26px;
+    padding: 10px 0px 0px;
+    color: rgb(244, 11, 11);
+}
+
+.black {
+    font-size: 18px;
+    padding: 10px 0px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.black2 {
+    font-size: 22px;
+    padding: 10px 0px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.white {
+    font-size: 16px;
+    padding: 10px 0px 0px;
+    color: rgb(254, 254, 254);
+}
+
+.white2 {
+    font-size: 22px;
+    padding: 10px 0px 0px;
+    color: rgb(254, 254, 254);
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+}
+
+.top>ul>li {
+    display: inline-block;
+    margin-top: 5px;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.top>ul>li:last-child {
+    border-right: none;
+}
+
+.screenLock {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    display: none;
+}
+
+.msg {
+    position: absolute;
+    width: 600px;
+    height: 220px;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+    background: #808080;
+    border: 1px solid #eee;
+}
+
+.msg>h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    background-color: firebrick;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.alex_zevsa_wcih4ECQW {
+    position: relative;
+    margin: 0px auto;
+    width: 960px;
+    padding: 0px 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.footer .contacts,
+.footer .site h4,
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe,
+.main-page .main-slider .share h4,
+.main-page .calendar .item .dvksub_rYPIQ4ET span,
+.sport-tv .left-blk,
+.main-page .map h4,
+.main-page .annonce-blk .dvksub_rYPIQ4ET span,
+.katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC {
+    font-family: PFDinTextCondProMedium, Helvetica, Arial !important;
+}
+
+.RA4CSZ_e3qI7YOg,
+.def-page .org-list h3,
+.def-page .org-list .type,
+.faq-page .news-list .sec-year,
+.media-page .news-list .sec-year,
+.sec-page .doc-list h4,
+.photo-page .photo-also .dvksub_rYPIQ4ET,
+.photo-page .photo-list .dvksub_rYPIQ4ET,
+.video-page .video-also .dvksub_rYPIQ4ET,
+.video-page .video-list .dvksub_rYPIQ4ET,
+.renul_seDwyoGn57 .dvksub_rYPIQ4ET,
+.zhanna_86_o5IKudBv h2,
+.root_f21XaquIT .news-list .dvksub_rYPIQ4ET,
+.root_f21XaquIT .top-blk .rss,
+.footer .address,
+.footer .copyrights,
+.main-page .map h2,
+.main-page .news h3,
+.main-page .news-blk .dvksub_rYPIQ4ET,
+.main-page .annonce-blk .dvksub_rYPIQ4ET,
+.main-page .main-slider h3,
+.main-page .calendar .day,
+.main-page .calendar .item .dvksub_rYPIQ4ET,
+.main-page .calendar .month-name,
+.main-page .ministr-blk .dvksub_rYPIQ4ET,
+.main-page .calendar h3,
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .vica_ehEmluAT a,
+.main-page .news-blk .links,
+.main-page .map .reg-news,
+.main-page .map h3,
+.main-page .annonce-blk .links,
+.katyakoncakova_FtFDdVex .region-btn {
+    font-family: PFDinTextCondProRegular, Helvetica, Arial !important;
+}
+
+.katyakoncakova_FtFDdVex {
+    position: relative;
+    z-index: 15;
+}
+
+.katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC {
+        margin-top: 14px;
+    margin-bottom: 10px;
+    float: left;
+    width: 360px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+}
+
+.katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC img {
+    width: 74px;
+    height: 80px;
+    float: left;
+}
+
+.katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC h1 {
+    font-size: 18px;
+    margin-top: 17px;
+    margin-left: 18px;
+    width: 265px;
+    float: left;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.katyakoncakova_FtFDdVex .vasilusya_rfYcdWbD {
+    float: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.text-align-left p{text-align: left!important; text-indent: 0 !important;}
+.katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs {
+    width: 330px;
+    float: right;
+    margin-top: 30px;
+}
+
+.katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs .mansurovan_vUZn4RQN {
+    text-align: right;
+    font-size: 12px;
+    text-transform: uppercase;
+    float: right;
+}
+
+.katyakoncakova_FtFDdVex .mansurovan_vUZn4RQN .Dulov_V_V_du3BxPsUO {
+    font-weight: bold;
+    color: #353746;
+}
+
+.katyakoncakova_FtFDdVex .mansurovan_vUZn4RQN a {
+    color: #353744;
+}
+
+.katyakoncakova_FtFDdVex .mansurovan_vUZn4RQN a:hover {
+    color: #b0493d;
+}
+
+.katyakoncakova_FtFDdVex .mansurovan_vUZn4RQN .udav_t_slEtc0GR {
+    margin: 0px 5px;
+}
+
+.katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs .tata_soboleva_XjcqhmYZ7 {
+    margin-top: 25px;
+    position: relative;
+    text-align: right;
+}
+
+.katyakoncakova_FtFDdVex .tata_soboleva_XjcqhmYZ7 .tjn-02_ANHUDPcR {
+    width: 170px;
+    padding: 4px 5px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe {
+    margin-top: 10px;
+    background: none repeat scroll 0% 0% #333541;
+    height: 50px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .main-menu-blk {
+    list-style: none outside none;
+}
+
+.katyakoncakova_FtFDdVex .main-menu-blk > li {
+    display: inline-block;
+    float: left;
+    margin-right: 23px;
+    position: relative;
+    padding: 17px 10px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .submenu-btn {
+    color: #cf4f3a;
+    font-style: normal;
+    margin-left: 4px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .vica_ehEmluAT {
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    width: 400px;
+    padding: 40px 40px 40px 0px;
+    background: none repeat scroll 0% 0% white;
+    z-index: 15;
+    display: none;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .germantrava_IeZ6X4Esi9 .vica_ehEmluAT {
+    left: 0px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .shev_V7Mo2liaeP .vica_ehEmluAT {
+    left: -180px;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .vica_ehEmluAT li {
+    float: left;
+    margin-left: 40px;
+    display: block;
+    border-bottom: 1px dashed #bdbdbf;
+    z-index: 10;
+    position: relative;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe li.wwwter_ma_fAfmL15qxg {
+    border-top: 1px dashed #bdbdbf;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .vica_ehEmluAT a {
+    font-size: 14px;
+    color: #1697cd;
+    text-transform: none;
+    width: 160px;
+    padding: 9px 0px 7px;
+    display: block;
+}
+
+.katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe .vica_ehEmluAT a:hover {
+    color: #b04939;
+}
+
+.katyakoncakova_FtFDdVex .vladimir210487_POv1ApGe {
+    position: absolute;
+    width: 440px;
+    left: 0px;
+    top: -1px;
+    bottom: -1px;
+    box-shadow: 0px 1px 5px black;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.vtrishin_Uv0WtJ1x8d {
+    background: none repeat scroll 0% 0% #5b7fa6;
+    padding: 5px 5px 3px 6px;
+    overflow: hidden;
+}
+
+.vtrishin_Uv0WtJ1x8d span {
+    padding: 1px 3px;
+    line-height: 100%;
+    color: white;
+    font-weight: bold;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+
+.vtrishin_Uv0WtJ1x8d a {
+    display: block;
+    float: right;
+    margin: -2px -2px 0px 0px;
+}
+
+.alstep54_sglCGFT6q {
+    font-size: 12px;
+}
+
+.renul_seDwyoGn57 h2 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 26px;
+}
+
+.renul_seDwyoGn57 .dvksub_rYPIQ4ET {
+    color: #6c6e7e;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 {
+    margin-top: 25px;
+    color: #6c6e7a;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 p {
+    text-indent: 20px;
+    color: black;
+    text-align: justify;
+    margin: 15px;
+    line-height: 31px;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .kimovo_T2gGDXvz {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .swetlana40_GWDvkz8Tqs {
+    text-indent: 0px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .inbox_B8C54ltpX {
+    margin: 0px 15px 0px 0px;
+    width: 210px;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .maki555_e4AaJE9jYG {
+    margin-top: 5px;
+    margin-bottom: 26px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    background: none repeat scroll 0% 0% #cccccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .udalykhnn_av3FDRJhB {
+    text-align: center;
+}
+
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 .AGB_yQobO46Dw {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #a1a1a2;
+}
+
+.renul_seDwyoGn57 .gelat_Bb6MhOHv {
+    float: left;
+    padding: 0px 30px 10px 0px;
+    color: #a1a1a8;
+}
+
+.renul_seDwyoGn57 .gelat_Bb6MhOHv .ewa-b_p5sjGkxr1 {
+    margin-top: 5px;
+}
+
+.band_apGf6JaPLk {
+    float: left;
+    width: 610px;
+    margin: 0px;
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+}
+
+.band_apGf6JaPLk a {
+    font-weight: bold;
+    color: #2b587d;
+    font-size: 12px;
+}
+
+.band_apGf6JaPLk p {
+    text-indent: 10px;
+    font-size: 14px !important;
+    margin: 4px 0px !important;
+    line-height: 24px !important;
+    color: black;
+    text-align: justify;
+}
+
+.band_apGf6JaPLk p + p {
+    margin: 0px !important;
+}
+
+.band_apGf6JaPLk p + p span {
+    color: #9999a2;
+    display: block;
+    float: left;
+    margin: 0px 5px 0px 0px;
+    font-size: 12px;
+    text-indent: 0px;
+}
+
+.band_apGf6JaPLk p + p span + span a {
+    color: #2b587f;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.band_apGf6JaPLk a:hover,
+.band_apGf6JaPLk p + p span + span a:hover {
+    text-decoration: underline;
+}
+
+.band_apGf6JaPLk p img {
+    margin: 10px 0px 0px;
+}
+
+.band_apGf6JaPLk p + p {
+    text-indent: 10px;
+}
+
+.band_apGf6JaPLk p + p span + span + span {
+    float: right;
+    width: 130px;
+}
+
+.band_apGf6JaPLk p + p span + span + span a {
+    text-decoration: none !important;
+    display: block;
+    padding: 5px 6px;
+    opacity: 0.6;
+    margin: -5px 0px 0px;
+}
+
+.band_apGf6JaPLk p + p span + span + span a:hover {
+    background: none repeat scroll 0% 0% #d4dfe9;
+    opacity: 1;
+    color: black !important;
+    cursor: pointer;
+}
+
+.band_apGf6JaPLk span img {
+    margin: 4px 3px 0px 0px !important;
+}
+
+.band_apGf6JaPLk > a + p img {
+    border: 2px solid #a7a2a5;
+    padding: 2px;
+    margin: 5px auto !important;
+}
+
+.zhanna_86_o5IKudBv {
+    background: none repeat scroll 0% 0% white;
+    padding: 27px 40px 17px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.zhanna_86_o5IKudBv h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.altakansk_YrlOq5h6N {
+    font-family: Arial;
+    color: #6c6e83;
+    margin: 0px 5px;
+}
+
+.dmavrodi_yjLIBb2Q {
+    position: relative;
+    z-index: 10;
+}
+
+.bslt_EDIkpZm8w {
+    padding: 10px;
+    background: none repeat scroll 0% 0% #f7f7f7;
+}
+
+.bslt_EDIkpZm8w textarea {
+    border: 1px solid #c0cad5;
+    width: 100%;
+    height: 50px;
+    margin: 0px 0px 15px;
+    resize: vertical;
+}
+
+.bslt_EDIkpZm8w textarea:focus {
+    outline: medium none;
+}
+
+.bslt_EDIkpZm8w span {
+    display: block;
+    float: right;
+    color: #2b5882;
+    font-size: 12px;
+    margin: 5px 0px 0px;
+}
+
+.RA4CSZ_e3qI7YOg {
+    position: absolute;
+    display: none;
+    z-index: 150;
+    background: none repeat scroll 0% 0% #353742;
+    border-radius: 4px;
+    padding: 4px 10px 2px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.web-s {
+    font-family: WebSymbols;
+    -moz-user-select: none;
+}
+
+.binary-art_znbtw4BI0a {
+    padding: 10px 0px;
+    border-bottom: 1px solid #dae1e8;
+    overflow: hidden;
+}
+
+.binary-art_znbtw4BI0a a {
+    color: #4970a0 !important;
+}
+
+.sazonov66_g9ysODlqt {
+    margin-bottom: -340px;
+    min-height: 100%;
+    position: relative;
+    background: /*url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/http://reserches.com/minzdrav/images/mark_tvv.jpg")*/
+    no-repeat scroll center top #f7f7f7;
+}
+
+.alanyork2005_hk2b0oFI {
+    float: left;
+    width: 75px;
+    margin: 0px 10px;
+}
+
+.CTAC14_V8hVsYWG {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.CTAC14_V8hVsYWG a,
+.CTAC14_V8hVsYWG span {
+    padding: 5px;
+    border: 1px solid #ccc2c0;
+    text-decoration: none;
+    color: #49709e;
+}
+
+.CTAC14_V8hVsYWG a:hover {
+    text-decoration: underline;
+}
+
+.CTAC14_V8hVsYWG span {
+    font-weight: bold;
+}
+
+.vk-container {
+    font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.vk-header {
+    background: rgb(218, 226, 232) none repeat scroll 0% 0%;
+    padding: 4px 4px 4px 6px;
+    margin-bottom: 10px;
+}
+
+.vk-logo {
+    background: transparent/*url('http://reserches.com/minzdrav/css/vk-logo.gif')*/
+    no-repeat scroll 0% 0%;
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: -1px;
+}
+
+.vk-header-text {
+    padding: 2px 3px 1px;
+    line-height: 100%;
+    color: rgb(69, 104, 142);
+    font-weight: bold;
+}
+
+.vk-avatar img {
+    float: left;
+    margin-right: 10px;
+}
+img {
+    display: block;
+}
+.vk-comment,
+.vk-comment-load {
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid rgb(218, 225, 232);
+    padding-bottom: 15px;
+}
+.vk-comment.last {
+    border-bottom: none;
+}
+
+.vk-comment:last-child {
+    border-bottom: 0px none;
+}
+.gelat_Bb6MhOHv img {
+    margin-top: 20px;
+}
+.vk-comment-name {
+    color: rgb(43, 88, 122);
+    font-weight: bold;
+    font-size: 12px;
+}
+center p {
+    text-indent: 0!important;
+}
+.udalykhnn_av3FDRJhB img {
+    margin: 0 auto;
+}
+.vk-comment-text {
+    margin-left: 60px;
+    text-align: justify;
+}
+
+
+.vk-comment-date {
+    margin-left: 60px;
+    color: rgb(153, 153, 153);
+}
+
+.mini {
+    font-size: 80%;
+}
+
+@media screen and (max-width: 1020px) {
+    .alex_zevsa_wcih4ECQW {
+        width: auto;
+    }
+    
+    .main-menu-blk {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .katyakoncakova_FtFDdVex .main-menu-blk > li {
+        width: 16.666%;
+        float: left;
+        margin: 0;
+        display: block;
+        padding: 0;
+        text-align: center;
+       
+    }
+    .katyakoncakova_FtFDdVex .puzzle_LTiRtzPGfe {
+        height: auto;
+    }
+    .katyakoncakova_FtFDdVex .main-menu-blk > li a {
+        line-height: 50px;
+    }
+    .katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs {
+        width: 180px;
+    }
+    .alex_zevsa_wcih4ECQW,
+    .main-menu-blk {
+       
+    }
+    .web-s {
+        display: none;
+    }
+    body img {
+        max-width: 100%;
+    }
+    center > img {
+        max-width: 100%;
+    }
+    .band_apGf6JaPLk {
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .zhanna_86_o5IKudBv {
+    padding: 35px 10px 17px;
+}
+    ul.list-style {
+    padding-left: 0;
+    padding: 0 15px;
+}
+}
+@media screen and (max-width: 720px) {
+    .katyakoncakova_FtFDdVex .main-menu-blk > li {
+        width: 33.333%;
+    }
+    .text-align-left p{text-align: justify!important;}
+    .katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs {
+        display: none;
+    }
+ .renul_seDwyoGn57 .gelat_Bb6MhOHv {
+    margin: 0 auto;
+    padding-right: 0;
+    float: none;
+    padding-bottom: 0;
+}
+    .renul_seDwyoGn57 .gelat_Bb6MhOHv > img {
+        display: block;
+        margin: 0 auto;
+    }
+    .CTAC14_V8hVsYWG {
+        display: none;
+    }
+    .for-img {
+    text-indent: 0!important;
+    color: black;
+    text-align: justify;
+    margin: 15px;
+    margin: 0!important;
+    line-height: 31px;
+    font-size: 17px;
+    text-align: center!important;
+}
+    .nonebr{display: none!important;}
+    .katyakoncakova_FtFDdVex .main-menu-blk > li a {
+    line-height: 26px;
+}
+    .katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC {
+    margin-top: 40px;
+    float: none;
+    width: 360px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+}
+    .renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 p {
+
+    margin: 15px 0;
+
+}
+    ul.list-style {
+    padding-left: 0;
+    padding: 0 0;
+}
+}
+
+@media screen and (max-width: 479px) {
+.renul_seDwyoGn57 .Genrik91_k2XdOzZlq1 p {
+    text-indent: 0;
+    color: black;
+    text-align: left;
+    margin: 10px 0;
+    line-height: 25px;
+}
+    .vk-comment-text {
+    margin-left: 60px;
+    text-align: left;
+}
+        .text-align-left p{text-align: left!important;}
+}
+@media screen and (max-width: 420px) {
+.zhanna_86_o5IKudBv {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+    .br-none-420{display: none;}
+
+    .katyakoncakova_FtFDdVex .main-menu-blk > li {
+        width: 50%;
+    }
+    .katyakoncakova_FtFDdVex .main-menu-blk > li:nth-child(5),
+    .katyakoncakova_FtFDdVex .main-menu-blk > li:nth-child(6) {
+        display: none !important;
+        display: none !important;
+    }
+    .udalykhnn_av3FDRJhB img,
+    body img {
+        max-width: 100%;
+    }
+    .katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC {
+        width: 320px;
+    }
+    .katyakoncakova_FtFDdVex .Natali0610_RVdHBJiwC h1 {
+        width: 225px;
+        font-size: 16px;
+    }
+    .alex_zevsa_wcih4ECQW {
+        padding: 0;
+    }
+}
+.for-img {
+    text-indent: 0!important;
+    color: black;
+    text-align: justify;
+    margin: 15px;
+    margin: 5px 0!important;
+    line-height: 31px;
+    font-size: 17px;
+/*     font-style: italic; */
+}
+
+.bord {
+    border: 2px solid gray;
+    padding: 3px 9px;
+    text-align: left;
+}
+.last-i {
+    text-indent: 0 !important;
+}
+
+.vk-comment-load {
+    border-bottom: none !important;
+}
+
+.btn {
+    color: #fff;
+    width: 250px;
+    background: #F44336;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    text-decoration: none;
+}
+.close-popup, .cursor-text {
+    cursor: pointer;
+    position: absolute
+}
+.cursor-text, .pop-up-window, .spin-result-wrapper, .spin-wrapper, .wheel-wrapper {
+    text-align: center
+}
+.spin-wrapper {
+    -webkit-box-shadow: 0 0 10px;
+    box-shadow: 0 0 10px;
+    border: 3px solid red;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-sizing: border-box
+}
+.spin-wrapper p {
+    text-align: center;
+    font-size: 21px!important;
+    line-height: 1.4!important;
+    margin-bottom: 15px
+}
+.wheel {
+    width: 380px!important;
+    margin: 0 auto;
+    position: relative
+}
+.wheel-cursor {
+    position: absolute;
+    width: 35%!important;
+    height: 35%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.cursor-text {
+    z-index: 2;
+    display: inline-block;
+    width: 45%!important;
+    height: 45%;
+    line-height: 61px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    top: 49%;
+    left: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: rgba(255, 255, 255, 1) 0 -2px 0 inset, rgba(255, 255, 255, 1) 0 2px 0 inset, rgba(0, 0, 0, .4) 0 0 5px;
+    box-shadow: rgba(255, 255, 255, 1) 0 -2px 0 inset, rgba(255, 255, 255, 1) 0 2px 0 inset, rgba(0, 0, 0, .4) 0 0 5px;
+    background: #fff;
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, rgba(255, 255, 255, 1)), color-stop(100%, rgba(234, 234, 234, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0, rgba(234, 234, 234, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1) 0, rgba(234, 234, 234, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 1) 0, rgba(234, 234, 234, 1) 100%);
+    background: -o-radial-gradient(center, ellipse, rgba(255, 255, 255, 1) 0, rgba(234, 234, 234, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0, rgba(234, 234, 234, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=1)
+}
+.wheel-img {
+    -webkit-transition: 4s;
+    -o-transition: 4s;
+    transition: 4s
+}
+.close-popup {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/cross.svg");
+    background-size: 100%;
+    top: -40px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 0 0 10px #fff;
+    right: -40px
+}
+.cursor-text:active {
+    -webkit-box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset;
+    box-shadow: rgba(0, 0, 0, .4) 0 0 5px inset
+}
+.spin-result-wrapper {
+    display: none;
+    padding: 0 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6)
+}
+.pop-up-layer {
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    background-color: rgba(0, 0, 0, .7)!important;
+    z-index: 99!important
+}
+.pop-up-layer-show {
+    display: block
+}
+.pop-up-window {
+    position: relative;
+    max-width: 400px;
+    right: 0;
+    left: 0;
+    top: 40%;
+    margin: 0 auto!important;
+    background: #fff;
+    padding: 70px 10px 20px!important;
+    border-radius: 10px;
+    animation: .7s ease 0s normal none 1 running pop-up-appear
+}
+.pop-up-window::after, .pop-up-window::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto
+}
+.pop-up-window::before {
+    width: 110px;
+    height: 110px;
+    top: -55px;
+    background-color: #71c341;
+    border-radius: 50%;
+    animation: .5s ease .6s normal backwards 1 running pop-up-appear-before
+}
+.pop-up-window::after {
+    width: 50px;
+    height: 20px;
+    top: -20px;
+    border-width: medium medium 4px 4px;
+    border-style: none none solid solid;
+    border-color: currentcolor currentcolor #fff #fff;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    transform: rotate(-45deg);
+    transition: opacity 1s ease 0s;
+    animation: .5s ease .6s normal backwards 1 running pop-up-appear-after
+}
+@keyframes pop-up-appear {
+    0% {
+        transform: translateY(-2000px)
+    }
+    30% {
+        transform: translateY(100px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+@keyframes pop-up-appear-before {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+@keyframes pop-up-appear-after {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+.pop-up-heading {
+    font-size: 40px!important;
+    margin-bottom: 20px!important
+}
+.pop-up-text {
+    margin-bottom: 25px!important;
+    font-size: 24px!important;
+    line-height: 30px!important;
+    text-align: center!important;
+    color: #414141!important;
+    font-weight: 400
+}
+.pop-up-button, .pop-up-button:hover {
+    color: #fff!important;
+    text-decoration: none!important
+}
+.pop-up-button {
+    text-transform: uppercase!important;
+    padding: 10px 20%!important;
+    font-size: 20px!important;
+    border-radius: 5px!important;
+    background-color: #71c341!important;
+    border: none!important;
+    cursor: pointer!important;
+    outline: 0!important
+}
+.wheel img {
+    max-width: 100%
+}
+@media all and (max-width:520px) {
+    .wheel {
+        width: 260px!important
+    }
+    .pop-up-window {
+        top: 30%
+    }
+    .pop-up-heading {
+        font-size: 33px!important
+    }
+    .pop-up-text {
+        margin-bottom: 15px!important
+    }
+    .cursor-text {
+        line-height: 40px;
+        font-size: 14px;
+    }
+    .close-popup {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-size: 100%;
+        top: -40px;
+        border-radius: 50%;
+        -webkit-box-shadow: 0 0 10px #fff;
+        box-shadow: 0 0 10px #fff;
+        right: -10px;
+        cursor: pointer
+    }
+}
+.super-rotation {
+    -webkit-animation-name: super-rotation;
+    animation-name: super-rotation;
+    -webkit-animation-duration: 7s;
+    animation-duration: 7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out
+}
+@-webkit-keyframes super-rotation {
+    70% {
+        -webkit-transform: rotate(1783deg);
+        transform: rotate(1783deg)
+    }
+    100% {
+        -webkit-transform: rotate(1774deg);
+        transform: rotate(1774deg)
+    }
+}
+@keyframes super-rotation {
+    70% {
+        -webkit-transform: rotate(1783deg);
+        transform: rotate(1783deg)
+    }
+    100% {
+        -webkit-transform: rotate(1774deg);
+        transform: rotate(1774deg)
+    }
+}
+.time_remains {
+    font-size: 1.1em;
+    color: red;
+    font-weight: 700
+}
+.time_remains_title {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 22px
+}
+.un-overlay {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width:437px;
+    height:322px;
+    padding:20px 18px;
+    margin-top:-181px;
+    margin-left:-238px;
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+    }
+.un-overlay.mod-static {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    margin:0px;
+    }
+.un-overlay.mod-auto {
+    position:relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    margin:0px;
+    -webkit-border-radius: 0px;
+       -moz-border-radius: 0px;
+            border-radius: 0px;
+    }
+.un-overlay .un-wrapper {
+    position:relative;
+    width:100%;
+    height:100%;
+    }
+.un-overlay .un-wrapper .line {
+    position:relative;
+    padding:0 20px 20px 0;
+    text-align:center;
+    }
+.un-overlay .un-wrapper .line input[type="text"],
+.un-overlay .un-wrapper .line select {
+    display:block;
+    width:100%;
+    height:31px;
+    padding:0px 10px;
+    border: 2px solid #eee;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    font-size: 15px;
+    color: #353535;
+    line-height: 2;
+    }
+.un-overlay .un-wrapper .line input[type="text"]:hover,
+.un-overlay .un-wrapper .line select:hover {
+    outline: 2px solid #8e8e8e;
+}
+.un-overlay .un-wrapper .line input[type="text"]:focus,
+.un-overlay .un-wrapper .line select:focus {
+    outline: 2px solid #e38e54;
+}
+.un-overlay .un-wrapper .line select {
+    height:33px;
+    }
+.un-overlay .un-wrapper .line.mod-select {
+    padding-right:0px;
+    }
+.un-overlay .un-wrapper .line.mod-gray {
+    line-height:49px;
+    padding-left:146px;
+    padding-bottom:0px;
+    margin:0px -18px;
+    background-color:#dddddd;
+    }
+.un-overlay .un-wrapper .line.mod-gray label {
+    top:0px;
+    left:20px;
+    }
+.submit {
+    position:relative;
+    margin:0 auto;
+    width:100%;
+    border:0px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.4;
+    background:#005f88;
+    border-radius:5px;
+    cursor:pointer;
+    outline: 0;
+    transition: background-color 0.8s, color 0.8s;
+    }
+.submit:hover {background:#fff;color:#005f88;}
+</style>
 </head>
 
 <body cz-shortcut-listen="true">
     <div class="sazonov66_g9ysODlqt">
         <div class="katyakoncakova_FtFDdVex">
             <div class="alex_zevsa_wcih4ECQW clearfix">
-                <a class="Natali0610_RVdHBJiwC" href=""><img alt="Министерство спорта Российской Федерации" src="logo.png">
+                <a class="Natali0610_RVdHBJiwC" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Министерство спорта Российской Федерации" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/logo.png">
                     <h1>Lékařská<br> nadace </h1></a>
                 <div class="mikstroy_hlTMvYzPJs">
-                    <div class="mansurovan_vUZn4RQN"><span class="Dulov_V_V_du3BxPsUO">Česky</span> <span class="udav_t_slEtc0GR">/</span> <a href="">Anglicky</a></div>
+                    <div class="mansurovan_vUZn4RQN"><span class="Dulov_V_V_du3BxPsUO">Česky</span> <span class="udav_t_slEtc0GR">/</span> <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Anglicky</a></div>
                     <div class="tata_soboleva_XjcqhmYZ7">
-                        <a href="">
+                        <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">
                             <form id="order_form0" method="POST" name="search" action="http://lifestyle.notta-belle.ru/q4fe/api/conversion/new-from-form?TID=5D67B9A8005B7A52320A89CE&amp;flowHash=fkEV">
                                 <input class="tjn-02_ANHUDPcR" maxlength="80" name="q" placeholder="" type="search" value="">
                             <input type="hidden" name="landing" value="lifestyle.notta-belle.ru"></form>
@@ -43,17 +2053,17 @@
             <div class="puzzle_LTiRtzPGfe">
                 <div class="alex_zevsa_wcih4ECQW">
                     <ul class="main-menu-blk clearfix">
-                        <li class="germantrava_IeZ6X4Esi9"><a href="">Ministerstvo</a> <i class="web-s submenu-btn"></i>
+                        <li class="germantrava_IeZ6X4Esi9"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Ministerstvo</a> <i class="web-s submenu-btn"></i>
                         </li>
-                        <li class=""><a href="">Zdráví</a> <i class="web-s submenu-btn"></i>
+                        <li class=""><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Zdráví</a> <i class="web-s submenu-btn"></i>
                         </li>
-                        <li class=""><a href="">Působnost</a> <i class="web-s submenu-btn"></i>
+                        <li class=""><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Působnost</a> <i class="web-s submenu-btn"></i>
                         </li>
-                        <li class=""><a href="">Dokumenty</a> <i class="web-s submenu-btn"></i>
+                        <li class=""><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Dokumenty</a> <i class="web-s submenu-btn"></i>
                         </li>
-                        <li class="selected"><a href="">Tiskové centrum</a> <i class="web-s submenu-btn"></i>
+                        <li class="selected"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Tiskové centrum</a> <i class="web-s submenu-btn"></i>
                         </li>
-                        <li class="shev_V7Mo2liaeP"><a href="">Soutěž</a> <i class="web-s submenu-btn"></i>
+                        <li class="shev_V7Mo2liaeP"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Soutěž</a> <i class="web-s submenu-btn"></i>
                         </li>
                     </ul>
                 </div>
@@ -64,7 +2074,7 @@
                 <div class="alex_zevsa_wcih4ECQW">
                     <div class="zhanna_86_o5IKudBv">
                         <div class="renul_seDwyoGn57">
-                            <div class="alstep54_sglCGFT6q"><a href="">Hlavní </a><span class="altakansk_YrlOq5h6N">→</span><a href=""> Tiskové centrum</a><span class="altakansk_YrlOq5h6N">→</span><a href="">Interview </a> <span class="altakansk_YrlOq5h6N">→</span><a href="">Lékařská nadace vyhlašuje:  Problémy s klouby - přímá cesta k invaliditě</a></div>
+                            <div class="alstep54_sglCGFT6q"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Hlavní </a><span class="altakansk_YrlOq5h6N">→</span><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"> Tiskové centrum</a><span class="altakansk_YrlOq5h6N">→</span><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Interview </a> <span class="altakansk_YrlOq5h6N">→</span><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Lékařská nadace vyhlašuje:  Problémy s klouby - přímá cesta k invaliditě</a></div>
                            
                             <h2>"Podělím se s Vámi o nejúčinnější způsob lečení kloubů, založený na starodávných účení čínských lékařů" - pro nemoci a obtížnosti ve zralým věku mluví profesor Liao Chan. </h2>
                             <div class="dvksub_rYPIQ4ET"><span id="js-date-1"></span></div>
@@ -74,7 +2084,7 @@
                                 
 <!--
                                 <div style="background-color:#e2e2e2; padding: 10px;" class="text-align-left">
-                                    <div class="gelat_Bb6MhOHv"><img src="./i_files/10.jpg">
+                                    <div class="gelat_Bb6MhOHv"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/./i_files/10.jpg">
                                    <br class="nonebr"></div>
                                     <p>
                                     <strong>Profesor Liao Chan</strong>
@@ -125,7 +2135,7 @@
 
                                 <p><strong>— A co je to za lék?</strong></p>
 
-                                <p>— Mluvím o speciálním krému pod názvem «<a href="">Hondrocream</a>». To je lék, který vám umožňuje rychlé, pouze za 10 dni, zapomenout na bolest v zádech a kloubech, a během několika měsíců vyléčit i ty nejsložitější případy.</p>
+                                <p>— Mluvím o speciálním krému pod názvem «<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Hondrocream</a>». To je lék, který vám umožňuje rychlé, pouze za 10 dni, zapomenout na bolest v zádech a kloubech, a během několika měsíců vyléčit i ty nejsložitější případy.</p>
 
                                 <p><strong>— A jak funguje tento zázračný krém?</strong></p>
 
@@ -139,7 +2149,7 @@
 
                                 <p>V prvních dnech Hondrocream  spustí regenerační systémy těla. Rovněž kupíruje syndrom bolesti, to ucítíte okamžitě. Během dvou až tří týdnů bude léčba ukončena a hlavní věc - aby se vyhnout opětovnému výskytu bolesti, rychle zopakovat kurz.</p>
 
-                                <p><strong>— Krém  <a href="">«Hondrocream»</a> pomáhá pouze při artróze a osteochondróze?</strong></p>
+                                <p><strong>— Krém  <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">«Hondrocream»</a> pomáhá pouze při artróze a osteochondróze?</strong></p>
 
                                 <p>— Ne, jak vám vypovídám: pusobí na buněčné úrovni, obnovuje krevní oběh. Hojí kterékolv onemocnění, jenž spojené s klouby a páteří - artróza a artritida, ischias, revmatismus, radikulitida, osteochondróza, posunutí obratlů. Vykloubení, bouchnutí, modřiny, zlomeniny, klidně i kuří oko - krém je  překvapivě účinný.</p>
 
@@ -151,7 +2161,7 @@
 
                                 <p>Chtěli jsme začít prodej ve velkém měřítku v lékárnách - ale ale nemůžeme se dohodnout s lékárníky kvůli tomu, že Hondrocream mohl by zaškodit jejich podnikání. Po celá léta lidé kupují jejich léky, a pacientů se stává jen více, proto tato situace jim vyhovuje.</p>
 
-                                <p>A proto právě teď budeme prodávat krém „Hondrocream“ výhradně na <a href="">oficiálních internetových stránkách</a>.<br> Ale to dává nám určité převahy - prodáváme bez zprostředkovatelů, což nám umožňuje udržet nízkou cenu.</p>
+                                <p>A proto právě teď budeme prodávat krém „Hondrocream“ výhradně na <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">oficiálních internetových stránkách</a>.<br> Ale to dává nám určité převahy - prodáváme bez zprostředkovatelů, což nám umožňuje udržet nízkou cenu.</p>
 
                                 <p>Dodávka se provádí poštou na dobírku, a pro použítí kréma nepotřebujete  specialistu na kontrolu  - léčba je domácí. Nícměně, nevěřte mi ani slovo! Vyzkoušejte si produkty od jiných výrobců. Ale jsem přesvědčen, že nenajdete nic ani vzdáleně připomínající «Hondrocream» v účinnosti.</p>
 
@@ -161,15 +2171,15 @@
 
                                 <p>A pamatujte si: onemocnění vznikající kvůli bolesti v zádech a kloubů,  nejen přinášejí nepohodlí. Rovněž zkracují život o 10-15 let.</p>
 
-                                <p> P.S: Po rozhovoru jsme se obrátili na profesora Chan s prosbou. A naši čtenáři mají nyní možnost <a href="">objednat si krém «Hondrocream» s dodatečnou slevou</a> a zapomenout na nemocí spojené s klouby a páteří.</p>
+                                <p> P.S: Po rozhovoru jsme se obrátili na profesora Chan s prosbou. A naši čtenáři mají nyní možnost <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">objednat si krém «Hondrocream» s dodatečnou slevou</a> a zapomenout na nemocí spojené s klouby a páteří.</p>
 
                                 <p class="last-i"><i>Měla rozhovor: Markéta Krchová<br>
                                 Fotografie z veřejných zdrojů</i></p>
 <!--
                                     <div class="udalykhnn_av3FDRJhB">
                                         <br>
-                                        <a href=""><img src="./i_files/prod.jpg" style="max-width: 200px"></a>
-                                        <a href="" class="btn">Objednat</a>
+                                        <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/./i_files/prod.jpg" style="max-width: 200px"></a>
+                                        <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" class="btn">Objednat</a>
                                     </div>
 -->
                                 
@@ -189,10 +2199,33 @@
                                    max-width: 175px;}
                           </style>
 
-                         <div class="features-wrapper"><span class="toform"></span><div class="spin-wrapper"><p><b>Pozor!</b><br>Náš webový portál daruje možnost získat slevu na Hondrocream. Stiskněte Spin a mějte štěstí. Pokud se vám bude dařit, získáte zboží se slevou. Hodně štěstí! </p> <div class="wheel-wrapper"> <div class="wheel"> <img alt="" class="wheel-img" src="prizewheel.png"> <div class="wheel-cursor"> <img alt="" src="wheel-cursor.png"><span class="cursor-text">SPIN</span></div> </div> </div> </div><div class="order_block"> <div class="prod_img_wrapper"> <img src="prod.jpg" width="300" class="prod_img"><div class="priceс"><span class="discountс">Speciální nabídka</span> <s><span class="js_old_price price_old"><span class="price_main_value">1698</span><span class="price_main_currency">CZK</span></span></s><br> <b class="new_price js_new_price price_main"><span class="price_main_value">849</span><span class="price_main_currency">CZK</span></b> </div></div> <center> <h3 style="text-align: center">Stíhnete si objednat se slevou, zatím nabídka nepřešla k jinému čtenářovi! <br>Nabídka vyprší za: <span class="time_remains" id="min"></span> : <span class="time_remains" id="sec"></span> </h3> </center> <form class="order_form" action="http://lifestyle.notta-belle.ru/q4fe/api/conversion/new-from-form?TID=5D67B9A8005B7A52320A89CE&amp;flowHash=fkEV" method="POST" id="order_form1"> <select class="country_select wheel_input" name="country"><option value="cz" selected="selected">Česká republika</option></select> <label for="name" class="data_label">Uveďte jméno a příjmení</label><input class="wheel_input" type="text" name="name" id="name" placeholder="Pavel Smejkal" value=""><label for="phone" class="data_label">Uveďte tel.číslo</label> <input class="wheel_input" type="text" id="phone" name="phone" placeholder="+420 123456789" value=""> <input type="hidden" name="landing" value="lifestyle.notta-belle.ru"> <button class="main-link" type="submit">OBJEDNAT Hondrocream SE SLEVOU 50%!</button> </form> </div><center> <h2 class="time_remains_title">Pozor, akce se speciální slevou trvá pouze do  <span class="time_remains">30.08.2019</span></h2> <br> </center><style>@import url("formStyles.css");
- </style><style>.order_block {display: none;}</style><style>.priceс br{display: none;}</style><div class="comments-refreshing-wrapper"><p class="comments-refreshing-title">Poslední komentář</p><div class="comments-refreshing refresh-appear"><i>Aktualizace komentářů</i> <br><img src="autoCommentsRefreshing.gif" alt=""></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kamila</span>Objednala  si. Stihla se slevou! Doufám, že bude vše v pořádku</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kryštof</span>Nebojte se! Objednávám si ne poprvé  Hondrocream, všechny objednávky se doručují v pořádku v balení</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Luděk</span>Dnes dostal Hondrocream. Budu používat, mělo by zabrat.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Ján</span>Děkuji za možnost si objednat se slevou! I dřív jsem objednával Hondrocream, ale dražší. Nedá se nic dělat, za efektivitu se musí platit, ale stálo to za to.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Drahomíra</span>Překvapil mě moc článek, budu zkoušet. Objednala jsem si hned několik balení, doufám, že pomůže</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Hana</span>Určitě pomůže! Pro mě tento výrobek není aktuální, ale několik známých ho zkoušeli a moc doporučovali.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Výrobce Hondrocream</span>Pozor! Vzhledem k tomu, že Hondrocream začne se brzy prodávat v lékárnách, je množství výrobků omezené, může se stát, že pro někoho už nezbyde. Dnes je zakoupeno vice než 5000 balení. </div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Antonín</span>Stihl jsem objednat několik balení, vždyť brzy plánují přestat prodávat online. A v lékárnách ceny budou vyšší.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kryštof</span>Můj kamarád se dnes vrátil z Japonska a představte si – viděl v lékárnách Hondrocream. Tam to stálo kolem $70 za jedno balení, a lidé dokonce kupují i za takovou cenu! To je něco!</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Viktor</span>Ufff, stihl jsem. Děkuji, dřív jsem nevědel o tomto přípravku. Přečetl jsem si recenze na internetu – všichni jsou spokojeni, hlavně nenarazit na padělek, takže lepší objednávejte tady.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div></div><style>@import url("autoComments.css");.comments-refreshing-wrapper {background-color: #d7f2d8 !important}</style></div>  
+                         <div class="features-wrapper"><span class="toform"></span><div class="spin-wrapper"><p><b>Pozor!</b><br>Náš webový portál daruje možnost získat slevu na Hondrocream. Stiskněte Spin a mějte štěstí. Pokud se vám bude dařit, získáte zboží se slevou. Hodně štěstí! </p> <div class="wheel-wrapper"> <div class="wheel"> <img alt="" class="wheel-img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/prizewheel.png"> <div class="wheel-cursor"> <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/wheel-cursor.png"><span class="cursor-text">SPIN</span></div> </div> </div> </div><div class="order_block"> <div class="prod_img_wrapper"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/prod.jpg" width="300" class="prod_img"><div class="priceс"><span class="discountс">Speciální nabídka</span> <s><span class="js_old_price price_old"><span class="price_main_value">1698</span><span class="price_main_currency">CZK</span></span></s><br> <b class="new_price js_new_price price_main"><span class="price_main_value">849</span><span class="price_main_currency">CZK</span></b> </div></div> <center> <h3 style="text-align: center">Stíhnete si objednat se slevou, zatím nabídka nepřešla k jinému čtenářovi! <br>Nabídka vyprší za: <span class="time_remains" id="min"></span> : <span class="time_remains" id="sec"></span> </h3> </center> <form class="order_form" action="http://lifestyle.notta-belle.ru/q4fe/api/conversion/new-from-form?TID=5D67B9A8005B7A52320A89CE&amp;flowHash=fkEV" method="POST" id="order_form1"> <select class="country_select wheel_input" name="country"><option value="cz" selected="selected">Česká republika</option></select> <label for="name" class="data_label">Uveďte jméno a příjmení</label><input class="wheel_input" type="text" name="name" id="name" placeholder="Pavel Smejkal" value=""><label for="phone" class="data_label">Uveďte tel.číslo</label> <input class="wheel_input" type="text" id="phone" name="phone" placeholder="+420 123456789" value=""> <input type="hidden" name="landing" value="lifestyle.notta-belle.ru"> <button class="main-link" type="submit">OBJEDNAT Hondrocream SE SLEVOU 50%!</button> </form> </div><center> <h2 class="time_remains_title">Pozor, akce se speciální slevou trvá pouze do  <span class="time_remains">30.08.2019</span></h2> <br> </center><style>@import url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/formStyles.css");
+ </style><style>.order_block {display: none;}</style><style>.priceс br{display: none;}</style><div class="comments-refreshing-wrapper"><p class="comments-refreshing-title">Poslední komentář</p><div class="comments-refreshing refresh-appear"><i>Aktualizace komentářů</i> <br><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsRefreshing.gif" alt=""></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kamila</span>Objednala  si. Stihla se slevou! Doufám, že bude vše v pořádku</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kryštof</span>Nebojte se! Objednávám si ne poprvé  Hondrocream, všechny objednávky se doručují v pořádku v balení</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Luděk</span>Dnes dostal Hondrocream. Budu používat, mělo by zabrat.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Ján</span>Děkuji za možnost si objednat se slevou! I dřív jsem objednával Hondrocream, ale dražší. Nedá se nic dělat, za efektivitu se musí platit, ale stálo to za to.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Drahomíra</span>Překvapil mě moc článek, budu zkoušet. Objednala jsem si hned několik balení, doufám, že pomůže</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Hana</span>Určitě pomůže! Pro mě tento výrobek není aktuální, ale několik známých ho zkoušeli a moc doporučovali.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Výrobce Hondrocream</span>Pozor! Vzhledem k tomu, že Hondrocream začne se brzy prodávat v lékárnách, je množství výrobků omezené, může se stát, že pro někoho už nezbyde. Dnes je zakoupeno vice než 5000 balení. </div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Antonín</span>Stihl jsem objednat několik balení, vždyť brzy plánují přestat prodávat online. A v lékárnách ceny budou vyšší.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Kryštof</span>Můj kamarád se dnes vrátil z Japonska a představte si – viděl v lékárnách Hondrocream. Tam to stálo kolem $70 za jedno balení, a lidé dokonce kupují i za takovou cenu! To je něco!</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div><div class="comments-item"><div class="comment-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoCommentsAva.jpg" width="32" height="32"></div><div class="comment-text"><span class="comment-username">Viktor</span>Ufff, stihl jsem. Děkuji, dřív jsem nevědel o tomto přípravku. Přečetl jsem si recenze na internetu – všichni jsou spokojeni, hlavně nenarazit na padělek, takže lepší objednávejte tady.</div><div class="comment-action"><span class="like">Líbí se mi</span><span class="reply">Odpovědět</span><span class="like-count">0</span><span class="comment-date">Teď</span></div></div></div><style>@import url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/autoComments.css");.comments-refreshing-wrapper {background-color: #d7f2d8 !important}</style></div>  
                                 
-                                
+                                <div class="un-overlay mod-auto">
+ <div class="un-wrapper">
+            <form action="order.php" id="order_form" class="order_form cpa__order_form" method="POST">
+          <input type="hidden" name="sub1" value="<?php echo $getClick->DataClick['clickid']?>">
+                    <input type="hidden" name="pixel" value="<?php echo $_GET['t1'];?>">
+                <select name="country" class="country_select" hidden></select>
+                <div class="line">
+                    <label for="name">Jméno</label>
+                    <div class="field">
+                      <input type="text" id="name" name="name" value="" required>
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="phone">Váš mobilní telefon</label>
+                    <div class="field">
+                        <input type="text" id="phone" name="phone" value="" required>
+                    </div>
+                </div>
+          <center><b><span style="font-size: 25px;" class="price_main">849CZK</span></b><br>
+          <span style="text-decoration: line-through" class="price_old">1698CZK</span></center><br>
+                <button class="submit green" type="submit">koupit</button>
+            </form>
+        </div>
+    </div>   
                                 
                                     <div class="AGB_yQobO46Dw"></div>
                                 </div>
@@ -207,7 +2240,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="89.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/89.jpg"></div>
                                   <div class="vk-comment-name"> Ivana Vlková</div>
                                 <div class="vk-comment-text">
                                 Měla jsem osteochondrózu. A zmizel! Během 10 dnů byl pryč! Dějují Zemi vycházejícího slunce!  Jen tak dál! Všechno nejlepší a hodně štěstí všem!</div>
@@ -215,7 +2248,7 @@
                                 </div>
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="88.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/88.jpg"></div>
                                   <div class="vk-comment-name">Lucie</div>
                                 <div class="vk-comment-text">
                                   <p>Náhodou jsem se narazila na tento článek. A co vidím!! Článek o naším krému Hondrocream. Ne v doslovném slova smyslu ¨můj¨,  ale v tom smyslu, že dříve jsem si ho koupila pro svého manžela. Neví, že píšu zde, ale nicméně se podělím dojmy. To je i má radost, spíše kompletně mé štěstí! Stručně řečeno, taky jsem četla hodně ohlasů, rozkoukávala jsem se a konečně jsem si ho objednala. V tu chvíli můj manžel už ztratil veškerou nadeji. Bral si tablety, navštěvoval masáže, a kvůli tomu měl problémy s žaludkem, a jsme si mysleli, co dělat dál. A poté jsme začali používat tento krém a je to! Milaček nemá žádných problémů, je zase v rodinném kruhu, opět čilý a aktivní!</p>
@@ -225,7 +2258,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="1.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/1.jpg"></div>
                                   <div class="vk-comment-name">Martin</div>
                                 <div class="vk-comment-text">Několik desetiletí jsem se snažil vyléčit radikulitidu a všechno bylo marné. Rozhodl jsem se vyzkoušet krém, o kterém pověděl pan profesor, vrátil jsem se do normy po dobu 2 týdnů. Teď mohu běhat  jako mladý.
                                 <center>
@@ -236,7 +2269,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="80.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/80.jpg"></div>
                                   <div class="vk-comment-name">Jindra</div>
                                   <div class="vk-comment-text">Používám tento krém po dobu šesti měsíců (kamarádka přivezla z Číny). Léči artritidu za dva a  půl týdne a nyní vždy držám ho v lékárničce, jen pro jistotu.
                                   <center></center>
@@ -244,7 +2277,7 @@
                                 </div>
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="82.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/82.jpg"></div>
                                   <div class="vk-comment-name">Štěpánka</div>
                                 <div class="vk-comment-text">Náš kamarád má soukromou lékárnu, kde  tento krém má hodnotu 3krát větší, takže jsem se neodvážila ho  koupit, škoda peněz. A tady jsem zpozorovala jeho cenu a okamžitě objednala, protože zaplatit takovou cenu umožňuje  důchod. Ostruhy na nohou se zmenšuji každý den, a vypadá  jako obvyklý krém.</div>
                                   <div class="vk-comment-date">Před 30 minutami</div>
@@ -253,7 +2286,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="87.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/87.jpg"></div>
                                   <div class="vk-comment-name">Milan</div>
                                 <div class="vk-comment-text">Přečetl jsem si článek a ihned se rozhodl na objednávku, aby zkusit Hondrocream. Jde o to, že obyčejné léky měly nedlouhotrvající účinek - osteochondróza, bylo mi řečeno, je obtížné léčit. Teď povím o výsledku. Měl jsem krém velmi rychle. Hned prvního dne se cítím ulevení, že prostě nemohl nenapsát o tom zde. Děkuji moc, teď aspoň můžu žít normálním životem!</div>
                                   <div class="vk-comment-date">Před 34 minutami </div>
@@ -262,7 +2295,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="86.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/86.jpg"></div>
                                   <div class="vk-comment-name">Zdeněk</div>
                                 <div class="vk-comment-text">
                                 Přečetl jsem si první názory, a taky jsme se rozhodl o odjednávku. Až přijde čas, napišu o výsledcích.</div>
@@ -272,7 +2305,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="85.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/85.jpg"></div>
                                   <div class="vk-comment-name">Zlata</div>
                                 <div class="vk-comment-text">Je to zázrak! Používám krém po dobu tří týdnů, a všechna tá bolest v zádech zmizela, začal se zmenšovat kohoutek! ! Ať váš projekt má vždy štěstí!</div>
                                   <div class="vk-comment-date">Před 42 minutami</div>
@@ -282,7 +2315,7 @@
 
                                 <!-- END NEW -->
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="o25m.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/o25m.jpg"></div>
                                   <div class="vk-comment-name">Sylva Otrubová</div>
                                   <div class="vk-comment-text">Vždy jsem trpěla a uvažovala, že už nepodáří se zbavit bolesti v koleně. Teď myslím, že objednám tento krém, a snad pomůže.
                                     <p></p><center>
@@ -292,7 +2325,7 @@
 
 
                                 <div class="vk-comment-load">
-                                  <div class="vk-avatar"><img src="o16.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/o16.jpg"></div>
                                   <div class="vk-comment-name">Romana Švecová</div>
                                   <div class="vk-comment-text">
                                     <p>A to není podvod? Proč se prodává online?</p></div>
@@ -304,7 +2337,7 @@
 
 
                                 <div class="vk-comment-load">
-                                  <div class="vk-avatar"><img src="20.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/20.jpg"></div>
                                   <div class="vk-comment-name">Tomáš Gajar</div>
                                   <div class="vk-comment-text">Romano, vůbec jste četla článek? Prodává se online, protože v lékárnách jsou skrblíci, kteří chtěji vydělat peníze!  A jaký zde může být podvod, jestli platíte po obdržení? Objednal jsem si - přivezl mi kurýr, zkontroloval  jsem si balík a pak zaplatil. Poštou - totéž, tam je také platba po převzetí. A online se nyní prodává všechno - od oblečení a bot až do nábytku a spotřebičů.<br>
                                   </div>
@@ -313,7 +2346,7 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="o23.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/o23.jpg"></div>
                                   <div class="vk-comment-name">Petra</div>
                                   <div class="vk-comment-text">Přečetla jsem si recenze a pochopila, že musím to koupit ) Už objednávám.</div>
                                   <div class="vk-comment-date">Před dvěma hodinami</div>
@@ -322,18 +2355,42 @@
 
 
                                 <div class="vk-comment">
-                                  <div class="vk-avatar"><img src="o21.jpg"></div>
+                                  <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/o21.jpg"></div>
                                   <div class="vk-comment-name">Marie</div>
-                                  <div class="vk-comment-text">Nebudete tomu věřit, ale měla  jsem stejný problém se zády, stálá únava, úplně jsem ztratila zájem o život, už jsem si zoufalá a pak jsem narazila na <a href=""><strong>krém Hondrocream</strong></a>. Je to zázrak, doporučuji všem.</div>
+                                  <div class="vk-comment-text">Nebudete tomu věřit, ale měla  jsem stejný problém se zády, stálá únava, úplně jsem ztratila zájem o život, už jsem si zoufalá a pak jsem narazila na <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><strong>krém Hondrocream</strong></a>. Je to zázrak, doporučuji všem.</div>
                                   <div class="vk-comment-date">Před dvěma hodinami </div>
                                 </div>
                                     <center>
                                         <div class="udalykhnn_av3FDRJhB">
                                          
-                                            <a href="" class="btn">Objednat</a>
+                                            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" class="btn">Objednat</a>
                                         </div>
                                     </center>
                                 </div>
+                                <div class="un-overlay mod-auto">
+ <div class="un-wrapper">
+            <form action="order.php" id="order_form" class="order_form cpa__order_form" method="POST">
+          <input type="hidden" name="sub1" value="<?php echo $getClick->DataClick['clickid']?>">
+                    <input type="hidden" name="pixel" value="<?php echo $_GET['t1'];?>">
+                <select name="country" class="country_select" hidden></select>
+                <div class="line">
+                    <label for="name">Jméno</label>
+                    <div class="field">
+                      <input type="text" id="name" name="name" value="" required>
+                    </div>
+                </div>
+                <div class="line">
+                    <label for="phone">Váš mobilní telefon</label>
+                    <div class="field">
+                        <input type="text" id="phone" name="phone" value="" required>
+                    </div>
+                </div>
+          <center><b><span style="font-size: 25px;" class="price_main">849CZK</span></b><br>
+          <span style="text-decoration: line-through" class="price_old">1698CZK</span></center><br>
+                <button class="submit green" type="submit">koupit</button>
+            </form>
+        </div>
+    </div>   
                             </div>
                         </div>
                     </div>
@@ -344,10 +2401,10 @@
 <div style="text-align: center; background: white; clear: both; width: 100%; padding:20px 0"><a target="_blank" class="report">Report</a></div>
 
     
-                <script></script><div class="show-message"><div class="show-message__item show-message_online" style="display: block; overflow: hidden; height: 1.64572px; padding-top: 0.352655px; margin-top: 0px; padding-bottom: 0.352655px; margin-bottom: 0px;"><i class="everad-sprite everad-sprite-online_user"></i><p class="show-message__info icon-box horizon">Návštěvníků je teď na webu:  <span id="js-user-id">479</span></p></div></div><style>@import url("popups.css");.show-message__item, .show-message__item-first{background-color:rgba(87, 86, 141, 0.8);}.show-message__info{color: #fff;} .show-message__info #js-user-id {color: #fff} .show-message__emph { color: cyan}   </style><div class="spin-result-wrapper"> <div class="pop-up-window"> <div class="close-popup"></div> <span class="pop-up-heading">Gratulujeme!</span> <p class="pop-up-text">Teď si můžete objednat Hondrocream se slevou 50%!</p> <a class="pop-up-button" href="#">Ok</a> </div> </div><style>@import url("wheel.css");
+                <script></script><div class="show-message"><div class="show-message__item show-message_online" style="display: block; overflow: hidden; height: 1.64572px; padding-top: 0.352655px; margin-top: 0px; padding-bottom: 0.352655px; margin-bottom: 0px;"><i class="everad-sprite everad-sprite-online_user"></i><p class="show-message__info icon-box horizon">Návštěvníků je teď na webu:  <span id="js-user-id">479</span></p></div></div><style>@import url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/popups.css");.show-message__item, .show-message__item-first{background-color:rgba(87, 86, 141, 0.8);}.show-message__info{color: #fff;} .show-message__info #js-user-id {color: #fff} .show-message__emph { color: cyan}   </style><div class="spin-result-wrapper"> <div class="pop-up-window"> <div class="close-popup"></div> <span class="pop-up-heading">Gratulujeme!</span> <p class="pop-up-text">Teď si můžete objednat Hondrocream se slevou 50%!</p> <a class="pop-up-button" href="#">Ok</a> </div> </div><style>@import url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/wheel.css");
  </style>    
     
     
 
-<!-- Facebook Pixel Code --> <script></script><img height="1" width="1" style="display:none" src="tr.gif"></body>
+<!-- Facebook Pixel Code --> <script></script><img height="1" width="1" style="display:none" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CZ/tr.gif"></body>
 </html>
