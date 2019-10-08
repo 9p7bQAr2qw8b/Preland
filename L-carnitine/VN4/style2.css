@@ -1,0 +1,255 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body {
+	height:100%;
+	width:100%;
+	margin: auto !important;
+	background: #dec5a6;
+	background-repeat:repeat;
+	font-family: 'Open Sans', serif;
+	}
+
+a {
+	color:#FF0004;
+	}
+
+img {
+	width: 100%;
+}
+p{
+	font-size: 18px;
+    font-weight: 400;
+    margin: 10px 20px 10px 20px;
+}
+#nav-mobi {
+	display: none;
+}
+
+.yorumicerik img {
+	max-width: 400px;
+}
+	
+.siteWrapper {
+	max-width:1040px;
+	width: 100%;
+	margin:auto;
+
+}
+
+.flip {
+	background: url("mobi-menu.png") no-repeat scroll left 36% transparent;
+	width: 35px;
+	height: 38px;
+	display: inline-block;
+}
+
+.siteborder h3 {
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	font-size: 108px;
+	vertical-align: top;
+	margin: 38px 0 0 83px;
+}
+
+.siteborder { 
+	width:100%;
+	-webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+		background-color:#FFFFFF;
+}
+
+.siteimajheader{
+	display: inline-block;
+}
+
+.siteimaj h2 {
+	margin: 0 15px 10px 15px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+.siteimaj {
+	text-align: center;
+}
+
+.siteimaj img {
+	max-width: 500px;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+
+.siteimaj .prod {
+	max-width: 300px;
+}
+
+.comment {
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.comment h2 {
+	margin-left: 20px;
+	font-family: 'Pacifico';
+}
+
+.btn {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.button {
+	background: #d13366;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	border: 2px solid white;
+	-webkit-box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+  box-sizing:border-box;
+}
+
+.button:hover {
+  background: #dc1253;
+}
+
+.siteMenu {
+	width: 100%;
+	background: #a10060;
+	height: 40px;
+	padding-top: 6px;
+}
+
+
+
+.siteMenu a {
+	font-family: 'Open Sans', cursive;
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	padding: 0px 0px 0 125px;
+}
+
+.sitebaslik h1 {
+	display:inline-block;
+	font-size:45px;
+	font-weight:700;
+	margin: 15px 20px 15px 20px;
+	font-family: 'Pacifico';
+}
+
+.sitebaslik {
+	border-bottom:1px solid #000000;
+}
+
+.siteicerik h2 {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px 20px 10px 20px;
+}
+
+.siteicerik h1 {
+	display:inline-block;
+	font-size:32px;
+	font-weight:700;	
+	margin-left:20px;
+	margin-top:0;
+}
+
+.faceyorumlar {
+	width:100%;
+	margin:auto;
+	padding-bottom:4%;
+	}
+
+
+.yorumgenel {
+	max-width:1040px;
+	width: 100%;
+	font-size:15px;
+	padding-top:20px;
+
+	padding-bottom:20px;
+	border-bottom:1px solid #C0C0C0;}
+	
+
+.yorumcevap {
+	width:940px;	
+	font-size:14px;
+	padding-top:4%;
+	float:left;
+	padding-bottom:4%;
+	padding-left:10%;
+}
+
+.profilresmi {
+	width:80px;
+	float: left;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.yorumicerik {
+	width:80%;
+	padding-left: 100px;
+}
+
+.yorumisim {
+margin-top: -3px;
+	width:100%;
+	font-weight:700;	
+}
+
+.yorumyazi {
+	width:100%;
+	color:#666666;
+}
+
+@media all and (max-width: 830px) {
+
+	.siteMenu a {
+		display: none;
+	}
+
+	#nav-mobi {
+		display: block;
+		text-align: center;
+	}
+
+}
+@media all and (max-width: 480px) {
+	.siteborder h3{
+		display: none;
+	}
+	.sitebaslik h1{
+		font-size: 19px;
+	}
+}
+@media all and (max-width: 500px) {
+	.yorumicerik {
+		width:61%;
+
+	}
+
+	.siteborder h3 {
+		margin: 15px 0 0 69px;
+	}
+	.button {
+		font-size: 12px;
+	}
+  	.button {
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+@media all and (max-width: 360px) {
+
+	.siteborder h3 {
+		font-size: 81px;
+	}
+}
