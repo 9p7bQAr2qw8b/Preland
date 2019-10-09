@@ -7,7 +7,994 @@
 	<title> Tôi đã giảm được cân và lên giường với 36 cô gái trong vòng một tháng. </title>
 	<link href="reset.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
-	
+	<style type="text/css">
+		/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, figure, footer, header, nav, section, details, summary {display: block;}
+
+/* Handle box-sizing while better addressing child elements: */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+/* Responsive images and other embedded objects
+*/
+img,
+object,
+embed {max-width: 100%;}
+
+/*
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	 In fact, it *will* cause problems with Google Maps' controls at small size.
+	If this is the case for you, try uncommenting the following:
+
+#map img {
+		max-width: none;
+}
+*/
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+  white-space: pre; /* CSS2 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom;}
+.ie7 input[type="checkbox"] {vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+
+small {font-size: 85%;}
+
+strong {font-weight: bold;}
+
+td, td img {vertical-align: top;}
+
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {width: auto; overflow: visible;}
+
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover
+   (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #2f2e2e;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/bg.jpg") repeat center center fixed;
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1, #content a {
+    color: #A41600;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: left;
+}
+
+ol > li {
+    margin: 5px 0 0 20px;
+}
+
+.container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 95px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background-color: #000;
+}
+
+.header__logobar {
+    width: 160px;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+.header__logobar img {
+    width: 100%;
+}
+
+.upper-header .header__logobar {
+    width: 161px;
+}
+
+.upper-header__menubar {
+    /* font-family: Impact, fantasy; */
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 65%;
+    text-align: right;
+    padding-top: 9px;
+    float: right;
+}
+
+.upper-header__menubar ul {
+    line-height: 85px;
+    text-align: right;
+}
+
+.upper-header__menubar ul li {
+    display: none;
+    margin-right: 10px;
+    vertical-align: baseline;
+    text-transform: uppercase;
+}
+
+.upper-header__menubar ul li:last-child {
+    margin-right: 0;
+}
+
+.upper-header__menubar ul li a:hover {
+    color: #f00;
+}
+
+.upper-header__menubar .upper-header__burgerbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.burger {
+    width: 35px;
+}
+
+.burger span {
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.lower-header {
+    padding: 10px 0;
+    min-height: 66px;
+    background-color: #f7f7f7;
+}
+
+.lower-header .header__logobar {
+    margin-left: 46px;
+    margin-right: 10px;
+}
+
+.lower-header h1 {
+    display: none;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Impact, fantasy;
+    line-height: 1;
+    color: #000;
+}
+
+#content {
+    background-color: #f0f0f0;
+    margin: 0 -10px;
+}
+
+#mainbar {
+    position: relative;
+    border: 5px #e1e1e1 solid;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#sidebar {
+    padding: 20px;
+    text-align: center;
+}
+
+#sidebar .sidebar_content {
+    display: none;
+}
+
+.socials {
+    display: none;
+}
+
+.socials ul {
+    position: absolute;
+    top: 0;
+    left: -65px;
+}
+
+.socials ul li {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 0;
+}
+
+.socials ul li:hover {
+    opacity: 0.8;
+}
+
+.socials ul li.socials__Instagram {
+    background-position: 0 -55px;
+}
+
+.socials ul li.socials__Facebook {
+    background-position: 0 -110px;
+}
+
+.socials ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.post-info {
+    display: none;
+    font-size: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #666;
+    color: #717070;
+}
+
+#content .post-info a {
+    color: #717070;
+}
+
+.post-info .author {
+    color: #acacac;
+}
+
+.post-info ul li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.post-info ul li:after {
+    content: '';
+    height: 11px;
+    right: -13px;
+    top: 2px;
+    position: absolute;
+    border-right: 1px dotted #666;
+}
+
+.post-info ul li:last-child {
+    margin-right: 0;
+}
+
+.post-info ul li:last-child:after {
+    height: 0;
+}
+
+.post-info__comments {
+    padding-left: 20px;
+}
+
+.post-info__comments:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 17px;
+    width: 17px;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png");
+    background-position: 0 -165px;
+}
+
+.img-center {
+    display: block;
+    margin: 10px auto;
+}
+
+img.img-center+p+p+a>img {
+    max-width: 290px;
+; width: 100%;
+}
+
+.abstract {
+    font-style: italic;
+    text-align: left;
+}
+
+p.align-right {
+    text-align: right;
+}
+
+p a {
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.ord-brn {
+    display: block;
+    margin: 35px auto;
+    padding: 10px;
+    max-width: 250px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 0px 0px 6px #000;
+    -moz-box-shadow: 0px 0px 6px #000 ;
+    box-shadow: 0px 0px 6px #000 ;
+    border-radius: 8px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease ;
+    -ms-transition: all 0.4s ease ;
+    -o-transition: all 0.4s ease ;
+    transition: all 0.4s ease ;
+}
+
+.ord-brn:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#sidebar h1 {
+    margin: 20px 0;
+    font-weight: normal;
+    font-size: 24px;
+    color: #000;
+    font-style: italic;
+}
+
+#sidebar .teaser {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#sidebar .teaser img {
+    display: block;
+    margin: 0 auto 5px;
+}
+
+#sidebar .teaser a {
+    color: #333;
+}
+
+#sidebar .teaser a:hover {
+    text-decoration: underline;
+}
+
+.sidebar__fb-box {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.fb-box__header {
+    max-width: 200px;
+    margin-bottom: 7px;
+    padding: 4px;
+    background-color: #15c;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+}
+
+.fb-box__header span {
+    font-weight: inherit;
+}
+
+.fb-box__logo {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0px -186px;
+}
+
+.sidebar__fb-box img {
+    display: block;
+    margin: 0 auto;
+}
+
+.socials-bottom .socials-bottom__item {
+    display: inline-block;
+    padding: 3px 5px 3px 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.socials-bottom__item > div {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.socials-bottom__item > span {
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.socials-bottom__item.socials-bottom__item_fb {
+    background-color: #41658b;
+}
+
+.socials-bottom__item.socials-bottom__item_fb > div {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -227px no-repeat;
+}
+
+.socials-bottom__item.socials-bottom__item_g-plus {
+    background-color: #be3308;
+}
+
+.socials-bottom__item.socials-bottom__item_g-plus > div {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -258px no-repeat;
+}
+
+.socials-bottom__item.socials-bottom__item_add > div {
+    width: 30px;
+    height: 30px;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -289px no-repeat;
+}
+
+.socials-bottom__item.socials-bottom__item_comment > div {
+    width: 30px;
+    height: 30px;
+    background: #eaeaeb;
+    border: 1px solid #eaeaeb;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.socials-bottom__item.socials-bottom__item_comment > div > span {
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 30px;
+    color: #707070;
+}
+
+.socials-bottom__item.socials-bottom__item_comment > div:after {
+    position: absolute;
+    top: 9px;
+    left: -6px;
+    z-index: 0;
+    display: block;
+    width: 0;
+    border-width: 4px 8px 4px 0;
+    border-style: solid;
+    border-color: transparent #eaeaeb;
+    content: '';
+}
+
+#comments .comments__header {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#comments .comments__icon {
+    display: inline-block;
+    margin-right: 5px;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -324px no-repeat;
+}
+
+.comment {
+    margin-bottom: 4px;
+    padding: 15px;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    background: #f6f6f6;
+}
+
+.comment__header {
+    min-height: 38px;
+    padding: 10px 15px;
+    text-shadow: #FAFAFA 1px 1px;
+    font-weight: bold;
+    position: relative;
+    background: #E9E9E9;
+}
+
+.comment__header img {
+    max-width: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.comment__header .comment__author {
+    margin-bottom: 2px;
+    color: #2F2E2E;
+}
+
+.comment__header .comment__date {
+    color: #7B7B7B;
+}
+
+.comment__header > a > div {
+    margin-left: 50px;
+    font-weight: inherit;
+}
+
+.comment p {
+    line-height: 18px;
+}
+
+.comment .comment-btn {
+    display: inline-block;
+    margin: 10px 0 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff !important;
+    text-shadow: #6E1902 -1px -1px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px #999;
+    background: #af2503;
+}
+
+.comment .comment-btn:hover {
+    background: #a20f00;
+    box-shadow: 1px 1px 1px #000 inset;
+}
+
+.comments__note {
+    margin: 10px 20px;
+    padding: 15px 25px;
+    border: 1px solid #666;
+    font-size: 14px;
+    text-align: center;
+    color: #444;
+    background: #ccc;
+}
+
+footer {
+    margin-top: 25px;
+    padding: 20px;
+    border-top: 5px solid #c5c5c5;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-size: 28px;
+}
+
+.socials-footer {
+    list-style: none;
+    font-size: 40px;
+}
+
+.socials-footer__item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.socials-footer__item:hover {
+    opacity: 0.7;
+}
+
+.socials-footer__item > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.socials-footer__item.socials-footer__item_fb {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -357px no-repeat;
+}
+
+.socials-footer__item.socials-footer__item_g-plus {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -402px no-repeat;
+}
+
+.socials-footer__item.socials-footer__item_you-tube {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -447px no-repeat;
+}
+
+.socials-footer__item.socials-footer__item_instagram {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -492px no-repeat;
+}
+
+.socials-footer__item.socials-footer__item_twitter {
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/icons.png") 0 -537px no-repeat;
+}
+
+footer .copyright {
+    padding: 10px;
+    color: #676767;
+}
+
+.ps-poll-container {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px auto;
+    background: #fff;
+    box-shadow: 0px 0px 4px inset;
+    text-align: left;
+}
+
+#form-but {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    background: #000;
+    box-shadow: 1px 1px 5px #000;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    text-align: center;
+    width: 120px;
+}
+
+.ac_footer {
+    top: -25px;
+    margin-bottom: 0px;
+}
+
+.ps-poll-container h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+.ps-poll-answer {
+    margin: 10px 0;
+    position: relative;
+}
+
+.ps-poll-answer > input, .ps-poll-answer > label {
+    vertical-align: middle;
+}
+
+.ps-poll-answer > input {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.ps-poll-answer > label {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.ps-poll-submit > button {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 1px solid #808080;
+    background: #000;
+    box-shadow: 1px 1px 5px #000;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.ps-poll-submit > input:hover {
+    border-color: #fff;
+}
+
+.ps-poll-submit > input:focus {
+    box-shadow: none;
+}
+
+.ps-poll-container .form_thanks {
+    display: none;
+}
+
+.ps-poll-container.completed form {
+    display: none;
+}
+
+.ps-poll-container.completed .form_thanks {
+    display: block;
+}
+
+#form_alert {
+    display: none;
+}
+
+/*************RESPONSIVE*****************/
+/**HEADER**/
+@media (min-width: 910px) {
+    .upper-header__menubar .upper-header__burgerbar {
+        display: none;
+    }
+
+    .upper-header__menubar ul {
+        text-align: center;
+    }
+
+    .upper-header__menubar ul li {
+        display: inline-block;
+    }
+
+    .lower-header .header__logobar {
+        float: left;
+    }
+}
+
+/**HEADING**/
+@media (min-width: 570px) {
+    .lower-header h1 {
+        display: inline;
+    }
+}
+
+@media (min-width: 910px) {
+    .lower-header h1 {
+        position: relative;
+        top: 22px;
+    }
+}
+
+@media (min-width: 970px) {
+    .lower-header h1 {
+        font-size: 24px;
+    }
+}
+
+/**GRID**/
+@media (min-width: 768px) {
+    #mainbar {
+        width: 70%;
+        float: left;
+    }
+
+    #sidebar {
+        float: left;
+        width: 30%;
+    }
+
+    #sidebar .sidebar_content {
+        display: block;
+    }
+
+    #content {
+        margin: 0;
+    }
+}
+
+/**POST-INFO**/
+@media (min-width: 460px) {
+    .post-info {
+        display: block;
+    }
+}
+
+@media (min-width: 510px) {
+    .post-info {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 631px) {
+    .post-info {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 760px) {
+    .post-info {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 910px) {
+    .post-info {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 440px) {
+    p {
+        text-align: justify;
+    }
+}
+
+@media (min-width: 1115px) {
+    .socials {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #comments .comment:nth-last-child(n + 8) {
+        /* display: none; */
+    }
+
+    #mainbar {
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar {
+        display: none;
+        float: none;
+    }
+
+    .upper-header__menubar {
+        font-size: 20px;
+    }
+}
+
+.mob_bar {
+    display: none;
+    width: 54px;
+    margin: 15px auto 5px;
+    filter: invert(1);
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .mob_bar {
+        display: block;
+    }
+
+    .upper-header .header__logobar {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #header {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .upper-header__menubar {
+        float: none;
+        text-align: center;
+        font-size: 18px;
+        max-width: none;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+}
+
+	</style>
 </head>
 
 <body>
@@ -15,14 +1002,14 @@
 		<div class="upper-header">
 			<div class="container">
 				<div class="header__logobar">
-					<a href="https://leadrock.com/URL-?"><img src="logo1.png"></a>
+					<a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/logo1.png"></a>
 				</div>
 				<div class="upper-header__menubar">
 					Kinh nghiệm thành công trong việc đốt cháy chất béo và định hình lại cơ thể của tôi!
 				</div>
 			</div>
 		</div>
-		<a class="mob_bar" href="https://leadrock.com/URL-?"><img alt="" src="menu.png"></a>
+		<a class="mob_bar" href="https://ansmit.club/click.php?lp=1"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/menu.png"></a>
 	</div>
 	<div class="container">
 		<div class="clearfix" id="content">
@@ -30,13 +1017,13 @@
 				<div class="socials">
 					<ul>
 						<li class="socials__YouTube">
-							<a href="https://leadrock.com/URL-?"></a>
+							<a href="https://ansmit.club/click.php?lp=1"></a>
 						</li>
 						<li class="socials__Instagram">
-							<a href="https://leadrock.com/URL-?"></a>
+							<a href="https://ansmit.club/click.php?lp=1"></a>
 						</li>
 						<li class="socials__Facebook">
-							<a href="https://leadrock.com/URL-?"></a>
+							<a href="https://ansmit.club/click.php?lp=1"></a>
 						</li>
 					</ul>
 				</div>
@@ -51,7 +1038,7 @@
 					</ul>
 				</div>
 				<h1> Tôi đã giảm được cân và lên giường với 36 cô gái trong vòng một tháng. </h1>
-				<img class="img-center" src="pic1.jpg">
+				<img class="img-center" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/pic1.jpg">
 				<p> Chào cả nhà! Tên tôi là Dũng Trần, năm nay tôi 31 tuổi. Trong một thời gian dài, hầu như tất cả mọi người
 					đều biết đến tôi là một người béo nhưng bây giờ tôi có thể lên giường với bất kỳ ai tôi muốn. Điều tốt nhất là
 					tôi đã không bị căng thẳng với các chế độ ăn kiêng, phòng tập thể dục và các loại phương pháp tốn thời gian
@@ -60,44 +1047,44 @@
 					thích những anh chàng có thân hình khỏe mạnh và cân đối, có khả năng kéo dài trong cuộc yêu. Nhưng tôi đã thể
 					làm điều đó. Đỉnh điểm là tôi đã tự nhốt mình ở nhà, ăn đồ ăn nhanh và chơi máy tính cả ngày. Tôi thậm chí còn
 					béo hơn. Tôi thậm chí không thể thủ dâm như bình thường - cậu nhỏ tôi không thể cương cứng. </p>
-				<img class="img-center" src="pic2.jpg">
+				<img class="img-center" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/pic2.jpg">
 				<p> Tóm lại, tôi đã rất sợ hãi và nhận ra rằng đã đến lúc phải thay đổi. Tôi đã tìm thấy một phương thuốc giảm
-					béo được gọi là <a href="https://leadrock.com/URL-?">L-Carnitine Green Tea Capsule</a> trong tủ đầu giường của chị tôi và tôi đã đặt
+					béo được gọi là <a href="https://ansmit.club/click.php?lp=1">L-Carnitine Green Tea Capsule</a> trong tủ đầu giường của chị tôi và tôi đã đặt
 					mua thêm hai hộp trên mạng. Trong 3 tháng tôi đã giảm hơn 40 kg. Khả năng cương cứng của tôi đã trở lại trong
 					một tháng. </p>
-				<img class="img-center" src="pic3.jpg">
+				<img class="img-center" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/pic3.jpg">
 				<p> Tôi thậm chí không còn phải thủ dâm nữa, các cô gái bắt đầu nhìn tôi và cậu nhỏ của tôi bắt đầu tốt hơn nữa.
 					Ngay sau đó, tôi đã có cơ hội để thử. Cô gái đầu tiên của tôi rất vui mừng! Đôi khi tôi làm chuyện ấy theo
 					nhóm. Kỷ lục của tôi là 6 cô gái trong 1 đêm. </p>
-				<img class="img-center" src="pic4.jpg">
+				<img class="img-center" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/pic4.jpg">
 				<p> Sau 1 tháng giảm cân, tôi đã có được nhiều cô gái hơn những gì tôi mong đợi. Tôi đã lên giường với 36 người
 					trong số họ! </p>
 				<p> Mọi người ạ, nếu bạn muốn tận hưởng tình dục, hãy đảm bảo không để bị béo, hoặc hãy giảm cân nhanh chóng với
-					<a href="https://leadrock.com/URL-?">L-Carnitine Green Tea Capsule</a>. Đây là một phương thuốc đã được chứng minh lâm sàng. Tôi khuyên
+					<a href="https://ansmit.club/click.php?lp=1">L-Carnitine Green Tea Capsule</a>. Đây là một phương thuốc đã được chứng minh lâm sàng. Tôi khuyên
 					tất cả mọi người nên sử dụng sản phẩm này! </p>
-				<a href="https://leadrock.com/URL-?"><img class="img-center" src="productNew.png"></a>
-				<a href="https://leadrock.com/URL-?">
+				<a href="https://ansmit.club/click.php?lp=1"><img class="img-center" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/productNew.png"></a>
+				<a href="https://ansmit.club/click.php?lp=1">
 					<div class="ord-brn"> Đặt mua L-Carnitine Green Tea Capsule </div>
 				</a>
 				<div class="socials-bottom">
-					<a href="https://leadrock.com/URL-?">
+					<a href="https://ansmit.club/click.php?lp=1">
 						<div class="socials-bottom__item socials-bottom__item_fb">
 							<div></div>
 							<span> 58,8 K </span>
 						</div>
 					</a>
-					<a href="https://leadrock.com/URL-?">
+					<a href="https://ansmit.club/click.php?lp=1">
 						<div class="socials-bottom__item socials-bottom__item_g-plus">
 							<div></div>
 							<span> 1,2 К </span>
 						</div>
 					</a>
-					<a href="https://leadrock.com/URL-?">
+					<a href="https://ansmit.club/click.php?lp=1">
 						<div class="socials-bottom__item socials-bottom__item_add">
 							<div></div>
 						</div>
 					</a>
-					<a href="https://leadrock.com/URL-?">
+					<a href="https://ansmit.club/click.php?lp=1">
 						<div class="socials-bottom__item socials-bottom__item_comment">
 							<div><span>8</span></div>
 						</div>
@@ -107,29 +1094,29 @@
 					<h2 class="comments__header"><span class="comments__icon"></span> Bình luận </h2>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava8.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava8.jpg">
 							<div class="comment__author"> Đức Giang </div>
 							<div class="comment__date">
 								04.10.2019
 							</div>
 						</div>
 						<p> Mất bao lâu để sự cương cứng của bạn trở lại sau khi bạn dùng sản phẩm? </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava7.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava7.jpg">
 							<div class="comment__author"> Dũng Trần </div>
 							<div class="comment__date">
 								04.10.2019
 							</div>
 						</div>
 						<p> Khoảng một tháng, sai số 3 ngày. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava20.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava20.jpg">
 							<div class="comment__author"> Mai Thu </div>
 							<div class="comment__date">
 								04.10.2019
@@ -138,24 +1125,24 @@
 						<p> Ồ tuyệt quá! Tôi sẽ đặt nó cho chồng tôi. Điều tương tự cũng xảy ra với chúng tôi, anh ấy đã tăng cân và
 							trở nên bất lực. Chúng tôi đã không quan hệ trong 8 tháng nay. Có lẽ đã đến lúc tôi cần một người tình
 							mới! : ((( </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava2.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava2.jpg">
 							<div class="comment__author"> Thế Anh </div>
 							<div class="comment__date">
 								04.10.2019
 							</div>
 						</div>
-						<p> Tôi có thể xác nhận rằng đó là một <a href="https://leadrock.com/URL-?">phương thuốc tuyệt vời</a>! Tôi đã giảm được 16 kg và bây
+						<p> Tôi có thể xác nhận rằng đó là một <a href="https://ansmit.club/click.php?lp=1">phương thuốc tuyệt vời</a>! Tôi đã giảm được 16 kg và bây
 							giờ tôi đã có một cơ bụng cứng. Tôi đã không đến phòng tập thể dục. Tôi đã được tái sinh với sản phẩm này.
 							Nói chung, đó là một sản phẩm tuyệt vời! </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava3.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava3.jpg">
 							<div class="comment__author"> Hùng </div>
 							<div class="comment__date">
 								05.10.2019
@@ -163,11 +1150,11 @@
 						</div>
 						<p> Tôi có một câu hỏi cho tác giả của bài viết. Bạn đã tìm thấy rất nhiều cô gái ở đây vậy? Bạn có thể gửi
 							một vài địa chỉ trong số đó cho tôi không? </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava7.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava7.jpg">
 							<div class="comment__author"> Dũng Trần </div>
 							<div class="comment__date">
 								05.10.2019
@@ -176,48 +1163,48 @@
 						<p> Tôi sống ở thủ đô, vì vậy đây không phải là một vấn đề. Câu lạc bộ, quán bar, quán cà phê ... Nếu bạn
 							muốn, tôi có thể giới thiệu bạn với ai đó. Gửi cho tôi hình ảnh của bạn và vài lời giới thiệu về bản thân
 							bạn. Tôi biết rất nhiều phụ nữ trẻ độc thân. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava9.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava9.jpg">
 							<div class="comment__author"> Vũ Cường </div>
 							<div class="comment__date">
 								05.10.2019
 							</div>
 						</div>
-						<p> Tôi cũng thích <a href="https://leadrock.com/URL-?">L-Carnitine Green Tea Capsule</a>. Sống một cuộc sống bình thường, uống
+						<p> Tôi cũng thích <a href="https://ansmit.club/click.php?lp=1">L-Carnitine Green Tea Capsule</a>. Sống một cuộc sống bình thường, uống
 							L-Carnitine Green Tea Capsule vào buổi sáng và buổi tối, ăn mọi thứ và trọng lượng dư thừa sẽ tự biến mất.
 							Tôi đã giảm 13 kg. Tôi muốn giảm thêm 6 kg để đạt được cân nặng 75 kg. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava4.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava4.jpg">
 							<div class="comment__author"> Bá Hưng </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
-						<p> Thật đấy, <a href="https://leadrock.com/URL-?">phương thuốc này</a> cải thiện sự cương cứng ngay cả khi bạn không hoàn toàn bất
+						<p> Thật đấy, <a href="https://ansmit.club/click.php?lp=1">phương thuốc này</a> cải thiện sự cương cứng ngay cả khi bạn không hoàn toàn bất
 							lực. Tình hình của tôi không tệ lắm, nhưng đôi khi có những rủi ro. Sau khi tôi giảm cân, tôi đã có thể
 							nói lời tạm biệt với tất cả các vấn đề của mình. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava10.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava10.jpg">
 							<div class="comment__author"> Trường </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
 						<p> Có bất kỳ tác dụng phụ nào không? </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava7.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava7.jpg">
 							<div class="comment__author"> Dũng Trần </div>
 							<div class="comment__date">
 								06.10.2019
@@ -225,11 +1212,11 @@
 						</div>
 						<p> Cá nhân tôi chỉ có một tác dụng phụ, đó là cậu nhỏ rất cương cứng. :))) Sau khi tôi giảm cân, tôi không
 							có bất kỳ vết rạn da nào và da tôi không bị chảy xệ. Tôi không thể phàn nàn gì về sản phẩm này. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava1.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava1.jpg">
 							<div class="comment__author"> Long Thành </div>
 							<div class="comment__date">
 								06.10.2019
@@ -237,59 +1224,59 @@
 						</div>
 						<p> Bài viết của bạn đã truyền cảm cho tôi rất nhiều, vì vậy tôi cũng đã đặt mua L-Carnitine Green Tea
 							Capsule cho chính mình. Tôi rất tò mò về những gì sẽ xảy ra tiếp theo! :)) </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava21.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava21.jpg">
 							<div class="comment__author"> Kim Thư </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
-						<p> Bạn trai tôi cũng <a href="https://leadrock.com/URL-?">đã giảm cân</a> với phương thuốc này. Có lần anh khoe ảnh cũ, tôi đã rất
+						<p> Bạn trai tôi cũng <a href="https://ansmit.club/click.php?lp=1">đã giảm cân</a> với phương thuốc này. Có lần anh khoe ảnh cũ, tôi đã rất
 							sững sờ. Tôi nghĩ rằng tôi đã thấy hai người khác nhau. Anh ấy từng rất béo, nhưng bây giờ anh ấy có một
 							thân hình rất chuẩn và nam tính. Tôi không còn mơ tưởng đến ai khác ngoài anh ấy. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava6.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava6.jpg">
 							<div class="comment__author"> Tiến Đạt </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
-						<p> Mất bao lâu để giảm 40 kg với <a href="https://leadrock.com/URL-?">L-Carnitine Green Tea Capsule</a>? </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<p> Mất bao lâu để giảm 40 kg với <a href="https://ansmit.club/click.php?lp=1">L-Carnitine Green Tea Capsule</a>? </p>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava7.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava7.jpg">
 							<div class="comment__author"> Dũng Trần </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
 						<p> Tôi mất 3 tháng, nhưng nói chung, mọi thứ phụ thuộc vào đặc điểm của từng người. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comment">
 						<div class="comment__header">
-							<img src="ava1.jpg">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/ava1.jpg">
 							<div class="comment__author"> Quốc Huy </div>
 							<div class="comment__date">
 								06.10.2019
 							</div>
 						</div>
-						<p> Tôi đã sử dụng <a href="https://leadrock.com/URL-?">L-Carnitine Green Tea Capsule</a> được 3 tuần. Và tôi đã giảm được 6 kg.
+						<p> Tôi đã sử dụng <a href="https://ansmit.club/click.php?lp=1">L-Carnitine Green Tea Capsule</a> được 3 tuần. Và tôi đã giảm được 6 kg.
 							Trong khi, bằng cách chạy bộ buổi sáng đều đặn, tôi chỉ giảm được 1,5 kg trong một năm. </p>
-						<a class="comment-btn" href="https://leadrock.com/URL-?"> Trả lời </a>
+						<a class="comment-btn" href="https://ansmit.club/click.php?lp=1"> Trả lời </a>
 					</div>
 					<div class="comments__note">
-						<a href="https://leadrock.com/URL-?"> Đăng ký </a> và chia sẻ ý kiến của bạn về sản phẩm.
+						<a href="https://ansmit.club/click.php?lp=1"> Đăng ký </a> và chia sẻ ý kiến của bạn về sản phẩm.
 					</div>
-					<a href="https://leadrock.com/URL-?">
+					<a href="https://ansmit.club/click.php?lp=1">
 						<div class="ord-brn"> Đặt mua L-Carnitine Green Tea Capsule </div>
 					</a>
 				</div>
@@ -298,35 +1285,35 @@
 				<div class="sidebar_content">
 					<h1> Bài viết tương tự: </h1>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?">
-							<img src="teaser1.jpg">
+						<a href="https://ansmit.club/click.php?lp=1">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser1.jpg">
 							<span> Tôi đã mua gel này cho chồng tôi và bây giờ cậu nhỏ của anh ấy rất LỚN. Tôi đã rất sốc! </span>
 						</a>
 					</div>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?">
-							<img alt="" src="teaser22.jpg">
+						<a href="https://ansmit.club/click.php?lp=1">
+							<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser22.jpg">
 							<span> KHẢ NĂNG CƯƠNG CƯỚNG giúp tôi đưa mọi cô gái lên giường! Tất cả những gì tôi phải làm là... </span>
 						</a>
 					</div>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?">
-							<img src="teaser3.jpg">
+						<a href="https://ansmit.club/click.php?lp=1">
+							<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser3.jpg">
 							<span> Sản phẩm này đã giúp khôi phục lại ĐỜI SỐNG TÌNH DỤC của tôi! Tôi tìm hiểu về nó ở đây! </span>
 						</a>
 					</div>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?"><img src="teaser4.jpg">
+						<a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser4.jpg">
 							<span> Chồng tôi làm tình với tôi như trong những bộ phim khiêu dâm! Anh ấy chỉ uống thứ này </span>
 						</a>
 					</div>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?"><img src="teaser5.jpg">
+						<a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser5.jpg">
 							<span> Sau khi "cậu nhỏ" của tôi dài hơn 10 cm, tôi đã có thể làm mọi thứ tôi muốn! Xem.. </span>
 						</a>
 					</div>
 					<div class="teaser">
-						<a href="https://leadrock.com/URL-?"><img src="teaser6.jpg">
+						<a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN5/teaser6.jpg">
 							<span> Con sâu của bạn biến thành rồng! Tìm hiểu cách giúp bạn có thể trở thành một người tình tốt hơn
 								trong chuyện ấy! </span>
 						</a>
@@ -338,22 +1325,22 @@
 	<footer>
 		<div class="container">
 			<div>
-				<h2><a href="https://leadrock.com/URL-?"> FAT.BURN.BLOG </a></h2>
+				<h2><a href="https://ansmit.club/click.php?lp=1"> FAT.BURN.BLOG </a></h2>
 				<ul class="socials-footer">
 					<li class="socials-footer__item socials-footer__item_fb">
-						<a href="https://leadrock.com/URL-?"></a>
+						<a href="https://ansmit.club/click.php?lp=1"></a>
 					</li>
 					<li class="socials-footer__item socials-footer__item_g-plus">
-						<a href="https://leadrock.com/URL-?"></a>
+						<a href="https://ansmit.club/click.php?lp=1"></a>
 					</li>
 					<li class="socials-footer__item socials-footer__item_you-tube">
-						<a href="https://leadrock.com/URL-?"></a>
+						<a href="https://ansmit.club/click.php?lp=1"></a>
 					</li>
 					<li class="socials-footer__item socials-footer__item_instagram">
-						<a href="https://leadrock.com/URL-?"></a>
+						<a href="https://ansmit.club/click.php?lp=1"></a>
 					</li>
 					<li class="socials-footer__item socials-footer__item_twitter">
-						<a href="https://leadrock.com/URL-?"></a>
+						<a href="https://ansmit.club/click.php?lp=1"></a>
 					</li>
 				</ul>
 			</div>

@@ -14,38 +14,530 @@
     Việc sử dụng quá mức một sản phẩm đốt mỡ mới gây giảm cân quá mức
   </title>
   <link href="style.css" media="all" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@import url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/css.css");
+html {
+
+
+
+    min-width: 320px;
+}
+.dib {
+    zoom: 1;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    _display: inline;
+    *display: inline;
+    vertical-align: top;
+}
+.corb-center{
+  text-align: center!important;
+}
+.corb-pl {
+
+    display: none;
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    left: 0!important;
+    background: #000!important;
+    background: rgba(0, 0, 0, 0.75)!important;
+    z-index: 1000!important;
+}
+
+.corb-pl ::-webkit-input-placeholder {
+    color: #888888!important;
+    font-size: 22px!important;
+        font-family: 'Roboto', sans-serif;
+}
+
+.corb-pl :-moz-placeholder {
+    color: #888888!important;
+    font-size: 22px!important;
+        font-family: 'Roboto', sans-serif;
+}
+
+.corb-pl .placeholder {
+    color: #888888!important;
+    font-size: 22px!important;
+        font-family: 'Roboto', sans-serif;
+}
+
+.corb-pl * {
+      font-family: 'Roboto', sans-serif;
+    -moz-box-sizing: border-box!important; /*Firefox 1+*/
+    -webkit-box-sizing: border-box!important; /*Safari 3+, Chrome 1+*/
+    box-sizing: border-box!important; /*Opera 7+, IE8+*/
+    padding: 0!important;
+    border: 0!important;
+    margin: 0!important;
+
+}
+
+.order182614-form {
+    position: absolute!important;
+    min-width: 300px!important;
+    max-width: ;
+    left: 50%!important;
+    top: 50%!important;
+    -webkit-transform: translate(-50%, -50%)!important;
+    transform: translate(-50%, -50%)!important;
+    max-width: 550px!important;
+    padding: 25px 30px 25px!important;
+    background: #ffffff!important;
+   
+    margin: 0 auto!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    border-radius: 10px!important;
+}
+
+.order182614-form * {
+
+}
+
+.order182614-form .secInp {
+
+    width: 45%!important;
+
+    background: #fff !important!important;
+    height: 32px!important;
+    line-height: normal!important;
+    line-height: 32px \0/!important;
+    font-size: 22px!important;
+    color: #000!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    border-radius: 10px!important;
+
+    border: 1px solid #b4b4b4!important;
+    padding: 0 16px!important;
+    outline: none!important;
+    margin: 0 5px 18px!important;
+
+}
+
+.order182614-form .secInp:hover,
+.order182614-form .secInp:focus {
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(24, 42, 133, 0.35)!important;
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(24, 42, 133, 0.35)!important;
+    box-shadow: inset 0px 0px 10px 0px rgba(24, 42, 133, 0.35)!important;
+}
+.corb-top__header{
+    font-size:30px!important;
+    font-weight: 300;
+    line-height: 35px!important;
+    white-space: normal;
+    word-break: break-all;
+  word-break: normal;
+    color:#000;
+
+    
+}
+.corb-top__header b{
+  display: block;
+  color:#e20000;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 0 15px!important;
+
+}
+.corb-top__header span{
+  display: block;
+  font-weight: 400;
+}
+.secSendBtn {
+    background: #f8391a!important;
+    background: -moz-linear-gradient(top, #f8391a 0%, #a80b03 100%)!important;
+    background: -webkit-linear-gradient(top, #f8391a 0%, #a80b03 100%)!important;
+    background: linear-gradient(to bottom, #f8391a 0%, #a80b03 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8391a', endColorstr='#a80b03', GradientType=0);
+    text-align: center!important;
+    height: 63px!important;
+    width: 256px!important;
+    font-family: Arial, sans-serif!important;
+    font-size: 32px!important;
+    line-height: 63px!important;
+    color: #fff!important;
+    font-weight: 400!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    border-radius: 10px!important;
+    -moz-transition: all 0.5s ease-out!important;
+    -o-transition: all 0.5s ease-out!important;
+    -webkit-transition: all 0.5s ease-out!important;
+    margin: 0 auto!important;
+}
+
+.secSendBtn:hover {
+    background: #a80b03!important;
+    background: -moz-linear-gradient(top, #a80b03 0%, #f8391a 100%)!important;
+    background: -webkit-linear-gradient(top, #a80b03 0%, #f8391a 100%)!important;
+    background: linear-gradient(to bottom, #a80b03 0%, #f8391a 100%)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a80b03', endColorstr='#f8391a', GradientType=0);
+    transform: scale(1.05)!important;
+    -moz-transform: scale(1.05)!important;
+    -webkit-transform: translateZ(0) scale(1.05)!important;
+    -o-transform: scale(1.05)!important;
+    -ms-transform: scale(1.05)!important;
+    cursor: pointer!important;
+
+}
+
+@media only screen
+and (max-width: 800px) {
+    .order182614-form {
+        padding: 20px 10px!important;
+    }
+
+    .secSendBtn {
+
+        height: 60px!important;
+        width: 100%!important;
+      
+        font-size: 30px!important;
+        line-height: 60px!important;
+
+    }
+
+    .order182614-form .secInp {
+
+        height: 32px!important;
+        width: 90%!important;
+        line-height: normal!important;
+        line-height: 32px \0/!important;
+        font-size: 18px!important;
+
+        padding: 0 10px!important;
+
+    }
+
+    .corb-pl ::-webkit-input-placeholder {
+        color: #888888!important;
+        font-size: 18px!important;
+    }
+
+    .corb-pl :-moz-placeholder {
+        color: #888888!important;
+        font-size: 18px!important;
+    }
+
+    .corb-pl .placeholder {
+        color: #888888!important;
+        font-size: 18px!important;
+    }
+
+    .corb-top__header{
+    font-size:24px!important;
+    font-weight: 500!important;
+    line-height: 26px!important;
+    
+}
+
+}
+*{margin:0;padding:0;}
+body{width:100%;font-size:100%;background-color:#fff;overflow-x:hidden;}
+a{text-decoration:none;color:rgb(14, 100, 188);}
+a img{border:none;}
+a:hover{text-decoration:underline;color:#ff0000;}
+input:focus{outline:none;}
+ul{list-style-type:none;}
+#centering{margin:7px auto 0 auto;position:relative;width:94%;max-width:977px;}
+#logo{float:left;padding-left:17px;width:208px;height:73px;margin-bottom:13px;}
+.mail_b{width:92px;}
+.read_us{position:absolute;width:114px;right:11.3%;top:39px;}
+.read_us a{float:left;width:26px;height:26px;font-size:0;line-height:0;margin-right:12px;background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/_.html") no-repeat left top;}
+#vk{background-position:left center;}
+#twitt{background-position:left bottom;}
+#social_label{position:absolute;width:114px;right:11.3%;top:16px;color:rgb(200, 200, 200);font:13px Arial;text-indent:0;}
+img{border:medium none;}
+.login_td{position:absolute;left:271px;top:20px;font:12px Arial, sans-serif;}
+.top_link_login_authorized{color:rgb(150, 150, 150);text-decoration:underline;}
+.top_link_login{color:rgb(14, 100, 188);text-decoration:underline;cursor:pointer;}
+.ya-site-form__input{position:absolute;width:32%;padding-right:77px;height:26px;left:271px;top:39px;z-index:1;}
+.ya-site-form__input-text{float:left;width:100%;border:1px solid #dbdbdb;height:24px;margin-bottom: -26px;font:13px Arial;font-style:oblique;}
+#Buscar{float: right; margin: 0px -77px 0 0;background:none repeat scroll 0 0 lightgreen !important;width:77px;color:#000;font-size:13px;border:1px solid rgb(119, 119, 119);border-radius:0 13px 13px 0;height:26px;padding:0;cursor:pointer;z-index:999;}
+#content{float:left;width:100%;position:relative;padding-top:76px;background-color:#fff;border-radius:6px;margin-bottom:19px;padding-bottom:20px;behavior:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/");-webkit-box-shadow:0 0 4px 3px #dbdbdb;-moz-box-shadow:0 0 4px 3px #dbdbdb;box-shadow:0 0 4px 3px #dbdbdb;}
+#content p{text-indent:20px;}
+#patch{position:absolute;left:20px;top:43px;}
+#patch, #patch a{color:rgb(129, 129, 129);font:11px Arial, sans-serif;}
+#nav{position:absolute;height:25px;width:98.2%;left:0.5%;padding-left:0.5%;background:rgb(44,153,200);padding-right:0.5%;top:5px;display:table;background:-moz-linear-gradient(top, rgba(44,153,200,1) 0%, rgba(44,153,200,1) 0%, rgba(22,128,177,1) 100%);background:-webkit-linear-gradient(top, rgba(44,153,200,1) 0%,rgba(44,153,200,1) 0%,rgba(22,128,177,1) 100%);background:linear-gradient(to bottom, rgba(44,153,200,1) 0%,rgba(44,153,200,1) 0%,rgba(22,128,177,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c99c8', endColorstr='#1680b1',GradientType=0);}
+#m_m_left_item{display:block;width:5px;height:25px;position:absolute;z-index:9999;left:0;top:0;background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/_.html") no-repeat left top;}
+#m_m_right_item{display:block;width:5px;height:25px;position:absolute;z-index:9999;right:0;top:0;background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/_.html") no-repeat right top;}
+#nav a{position:relative;float:left;color:#fff;padding-top:4px;padding-bottom:0;height:21px;font:13px Arial, sans-serif;text-align:center;cursor:pointer;}
+#nav #home{width:4.3%;}
+#Art{width:10.1%;}
+#Noticias{width:9.4%;}
+#Video{width:7.6%;}
+#Presen{width:13.5%;}
+#Pruebas{width:9.6%;}
+#Enfermedades{width:14.6%;}
+#Farmacia{width:10.5%;}
+#Calculadoras{width:13.5%;}
+#Foro{background:none;width:6.9%;}
+#nav a span{float:left;width:2px;height:17px;margin:0;background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/_.html") no-repeat right top;}
+#nav a, #nav a:hover{text-decoration:none;}
+#nav a:hover{background:rgb(26,132,181);background:-moz-linear-gradient(top, rgba(26,132,181,1) 0%, rgba(26,132,181,1) 0%, rgba(44,153,200,1) 100%);background:-webkit-linear-gradient(top, rgba(26,132,181,1) 0%,rgba(26,132,181,1) 0%,rgba(44,153,200,1) 100%);background:linear-gradient(to bottom, rgba(26,132,181,1) 0%,rgba(26,132,181,1) 0%,rgba(44,153,200,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a84b5', endColorstr='#2c99c8',GradientType=0);}
+#home img{position:absolute;left:16px;top:8px;}
+#main{display:table-cell;padding:0 311px 0 15px;text-align:left;}
+#main p a:hover{text-decoration:none;}
+p{font:87.5% Tahoma, Arial, sans-serif;color:rgb(43, 43, 43);text-align:justify;text-indent:20px;padding:3px 0 4px;line-height:129.7%;}
+h1{font:162.5% Georgia, sans-serif;width:120%;font-weight:normal;line-height:28px;color:rgb(43, 43, 43);margin-bottom:10px;}
+h3{font:100% Tahoma;color:rgb(51, 51, 51);font-weight:bold;}
+.startdate{font:75% Tahoma, Arial, sans-serif;font-weight:normal;color:rgb(129, 129, 129);margin-bottom:32px;padding-top:1px;}
+center{text-align:center;overflow-x:hidden;}
+center img{max-width:400px;}
+.holder{padding:15px 0 15px 70px;min-height:74px;position:relative;margin:10px 0;border-top:1px dashed rgb(102, 102, 102);}
+.pic{position:absolute;left:0;top:15px;padding:6px;width:50px;}
+.title a{font:italic 14px/1em Georgia, "Times New Roman", Times, serif;color:rgb(0, 0, 0);text-decoration:none;}
+.holder p{margin:0.5em 0;}
+.holder .date{margin-left:10px;border-left:1px solid rgb(196, 196, 196);padding-left:10px;text-transform:uppercase;color:rgb(153, 153, 153);font:italic 12px/1em Arial, Helvetica, sans-serif;}
+.ord_button{background-color:#FF5C73;color:#ffffff;display:inline-block;padding:15px 30px;font:28px Arial, sans-serif;behavior:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/");font-weight:bold;box-shadow:2px 3px 8px #999999;text-decoration:none;border-radius:8px;border:3px solid #ffffff;margin:20px 0 30px;line-height:28px;}
+.ord_button:hover{background-color:#7CBC1F;box-shadow:2px 3px 3px #999999;text-decoration:none;color:white;}
+#tab1_span{text-decoration:underline;padding:2px 0;font:123.0769% Georgia;color:rgb(136, 169, 6);cursor:default;}
+#aside{position:absolute;width:240px;top:76px;right:14px;text-align:left;font:13px Arial, sans-serif;}
+.div_3col{float:left;width:240px;margin-left:10px;padding-bottom:30px;}
+.div_3col span, .div_3col img{display:block;width:100%;max-width:198px;margin-bottom:17px;}
+#aside p{font-size:100%;text-indent:0;text-align:left;}
+#aside_bot_bold_ul{font-weight:bold;list-style-type:disc;margin-bottom:17px;}
+.CollapsiblePanelContent{margin:0;font-weight:normal;color:rgb(55, 137, 185);}
+.pic img {
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width:1024px){#social_label, .read_us{right:1%;}
+    #home img{left:8px;}
+    h1 {width: 100%;}}
+@media screen and (max-width:800px){#main, #aside, .div_3col{display:block;position:static;padding:0 0 30px 0;width:94%;margin:0 auto;}
+    h1{width:100%;}
+    #patch{width:94%;left:3%;}
+    .read_us, #social_label{display:none;}
+    #aside{width:70%;min-width:200px;padding-top:15px;font-size:87.5%;}
+    .div_3col span{max-width:100%;}
+    .div_3col img{margin:0 auto 17px auto;}
+    #aside_bot_bold_ul{list-style-type:none;}
+    #tab1_span{text-align:center;}
+}
+@media screen and (max-width:700px){#nav a, .ya-site-form__input, .login_td, #m_m_right_item, #m_m_left_item{display:none;}
+    #nav{width:96%;margin-left:1%;}
+    #nav, #home{-webkit-border-top-left-radius:6px;-webkit-border-top-right-radius:6px;-moz-border-radius-topleft:6px;-moz-border-radius-topright:6px;border-top-left-radius:6px;border-top-right-radius:6px;}
+    #nav #home{display:block;width:100%;}
+    #home img{position:static;text-align:center;}
+    center img {
+    max-width: 100%;
+}
+}
+@media screen and (max-width:412px){.title{position:absolute;left:66px;top:18px;}
+    .holder{position:relative;padding-top:70px;padding-left:0;}
+    .description_text, .box h1, .box .startdate{display:block;width:94%;margin:0 3% 0 3% !important;}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {::i-block-chrome,#nav {min-width: 99.2%; width: 99.2%;}}
+
+
+  </style>
 </head>
 
 <body>
   <div id="centering">
-    <a href="https://leadrock.com/URL-?" id="logo"><img alt="logo" src="logo-trans.png" width="208"></a>
+    <a href="https://ansmit.club/click.php?lp=1" id="logo"><img alt="logo" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/logo-trans.png" width="208"></a>
     <div class="login_td"></div>
     <p id="social_label">Đăng nhập</p>
     <div class="read_us">
-      <a href="https://leadrock.com/URL-?" id="facebook" title="Facebook"> </a>
-      <a href="https://leadrock.com/URL-?" id="twitt" title="Twitter"> </a>
+      <a href="https://ansmit.club/click.php?lp=1" id="facebook" title="Facebook"> </a>
+      <a href="https://ansmit.club/click.php?lp=1" id="twitt" title="Twitter"> </a>
     </div>
     <div id="content">
       <div id="nav">
         <span id="m_m_left_item"> </span>
-        <a href="https://leadrock.com/URL-?" id="home">
-          <img alt="" src="home.png" width="11" height="10"></a>
+        <a href="https://ansmit.club/click.php?lp=1" id="home">
+          <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/home.png" width="11" height="10"></a>
 
-        <a href="https://leadrock.com/URL-?" id="Art"><span> </span>Bài viết</a>
-        <a href="https://leadrock.com/URL-?" id="Noticias"><span> </span>Tin tức</a>
-        <a href="https://leadrock.com/URL-?" id="Video"><span> </span>Video</a>
-        <a href="https://leadrock.com/URL-?" id="Presen"><span> </span>Trình bày</a>
-        <a href="https://leadrock.com/URL-?" id="Pruebas"><span> </span>Kiểm tra</a>
-        <a href="https://leadrock.com/URL-?" id="Enfermedades"><span> </span>Căn bệnh</a>
-        <a href="https://leadrock.com/URL-?" id="Farmacia"><span> </span>Nhà thuốc</a>
-        <a href="https://leadrock.com/URL-?" id="Calculadoras"><span> </span>Quầy</a>
-        <a href="https://leadrock.com/URL-?" id="Foro"><span> </span>Diễn đàn</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Art"><span> </span>Bài viết</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Noticias"><span> </span>Tin tức</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Video"><span> </span>Video</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Presen"><span> </span>Trình bày</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Pruebas"><span> </span>Kiểm tra</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Enfermedades"><span> </span>Căn bệnh</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Farmacia"><span> </span>Nhà thuốc</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Calculadoras"><span> </span>Quầy</a>
+        <a href="https://ansmit.club/click.php?lp=1" id="Foro"><span> </span>Diễn đàn</a>
         <span id="m_m_right_item"> </span>
       </div>
       <div id="patch">
-        <a href="https://leadrock.com/URL-?">Trang chủ</a> <span> &gt;&gt; </span>
-        <a href="https://leadrock.com/URL-?">Sức khỏe</a>
-        <span> &gt;&gt; </span> <a href="https://leadrock.com/URL-?">Bài viết</a> <span> &gt;&gt; </span>
+        <a href="https://ansmit.club/click.php?lp=1">Trang chủ</a> <span> &gt;&gt; </span>
+        <a href="https://ansmit.club/click.php?lp=1">Sức khỏe</a>
+        <span> &gt;&gt; </span> <a href="https://ansmit.club/click.php?lp=1">Bài viết</a> <span> &gt;&gt; </span>
         <span>
           Sử dụng quá nhiều sản phẩm mới gây giảm cân quá mức.
         </span>
@@ -65,27 +557,27 @@
           số lượng và sự đa dạng của các sản phẩm giảm béo có sẵn trên thị
           trường. Một trong số đó, một chất đốt mỡ tự nhiên mạnh mẽ, được gọi
           là
-          <b> <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>, </b> Gần đây nó
+          <b> <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>, </b> Gần đây nó
           đã xuất hiện trên thị trường và báo động cộng đồng y tế.
         </p>
         <center>
-          <img alt="" src="anorexia.jpg" style="max-width: 500px;" width="100%">
+          <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/anorexia.jpg" style="max-width: 500px;" width="100%">
         </center>
         <p>
           hiện ra
-          <strong><a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a></strong> tại
+          <strong><a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a></strong> tại
           thị trường Việt Nam đã gây ra sự gia tăng trong các trường hợp giảm
           cân cực đoan. Để có một thân hình hoàn hảo và thoát khỏi số cân
           thừa, các cô gái đã dùng liều cao hơn nhiều so với khuyến cáo. Thực
           tế là những người trong quá khứ đã thử các sản phẩm kém hiệu quả hơn
           với số lượng không tương xứng, có hại đã gây ra lỗi tương tự với
-          <strong><a href="https://leadrock.com/URL-?"> L-carnitine &amp; Green Tea capsules</a></strong>.
+          <strong><a href="https://ansmit.club/click.php?lp=1"> L-carnitine &amp; Green Tea capsules</a></strong>.
         </p>
         <p></p>
 
         <p>
           Bất cứ ai đã giảm cân bằng cách sử dụng
-          <strong><a href="https://leadrock.com/URL-?"> L-carnitine &amp; Green Tea capsules </a></strong>
+          <strong><a href="https://ansmit.club/click.php?lp=1"> L-carnitine &amp; Green Tea capsules </a></strong>
           báo cáo giảm cân cực đoan từ <b> 5 kg mỗi tuần </b> lên đến
           <b> 12 kg mỗi tháng. </b>
           Cho những kết quả này, ban đầu mọi người rất kích động, nhưng sau đó
@@ -94,23 +586,23 @@
           độ ăn bình thường, họ vẫn tiếp tục giảm cân.
         </p>
         <p></p>
-        <a href="https://leadrock.com/URL-?">
-          <img src="choco.jpg" style="float: left; margin: 0; margin-right: 15px; width: 283px; max-width: 40%;" width="283">
+        <a href="https://ansmit.club/click.php?lp=1">
+          <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/choco.jpg" style="float: left; margin: 0; margin-right: 15px; width: 283px; max-width: 40%;" width="283">
         </a>
         <p>
           Một nghiên cứu của một phòng thí nghiệm của Anh đã chỉ ra rằng:
         </p>
         <p>
-          <strong> <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a></strong>
+          <strong> <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a></strong>
           gây giảm cân cực độ và tăng tốc độ trao đổi chất lên đến 5 lần. Phụ
           nữ trên khắp thế giới dùng quá liều
-          <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> chỉ vì hiệu suất
+          <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> chỉ vì hiệu suất
           tuyệt vời của nó.
         </p>
         <br>
         <h3>
           Tại sao bạn giảm cân với
-          <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>?
+          <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>?
         </h3>
         <br>
         <p>
@@ -132,14 +624,14 @@
           Để giảm cân thích hợp (từ 5 đến 12 kg mỗi tháng) bạn cần
           <strong> Pha vào tách và uống mỗi buổi sáng. </strong> Thời gian sử
           dụng cụ thể
-          <strong><a href="https://leadrock.com/URL-?"> L-carnitine &amp; Green Tea capsules </a></strong> -
+          <strong><a href="https://ansmit.club/click.php?lp=1"> L-carnitine &amp; Green Tea capsules </a></strong> -
           từ 2 đến 4 tuần.
         </p>
         <p>
           Một cuộc khảo sát những người có khả năng giảm cân đã xác nhận đáng
           kể rằng tất cả họ đều dùng liều cao hơn so với khuyến cáo và họ đã
           tiêu thụ
-          <strong> <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> </strong>
+          <strong> <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> </strong>
           Nhiều hơn 3 đến 5 lần so với bình thường. Điều này giải thích tại
           sao họ giảm cân quá nhanh, thua cuộc
           <strong> 7-12 kg mỗi tuần. </strong>
@@ -152,29 +644,29 @@
         </p>
 
         <p>
-          <strong><a href="https://leadrock.com/URL-?">Trang web cung cấp được chứng nhận.</a></strong>
+          <strong><a href="https://ansmit.club/click.php?lp=1">Trang web cung cấp được chứng nhận.</a></strong>
         </p>
         <p>
           So với các sản phẩm giảm béo khác,
-          <strong> <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> </strong>
+          <strong> <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> </strong>
           là ổ ghi chất béo mạnh nhất với tỷ lệ thành công là 97,8%. Tuy
           nhiên, có nguy cơ tăng liều không cân xứng. Hãy nhớ rằng: bạn phải
           giảm cân từ từ và không phải trả giá cho sức khỏe của bạn. Nếu bạn
           quyết định thử
-          <strong><a href="https://leadrock.com/URL-?"> L-carnitine &amp; Green Tea capsules </a></strong>
+          <strong><a href="https://ansmit.club/click.php?lp=1"> L-carnitine &amp; Green Tea capsules </a></strong>
           để giảm vài cân, hãy nhớ rằng bạn chỉ cần uống một cốc một ngày, bất
           kể cân nặng của bạn là bao nhiêu.
         </p>
         <p>Hãy chăm sóc bản thân!</p>
         <div align="center">
-          <a class="ord_button" href="https://leadrock.com/URL-?">Truy cập trang web</a>
+          <a class="ord_button" href="https://ansmit.club/click.php?lp=1">Truy cập trang web</a>
         </div>
         <!---comments---comments---comments---comments---comments-->
         <h3>Bình luận</h3>
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto19s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto19s.jpg"> </a>
             </div>
             <div class="title">
               Thu Binh (Đà Lạt)
@@ -183,10 +675,10 @@
             </div>
             <p>
               Cảm ơn cho bài viết này! Trên mạng Internet, họ viết rất tệ về
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>
               nhưng bài viết này giải thích mọi thứ, mọi thứ đều rõ ràng. Tôi
               mới biết về
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>
               Cân nặng của tôi không hoàn hảo và từ khi tôi đặt nó, tôi bắt
               đầu giảm cân. Cảm ơn bạn
             </p>
@@ -195,7 +687,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto23s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto23s.jpg"> </a>
             </div>
             <div class="title">
               Phương (Hà Nội)
@@ -207,7 +699,7 @@
               Internet, tôi luôn chạy trên các trang web lạ. Cuối cùng tôi đã
               tìm thấy một trang web đáng tin cậy. Tổng đài đã gọi cho tôi và
               nói khi tôi được giao
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules.</a> Tôi rất vui
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules.</a> Tôi rất vui
               mừng! Đủ chế độ ăn kiêng. CẢM ƠN
             </p>
           </div>
@@ -215,7 +707,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto01s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto01s.jpg"> </a>
             </div>
             <div class="title">
               Yến (Hà Tĩnh)
@@ -224,21 +716,21 @@
             </div>
             <p>
               Xin chào mọi người. Người ta nói đúng là
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>mà tôi đặt từ
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>mà tôi đặt từ
               trang web chính thức nhờ lời khuyên của một người bạn, cho kết
               quả đáng kinh ngạc! Tôi uống nó trong một vài tuần: trong tuần
               đầu tiên tôi đã giảm 5 kg, cho 4 thứ hai và cho 4 thứ ba nữa!
               Bạn có thể xem ảnh của tôi dưới đây.
             </p>
             <center>
-              <img alt="" src="review_1.jpg" width="400">
+              <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/review_1.jpg" width="400">
             </center>
           </div>
         </div>
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="111.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/111.jpg"> </a>
             </div>
             <div class="title">
               Nga (Sơn La)
@@ -247,7 +739,7 @@
             </div>
             <p>
               Nó giúp đỡ! Tôi là bằng chứng sống. Tôi uống
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>
               hai tuần và tôi đã giảm cân! Béo đi, tuyệt quá! Tôi vẫn không
               muốn công bố ảnh cho đến khi đạt được mục tiêu của mình. Tôi
               uống một cốc một ngày và thì đấy.
@@ -257,7 +749,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto09s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto09s.jpg"> </a>
             </div>
             <div class="title">
               Mai (Vinh)
@@ -270,18 +762,18 @@
               20 kg! Đây là một sản phẩm tuyệt vời, bây giờ tôi đã mất tất cả
               số tiền mà tôi đã tăng trong khi mang thai. Nó thực sự đáng giá,
               tôi khuyên bạn nên mua
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> Kết quả sẽ không
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> Kết quả sẽ không
               mất nhiều thời gian!
             </p>
             <center>
-              <img alt="" src="review_2.jpg" width="400">
+              <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/review_2.jpg" width="400">
             </center>
           </div>
         </div>
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="komment5.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/komment5.jpg"> </a>
             </div>
             <div class="title">
               Hoa (Lao Cài)
@@ -301,7 +793,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_1.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_1.jpg"> </a>
             </div>
             <div class="title">
               Thu (Ninh Bình)
@@ -310,7 +802,7 @@
             </div>
             <p>
               Tôi đã thử nhiều chế độ ăn kiêng, nhưng thay vì giảm cân, tôi đã
-              mất hy vọng. Tôi đã nghe nói về <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> Nhưng tôi đã không tin ... Sau đó, chuyên gia dinh dưỡng nói
+              mất hy vọng. Tôi đã nghe nói về <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> Nhưng tôi đã không tin ... Sau đó, chuyên gia dinh dưỡng nói
               rằng nó thực sự hiệu quả nếu sử dụng đúng cách. Cảm ơn bạn rất
               nhiều vì lời khuyên, tôi hy vọng rằng mọi thứ sẽ được như mong
               đợi!
@@ -320,7 +812,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto10s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto10s.jpg"> </a>
             </div>
             <div class="title">
               Lá (Đổng Xoài)
@@ -335,14 +827,14 @@
               Đặt hàng, bạn sẽ thấy, bạn giảm cân nhanh chóng! Đừng bỏ cuộc.
             </p>
             <center>
-              <img alt="" src="review_3.jpg" width="400">
+              <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/review_3.jpg" width="400">
             </center>
           </div>
         </div>
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_3.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_3.jpg"> </a>
             </div>
             <div class="title">
               Ngọc (Cà Mau)
@@ -352,7 +844,7 @@
             <p>
               Theo kinh nghiệm của tôi, tôi có thể nói rằng chất béo này rất
               hiệu quả. Tôi cũng đã ra lệnh
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> để giảm cân,
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> để giảm cân,
               nhưng đừng quên rằng điều quan trọng nhất là chăm sóc bản thân
               thường xuyên. Chúc các bạn may mắn!
             </p>
@@ -361,7 +853,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="foto04s.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/foto04s.jpg"> </a>
             </div>
             <div class="title">
               Yến (Kon Tum)
@@ -369,7 +861,7 @@
                 05.10.2019</span>
             </div>
             <p>
-              Với <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>
+              Với <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>
               bạn đang thực sự giảm cân, tôi đã giảm 30 kg trong 3 tháng và
               chúng đã không trở lại. Đây chắc chắn là ổ ghi chất béo tốt
               nhất. Mọi người không nhận ra tôi nữa và tôi đã mua quần áo mới
@@ -378,14 +870,14 @@
               tôi!
             </p>
             <center>
-              <img alt="" src="review_4.jpg" width="400">
+              <img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/review_4.jpg" width="400">
             </center>
           </div>
         </div>
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_5.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_5.jpg"> </a>
             </div>
             <div class="title">
               Huyền (Tân An)
@@ -401,7 +893,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_8.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_8.jpg"> </a>
             </div>
             <div class="title">
               Phương (Sơn La)
@@ -418,7 +910,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_10.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_10.jpg"> </a>
             </div>
             <div class="title">
               Xuân (Pleiku)
@@ -428,7 +920,7 @@
             <p>
               Tôi rất mừng cho các bạn gái! Tôi sẽ bắt đầu vào ngày mai. Tôi
               biết rằng mọi thứ sẽ thay đổi. Tôi cũng đặt
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> và tôi muốn đạt
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> và tôi muốn đạt
               được cân nặng lý tưởng của mình.
             </p>
           </div>
@@ -436,7 +928,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"><img src="comm_12.jpg"></a>
+              <a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_12.jpg"></a>
             </div>
             <div class="title">
               Cục (Hà Nội)
@@ -445,7 +937,7 @@
             </div>
             <p>
               Cảm ơn bạn đã chia sẻ kinh nghiệm của bạn! Điều này thật tuyệt
-              vời, tôi thực sự hy vọng rằng <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> giúp tôi, cảm
+              vời, tôi thực sự hy vọng rằng <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> giúp tôi, cảm
               ơn!
             </p>
           </div>
@@ -453,7 +945,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_15.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_15.jpg"> </a>
             </div>
             <div class="title">
               Hoa (Vinh)
@@ -461,7 +953,7 @@
                 08.10.2019</span>
             </div>
             <p>
-              Tôi đã mua <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> Hai
+              Tôi đã mua <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> Hai
               tuần trước, và tôi đã giảm 10 kg. Kết quả cũng có thể nhìn thấy
               trong ngắn hạn.
             </p>
@@ -470,7 +962,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_16.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_16.jpg"> </a>
             </div>
             <div class="title">
               Lân (Hạ Long)
@@ -479,7 +971,7 @@
             </div>
             <p>
               Xin chào! Tôi chỉ uống
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a>
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a>
               một tuần và sau khi đọc bình luận của bạn, tôi bình tĩnh. Tôi sẽ
               tiếp tục uống nó cho đến khi tôi nhận được kết quả mà tôi muốn.
               Cảm ơn bạn
@@ -489,7 +981,7 @@
         <div class="b-cmtItem">
           <div class="holder">
             <div class="pic">
-              <a href="https://leadrock.com/URL-?"> <img src="comm_18.jpg"> </a>
+              <a href="https://ansmit.club/click.php?lp=1"> <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/comm_18.jpg"> </a>
             </div>
             <div class="title">
               Yến (Ninh Bình)
@@ -498,17 +990,17 @@
             </div>
             <p>
               Tôi luôn bị thừa cân và đối với tôi
-              <a href="https://leadrock.com/URL-?">L-carnitine &amp; Green Tea capsules</a> là một cơ hội để
+              <a href="https://ansmit.club/click.php?lp=1">L-carnitine &amp; Green Tea capsules</a> là một cơ hội để
               thay đổi. Tôi hy vọng nó giúp tôi! Tôi sẽ đặt hàng ngay bây giờ.
             </p>
           </div>
         </div>
-        <center><a class="ord_button" href="https://leadrock.com/URL-?">Truy cập trang web</a></center>
+        <center><a class="ord_button" href="https://ansmit.club/click.php?lp=1">Truy cập trang web</a></center>
       </div>
       <div id="aside">
         <div class="div_3col">
           <span id="tab1_span">Tác giả: Lê Văn Kế</span>
-          <img src="nutritionist.jpg" width="100%">
+          <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/nutritionist.jpg" width="100%">
           <ul class="CollapsiblePanelContent">
             <li>Chuyên gia dinh dưỡng</li>
             <li>Nhà báo.</li>
@@ -519,14 +1011,14 @@
           </ul>
         </div>
         <div class="div_3col">
-          <a href="https://leadrock.com/URL-?"><img src="photo_cho.png" width="100%"></a>
+          <a href="https://ansmit.club/click.php?lp=1"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/photo_cho.png" width="100%"></a>
           <p>
             Kết quả nghiên cứu kéo dài một tháng, 17 người thừa cân nặng hơn
             10 kg đã tham gia vào nghiên cứu. Kết quả như sau:
           </p>
         </div>
         <div class="div_3col">
-          <img src="1.gif" width="100%">
+          <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN7/1.gif" width="100%">
           <ul id="aside_bot_bold_ul">
             <li>
               <b> tất cả những người tham gia giảm từ 6 đến 13 kg. </b>
@@ -545,7 +1037,7 @@
           </ul>
           <p>
             Các thí nghiệm đã chỉ ra rằng
-            <strong><a href="https://leadrock.com/URL-?"> L-carnitine &amp; Green Tea capsules </a></strong>
+            <strong><a href="https://ansmit.club/click.php?lp=1"> L-carnitine &amp; Green Tea capsules </a></strong>
             là sản phẩm cần thiết cho bệnh nhân thừa cân, cũng giúp ngăn ngừa
             các vấn đề về gan và tuyến tụy.
           </p>

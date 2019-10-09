@@ -1,0 +1,608 @@
+@font-face {
+  font-family: 'SFUIDisplay-Regular';
+  src: url("");
+  src: url("_.html#iefix") format('embedded-opentype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Regular.woff") format('woff'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Regular.ttf")  format('truetype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Regular.svg#SFUIDisplay-Regular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Bold';
+  src: url("");
+  src: url("_.html#iefix") format('embedded-opentype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Bold.woff") format('woff'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Bold.ttf")  format('truetype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Bold.svg#SFUIDisplay-Bold") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Heavy';
+  src: url("");
+  src: url("_.html#iefix") format('embedded-opentype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Heavy.woff") format('woff'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Heavy.ttf")  format('truetype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Heavy.svg#SFUIDisplay-Heavy") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Light';
+  src: url("");
+  src: url("_.html#iefix") format('embedded-opentype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Light.woff") format('woff'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Light.ttf")  format('truetype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Light.svg#SFUIDisplay-Light") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Thin';
+  src: url("");
+  src: url("_.html#iefix") format('embedded-opentype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Thin.woff") format('woff'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Thin.ttf")  format('truetype'),
+    url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/fonts/SFUIDisplay-Thin.svg#SFUIDisplay-Thin") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*============ CSS BEGIN ============*/
+/* Geniral style */
+* {padding: 0; margin: 0;}
+header, nav, section, article, aside, footer {display: block;}
+html, body {height: auto; max-height: 100%;}
+body {background: #fff; font-family:'SFUIDisplay-Regular', Arial, sans-serif; font-size: 20px; color: #000000; -webkit-font-smoothing: antialiased;}
+p {padding: 10px 0; line-height: 118%;}
+fieldset {border: none; margin: 0; padding: 0;}
+
+/* Colors style */
+.blue {color: #172d78;}
+.lblue1 {color: #1d81c2;}
+.lblue2 {color: #1f7ec1;}
+.dblue {color: #152838;}
+.red1 {color: #ef1650;}
+.red2 {color: #ef3f16;}
+.pink {color: #ce24f9;}
+.green {color: #49cec4;}
+.dgreen {color: #24687b;}
+.lgreen {color: #77979b;}
+.gray {color: #5a5758;}
+.black {color: #221f1f;}
+.white {color: #ffffff;}
+
+/* Link Style */
+a, a[href^=tel] {color:inherit; text-decoration: inherit; font-size: inherit; font-style: inherit; font-weight: inherit;}
+a:hover {/*text-decoration: underline;*/}
+
+/* Font family style */
+.sfr {font-family: 'SFUIDisplay-Regular', sans-serif;}
+.sfb {font-family: 'SFUIDisplay-Bold', sans-serif;}
+.sfh {font-family: 'SFUIDisplay-Heavy', sans-serif;}
+.sfl {font-family: 'SFUIDisplay-Light', sans-serif;}
+.sft {font-family: 'SFUIDisplay-Thin', sans-serif;}
+
+.ari {font-family: 'Arial', sans-serif;}
+
+/* Text & font style */
+.fnorm {font-weight: normal;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.center {text-align: center;}
+.alleft {text-align: left;}
+.alright {text-align: right;}
+.upp {text-transform: uppercase;}
+.under {text-decoration: underline;}
+.line-th {text-decoration: line-through;}
+.no-padding {padding: 0;}
+.flleft {float: left;}
+.flright {float: right;}
+.lh100 {line-height: 100%;}
+.lh110 {line-height: 110%;}
+.lh120 {line-height: 120%;}
+.lh130 {line-height: 130%;}
+.lh140 {line-height: 140%;}
+.lh150 {line-height: 150%;}
+.lh160 {line-height: 160%;}
+
+/* Display style */
+.inline-b {display: inline-block; zoom: 1; *display: inline;}
+.vatop {vertical-align: top;}
+.vamid {vertical-align: middle;}
+/* Positon's style */
+.rel {position: relative;}
+.abs {position: absolute;}
+.fix {position: fixed;}
+/* Flex */
+.flex {display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.flex-between {justify-content:space-between;}
+.flex-around {justify-content:space-around;}
+.flex-center {justify-content:center;}
+.flex-left {justify-content: flex-start;}
+.flex-right {justify-content: flex-end;}
+
+.flex-top {align-items:flex-start;}
+.flex-mid {align-items:center;}
+.flex-bot {align-items:flex-end;}
+.flex-wrap {flex-wrap: wrap;}
+
+.flex-column {flex-direction: column;}
+/* Clear */
+.clearfix:after {content: ""; display: table; clear: both; *zoom: 1;}
+.clear {clear: both;}
+
+/*============ FORM ============*/
+
+input, select, textarea {
+  display: initial;
+  width: calc(100% - 2px);
+  height: 70px;
+  line-height: 80px;
+  margin: 6px auto!important;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  outline: none;
+  text-indent: 90px;
+  color: #4e4d51;
+  font-size: 30px;
+  box-sizing:content-box;
+  -ms-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box; 
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input.name-black {font-size: 30px; background: #ffffff url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/name_b.png") no-repeat 30px 50%;}
+input.phone-black {font-size: 30px; background: #ffffff url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/phone_b.png") no-repeat 28px 50%;}
+
+/* placeholder style */
+::-webkit-input-placeholder {font-size: 30px; color: #4e4d51;}
+:-moz-placeholder {font-size: 30px; color: #4e4d51;}
+::-moz-placeholder {font-size: 30px; color: #4e4d51;} 
+:-ms-input-placeholder {font-size: 30px; color: #4e4d51;}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+/* Form button & custom button style */
+button {background: none; outline: none; border: none;}
+button {
+  width: 100%;
+  height: 92px;
+  line-height: 92px;
+  margin-top: 15px!important;
+  border-radius: 8px;
+  background-color: #1d81c2;
+  border-bottom: 5px solid #0d5565;
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: 700!important;
+  text-transform: uppercase!important;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/*============ ANIMATIONS ============*/
+
+/* Button animation */
+
+button, .button {
+  //opacity: 0.88;
+  position: relative;
+  transition: 0.3s ease all 0s;
+  -webkit-transition: 0.3s ease all 0s;
+  -moz-transition: 0.3s ease all 0s;
+  -o-transition: 0.3s ease all 0s;
+  -ms-transition: 0.3s ease all 0s;
+}
+
+button:hover, .button:hover {
+  //opacity: 1;
+  /*transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02);*/
+  -webkit-filter: brightness(130%); /* Safari */ 
+  filter: brightness(130%);
+}
+
+button:active, .button:active {
+  top: 1px;
+  /*transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -ms-transform: scale(0.9);*/
+}
+
+.button:focus {
+  
+}
+.guaranty {
+  right: 0px;
+  top: 710px;
+  width: 256px;
+  height: 380px;
+  box-sizing: border-box;
+  padding: 78px 50px 0 30px;
+  background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/guaranty.png") no-repeat 0 0;
+  color: #0c283a;
+}
+
+/* END MAIN CSS */
+
+.product_inf{
+  position: absolute;
+  bottom: 58px;
+  left: 255px;
+  width: 220px;
+  text-align: center;
+}
+.h1{
+  display: block;
+  color: #142F76;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+.h1 .blue{
+  color: #2A78BA;
+}
+.h1_under{
+  display: block;
+  font-size: 8px;
+  line-height: 10px;
+}
+.h2{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.product_list{
+  margin-top: 17px;
+}
+.product_list li{
+  color: #2A78BA;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.capsul{
+  color: #fff;
+  display: block;
+  line-height: 10px;
+  font-size: 8px;
+  margin-top: 10px;
+}
+.capsul b{
+  display: block;
+  font-size: 18px;  
+}
+.block2 .product_inf{
+  bottom: -372px;
+  left: 210px;
+}
+.fake .product_inf{
+  left: 28px;
+  bottom: 54px;
+}
+.block11 .product_inf{
+  left: 255px;
+  top: 589px;
+}
+.block11 .label_item2{
+  top: 123px;
+  left: -40px;
+}
+.block1{
+  z-index: 1;
+}
+.block2{
+  z-index: 9;
+}
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*# sourceMappingURL=normalize.min.css.map */
+.px8{font-size:8px}.px9{font-size:9px}.px10{font-size:10px}.px11{font-size:11px}.px12{font-size:12px}.px13{font-size:13px}.px14{font-size:14px}.px15{font-size:15px}.px16{font-size:16px}.px17{font-size:13px}.px18{font-size:18px}.px19{font-size:19px}.px20{font-size:16px}.px21{font-size:21px}.px22{font-size:22px;}.px23{font-size:23px}.px24{font-size:24px}.px25{font-size:20px}.px26{font-size:26px}.px27{font-size:27px}.px28{font-size:28px}.px29{font-size:29px}.px30{font-size:26px}.px31{font-size:31px}.px32{font-size:32px}.px33{font-size:33px}.px34{font-size:34px}.px35{font-size:35px}.px36{font-size:36px}.px37{font-size:37px}.px38{font-size:38px}.px39{font-size:39px}.px40{font-size:40px}.px41{font-size:41px}.px42{font-size:42px}.px43{font-size:43px}.px44{font-size:44px}.px45{font-size:45px}.px46{font-size:46px}.px47{font-size:47px}.px48{font-size:48px}.px49{font-size:49px}.px50{font-size:45px}.px51{font-size:51px}.px52{font-size:52px}.px53{font-size:53px}.px54{font-size:54px}.px55{font-size:55px}.px56{font-size:56px}.px57{font-size:57px}.px58{font-size:58px}.px59{font-size:59px}.px60{font-size:60px}.px61{font-size:61px}.px62{font-size:62px}.px63{font-size:63px}.px64{font-size:64px}.px65{font-size:65px}.px66{font-size:66px}.px67{font-size:67px}.px68{font-size:68px}.px69{font-size:69px}.px70{font-size:70px}.px71{font-size:71px}.px72{font-size:72px}.px73{font-size:73px}.px74{font-size:74px}.px75{font-size:75px}.px76{font-size:76px}.px77{font-size:77px}.px78{font-size:78px}.px79{font-size:79px}.px80{font-size:80px}.px81{font-size:81px}.px82{font-size:82px}.px83{font-size:83px}.px84{font-size:84px}.px85{font-size:85px}.px86{font-size:86px}.px87{font-size:87px}.px88{font-size:88px}.px89{font-size:89px}.px90{font-size:90px}.px91{font-size:91px}.px92{font-size:92px}.px93{font-size:93px}.px94{font-size:94px}.px95{font-size:95px}.px96{font-size:96px}.px97{font-size:97px}.px98{font-size:98px}.px99{font-size:99px}.px100{font-size:100px}.px112{font-size:112px}.px124{font-size:124px}.px128{font-size:128px}.px132{font-size:132px}
+/*============ WRAPPER ============*/
+.block {max-width: 640px; margin: 0 auto;}
+.wrap {width: 640px; padding: 0 25px; box-sizing: border-box;  margin: 0 auto;}
+.wrap:after, .wrap:before {content: " "; display: table; clear: both;}
+ul {list-style-type: none;}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+  height: 85px;
+  line-height: 85px;
+  border-radius: 8px;
+  background-color: #1d81c2;
+  border-bottom: 3px solid #0d5565;
+  font-family: 'Open Sans', sans-serif!important;
+  font-size: 19px;
+  font-weight: 700!important;
+  text-transform: uppercase!important;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.link {border-bottom: 1px solid;}
+
+/*============ TIMERS ============*/
+.link-dock{
+  margin-top: 10px;
+}
+.link-dock a{
+  display: inline-block ;
+  margin-right: 3px;
+}
+.clock-wrap {
+  border: 2px dashed #000;
+  position: relative;
+  background: #fff000;
+  color: #ff0000;
+  font-size: 0;
+  text-align: center;
+  box-shadow: 0 25px 30px rgba(0, 0, 0, 0.07);
+  margin-bottom: 52px;
+}
+.clock-wrap::before{
+  content: '';
+  position: absolute;
+  top: -14px;
+  left: 5px;
+  display:block;
+  width: 40px;
+  height: 30px;
+  background-image: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/scissors.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.clock {
+  padding: 5px 0 0px;
+  font-family: "RobotoRegular", sans-serif; }
+
+.time__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-family: "RobotoLight", sans-serif;
+  padding: 10px 5px 0px;
+}
+.timer_name{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.timer_name span{
+  font-size: 16px;
+  margin-right: 32px;
+}
+.timer_name span:last-child{
+  margin-right: 6px;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  font-size: 57px;
+}
+.timer__wrapp{
+  display: flex;
+  margin-right: 5px;
+}
+
+/*============ BLOCK'S ============*/
+.form-container {width: 530px;  margin: 20px auto; padding: 25px; box-sizing: border-box; position: relative; background: #fff; border-radius: 8px; border: 3px solid #40d6e9;}
+.form-container .px40 {padding: 26px 0;}
+.action-valid {width: 100%; line-height: 180%; background-color: #231f20; color: #ffffff; text-align: center; font-family: 'SFUIDisplay-Bold', sans-serif; border-radius: 8px;}
+.price, .action-price {margin: 12px 0 12px 0;}
+.price {width: 220px;}
+.action-price {width: calc(100% - 226px);}
+.price p, .action-price p {padding: 3px 0;}
+.price-lt:after {content: url(""); position: absolute; top: 6px; right: 18px;}
+.lp-text {padding: 18px 0 0;}
+.left-pack {background: #ef1650; display: inline-block; width: 78px; height: 38px; line-height: 38px; text-align: center; vertical-align: middle; font-weight: bold; border-radius: 5px; color: #fff; margin: 0 8px;}
+.buy-pack {background: #231f20; display: inline-block; width: 90px; height: 38px; line-height: 38px; text-align: center; vertical-align: middle; font-weight: bold; border-radius: 5px; color: #fff; margin: 0 8px;}
+.form-container .warranty {margin: 25px 0 10px;}
+.form-container .warranty * {vertical-align: middle;}
+.form-container .warranty img {margin-right: 16px;}
+.form-container .warranty p {width: 88%;}
+.form-container .decimal {font-size: 23px; position: relative; bottom: 13px; left: -10px;}
+.form-container .decimal .wv_currency {margin-left: 1px;}
+
+.header {height: 1200px; background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/prod1.jpg") no-repeat center bottom;}
+.header .wrap {height: 100%; padding: 0 54px;}
+.header .blue-background {position: relative; background-color: #1d81c2; padding: 25px; border-radius: 8px; margin-top: 25px;}
+.header .blue-background:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/cert.png"); position: absolute; right: -30px; top: -14px;}
+.header .header-icons {margin: 35px 0 20px;}
+.header .header-icons div, .header .header-icons img, .header .header-icons p {display: inline-block; vertical-align: middle;}
+.header .header-icons img {margin-right: 20px;}
+.header .header-icons .icon1 {margin-right: 38px;}
+.header .mint-bg {background-color: #49cec4; padding: 4px 10px; border-radius: 10px; margin-top: 20px;}
+.header .label {bottom: 10px; right: 10px;}
+.header .abs.px12 {bottom: 30px;}
+
+.block1 .wrap {padding: 0 54px;}
+.steps {margin: 40px 0;}
+.step {height: 85px; padding: 16px 16px 16px 80px; border-radius: 10px; margin: 16px 0;}
+.step.one {background: #f1faf9 url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/1.png") no-repeat top left;}
+.step.two {background: #f1faf9 url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/2.png") no-repeat top left;}
+.step.three {background: #f1faf9 url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/3.png") no-repeat top left;}
+
+.block2 {height: 996px; background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/bg2.jpg") no-repeat center top; margin-top: -330px; position: relative; z-index: -1;}
+.block2 .wrap {padding: 0;}
+.block2 .px28 {padding: 350px 0 40px;}
+.block2 .inline-b {width: 32%; margin: 0 3px; vertical-align: top;}
+.block2 .inline-b:first-child {margin-left: 0;}
+.block2 .inline-b:last-child {margin-right: 0;}
+.block2 .inline-b img {margin-bottom: 24px; display: none;}
+.block2 .inline-b > div {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/rl.jpg") no-repeat top left; padding-left: 14px; margin-left: 10px;}
+.block2 .inline-b .red2 {padding-top: 0;}
+.block2 .inline-b p {text-align: left;}
+
+.block3 .wrap {padding: 0 54px;}
+.block3 .px50 {padding: 35px 0;}
+.block3 ul li {padding: 30px 0 30px 130px; font-family: 'SFUIDisplay-Light', sans-serif; font-size: 22px;}
+.block3 ul li span {font-family: 'SFUIDisplay-Bold', sans-serif;}
+.block3 ul li:nth-child(1) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/ico1.png") no-repeat 0 50%;}
+.block3 ul li:nth-child(2) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/ico2.png") no-repeat 0 50%;}
+.block3 ul li:nth-child(3) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/ico3.png") no-repeat 0 50%;}
+.block3 ul li:nth-child(4) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/ico4.png") no-repeat 0 50%;}
+.block3 .product-img {margin: 40px 0 30px -54px;}
+.block3 .button-container {padding: 20px 0 46px;}
+
+.block4 {background: #eff3f2 url("") no-repeat center top;}
+.block4 .wrap {padding: 0 36px;}
+.block4 .px40 {padding: 35px 0;}
+.block4 .green-background {position: relative; background-color: #49cec4; padding: 16px 30px; border-radius: 8px;}
+.block4 .green-background:after {content: url(""); position: absolute; left: 160px; top: 100%;}
+.block4 .inline-container {margin: 340px 0 20px 0;}
+.block4 .inline-b {width: 172px; margin: 0 0px 0 17px; vertical-align: top;}
+.block4 .inline-b:nth-child(3) {margin-right: 0;}
+.block4 .inline-b img {margin: 16px 0 20px;}
+.block4 .inline-b p {text-align: left;}
+
+.block5 {background: #eff3f2 url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/gradbg.jpg") no-repeat center 200px;}
+.block5 .wrap {padding: 0 35px;}
+.block5 .doc-list {height: 630px; background: #ffffff; padding: 30px; margin: 30px 0; box-shadow: -1px 16px 8px -6px rgba(0, 0, 0, 0.42);
+    margin: 30px 0;}
+.block5 .doc-list .doc {margin: 0 25px 30px 0;}
+.block5 .doc-list p {color: #152838; font-size: 18px; line-height: 160%; padding: 0 0 30px 0;}
+.block5 .doc-list .docname {bottom: 15px;}
+.block5 .doc-list.one .docname:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/doc1p.jpg"); position: absolute; top: -90%; left: 114%;}
+.block5 .doc-list.two .docname:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/doc2p.jpg"); position: absolute; top: -90%; left: 114%;}
+
+.block6 .wrap {padding: 0 40px;}
+.block6 .cir3 {margin: 40px 0 40px -40px;}
+
+.block7 .wrap {padding: 0;}
+.block7 .px50 {padding: 40px 0 30px;}
+.block7 .product {margin: 30px 0;}
+.block7 .button-container {padding: 20px 0 46px;}
+.block7 .result { padding-top: 120px; background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/result.jpg") no-repeat 0px 0px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-direction: row; }
+.block7 .result span { display: block; }
+.result_item { flex: 42%; color: #256277; font-size: 17px; padding-left: 43px; padding-top: 73px; font-weight: 900;}
+.result_item span { margin-bottom: 33px; margin-top: 7px; }
+.result_item span:nth-child(3) { margin-bottom: 25px; }
+.result_item span:nth-child(4) { margin-bottom: 16px; }
+.prostolife { flex: 25%; color: #fff;}
+.prostolife span { margin-bottom: 54px; padding-left: 38px; font-size: 16px;}
+.prostolife span:nth-child(2){ padding-left: 32px; }
+.prostolife span:first-child{ font-size: 17px; font-weight: 900; padding-top: 17px; padding-left: 2px;}
+.other { flex: 25%; color: #fff;}
+.other span { margin-bottom: 54px; padding-left: 35px; font-size: 16px;}
+.other span:nth-child(2){ padding-left: 34px; }
+.other span:nth-child(5){ padding-left: 39px; }
+.other span:first-child{ font-size: 14px; font-weight: 900; padding-top: 0px; padding-left: 13px; margin-bottom: 33px;}
+
+.block8 {padding: 0 0 40px;}
+.block8 .px40 {padding: 30px 0;}
+.block8 .reviews-block {margin-bottom: 20px;}
+.block8 .ava {margin-bottom: 20px;}
+.block8 .text {padding: 12px 25px; border-radius: 8px; position: relative; max-width: 380px; margin-left: 40px;}
+.block8 .text.one {background-color: #ecfbfd;}
+.block8 .text.one:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/qr1.png"); position: absolute; right: 100%; top: 30px;}
+.block8 .text.two {background-color: #fdfbec;}
+.block8 .text.two:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/qr2.png"); position: absolute; right: 100%; top: 30px;}
+.block8 .text.three {background-color: #e9f0fa;}
+.block8 .text.three:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/qr3.png"); position: absolute; right: 100%; top: 30px;}
+.block8 .text p {padding: 0; line-height: 140%; text-indent: 20px;}
+.block8 .text p:before {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/qt.png"); position: relative; right: 10px; top: 4px;}
+.block8 .text p:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/qb.png"); position: relative; left: 10px; top: 4px;}
+.block8 .px14 {padding: 6px 0;}
+.block8 .stars5 {float: left; margin: 25px;}
+.block8 .hashtags {margin: 13px 0 0 60px;}
+
+.block9 {background: #eff3f2; padding: 30px 0 60px 0;}
+.block9 .title {padding: 0 0 45px;}
+.block9 .wrap {position: relative;}
+.block9 .logo {width: 100%;}
+.block9 .guaranty {position: absolute; top: 30px; right: 10px;}
+.block9 .zavod-container {position: relative; width: 400px;}
+.block9 .zavod {width: 100%; max-width: 810px;}
+.block9 .zavod-container .inline-b{display: inline-block; vertical-align:top;margin:230px 10px 0 0;}
+.block9 .zavod-container .inline-b p {padding-top: 20px;}
+
+.block10 .px40 {padding: 40px 0;}
+.block10 .inline-container .inline-b {width: 252px; vertical-align: top; margin: 0 20px;}
+.block10 .inline-container .inline-b img {margin-bottom: 35px;}
+.block10 .inline-container .inline-b .rel:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/gal.png"); position: absolute; right: -16px; bottom: 30px;}
+.block10 .inline-container .inline-b .grl {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/gradl.png") no-repeat top left; padding-left: 25px;}
+.block10 .inline-container .inline-b p {text-align: left;}
+
+.fake {height: 491px; background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/prod4.jpg") no-repeat top center;}
+.fake .text {padding: 110px 20px 0 280px;}
+.fake .button {width: 320px; height: 56px; line-height: 56px; margin: 10px 0!important;}
+.fake .px12 {padding-left: 60px;}
+.fake .decimal {font-size: 15px; position: relative; bottom: 7px;}
+
+.block11 {height: 2120px; background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/prod1.jpg") no-repeat center 270px;}
+.block11 .wrap {height: 100%; padding: 67px 54px; }
+.block11 .blue-background {position: relative; background-color: #1d81c2; padding: 25px; border-radius: 8px; margin-top: 25px;}
+.block11 .blue-background:after {content: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/cert.png"); position: absolute; right: -30px; top: -14px;}
+.block11 .header-icons {margin: 35px 0 20px;}
+.block11 .header-icons div, .block11 .header-icons img, .block11 .header-icons p {display: inline-block; vertical-align: middle;}
+.block11 .header-icons img {margin-right: 20px;}
+.block11 .header-icons .icon1 {margin-right: 38px;}
+.block11 .mint-bg {background-color: #49cec4; padding: 6px 10px; border-radius: 10px; margin: 20px 0 640px;}
+.block11 .label {top: 620px; right: 10px;}
+.label_item { box-sizing: border-box; height: 164px; width: 164px; text-align: center; color: #fff; margin: 0px; padding: 0px; border-radius: 100px;}
+.label_item1 { background: linear-gradient(to bottom right, #8491F2, #00DAEB); padding-top: 40px;}
+.label_item1 b{ font-size: 30px; text-transform: uppercase; margin-top: 10px;}
+.label_item b { display: block; }
+.label_item2 {  background: #fff000; padding-top: 8px; position: absolute; top: 95px; left: -100px; color: #ff0000;}
+.label_item2 .decimal {font-size: 25px; position: relative; bottom: 12px; left: -10px;}
+.label_item2 .decimal .wv_currency {margin-left: 1px;}
+.label_item2 b{ font-size: 32px; text-transform: uppercase; margin-top: 10px; font-weight: 400;}
+.block11 .abs.px12 {top: 830px;}
+.old-price { font-size: 30px; }
+.block3 .decimal, .block7 .decimal {font-size: 20px; position: relative; bottom: 20px;}
+.old-price { line-height: 30px; position: relative;}
+.new-price { line-height: 45px; }
+.mr { margin-right: 10px; }
+/*.old-price::before { content: ''; height: 2px; width: 60px; background-color: #ff0000; display: block; position: absolute; top: 17px; left: -3px; transform: rotate(21deg);}*/
+.old-price::after { content: ''; height: 2px; width: 60px; background-color: #ff0000; display: block; position: absolute; top: 17px; left: -3px; transform: rotate(-21deg);}
+/*============ FOOTER ============*/
+.footer {background: #0c283a; color: #fff;}
+.footer .wrap {padding: 30px 54px; margin-top: 70px;}
+.footer ul.list {padding-bottom: 30px;}
+.footer ul.list li {display: block; padding: 18px 0 18px 80px;}
+.footer ul.list li:nth-child(1) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/footer_ico1.png") no-repeat 0 50%;}
+.footer ul.list li:nth-child(2) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/footer_ico2.png") no-repeat 0 50%;}
+.footer ul.list li:nth-child(3) {background: url("urn:scrapbook:download:error:http://promostero.life/lander/medical-krest-ro_1567854650/img/footer_ico3.png") no-repeat 0 50%;}
+
+.footer2 {background: #03111c; color: #fff;}
+.footer2 .wrap {padding: 18px 50px;}
+.footer .title {padding-bottom: 25px;}
+.footer .mag {padding: 10px 0;}
+.footer .line {padding: 22px 0;}
+.footer2 .adr {padding: 3px 0 16px;}
+.footer2 .vam {position: relative; top: 4px;}
+
+.logo_green span{ color: #72B100; font-size: 26px; font-weight: 900; position: relative; top: -20px;}
+.logo_green img{ margin-right: 10px; }
+.logo_gray span{ color: #B6B7B8; font-size: 24px; font-weight: 900; position: relative; top: -20px;}
+.logo_gray img{ margin-right: 10px; }
+
+.wv_currency{ margin-left: -3px; }
+.label_item .wv_currency{ margin-left: -13px; }
+.country_select{ font-size: 30px; }
+button{ z-index: 100; }

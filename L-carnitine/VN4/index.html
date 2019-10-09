@@ -13,61 +13,990 @@
 <link href="css-3.css" rel="stylesheet">
 
 <!-- INTH_SNIPPET_TOP -->
+<style type="text/css">
+	/* cyrillic-ext */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/FwZY7-Qmy14u9lezJ-6K6MmTpA.woff2") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/FwZY7-Qmy14u9lezJ-6D6MmTpA.woff2") format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/FwZY7-Qmy14u9lezJ-6I6MmTpA.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/FwZY7-Qmy14u9lezJ-6J6MmTpA.woff2") format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/FwZY7-Qmy14u9lezJ-6H6Mk.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	height:100%;
+	width:100%;
+	margin: auto !important;
+	background: #dec5a6;
+	background-repeat:repeat;
+	font-family: 'Open Sans', serif;
+	}
+
+a {
+	color:#FF0004;
+	}
+
+img {
+	width: 100%;
+}
+p{
+	font-size: 18px;
+    font-weight: 400;
+    margin: 10px 20px 10px 20px;
+}
+#nav-mobi {
+	display: none;
+}
+
+.yorumicerik img {
+	max-width: 400px;
+}
+	
+.siteWrapper {
+	max-width:1040px;
+	width: 100%;
+	margin:auto;
+
+}
+
+.flip {
+	background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/mobi-menu.png") no-repeat scroll left 36% transparent;
+	width: 35px;
+	height: 38px;
+	display: inline-block;
+}
+
+.siteborder h3 {
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+	font-size: 108px;
+	vertical-align: top;
+	margin: 38px 0 0 83px;
+}
+
+.siteborder { 
+	width:100%;
+	-webkit-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 4px rgba(0,0,0,0.75);
+		background-color:#FFFFFF;
+}
+
+.siteimajheader{
+	display: inline-block;
+}
+
+.siteimaj h2 {
+	margin: 0 15px 10px 15px;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+.siteimaj {
+	text-align: center;
+}
+
+.siteimaj img {
+	max-width: 500px;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+
+.siteimaj .prod {
+	max-width: 300px;
+}
+
+.comment {
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.comment h2 {
+	margin-left: 20px;
+	font-family: 'Pacifico';
+}
+
+.btn {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.button {
+	background: #d13366;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	border: 2px solid white;
+	-webkit-box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 3px 40px 0px rgba(0,0,0,0.75);
+  box-sizing:border-box;
+}
+
+.button:hover {
+  background: #dc1253;
+}
+
+.siteMenu {
+	width: 100%;
+	background: #a10060;
+	height: 40px;
+	padding-top: 6px;
+}
+
+
+
+.siteMenu a {
+	font-family: 'Open Sans', cursive;
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	padding: 0px 0px 0 125px;
+}
+
+.sitebaslik h1 {
+	display:inline-block;
+	font-size:45px;
+	font-weight:700;
+	margin: 15px 20px 15px 20px;
+	font-family: 'Pacifico';
+}
+
+.sitebaslik {
+	border-bottom:1px solid #000000;
+}
+
+.siteicerik h2 {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px 20px 10px 20px;
+}
+
+.siteicerik h1 {
+	display:inline-block;
+	font-size:32px;
+	font-weight:700;	
+	margin-left:20px;
+	margin-top:0;
+}
+
+.faceyorumlar {
+	width:100%;
+	margin:auto;
+	padding-bottom:4%;
+	}
+
+
+.yorumgenel {
+	max-width:1040px;
+	width: 100%;
+	font-size:15px;
+	padding-top:20px;
+
+	padding-bottom:20px;
+	border-bottom:1px solid #C0C0C0;}
+	
+
+.yorumcevap {
+	width:940px;	
+	font-size:14px;
+	padding-top:4%;
+	float:left;
+	padding-bottom:4%;
+	padding-left:10%;
+}
+
+.profilresmi {
+	width:80px;
+	float: left;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.yorumicerik {
+	width:80%;
+	padding-left: 100px;
+}
+
+.yorumisim {
+margin-top: -3px;
+	width:100%;
+	font-weight:700;	
+}
+
+.yorumyazi {
+	width:100%;
+	color:#666666;
+}
+
+@media all and (max-width: 830px) {
+
+	.siteMenu a {
+		display: none;
+	}
+
+	#nav-mobi {
+		display: block;
+		text-align: center;
+	}
+
+}
+@media all and (max-width: 480px) {
+	.siteborder h3{
+		display: none;
+	}
+	.sitebaslik h1{
+		font-size: 19px;
+	}
+}
+@media all and (max-width: 500px) {
+	.yorumicerik {
+		width:61%;
+
+	}
+
+	.siteborder h3 {
+		margin: 15px 0 0 69px;
+	}
+	.button {
+		font-size: 12px;
+	}
+  	.button {
+		padding: 10px 10px 10px 10px;
+	}
+}
+
+@media all and (max-width: 360px) {
+
+	.siteborder h3 {
+		font-size: 81px;
+	}
+}
+</style>
 </head>
 <body>
 <div class="siteWrapper">
 <div class="siteborder">
 <div class="siteimajheader">
-<img src="1.png">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/1.png">
 </div>
 <div class="siteMenu">
 <div id="nav-mobi">
 <div class="flip">
-<a class="flip__menu" href="#"></a>
+<a class="flip__menu" href="https://ansmit.club/click.php?lp=1"></a>
 </div>
 </div>
-<a href="#">SẮC ĐẸP</a>
-<a href="#">LỐI SỐNG</a>
-<a href="#">TV</a>
-<a href="#">THỜI TRANG</a>
+<a href="https://ansmit.club/click.php?lp=1">SẮC ĐẸP</a>
+<a href="https://ansmit.club/click.php?lp=1">LỐI SỐNG</a>
+<a href="https://ansmit.club/click.php?lp=1">TV</a>
+<a href="https://ansmit.club/click.php?lp=1">THỜI TRANG</a>
 </div>
 <div class="sitebaslik">
 <h1>Lưu Khải Uy: Tôi đã giúp fan của mình giảm 13kg chỉ trong một tháng</h1>
 </div>
-<div class="siteimaj"><img src="2.png"></div>
+<div class="siteimaj"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/2.png"></div>
 <p>Xin chào mọi người! <br>
 Lưu Khải Uy nhận được cả tấn lời nhắn cùng bình luận của người hâm mộ gửi đến trong một ngày. Và Lưu Khải Uy muốn gửi lời cảm ơn tới tấn cả những lời tốt đẹp đó. Thật tiếc là Lưu Khải Uy không có đủ thời gian để trả lời hết tất cả các bạn nhưng Lưu Khải Uy đã đọc toàn bộ những lời nhắn đó.
 </p>
-<div class="siteimaj"><img src="3.png"></div>
+<div class="siteimaj"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/3.png"></div>
 <p>Một lần, Lưu Khải Uy có đọc được được lời nhắn “<b>Ông Lưu Khải Uy làm ơn giúp em với!!!</b>” của một bạn gái tên là Hân khiến Lưu Khải Uy cảm thấy xúc động nhất và sau đây là câu chuyện của bạn ấy.</p>
 <p>Hóa ra là Hân <b>mới có 19 tuổi thôi nhưng đã nặng tới hơn 70kg</b>! Đối với độ tuổi của em ấy thì nó giống như một bản án vậy. Em ấy tâm sự với Lưu Khải Uy rằng “<b>Cái bụng ngấn mỡ và đùi to</b> đang giết em Ông ạ! Em ghét thân hình này và em cũng ghét bản thân nữa!!!”. Hân có đi tập gym với huấn luyện viên riêng bằng tiền mà bố mẹ cho cô bé trong một thời gian dài. Thỉnh thoảng em ấy có ăn chút rau và hoa quả nhưng phần lớn thời gian là nhịn đói. Ôngu đựng cực như vậy cuối cùng cũng có kết quả, cô bé đã giảm <b>CHỈ 3kg trong 21 ngày</b>. Mặt và tay có gầy đi một chút. Nhưng bụng và đùi thì không thon gọn hơn tẹo nào. “Em chả có người thân hay bạn bè đứng về phía mình. Tất cả đều cười nhạo em. Họ nói móc về cái bụng béo nẩy lên của em mỗi lần em đi qua.” Lưu Khải Uy cảm thấy thật sự cảm thông cho cô bé này. Cô bé gần như đã tra tấn sức khỏe của bản thân chỉ để trông dễ nhìn hơn.</p>
 <div class="siteimaj">
-<img src="4.png">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/4.png">
 <h2><i>“Em ngừng luyện tập rồi Ông ạ L((( Ăn kiêng với thể thao làm gì khi mà chả có gì thay đổi cơ chứ??? Em không thể cứ sống thế này được nữa…Em chỉ muốn ở nhà, chả buồn ra ngoài. Em đang phải tự cứu lấy bản thân mình chỉ bằng âm nhạc, Ông Lưu Khải Uy ạ….Sẽ không có thứ gì có thể cứu vãn được em…Cuộc đời em đến đây là hết rồi….”</i></h2>
 </div>
 <p>Lưu Khải Uy cũng đã từng gặp phải vấn đề tương tự một thời gian trước đó. <b>Lưu Khải Uy từng bị tăng cân tới 4kg lận</b>. Đúng là như vậy! Đùi của Lưu Khải Uy trở nên to hơn và mỡ thừa bắt đầu lộ ra. Nhưng <b>không ai nhận ra điều này bởi Lưu Khải Uy đã áp dụng giải pháp kịp thời</b>.</p>
-<p>Lưu Khải Uy không hề ăn kiêng hay đi tập gym gì nhé. Bạn của Lưu Khải Uy đã khuyên Lưu Khải Uy thử một loại cốc- tai cực ngon tên là <a href="#"><b>L-CARNITINE GREEN TEA CAPSULE</b></a>. Bạn ấy giảm cân sau sinh rất nhanh là nhờ sản phẩm này. Tất nhiên, bạn của Lưu Khải Uy không bao giờ lại giới thiệu cho Lưu Khải Uy những thứ không hiệu quả cả. Đặc biệt, các bà mẹ trẻ đều ưa chuộng những sản phẩm có nguồn gốc tự nhiên và an toàn. Lưu Khải Uy đã mua một hộp và uống mỗi ngày 2 lần trước các bữa ăn.</p>
+<p>Lưu Khải Uy không hề ăn kiêng hay đi tập gym gì nhé. Bạn của Lưu Khải Uy đã khuyên Lưu Khải Uy thử một loại cốc- tai cực ngon tên là <a href="https://ansmit.club/click.php?lp=1"><b>L-CARNITINE GREEN TEA CAPSULE</b></a>. Bạn ấy giảm cân sau sinh rất nhanh là nhờ sản phẩm này. Tất nhiên, bạn của Lưu Khải Uy không bao giờ lại giới thiệu cho Lưu Khải Uy những thứ không hiệu quả cả. Đặc biệt, các bà mẹ trẻ đều ưa chuộng những sản phẩm có nguồn gốc tự nhiên và an toàn. Lưu Khải Uy đã mua một hộp và uống mỗi ngày 2 lần trước các bữa ăn.</p>
 <div class="siteimaj">
-<img src="5.jpg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/5.jpg">
 <h2><b>4 cân mỡ thừa của Lưu Khải Uy đã giảm chỉ trong một tuần nhờ có L-CARNITINE GREEN TEA CAPSULE! Tất cả mỡ thừa đều biến mất cực nhanh chóng!</b></h2>
 </div>
 <p>Tất nhiên, Lưu Khải Uy có trả lời Hân về sản phẩm này lúc đó. Lưu Khải Uy không thể thấy cô bé rơi vào hoàn cảnh khó khăn mà không giúp đỡ được. Hơn nữa, <b>giải pháp cho hiệu quả tức thời là hoàn toàn có thật</b> và Lưu Khải Uy biết điều đó. Hân đã hứa sẽ thử uống cái này.</p>
 <p>Một tháng trôi qua. Không có tin tức gì từ Hân khiến Lưu Khải Uy cảm thấy rất lo lắng cho cô bé.</p>
 <p>Một hôm, trong khi đọc các tin nhắn của các bạn thì Lưu Khải Uy thấy tin nhắn của Hân. Nhưng Lưu Khải Uyđã thật sự bất ngờ khi mở tin nhắn ra. Đây là ảnh của cô bé:</p>
 <div class="siteimaj">
-<img src="6.png">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/6.png">
 <h2><i>“Ông Lưu Khải Uy yêu quý của em! Cảm ơn Ông rất nhiều vì đã cứu sống cuộc đời em! Em uống loại cốc- tai đó chỉ <b>1 tháng mà đã giảm được 13kg</b>!!! Em không hề đi tập gym và ăn mọi thứ mà em thích. Em cảm thấy như mình đang ở trên đỉnh cao vậy! Em thích cái việc <b>mỡ bụng biến mất chỉ trong một tuần</b> và đùi trở nên thon gọn hơn và không còn những ngấn mỡ lúc lắc trên người em nữa. Lòng tự tôn của em đã trở lại! Hàng tá các anh đang theo đuổi em! Các bạn nữ khác thì mong muốn thành bạn tốt của em! Nếu Ông không chỉ cho em thứ đồ uống này, không biết làm sao em sống được quãng thời gian đó :* ”</i></h2>
 </div>
 <p>Đây là những lời tốt đẹp nhất trong những lời tốt đẹp mà bất cứ ai có thể đọc được phải không nào? J Hân đã cho phép Lưu Khải Uy chia sẻ ảnh của cô bé. Cô bé nói rằng phải giúp những người không biết cách giải quyết vấn đề tăng cân mà không cần nhờ đến gym, chế độ ăn kiêng hay phẫu thuật thẩm mỹ. Cô bé đã thay đổi rất nhiều, hãy nhìn ảnh cô bé này, Hân thật đẹp trong thân hình mới.</p>
-<div class="siteimaj"><img src="7.png"></div>
+<div class="siteimaj"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/7.png"></div>
 <p>Lưu Khải Uy chắc chắn 100% rằng L-CARNITINE GREEN TEA CAPSULE đã giúp Hân không cảm thấy mình là kẻ thất bại. Hơn thế nữa, Lưu Khải Uy nghĩ rằng rất khó để có thể tìm thấy một sản phẩm kết hợp 3 yếu tố: <b>nguyên liệu tự nhiên, hiệu quả và giá thành thấp</b>. Tại sao bạn lại phải bỏ tiền và thời gian vào mấy bài tập và ăn kiêng trong khi chỉ cần uống cốc- tai và <b>giảm cân hàng ngày</b> nhỉ? Bạn chỉ cần hòa bột vào nước hoặc sữa, lắc qua và uống 30 phút trước bữa sáng và bữa tối.</p>
-<div class="siteimaj"><img src="8.jpg"></div>
+<div class="siteimaj"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/8.jpg"></div>
 <p>Lưu Khải Uy vẫn sử dụng cốc- tai này bởi nó rất là ngon và Lưu Khải Uy thực sự thích hương vị đó J)) Hơn nữa, loại <b>đồ uống này giúp Lưu Khải Uy không bị tăng cân</b> bởi Lưu Khải Uy uống nó thay vì ăn đồ ăn vặt và khi không có thời gian cho bữa ăn bình thường. Đây là bí mật nho nhỏ của Lưu Khải Uy để giữ cho vóc dáng mảnh mai và chiến đấu với các vấn đề của cơ thể J</p>
 <p>Nhân tiện thì chỉ có một website chính thức của nhà sản xuất sản phẩm L-CARNITINE GREEN TEA CAPSULE tại Việt Nam. Các bạn hãy cảnh giác với các sản phẩm nhái nhé! Hân và Lưu Khải Uy đã mua cốc- tai tại đây</p>
 <div class="siteimaj" style="margin:0;">
-<img class="prod" src="photo_cho.png">
+<img class="prod" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/photo_cho.png">
 </div>
-<div class="btn"><a class="button" href="#">ĐI ĐẾN WEBSITE CHÍNH THỨC CỦA 
+<div class="btn"><a class="button" href="https://ansmit.club/click.php?lp=1">ĐI ĐẾN WEBSITE CHÍNH THỨC CỦA 
 L-CARNITINE GREEN TEA CAPSULE
 </a></div>
 <div class="siteicerik">
@@ -81,7 +1010,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 <div class="faceyorumlar">
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil1.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil1.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Lan</div>
 <div class="yorumyazi">WOW! Thay đổi kinh thật! Hân thật không thể nhận ra nổi! Còn ai khác đã thử loại cốc- tai này không? Chia sẻ kinh nghiệm đi các bạn gái! :*<p>
@@ -90,18 +1019,18 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil2.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil2.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Huệ</div>
 <div class="yorumyazi">Mình cũng gặp chung vấn đề với mỡ bụng. Mình đã đi tập gym hàng ngày và tập cả thể dục ở nhà nữa, đã thử tất cả các thể loại ăn kiêng mà không có tác dụng gì. Mình nghe rằng vùng bụng là VÙNG CÓ NHIỀU VẤN ĐỀ NHẤT. Mặc dù vậy mình đinh ninh rằng mình có thể thoát khỏi mỡ bụng. Thế nhưng, không có kết quả gì trong một tháng cả. Một lần, có một Ông trong phòng tập gym khuyên mình nên uống L-CARNITINE GREEN TEA CAPSULE. Và, thật kỳ diệu! Mình không thể tin được rằng tất cả mỡ bụng đã biến mất sau 1,5 tuần! Mình nghĩ rằng chả có phương pháp tốt hơn cho vấn đề của vùng cơ thể này đâu. Nhìn vào ảnh của mình thì biết (nhưng không có mặt mình nhé J)) ).</div>
-<img alt="" src="r1.png">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/r1.png">
 <p>
 
 </p>
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil3.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil3.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Mai</div>
 <div class="yorumyazi">Các chế ạ, nói đến loại cốc- tai này…em sợ mình lại giảm nhiều cân quá mức mình cần J)</div>
@@ -111,7 +1040,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil4.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil4.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">An</div>
 <div class="yorumyazi">@Mai: đây là “thực phẩm thông minh” mà bạn J nhờ có nguyên liệu chứa bên trong mà thân hình bạn sẽ đâu vào đó J) Ý mình là mỡ thừa ở các vùng có vấn đề sẽ giảm đầu tiên</div>
@@ -121,7 +1050,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil5.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil5.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Hoa</div>
 <div class="yorumyazi">@Huệ: Kết quả tuyệt vời! Mình sẽ order L-CARNITINE GREEN TEA CAPSULE NGAY B Y GIỜ! Cảm ơn lòng tốt của Lưu Khải Uy nữa.</div>
@@ -131,18 +1060,18 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil6.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil6.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Tâm</div>
 <div class="yorumyazi">@Mai: Mọi người bảo rằng khó nhất là giảm 5-6kg đầu tiên. Nhưng tớ đã làm được! Và tớ còn muốn giảm thêm tí nữa cơ J</div>
-<img alt="" src="r2.png">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/r2.png">
 <p>
 
 </p>
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil7.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil7.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Su</div>
 <div class="yorumyazi">Yêu Ông Lưu Khải Uy quá!! Cảm ơn Ông đã giúp mọi người thoát khỏi vấn đề tăng cân!</div>
@@ -152,7 +1081,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil8.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil8.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Miên</div>
 <div class="yorumyazi">Trông Hân hot thế J)) Mình cũng muốn thay đổi …Mình vừa đặt hàng xong và đang ngồi đợi. Sẽ cho các bạn thấy kết quả của mình.</div>
@@ -162,7 +1091,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </div>
 </div>
 <div class="yorumgenel">
-<div class="profilresmi"><img src="profil9.jpg" width="100%"></div>
+<div class="profilresmi"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/L-carnitine/VN4/profil9.jpg" width="100%"></div>
 <div class="yorumicerik">
 <div class="yorumisim">Phấn</div>
 <div class="yorumyazi">Bạn của mình order mấy vị khách nhau liền và khoe rằng tất cả mỡ thừa đều tan sạch. Giờ mình cũng muốn đặt hàng nữa! Cảm ơn các bình luận bên trên!</div>
@@ -171,7 +1100,7 @@ L-CARNITINE GREEN TEA CAPSULE
 </p>
 </div>
 </div>
-<div class="btn"><a class="button" href="#">ĐI ĐẾN WEBSITE CHÍNH THỨC CỦA 
+<div class="btn"><a class="button" href="https://ansmit.club/click.php?lp=1">ĐI ĐẾN WEBSITE CHÍNH THỨC CỦA 
 L-CARNITINE GREEN TEA CAPSULE</a></div>
 </div>
 </div>
