@@ -11,7 +11,7 @@ include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clic
 
 
 
-<img src="sawpp.jpg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/sawpp.jpg">
 <!--suppress ES6ConvertVarToLetConst -->
    <!-- browser locale -->
 
@@ -2867,7 +2867,7 @@ td {
 <p> <i style="font-style: italic;"> Un exemplu în acest sens este celebra gimnastă română Raluca Popescu, care în acest an a împlinit 109 ani. După cum recunoaște însăși gimnasta - "articulațiile sunt singurele care acum nu o deranjează...." </i>
 </p>
 <center>
-<img src="swzl.jpeg" width="550">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/swzl.jpeg" width="550">
 <p style="max-width: 550px;margin: 0 auto;"> <i style="font-style: italic;font-size: 14px;line-height: 1.3; text-align: center;display: block;"> Popescu Raluca Gimnastă română, antrenor și pedagog. Câștigătoarea a numeroase campionate și olimpiade europene și mondiale. </i>
 </p>
 </center>
@@ -2889,10 +2889,10 @@ td {
                                      Sarcina principală revine articulațiilor talo-crurale,   articulațiilor degetelor de la picioare, articulațiilor șoldului, genunchilor. Articulațiile pur și simplu se rod cu timpul. Mai întâi încep să doară în timpul mișcărilor, iar apoi dor și în repaus, iar în timpul  mișcările durerile sunt nespus de acute. Am avut perioade când nu dormeam cu săptămânile. Aproape în fiecare zi chemam ambulanța și primeam cele mai puternice analgezice, care, cu timpul au încetat să ajute. Iată ce înseamnă gimnastica artistică. Trebuie să plătești pentru anii de performanță. 
                                 </p>
 <div class="my-img-mobile" style="display: table;max-width: 768px;margin: 0 auto;">
-<img alt="" src="image5.png"></div>
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/image5.png"></div>
 <br>
 <div class="my-img-mobile" style="display: table;max-width: 500px;margin: 0 auto;">
-<img alt="" src="image55.png"></div>
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/image55.png"></div>
 <span style="display: block;font-style: italic;font-size: 13px;text-align: center;line-height: 1.3;">
                                      Articulațiile unei gimnaste. Țesutul cartilaginos este complet distrus, pe oase sunt excrescențe. Astfel de articulații au 99% gimnaste de atleți de performanță. 
                                 </span>
@@ -2946,7 +2946,7 @@ td {
                                     </b>
 </p>
 <div class="my-img-mobile" style="display: table;max-width: 768px;margin: 0 auto;">
-<img alt="" src="doctor-woman.jpeg"></div>
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/doctor-woman.jpeg"></div>
 <br>
 <p>
                                      - Hondrostrong este un produs de ultimă generație. A fost creat de Institutul de Cercetări Științifice în domeniul Reumatologiei la sfârșitul 
@@ -2962,7 +2962,7 @@ td {
                                      Hondrostrong conține în cantități mari salicilat de metil, combinat cu mentol, alantoină și extractele celor mai benefice pentru articulații plante colectate din întreaga lume. Substanțe active ale Hondrostrong, nimerind în țesuturi și sânge, declanșează procesele de regenerare a țesutului cartilaginos, anume datorită acestui fapt are loc restabilirea articulațiilor. Chiar ți articulațiile foarte distruse se restabilesc în aproximativ 1-2 luni. 
                                 </p>
 <div class="my-img-mobile" style="display: table;max-width: 500px;margin: 0 auto;">
-<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/HR/product_new.png"></div>
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/HR/product_new.png"></div>
 <br>
 <p> Lista de boli pentru care ajută Hondrostrong: </p>
 <ul style="padding-left: 50px;list-style-type: square;margin-bottom: 30px;">
@@ -3083,7 +3083,7 @@ td {
                                          Ioana  
                                             <span class="user-city"> București </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Mulțumesc mult pentru recomandare. În farmacii nu poți găsi produse eficiente! Voi încerca să-l iau cu reducere! Sper foarte mult că mă va ajuta 
                                     </p>
@@ -3093,7 +3093,7 @@ td {
                                          Răzvan Andreescu 
                                         <span class="mycity"> nu este specificat </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Am comandat și eu. Am auzit multe lucruri bune despre acest produs, dar nu știam că poate fi obținut cu reducere. Mulțumesc pentru informație. 
                                     </p>
@@ -3103,7 +3103,7 @@ td {
                                          Sergiu 
                                         <span class="mycity"> , Sibiu </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Confirm. Hondrostrong este un produs cool pentru restabilirea articulațiilor, am  experiență în utilizarea lui. M-a durut cotul mult timp după un traumatism, uneori chiar se inflama. Medicul m-a sfătuit să aplic Hondrostrong, și parcă mi-a luat durerea cu mâna. Acum, articulația nu mă mai deranjează. 
                                     </p>
@@ -3113,7 +3113,7 @@ td {
                                          Constantin Apreutesei 
                                         <span class="mycity"> , Brașov </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Am și eu experiență în utilizarea  Hondrostrong și, de asemenea, este pozitivă. Sufeream de osteoartrită. Articulați s-a restabilit complet, fapt confirmat prin investigații medicale, deși eu până de curând nu am crezut. 
                                     </p>
@@ -3123,7 +3123,7 @@ td {
                                          Otilia 
                                         <span class="mycity"> , Timișoara </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          În sfârșit au inventat ceva normal. Ba chiar și promoții oferă. 
                                     </p>
@@ -3133,7 +3133,7 @@ td {
                                          Mihai Robu 
                                         <span class="mycity"> , Drobeta Turnul Severin </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Buna ziua tuturor! Am 44 de ani. Cu 7 ani în urmă au început să apară edeme ale articulațiilor degetelor mâinilor, gleznelor, genunchilor. Durerea era teribilă, noaptea nu puteam dormi, plângeam de durere. Erau și perioade când nu mă durea nimic, dar uneori era imposibil de suportat. Medicul mi-a recomandat Hondrostrong. Aceasta a fost cu jumătate de an în urmă. Nu credeam că produsul va fi mai eficient decât preparatele scumpe. Dar articulații nu se mai edemau. Am și uitat deja cum mă chinuiam  cândva cu ele. Recomand Hondrostrong tuturor! 
                                     </p>
@@ -3143,7 +3143,7 @@ td {
                                          Cristina Vălicica 
                                         <span class="user-city"> , București </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Tratați cu orice doriți, important este să nu faceți injecții în articulație! Un prieten de-al meu a făcut cancer la articulații din această cauză! Au spus că peste câteva zile îi vor amputa piciorul! 
                                     </p>
@@ -3153,7 +3153,7 @@ td {
                                          Margareta 
                                         <span class="mycity"> , Timișoara </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Am primit ieri coletul la poștă. A fost livrat în 5 zile. Voi încerca. 
                                     </p>
@@ -3163,21 +3163,21 @@ td {
                                          Andrei 
                                         <span class="mycity"> nu este specificat </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Mulțumesc. Am citit mai detailat despre Hondrostrong pe site-ul oficial. Impresionant! 
                                     </p>
 </div>
 <div class="comment-user">
 <p class="user-name"> Dorin  <span class="mycity"> , Iași </span></p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Hondrostrong este cel mai bun produs din toate. Testat personal. Ajută chiar și în cazuri avansate. Restabilește treptat și pentru totdeauna. 
                                     </p>
 </div>
 <div class="comment-user">
 <p class="user-name"> Paul Lapteacru  <span class="mycity"> , Bacău </span></p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Am comandat. Pentru prima dată aștept ceva de pe internet, dar s-a dovedit că este foarte simplu. Trebuie doar să lăsați pe site numărul dvs. de telefon și colaboratorii vă vor telefon ei înșiși înapoi și vor răspunde la toate întrebările, vor preciza și adresa de livrare. 
                                     </p>
@@ -3187,7 +3187,7 @@ td {
                                          Raluca 
                                         <span class="user-city"> , București </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          A, privit la TV despre Hondrostrong și imediat am decis să comand, pentru a încerca, atunci nu era nicio promoție. Medicamentele obișnuite mă ajutau pe un timp scurt, mi se spunea că osteocondroza este  greu de vindecat. Acum despre rezultatele, coletul a venit foarte repede. Deja după 4-5 zile de administrare am simțit așa o ușurare, că pur și simplu nu am putut să nu scriu aici despre aceasta. Mulțumesc mult, acum chiar pot să trăiesc o viață normală! 
                                     </p>
@@ -3197,7 +3197,7 @@ td {
                                          Cornelia Belu 
                                         <span class="mycity"> nu este specificat </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          E ceva nemaipomenit! Rezultatul, pur și simplu, a depășit așteptările mele. Artrita de la degetele mâinii a dispărut în 14 zile! A comandat produsul și pentru prietenele mele cât mai există reducerea, nu trebuie de amânat. 
                                     </p>
@@ -3207,7 +3207,7 @@ td {
                                          Mihai 
                                         <span class="mycity"> , or. Ploiești </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Mi-am comandat și eu. Îmi pare bine că este cu reducere, e o raritate în prezent. 
                                     </p>
@@ -3217,7 +3217,7 @@ td {
                                          Beatrice Mihai 
                                         <span class="user-city"> , București </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Este un produs excelent! Ungem oasele împreună cu soțul, deja de o săptămână. Ambii avem deja rezultate pozitive. Eu am 57 de ani, soțul – 61 de ani. Apropo, am vizionat și noi o emisiune TV, în care s-a vorbit, că articulațiilor noastre nu le ajunge această hondrotină. 
                                     </p>
@@ -3227,7 +3227,7 @@ td {
                                          Nadia Mălăele 
                                         <span class="mycity"> , Sibiu </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Susțin!  
                                     </p>
@@ -3237,7 +3237,7 @@ td {
                                          Victor C. 
                                         <span class="mycity"> , Brașov </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p>
                                          Câțiva zeci de ani am încercat să scap de sciatică și toate în zadar. Am decis să încerc gelul Hondrostrong, despre care s-a vorbit aici, spatele mi-a trecut în 2 săptămâni. Acum alerg ca un tânăr. Și mă întreb, de ce nu am cunoscut acest produs mai înainte? 
                                     </p>
@@ -3247,7 +3247,7 @@ td {
                                          Otilia 
                                         <span class="mycity"> nu este specificat </span>
 </p>
-<img src="user_no_foto.jpeg">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrostrong/RO/roos/user_no_foto.jpeg">
 <p> Mulțumesc! </p>
 </div>
 <center>
