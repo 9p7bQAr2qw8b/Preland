@@ -8,12 +8,8 @@ include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clic
     
 <title>Come la gente in Italia ottiene il nuovo iPhone 11 per soli 1.95€</title>
 <link rel="icon" type="image/png" href="https://techglobalmagz.com/movies-file/img/favicon.png">
-<link href="./057dd4e.css" type="text/css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="./188.css" type="text/css" rel="stylesheet" media="print">
-<link href="./new_style.css" type="text/css" rel="stylesheet">
 
-<script type="text/javascript" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/jquery.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/jquery.min.js"></script>
     <script type="text/javascript">
         $(function() {
             var offset = $("#sidebar").offset();
@@ -33,7 +29,8 @@ include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clic
     </script>
     
     <style>
-    @charset "UTF-8";
+    
+        @charset "UTF-8";
 
 
 body {
@@ -3613,7 +3610,7 @@ SNIPPETS
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   vertical-align: baseline;
   white-space: nowrap;
-  background: url("img/sprite-icons.png") #d4d4d2 no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") #d4d4d2 no-repeat; }
 
 .nb-comment,
 .nb-comment a {
@@ -3668,7 +3665,7 @@ a.nb-comment:focus {
 
 .title-protected {
   text-indent: 25px;
-  background: url("www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-lock.html") no-repeat left top; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-lock.html") no-repeat left top; }
   .title-protected a {
     color: #000; }
     .title-protected a:hover {
@@ -3676,7 +3673,7 @@ a.nb-comment:focus {
 
 .title-protected-little {
   text-indent: 22px;
-  background: url("www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-lock-little.html") no-repeat left top; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-lock-little.html") no-repeat left top; }
   .title-protected-little a {
     color: #000; }
     .title-protected-little a:hover {
@@ -3691,7 +3688,7 @@ a.nb-comment:focus {
 .author {
   display: block;
   padding: 3px 0 2px 20px;
-  background: url("img/sprite-icons.png") 1px -47px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 1px -47px no-repeat;
   color: #666;
   font-size: 0.846em;
   font-weight: bold;
@@ -3824,7 +3821,7 @@ a.nb-comment:focus {
   margin-left: 0; }
 
 .pdf-icon {
-  background: url("img/sprite-icons.png") #dc0000 50% -605px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") #dc0000 50% -605px no-repeat; }
 
 .pdf-icon,
 .cta-icon:empty {
@@ -3885,7 +3882,7 @@ a.nb-comment:focus {
   padding: 2px 5px 3px;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.1); }
   .cta-twitter .icon-twitter {
-    background: url("img/img/img/img/img/img/sprite-article.png") 0 -400px no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/img/img/img/img/img/sprite-article.png") 0 -400px no-repeat;
     width: 20px; }
 
 .cta-abo:hover,
@@ -4119,7 +4116,7 @@ h1.logo-wrapper {
   margin-left: -1px;
   z-index: 3; }
   .lt-ie9 .nav-link {
-    background: url("main-nav-separator-2.png") no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/main-nav-separator-2.png") no-repeat; }
 
 .nav-link-hover, .nav-link :hover,
 .nav-link :focus, .nav-link-wrapper:hover .nav-link {
@@ -4240,7 +4237,7 @@ h1.logo-wrapper {
 .sub-nav a,
 .social-icon a,
 .toolbar .icon-chevron-down {
-  background-image: url("img/sprite-icons.png");
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png");
   background-repeat: no-repeat; }
 
 .header .row-custom,
@@ -4367,7 +4364,7 @@ h1.logo-wrapper {
       font-size: 1.23077em;
       color: #666666;
       padding-left: 15px;
-      background-image: url("img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/sprite-icons.png");
+      background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/img/sprite-icons.png");
       background-repeat: no-repeat;
       background-position: -40px -344px;
       display: block; }
@@ -4378,7 +4375,7 @@ h1.logo-wrapper {
 .service-abo {
   border-right: 1px solid #ddd;
   margin-right: -1px;
-  background: url("sprite-abo.jpg") 50% 0 no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/sprite-abo.jpg") 50% 0 no-repeat;
   padding-top: 190px;
   color: #666;
   line-height: 17px; }
@@ -4398,7 +4395,7 @@ h1.logo-wrapper {
   background-position: 50% -650px; }
 
 .service-hebdo {
-  background: url("MINI_ABO_HEBDO.png") 50% 0 no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/MINI_ABO_HEBDO.png") 50% 0 no-repeat; }
 
 .espace-abo .service-abo-links {
   position: relative;
@@ -4418,7 +4415,7 @@ h1.logo-wrapper {
   bottom: 0;
   left: 0;
   right: 0;
-  background: url("www-latribune-fr.fox411.net/bundles/popin/offre.html") 0 60px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/popin/offre.html") 0 60px no-repeat; }
 
 .row-fluid .span-search {
   margin-left: 0;
@@ -4545,7 +4542,7 @@ h1.logo-wrapper {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAPCAMAAAASwVXLAAAAKlBMVEUyMjIcHBwkJCQmJiYpKSkXFxcuLi4eHh4UFBQhISEsLCwwMDAWFhYZGRlCXhdNAAAAIUlEQVR42g3FtwEAIAwAIKyx/v+usuAajvZPwpQV1dJtHgcUAGm1/51DAAAAAElFTkSuQmCC) #333333 0 0 repeat-x;
   color: #fff; }
   .lt-ie8 .footer {
-    background-image: url("footer-bg.png"); }
+    background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-bg.png"); }
 
 .footer-top {
   height: 90px;
@@ -4639,7 +4636,7 @@ h1.logo-wrapper {
 
 .list-footer {
   list-style-type: none;
-  background: url("img/sprite-icons.png") -40px -349px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") -40px -349px no-repeat;
   padding-left: 20px;
   line-height: 1.23077em;
   margin-bottom: 10px;
@@ -4843,7 +4840,7 @@ RIVIERE
   width: 172px;
   height: 243px;
   padding: 5px 25px 15px;
-  background: url("well-edition-bg.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/well-edition-bg.jpg") no-repeat;
   margin: 0 auto 10px; }
 
 .header-edition,
@@ -4930,7 +4927,7 @@ SUPERMAX & GROUPE D'ARTICLE
   font-size: 1.615em;
   text-transform: uppercase;
   padding-left: 20px;
-  background: url("img/sprite-icons.png") 0 -187px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 0 -187px no-repeat; }
   .lesplus .title-thematic-group {
     color: #e3a500; }
 
@@ -5003,7 +5000,7 @@ SUPERMAX & GROUPE D'ARTICLE
   padding: 0 10px 0 0;
   background: #fff; }
   .lt-ie9 .more-article-title span {
-    background: url("grey-pixel-1.gif") 0 50% repeat-x;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/grey-pixel-1.gif") 0 50% repeat-x;
     /*hack IE pour liseret gris*/ }
 
 .more-article ul {
@@ -5021,7 +5018,7 @@ SUPERMAX & GROUPE D'ARTICLE
   text-overflow: ellipsis;
   margin: 0;
   padding-left: 16px;
-  background: url("img/sprite-icons.png") 0 -95px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 0 -95px no-repeat;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none; }
   .lt-ie7 .more-article-link {
@@ -5101,7 +5098,7 @@ ENCART / CAROUSELS HOME
   background-color: #FFF;
   display: none; }
   .encart-android #android-icon {
-    background: url("www-latribune-fr.fox411.net/bundles/mobile/logo.html") no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/mobile/logo.html") no-repeat;
     width: 42px;
     height: 28px;
     float: left;
@@ -5111,7 +5108,7 @@ ENCART / CAROUSELS HOME
     display: block;
     float: left;
     margin-left: 2px;
-    background: url("www-latribune-fr.fox411.net/bundles/mobile/etoile_on.html") no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/mobile/etoile_on.html") no-repeat;
     width: 11px;
     height: 11px;
     margin-top: 5px; }
@@ -5119,7 +5116,7 @@ ENCART / CAROUSELS HOME
     display: block;
     float: left;
     margin-left: 2px;
-    background: url("www-latribune-fr.fox411.net/bundles/mobile/etoile_off.html") no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/mobile/etoile_off.html") no-repeat;
     width: 11px;
     height: 11px;
     margin-top: 5px; }
@@ -5152,7 +5149,7 @@ ENCART / CAROUSELS HOME
     text-decoration: none; }
   .encart-android #android-close {
     cursor: pointer;
-    background: url("www-latribune-fr.fox411.net/bundles/mobile/croix.html") no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/mobile/croix.html") no-repeat;
     width: 9px;
     height: 9px;
     float: right;
@@ -5212,7 +5209,7 @@ ENCART / CAROUSELS HOME
 
 .icon-encart {
   display: block;
-  background: url("www-latribune-fr.fox411.net/bundles/homepage/sprite-icon-rdv.html") black;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/homepage/sprite-icon-rdv.html") black;
   width: 30px;
   height: 30px;
   margin: -15px auto 6px;
@@ -5221,7 +5218,7 @@ ENCART / CAROUSELS HOME
 
 .icon-encart-author {
   display: block;
-  background: url("www-latribune-fr.fox411.net/bundles/homepage/fond_zone_opinion.html") 0 0 repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/homepage/fond_zone_opinion.html") 0 0 repeat;
   width: 130px;
   height: 30px;
   margin: -15px auto 6px;
@@ -5237,7 +5234,7 @@ ENCART / CAROUSELS HOME
       height: 14px;
       display: inline-block;
       margin-top: 1px;
-      background: url("www-latribune-fr.fox411.net/bundles/homepage/picto_plume.html") 0 0 no-repeat; }
+      background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/homepage/picto_plume.html") 0 0 no-repeat; }
 
 .icon-unusual {
   background-position: 0 0; }
@@ -5373,10 +5370,10 @@ ENCART / CAROUSELS HOME
   z-index: 2; }
 
 .media-icon-camera {
-  background: url("camera.png") black; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/camera.png") black; }
 
 .media-icon-video {
-  background: url("video.png") black; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/video.png") black; }
 
 .encart .blog-author {
   overflow: hidden;
@@ -5531,7 +5528,7 @@ ENCART / CAROUSELS HOME
 
 /* Multimédia */
 .encart-multimedia {
-  background: url("texture-multimedia.jpg") #2d2f2e; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/texture-multimedia.jpg") #2d2f2e; }
 
 .encart-multimedia .title-encart-wrapper {
   border: 0; }
@@ -5546,7 +5543,7 @@ ENCART / CAROUSELS HOME
   position: relative;
   padding-left: 30px;
   color: #fff;
-  background: url("img/sprite-icons.png") transparent 0 -147px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") transparent 0 -147px no-repeat; }
 
 .encart-multimedia .title-article-encart {
   margin-right: 0;
@@ -5602,9 +5599,9 @@ ENCART / CAROUSELS HOME
     cursor: pointer;
     color: transparent; }
   .nav-carousel2 .nav-carousel-prev-white {
-    background: url("arrows-pagination.png") 0 -17px no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/arrows-pagination.png") 0 -17px no-repeat; }
   .nav-carousel2 .nav-carousel-next-white {
-    background: url("arrows-pagination.png") -17px -17px no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/arrows-pagination.png") -17px -17px no-repeat; }
 
 .nav-zone-media {
   position: absolute;
@@ -5627,10 +5624,10 @@ ENCART / CAROUSELS HOME
   color: transparent; }
 
 .nav-carousel-prev {
-  background: url("arrows-pagination.png") 0 0 no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/arrows-pagination.png") 0 0 no-repeat; }
 
 .nav-carousel-next {
-  background: url("arrows-pagination.png") -17px 0 no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/arrows-pagination.png") -17px 0 no-repeat; }
 
 .encart-daily {
   background: #d0d0ca;
@@ -5754,7 +5751,7 @@ ribbon GRANDE METROPOLE
   font-size: 1.692em;
   line-height: 124%;
   text-transform: uppercase;
-  background: url("metropole-title.gif") #5da9de no-repeat 100% 50%;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/metropole-title.gif") #5da9de no-repeat 100% 50%;
   width: 132px;
   padding: 7px 0px 0 73px;
   margin: 0;
@@ -6026,7 +6023,7 @@ SIDEBAR - COLONNE DE DROITE
 /* <-- BOURSE */
 .bloc-tab .active,
 .bloc-tab .active:hover {
-  background: url("img/sprite-icons.png") #5da9de 50% -272px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") #5da9de 50% -272px no-repeat; }
 
 .bloc-tab li:hover {
   background: #777; }
@@ -6251,7 +6248,7 @@ a:hover .download {
   padding-left: 20px;
   margin-bottom: 10px;
   display: inline-block;
-  background: url("img/sprite-icons.png") 0 -708px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 0 -708px no-repeat; }
 
 .bloc-perso {
   background: #333333; }
@@ -6279,7 +6276,7 @@ a:hover .download {
     float: left;
     padding-left: 30px;
     margin: 5px 20px 5px 0;
-    background: url("img/sprite-icons.png") no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") no-repeat; }
     .bloc-perso li a:hover {
       margin-left: 1px;
       padding-left: 29px; }
@@ -6315,7 +6312,7 @@ a:hover .download {
     border-bottom: 1px solid #f0f0ed;
     padding-bottom: 10px; }
 .last-comment .commentPseudo {
-  background-image: url("img/img/img/img/img/img/sprite-article.png");
+  background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/img/img/img/img/img/sprite-article.png");
   background-position: 0 -358px; }
 
 .abonnezvous .bloc-content {
@@ -6332,7 +6329,7 @@ a:hover .download {
 
 .download-android-store,
 .download-apple-store {
-  background: url("download-app.png") no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/download-app.png") no-repeat;
   display: block;
   width: 108px;
   height: 35px;
@@ -6348,11 +6345,11 @@ a:hover .download {
   margin: 10px 20px; }
 
 .blog-about .bloc-content {
-  background: url("blog-about.png") -200px 0 no-repeat, url("bundles/blog-about.png") 200px 100% no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/blog-about.png") -200px 0 no-repeat, url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/bundles/blog-about.png") 200px 100% no-repeat;
   padding: 15px 20px;
   margin-top: -10px; }
   .lt-ie9 .blog-about .bloc-content {
-    background: url("blog-about-ie.png") 50% 50% no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/blog-about-ie.png") 50% 50% no-repeat; }
 
 .list-blog .bloc-content {
   margin: 10px 20px; }
@@ -6435,7 +6432,7 @@ a:hover .download {
   padding-bottom: 0; }
 
 .diaporama-side {
-  background: url("texture-multimedia.jpg") #2d2f2e;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/texture-multimedia.jpg") #2d2f2e;
   color: #fff; }
   .diaporama-side .bloc-content {
     margin: 10px 15px;
@@ -6494,7 +6491,7 @@ a:hover .download {
   text-align: center;
   cursor: pointer;
   color: transparent;
-  background: url("img/sprite-article.png") no-repeat 50% -233px black;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-article.png") no-repeat 50% -233px black;
   position: absolute;
   top: 52px;
   z-index: 1000; }
@@ -6516,7 +6513,7 @@ a:hover .download {
   left: 264px; }
 
 .bloc-video {
-  background: url("texture-multimedia.jpg") #2d2f2e;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/texture-multimedia.jpg") #2d2f2e;
   overflow: hidden; }
   .bloc-video .bloc-content {
     margin: 20px;
@@ -6534,7 +6531,7 @@ a:hover .download {
   .bloc-video .play-icon {
     width: 30px;
     height: 30px;
-    background: url("img/sprite-icons.png") black 0 -840px no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") black 0 -840px no-repeat;
     position: absolute;
     top: 0;
     right: 0; }
@@ -6548,7 +6545,7 @@ a:hover .download {
   color: #00406d;
   text-transform: uppercase;
   float: left;
-  background: url("img/sprite-icons.png") 100% -877px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 100% -877px no-repeat;
   padding-right: 22px; }
 .bloc-newsletter input {
   border-right: 0; }
@@ -6572,7 +6569,7 @@ a:hover .download {
   width: 35px;
   height: 35px;
   margin-left: 10px;
-  background: url("img/sprite-icons.png") #666666 no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") #666666 no-repeat; }
   .follow-link:active, .follow-link:focus {
     margin-top: 1px; }
 
@@ -6605,7 +6602,7 @@ a:hover .download {
 .partner-logo-bottom {
   height: 22px;
   width: 60px;
-  background: url("sprite-logo-partner.png");
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/sprite-logo-partner.png");
   display: inline-block;
   margin: 8px 3px -8px;
   text-indent: 100%;
@@ -6633,7 +6630,7 @@ a:hover .download {
   margin-right: -1px;
   border-bottom: 1px solid #f0f0ed;
   border-right: 1px solid #f0f0ed;
-  background: url("logos-service.png") no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/logos-service.png") no-repeat; }
   .bloc-service-item:hover {
     background-color: #f0f0ed; }
   .bloc-service-item > span {
@@ -6794,7 +6791,7 @@ blockquote p {
 .title-comment,
 .commentPseudo,
 .title-newsletter {
-  background: url("img/img/img/img/img/img/sprite-article.png") no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/img/img/img/img/img/sprite-article.png") no-repeat;
   padding-left: 25px; }
 
 .commentPseudo {
@@ -6827,7 +6824,7 @@ blockquote p {
 .title-author-name {
   letter-spacing: 0;
   padding-left: 21px;
-  background: url("img/sprite-icons.png") 1px -45px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 1px -45px no-repeat;
   margin-bottom: 15px; }
   .title-author-name span:after {
     border-bottom-color: #ccccc5; }
@@ -6852,7 +6849,7 @@ blockquote p {
     font-size: 1em;
     padding: 5px 7px 5px 30px;
     line-height: 1.23077em;
-    background: url("img/sprite-icons.png") -30px -342px no-repeat;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") -30px -342px no-repeat;
     margin-bottom: 0; }
     .img-links li:first-child {
       padding-top: 15px;
@@ -6876,7 +6873,7 @@ blockquote p {
   margin-bottom: 40px; }
 
 .diapo-wrapper {
-  background: url("texture-multimedia.jpg") #2d2f2e;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/texture-multimedia.jpg") #2d2f2e;
   margin: 10px 0 0;
   padding: 20px;
   position: relative; }
@@ -6935,7 +6932,7 @@ blockquote p {
   box-shadow: 0 0 0 1px #000, 0 3px 0 1px #000; }
 
 .cycle-nav {
-  background: url("arrow-diapo.png") black no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/arrow-diapo.png") black no-repeat;
   display: block;
   position: absolute;
   width: 23px;
@@ -7116,7 +7113,7 @@ blockquote p {
   font-size: 0.84615em;
   font-style: italic;
   padding-left: 22px;
-  background: url("img/img/img/img/img/img/sprite-article.png") 0 -400px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/img/img/img/img/img/sprite-article.png") 0 -400px no-repeat; }
 
 .author-article-wrapper {
   border-left: 1px solid #ccccc5; }
@@ -7131,7 +7128,7 @@ blockquote p {
 .author-large-desc .author-article-link {
   list-style-type: none;
   background: #000;
-  background: url("img/sprite-icons.png") -40px -346px no-repeat;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") -40px -346px no-repeat;
   padding-left: 20px;
   margin: 0 0 5px 20px;
   font-size: 1em;
@@ -7171,7 +7168,7 @@ blockquote p {
     width: 24px;
     height: 24px;
     background-color: #00538c;
-    background-image: url("img/sprite-article.png");
+    background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-article.png");
     background-repeat: no-repeat;
     overflow: hidden;
     text-indent: 100%; }
@@ -7179,13 +7176,13 @@ blockquote p {
       overflow: visible;
       text-indent: -200%; }
   .sharelinks .facebook a.picture, .sharelinks .twitter a.picture, .sharelinks .googleplus a.picture {
-    background-image: url("img/sprite-icons.png"); }
+    background-image: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png"); }
   .sharelinks .facebook div, .sharelinks .twitter div, .sharelinks .googleplus div, .sharelinks .linkedin div {
     padding-top: 2px; }
   .sharelinks .facebook div a, .sharelinks .twitter div a, .sharelinks .googleplus div a, .sharelinks .linkedin div a {
     display: inline-block;
     height: 20px;
-    background: url("sprite-sharelinks.png") no-repeat; }
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/sprite-sharelinks.png") no-repeat; }
   .sharelinks .facebook div p, .sharelinks .twitter div p, .sharelinks .googleplus div p, .sharelinks .linkedin div p {
     display: none;
     position: relative;
@@ -7193,7 +7190,7 @@ blockquote p {
     line-height: 19px;
     margin: 0; }
     .sharelinks .facebook div p b, .sharelinks .twitter div p b, .sharelinks .googleplus div p b, .sharelinks .linkedin div p b {
-      background: url("sprite-sharelinks.png") no-repeat 0 -125px;
+      background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/sprite-sharelinks.png") no-repeat 0 -125px;
       position: absolute;
       right: 0;
       top: 0;
@@ -7201,7 +7198,7 @@ blockquote p {
       width: 7px; }
     .sharelinks .facebook div p span, .sharelinks .twitter div p span, .sharelinks .googleplus div p span, .sharelinks .linkedin div p span {
       display: inline-block;
-      background: url("sprite-sharelinks.png") no-repeat 0 -100px;
+      background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/sprite-sharelinks.png") no-repeat 0 -100px;
       height: 20px;
       padding-left: 11px; }
     .sharelinks .facebook div p em, .sharelinks .twitter div p em, .sharelinks .googleplus div p em, .sharelinks .linkedin div p em {
@@ -7392,7 +7389,7 @@ blockquote p {
   padding-bottom: 5px;
   padding-left: 20px;
   font-size: 1.07692em;
-  background: url("img/sprite-icons.png") 0 -633px no-repeat; }
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") 0 -633px no-repeat; }
 
 #blockAllBlogsCarousel .cycle-slide-active {
   margin-left: auto;
@@ -7425,7 +7422,7 @@ blockquote p {
         font-size: 13px; }
     .modal-abo .description p {
       font-family: "open_sans_condensedbold";
-      background: url("cadenas.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+      background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/cadenas.png") no-repeat scroll right top rgba(0, 0, 0, 0);
       display: inline-block;
       padding: 0 20px 0 10px;
       font-size: 15px;
@@ -7979,11 +7976,11 @@ label.required:not(.radio)::after {
 .page-404 .fl {
   float: left; }
 .page-404 .btn-home-404 {
-  background: url("btn-home-404.png") 0 -4px no-repeat #dc0000;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/btn-home-404.png") 0 -4px no-repeat #dc0000;
   padding-left: 35px;
   margin-left: 100px; }
 .page-404 .btn-bourse-404 {
-  background: url("btn-bourse-404.png") 0 -4px no-repeat #dc0000;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/btn-bourse-404.png") 0 -4px no-repeat #dc0000;
   padding-left: 35px;
   margin-left: 30px; }
 .page-404 .btns-404 {
@@ -8032,7 +8029,7 @@ label.required:not(.radio)::after {
 .theme nav.fil-ariane {
   margin: 0 21px 30px 16px; }
 .theme h1.title-page {
-  background: url("theme-ico.jpg") no-repeat left 7px;
+  background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/theme-ico.jpg") no-repeat left 7px;
   padding-left: 49px;
   text-transform: uppercase;
   white-space: initial;
@@ -8069,7 +8066,7 @@ label.required:not(.radio)::after {
   .img-links.associatedTheme span.title {
     display: block;
     margin: 0 0 5px;
-    background: url("theme-ico-pt.png") no-repeat left center;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/theme-ico-pt.png") no-repeat left center;
     padding-left: 27px;
     color: #00538c;
     font-size: 20px;
@@ -8139,7 +8136,7 @@ label.required:not(.radio)::after {
     .kiosk .edition-wrapper .edition-links ul {
       margin: 0; }
     .kiosk .edition-wrapper .edition-links li {
-      background: url("img/sprite-icons.png") -40px -347px no-repeat;
+      background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/img/sprite-icons.png") -40px -347px no-repeat;
       list-style-type: none;
       padding-left: 20px;
       margin-bottom: 10px;
@@ -8199,7 +8196,7 @@ label.required:not(.radio)::after {
       -moz-border-radius: 10px;
       border-radius: 10px; }
       .block-kiosk section.bloc-content .bloc-content-image.daily {
-        background: url("www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_background-quotidien.html") no-repeat; }
+        background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_background-quotidien.html") no-repeat; }
         .block-kiosk section.bloc-content .bloc-content-image.daily img {
           width: 177px;
           height: 235px;
@@ -8221,7 +8218,7 @@ label.required:not(.radio)::after {
       .block-kiosk section.bloc-content .bloc-content-sup span {
         padding-right: 61px;
         padding-top: 9px;
-        background: url("www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-quotidien.html") no-repeat right top; }
+        background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/www-latribune-fr.fox411.net/bundles/block/abonne/block-editions_ico-quotidien.html") no-repeat right top; }
   .block-kiosk section.bloc-link {
     text-align: center;
     padding: 15px 0;
@@ -8266,15 +8263,15 @@ label.required:not(.radio)::after {
 }
 .dvlr .rtime span,
 .mobile-dvlr .rtime span {
-    background: url("clock104.svg") no-repeat transparent;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/clock104.svg") no-repeat transparent;
 }
 .dvlr .likes span,
 .mobile-dvlr .likes span {
-    /* background: url("favorite21.svg") no-repeat transparent; */
+    /* background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/favorite21.svg") no-repeat transparent; */
 }
 .dvlr .views span,
 .mobile-dvlr .views span {
-    background: url("eye110.svg") no-repeat transparent;
+    background: url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/eye110.svg") no-repeat transparent;
 }
 .dvlr .likes span,
 .dvlr .views span,
@@ -8302,12 +8299,6 @@ label.required:not(.radio)::after {
     width: 100% !important;
   }
         
-        body > header{display:none !important;visibility:hidden !important;}
-footer{display:none !important;visibility:hidden !important;}
-.navbar-fixed-top{display:none !important;visibility:hidden !important;}
-.footer-top{display:none !important;visibility:hidden !important;}
-.sidebar{display:none !important;visibility:hidden !important;}
-body > div.pub{display:none !important;visibility:hidden !important;}
         
         .fbcommentscontainer{width:900px;margin-left:auto;margin-right:auto;}
 .fbConnectWidgetFooter{bottom:0;cursor:default;position:absolute;width:100%;}
@@ -8348,7 +8339,7 @@ div.uiHeaderTopBorder{margin-left:0;}
 .uiHeaderNav h4{color:gray;}
 .lfloat{float:left;}
 .phm{padding-left:10px;padding-right:10px;}
-.sp_comments{background-image:url("./like.png");background-repeat:no-repeat;display:inline-block;height:17px;width:17px;}
+.sp_comments{background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/./like.png");background-repeat:no-repeat;display:inline-block;height:17px;width:17px;}
 .sx_comments_cfavicon{width:14px;height:14px;background-position:0 -187px;}
 
 .uiBlingBox{border-bottom:1px solid #fff;display:inline-block;padding:3px 4px 3px 2px;}
@@ -8405,7 +8396,7 @@ a.uiLinkSubtle{color:gray;}
 .UIImageBlock_Image .img{display:block;}
 .UIImageBlock_MED_Image{margin-right:10px;}
 .fbcommentscontainer a{color:#3B5998!important;}
-.sp_comments{background-image:url("like.png");background-repeat:no-repeat;height:17px;width:17px}
+.sp_comments{background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/like.png");background-repeat:no-repeat;height:17px;width:17px}
 @media screen and (max-width:767px){.fbcommentscontainer{margin-top:20px;width:100%;}
 }
 @media screen and (min-width:768px) and (max-width:1024px){.fbcommentscontainer{width:100%;}
@@ -8420,7 +8411,14 @@ a.uiLinkSubtle{color:gray;}
 .navbar-fixed-top, .navbar-fixed-bottom{position:absolute;}
 @media screen and (min-width:300px) and (max-width:1000px){.sidebar{display:none;}
     
-        
+    
+    body > header{display:none !important;visibility:hidden !important;}
+footer{display:none !important;visibility:hidden !important;}
+.navbar-fixed-top{display:none !important;visibility:hidden !important;}
+.footer-top{display:none !important;visibility:hidden !important;}
+.sidebar{display:none !important;visibility:hidden !important;}
+body > div.pub{display:none !important;visibility:hidden !important;}
+    
     </style>
 
 
@@ -8462,9 +8460,9 @@ Open
 <div class="row-custom">
 <div class="logo-wrapper">
 <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">
-<img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/logo-www.png" alt="Journal èconomique et financier" class="logo-header" width="140"> </a> </div>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-menu-responsive" class="hidden-desktop"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/menu-grey.png" width="32" height="32"></a>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-sharedlinks-responsive"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/social_icon.png" width="32" height="32"></a>
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/logo-www.png" alt="Journal èconomique et financier" class="logo-header" width="140"> </a> </div>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-menu-responsive" class="hidden-desktop"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/menu-grey.png" width="32" height="32"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-sharedlinks-responsive"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/social_icon.png" width="32" height="32"></a>
 <div id="menu-responsive">
 
 </div>
@@ -8615,7 +8613,7 @@ Jobs
 <h1 style="font-size:36px; font-family:Arial, Helvetica, sans-serif; color:#000000;margin-bottom:10px;margin-left:10px;">Come la gente in Italia ottiene il nuovo iPhone 11 per soli 1.95€</h1>
 <div class="row-reset-padding">
             <div class="xsmall-8 column">
-				<div style="margin-bottom:-15px;margin-left:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/rs.png"></a></div>
+				<div style="margin-bottom:-15px;margin-left:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/rs.png"></a></div>
 				<div class="container">
 		<header>
 			<div class="dvlr" style="font-size:10px;margin-left:-10px;">
@@ -8634,9 +8632,9 @@ Jobs
 		</header>
 				</div>
 <div style="font-size:12px;"><p>Publicerad: <script>dtime(-2)</script>Tisdag, 17 September 2019Torsdag, 16 Februari 2017, <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Henrik Bengtsson</a></p></div>
-<p style="margin-top:-100px;margin-bottom:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10.jpg" alt="" width="1000" height="584"></a></p>
-				<p style="margin-top:-10px;margin-bottom:3px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/feature2.png"></a></p>
-				<p style="margin-bottom:0px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" img="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/newsarticles.png"></a></p>
+<p style="margin-top:-100px;margin-bottom:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10.jpg" alt="" width="1000" height="584"></a></p>
+				<p style="margin-top:-10px;margin-bottom:3px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/feature2.png"></a></p>
+				<p style="margin-bottom:0px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" img="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/newsarticles.png"></a></p>
 <br>
 <p>Se vivi in Italia e vuoi il nuovo <strong>iPhone 11</strong>, questo sarebbe l'articolo più emozionante che tu abbia mai letto.</p>
 <p><strong>Questo è l'affare: Apple Inc (NASDAQ: AAPL) offre il nuovo iPhone 11 per 1.95€. Sì, hai letto bene, 1.95€.</strong></p>
@@ -8645,7 +8643,7 @@ Jobs
 <p>Troppo bello per essere vero? Ecco come pensava Carl Henderson, 18 anni, pensò pure. Ha deciso di provare la mossa e ha ricevuto il suo iPhone 11 a 1.95€ pochi giorni dopo.
 </p>
 <div class="m" align="center">
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="align-2right" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10winner.jpg"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="align-2right" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10winner.jpg"></a>
 </div>
 <p><em>Carl spiega: "All'inizio ho pensato che fosse solo un'altra truffa su internet, ma poi ho fatto delle ricerche e ho visto che Organizejobs è una società di marketing legittima, ho deciso di rischiare 1.95€. Questo è meno del prezzo di un pasto Comunque, 3 giorni dopo, controllo la mia posta e sono felice di vedere una nuova scatola lucida con un logo iPhone...".</em></p>
  <p>Apparentemente questa tattica promozionale "praticamente libera" è una pratica comune tra le grandi aziende con grandi budget di marketing. Ad esempio, Burger King ha lanciato una campagna simile nel 2013, offrendo 20,000 Whoppers gratuiti su Facebook.</p>
@@ -8669,7 +8667,7 @@ Jobs
                     </script>):</strong>
 Per verificare se Organizejobs è solido, il nostro team editoriale in realtà ha pagato 1.95€ per un iPhone 11 durante il fine settimana e l'abbiamo appena ricevuto ieri mattina!</p>
 <div class="m">
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10-unboxed.jpg" alt="dan tran 660.jpg" itemprop="image"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10-unboxed.jpg" alt="dan tran 660.jpg" itemprop="image"></a>
 <div class="caption">
 </div>
 <!--<div style=" background:rgb(253, 253, 213); border:1px solid rgb(211, 211, 62); font-weight:bold; padding:8px 10px;">
@@ -8682,7 +8680,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <div class="fbcommentscontainer" style="width:80%; float:left;">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="padding: 10px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/blank-picture.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/blank-picture.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <textarea style="width:100%;" name="add_comment_text_text" class="textInput mentionsTextarea uiTextareaAutogrow uiTextareaNoResize UFIAddCommentInput DOMControl_placeholder" title="Write a comment..." placeholder="Write a comment..." data-reactid=".b.1:4.0.$right.0.0.0.0.1.0.1.0" id="js_s" aria-expanded="false" aria-label="Ecrire un commentaire..."></textarea>
@@ -8692,7 +8690,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </div>
 </div>
 </div>
-<div><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/comment.jpg" style="float: right;" width="68" height="22"></a></div>
+<div><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/comment.jpg" style="float: right;" width="68" height="22"></a></div>
 </div>
 <div class="fsm fwn fcg"></div>
 </div>
@@ -8721,7 +8719,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <ul class="uiList fbFeedbackPosts" style="margin-top:-70px;margin-left:-10px;">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/12.jpg" alt="" width="50" height="50" style="margin-top:7px;"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/12.jpg" alt="" width="50" height="50" style="margin-top:7px;"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Virpi Hirvonen</a>
@@ -8746,7 +8744,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/32.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/32.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Kairi Potter</a>
@@ -8770,7 +8768,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/10.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/10.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Aliana Ortega</a>
@@ -8793,7 +8791,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <ul class="uiList fbFeedbackReplies">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbCommentReply uiListItem uiListVerticalItemBorder" id="fbc_10150877337728759_22500369_10150877995903759_reply" style="margin-top:-20px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/2.jpg" alt="" width="50" height="50" style="margin-top:5px;"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/2.jpg" alt="" width="50" height="50" style="margin-top:5px;"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Céline Laurens</a>
@@ -8823,7 +8821,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </div>
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-75px;" <div="">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/7.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/7.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Anneliese Schichau</a>
@@ -8846,7 +8844,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li></ul></div>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/5.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/5.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Amadou Charpentier</a>
@@ -8870,7 +8868,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/31.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/31.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Dylan Lewis</a>
@@ -8894,7 +8892,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/48783_12401144_1332233149_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/48783_12401144_1332233149_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Marko Kinnunen</a>
@@ -8917,14 +8915,14 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/6.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/6.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Élodie Bureau</a>
 <div class="postContent fsm fwn fcg">
 <div class="postText" style="margin-top:-5px;">
 <p>A M A Z I N G!!</p>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen2.jpg" width="480" height="480"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen2.jpg" width="480" height="480"></a>
 </div>
     <b></b>
 <div class="stat_elem">
@@ -8942,7 +8940,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/4.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/4.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Jutta Ruotsalainen</a>
@@ -8965,7 +8963,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/3.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/3.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Amber Holmes</a>
@@ -8988,13 +8986,13 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/187364_20501998_2048679844_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/187364_20501998_2048679844_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Otto Daluege</a>
 <div class="postContent fsm fwn fcg" style="margin-top:-0px;">
 <div class="postText">omg ho avuto il mio iPhone ieri, ancora non posso credere che questo sia reale. Spero che anche i miei amici lo vinceranno<br>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen.jpg" width="480" height="480"></a></div>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen.jpg" width="480" height="480"></a></div>
 <div class="stat_elem">
 <div class="action_links fsm fwn fcg" style="margin-top:-5px;">
 <a id="uz1cxy_5">Reply</a> <span class="dotpos">.</span>
@@ -9010,7 +9008,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/273549_7706291_1106946751_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/273549_7706291_1106946751_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Catherine Masson</a>
@@ -9077,7 +9075,7 @@ HOW TO GET YOUR iPhone 11 FOR 1.95€?
 <div style="margin-right:10px;margin-left:10px;">Enter your payment information in order to pay 1.95€ and press the blue button "Validate payment".</div>
 <li><b style="background-color: #ffff00;"></b></li><br>
 <div style="margin-right:10px;margin-left:10px;"><b>Once you have completed this brief process, you will receive your iPhone 11 within 3 days at your home.</b></div><br>
-<div class="textwidget"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/alls10.jpg"></a></div>
+<div class="textwidget"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/alls10.jpg"></a></div>
 </ul></div>
 </div>
 </section>
@@ -9186,7 +9184,7 @@ London&nbsp;
 </a>
 <div class="partner-name" style="color:#00528c">
 In partnership with
-<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/monster_logo.png" width="112" height="19">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/monster_logo.png" width="112" height="19">
 </div>
 </div>
 </div>
@@ -9227,7 +9225,7 @@ FOLLOW WORLD NEWS
 <div class="row-custom clearfix">
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/image-footer-HEBDO.jpg" width="100" height="120">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/image-footer-HEBDO.jpg" width="100" height="120">
 </span>
 <header class="footer-top-head">Newsweekly</header>
 <p>
@@ -9240,7 +9238,7 @@ and online
 </div>
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-quotidien.jpg" width="100" height="120">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-quotidien.jpg" width="100" height="120">
 </span>
 <header class="footer-top-head">Daily</header>
 <p>
@@ -9253,7 +9251,7 @@ online
 </div>
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-mobile.png" width="110" height="120">
+<img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-mobile.png" width="110" height="120">
 </span>
 <header class="footer-top-head">World.News</header>
 <p>All last news on your pc, tablet and smartphone </p>
@@ -9438,7 +9436,7 @@ Sign in
 </div>
 <div id="sabonner" class="span6 sabonner">
 <span class="sub-title-modal">Discovery offer - 1 month free</span>
-<img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/abonnement.png" alt="" class="" width="240" height="104">
+<img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/abonnement.png" alt="" class="" width="240" height="104">
 <a class="btn btn-abo pull-right" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Join us</a>
 </div>
 <div class="clear"></div>
