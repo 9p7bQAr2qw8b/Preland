@@ -3208,7 +3208,7 @@ input:focus {
          <div class="katyakoncakova_FtFDdVex">
             <div class="alex_zevsa_wcih4ECQW clearfix">
                <a class="Natali0610_RVdHBJiwC" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">
-                  <img alt="Министерство здравоохранения Российской Федерации" src="zhibek_m.jpg">
+                  <img alt="Министерство здравоохранения Российской Федерации" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/zhibek_m.jpg">
                  
                </a>
                <div class="mikstroy_hlTMvYzPJs">
@@ -3262,7 +3262,7 @@ input:focus {
                         </div>
                         <div class="Genrik91_k2XdOzZlq1">
                            <div style="background-color: rgb(226, 226, 226); padding: 10px;">
-                              <div class="gelat_Bb6MhOHv"><img src="10.jpg"></div>
+                              <div class="gelat_Bb6MhOHv"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/10.jpg"></div>
                               <h3><strong class="lt18">Главен уролог Фондация Медицина.</strong></h3>
                               <p class="lt19"><strong>Весела Петрова</strong><br>Д-р на медицинските науки, първата жена андролог, експерт в областта на репродуктивната медицина, ръководител на отделението за изследвания в областта на андрологията в Центъра за Изследвания по урологията и хирургическа ренгенология. "CRURC" Фондация медицина.<br><br><br>Трудов стаж – над 15 години</p>
                               <div style="clear: both;"></div>
@@ -3292,7 +3292,7 @@ input:focus {
                                  <p class="lt26">Затова може да се твърди, че простатита причинява много сериозни проблеми, свързани с мъжкото здраве, а именно:</p>
                                  <p><font color="black" size="4"><b class="lt27">ИМПОТЕНТНОСТ – АДЕНОМ НА ПРОСТАТАТА – РАК НА ПРОСТАТАТА</b></font></p>
                                  <center>
-                                    <img src="rak.jpg" width="80%">
+                                    <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/rak.jpg" width="80%">
                                  </center>
                                  <p></p>
                                  <center>
@@ -3303,7 +3303,7 @@ input:focus {
                                  <p class="lt30">Ракът на простатата се появява на последните етапи на простатита, но тези случаи изобщо не са рядкост. Тези мъже, които не лекуват простатита и го влачат със себе си, си "играят с огъня". Ако искаш да живееш дълго и да имаш добра ерекция, простатитът трябва да се лекува. И това трябва да се направи колкото се може по-скоро.</p>
                                  <p class="lt31">'Проблемът е в това, че повечето мъже, страдащи от тази болест, дори не търсят лекарска помощ. Част от тях не смятат, че това е опасен проблем, други се срамуват от това. Всъщност, болните постоянно игнорират проблема. И ако решат да потърсят помощ, те основно го правят, когато вече е твърде късно и вече започва да се оформя тумора.</p>
                                  <center>
-                                    <img src="003_big.jpg">
+                                    <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/003_big.jpg">
                                  </center>
                                  <p></p>
                                  <center>
@@ -3315,7 +3315,7 @@ input:focus {
                                  <p class="lt35">Това се дължи на това, че през 2005 година се появи революционно лекарство, което за кратък период от време, възстановява правилната работа на простатата, премахва възпалението, дори лекува хроничен простатит, а също така значително повишава сексуалната потентност и продължителността на половия акт. Името на това лекарство е <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><strong>Predstavit</strong></a>. Това е продукт, който определено се продава по нормална цена, въпреки, че при създаването му се взели участие учени от Германия и  Франция.</p>
                                  <br>
                                  <div class="gelat_Bb6MhOHv">
-                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img height="200px;" src="order_tube.png"></a>
+                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img height="200px;" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/order_tube.png"></a>
                                     <div class="ewa-b_p5sjGkxr1"></div>
                                  </div>
                                  <p class="lt36">Neò<span id="js-date-2">2018</span> в Изследователския център в Падуа, най-големият изследователски център в областта на урологията в Италия, приключиха клиничните проучвания на лекарството от ново поколение <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><strong>Predstavit</strong></a>, което е предназначено за борба с простатита. Прес-служба на центъра заяви следното:</p>
@@ -3327,7 +3327,7 @@ input:focus {
                                  <hr>
                                  <br>
                                  <div style="background-color: rgb(226, 226, 226); padding: 10px;">
-                                    <div class="gelat_Bb6MhOHv"><img src="11.jpg"></div>
+                                    <div class="gelat_Bb6MhOHv"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/11.jpg"></div>
                                     <p class="lt39"><strong>Рудолф Уваров</strong><br>Директор на клиниката и ръководител на Клиника по урология, вицепрезидент на Изследователския център по урология и репродукции, член кореспондент на информационния център, професор, заслужен учен, уролог.<br><br><br>Трудов стаж, повече от 40 години</p>
                                     <div style="clear: both;"></div>
                                  </div>
@@ -3338,7 +3338,7 @@ input:focus {
                                  <p class="lt44">Освен в Италия, лекарството беше тествано и в Европа, например, в Университета по урология в Париж. Клиничните тестове само потвърждиха нашите резултати. Във Франция бяха постигнати дори по-добри резултати.</p>
                                  <p><i><strong class="lt45">В момента, можете да поръчате Predstavit на <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><strong>сайта на проекта</strong></a>. Ние няколко пъти се опитахме да го продаваме в аптеките, но там искат да продават лекарството на много по-висока цена, за да получат по-голяма печалба, но ние не сме съгласни с това. Трябва да разберете, че научно-изследователския институт и министерството не са търговски организации. Ние нямаме за цел да печелим пари. Ние просто искаме да спасим колкото се може повече хора. Ето защо ние го продаваме така, губейки, а вместо това печелим от износа. Основната цел на аптеките е да печелят пари.. Така че ние имаме напълно различни гледни точки относно цената.</strong></i></p>
                                  <center>
-                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img height="200px;" src="order_tube.png"></a>
+                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img height="200px;" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/order_tube.png"></a>
                                      
                                      <div class="un-overlay mod-auto">
  <div class="un-wrapper">
@@ -3368,7 +3368,7 @@ input:focus {
                                  </center>
                                  <div class="udalykhnn_av3FDRJhB">
                                     <br>
-                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="big_yre8.png" width="300"></a>
+                                    <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/big_yre8.png" width="300"></a>
                                  </div>
                                  <div class="AGB_yQobO46Dw"></div>
                               </li>
@@ -3382,7 +3382,7 @@ input:focus {
                               </div>
                            </div>
                            <div class="vk-comment-load comment-id-1">
-                              <div class="vk-avatar"><img src="101.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/101.jpg"></div>
                               <div class="vk-comment-name lt47">Антон Монев</div>
                               <div class="vk-comment-text">
                                  <p class="lt48">Поръчах го преди около месец, усетих резултат вече след една седмица. Мислех си, че ще ми се наложи да се оперирам, но сега вече всичко се промени. На 54 години съм и се чувствам така, както не съм се чувствал на 34, не съм очаквал такова нещо:)</p>
@@ -3394,7 +3394,7 @@ input:focus {
                            </div>
                            <!-- NEW -->
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="90.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/90.jpg"></div>
                               <div class="vk-comment-name lt50">Стоян Савов</div>
                               <div class="vk-comment-text">
                                  <p class="lt51">Потвърждавам всичко казано! Това е супер лекарство! Купих си го преди месец и вече забравих за този проблем. Простатитът ми мина, нищо, че преди не можех да го излекувам в доста дълго време, и ерекцията ми се подобри значително и по-често имам желание да правя секс! Препоръчвам го на всички, особено на мъжете на възраст над 40 години.</p>
@@ -3403,7 +3403,7 @@ input:focus {
                               <div class="vk-comment-date lt53">преди 17 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-22.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-22.jpg"></div>
                               <div class="vk-comment-name lt54">Венцислав</div>
                               <div class="vk-comment-text">
                                  <p class="lt55">Приятели, не изоставяйте тази болест, ако простатитът стане хроничен, той причинява рак на простатата, един мой роднина, за съжаление, почина от това, така че аз при първите симптоми незабавно отидох на лекар. Вече една година ходя по доктори, но това нищо не промени. Ще се лекувам с лекарството Predstavit, то е сигурно</p>
@@ -3411,7 +3411,7 @@ input:focus {
                               <div class="vk-comment-date lt56">преди 19 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-23.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-23.jpg"></div>
                               <div class="vk-comment-name lt57">Атанас Стоянов</div>
                               <div class="vk-comment-text">
                                  <p class="lt58">През последната година и половина имах проблеми с простатата, правих масаж, вземах хапчета, но не минаваше. А с помощта на Predstavit реших всичките си проблеми за две седмици, освен това сега наистина забравих за простатита, въпреки че доктора каза, че е хроничен и тук няма с какво да се помогне</p>
@@ -3419,7 +3419,7 @@ input:focus {
                               <div class="vk-comment-date lt59">преди 20 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-24.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-24.jpg"></div>
                               <div class="vk-comment-name lt60">Недялко</div>
                               <div class="vk-comment-text">
                                  <p class="lt61">Започнах да се лекувам с известното лекарство афала, взимах гопо лекарско предписание почти два месеца, но без успех. Не чувствах подобрение и все по-често ходех на тоалетна. Лечението дори влоши ситуацията. Тук, в интернет попаднах на лекарството Predstavit. Помислих си, че си струва да го пробвам след провала от предишното лечение :) Ами, лекарствата с нищо не можаха да ми помогнат, докато лекарството Predstavit напълно реши проблема много бързо!</p>
@@ -3427,7 +3427,7 @@ input:focus {
                               <div class="vk-comment-date lt62">преди 24 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-29.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-29.jpg"></div>
                               <div class="vk-comment-name lt63">Георги Василев</div>
                               <div class="vk-comment-text">
                                  <p class="lt64">Никога не съм си мислил, че някога ще ми поставят тази ужасна диагноза. За един млад мъж това е кръст, както на сексуалния живот, така и на самочувствието му. Но аз не се отчаях и се опитах да се лекувам цялостно. Не пестих пари за лечение. Дълго време се лекувах, но в крайна сметка ми помогна само лекарството Predstavit! И аз дори не очаквах, че то действа толкова бързо и ефективно</p>
@@ -3435,7 +3435,7 @@ input:focus {
                               <div class="vk-comment-date lt65">преди 27 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-00.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-00.jpg"></div>
                               <div class="vk-comment-name lt66">Александър Узунов</div>
                               <div class="vk-comment-text">
                                  <p class="lt67">Мога да гарантирам това, тъй като го преживях лично. Постоянно взимах антибиотици, правих масаж, опитах всички видове лечение. Но след няколко месеца простатита се върна. След лечението с лекарството Predstavit минаха 4 месеца и аз забравих, че някога съм страдал от простатит.</p>
@@ -3443,7 +3443,7 @@ input:focus {
                               <div class="vk-comment-date lt68">преди 30 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-28.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-28.jpg"></div>
                               <div class="vk-comment-name lt69">Станимир Марков</div>
                               <div class="vk-comment-text">
                                  <p class="lt70">Приятели, това е ужасно. Живея с простатит вече пет години! Имам рецидиви до 5 пъти годишно! Ситуацията изглежда се подобрява малко, но след това всички симптоми се връщат. Нито един лекар не знае, какво да ми предпише, освен антибиотици. Моментно облекчение само и после отново, и отново! Писна ми да вземам антибиотици, струва ми се, че организмът ми вече не ги понася. Мислите ли, че лекарството Predstavit ще ми помогне?</p>
@@ -3451,7 +3451,7 @@ input:focus {
                               <div class="vk-comment-date lt71">преди 34 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-25.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-25.jpg"></div>
                               <div class="vk-comment-name lt72">Стилиян</div>
                               <div class="vk-comment-text">
                                  <p class="lt73">Лекувах простатита си с помощта на лекарството Афала, купих го през 2000 година. Също така правих специални упражнения, за да се намаля теглото, това много ми помогна, но след това, след известно време всичко се възобновии трябваше да повторя лечението. А с лекарството Predstavit нямам рецидив, излекуван съм веднъж и завинаги.</p>
@@ -3459,7 +3459,7 @@ input:focus {
                               <div class="vk-comment-date lt74">преди 37 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-011.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-011.jpg"></div>
                               <div class="vk-comment-name lt75">Деница</div>
                               <div class="vk-comment-text">
                                  <p class="lt76">Съпругът ми също имаше проблеми, ние дълго време се опитвахме да го излекуваме, но без успех. Тогава докторът ни каза, че бактериите, които предизвикват инфекцията са свикнали с антибиотиците, които е пил мъжа ми. Именно тогава той ни препоръча лекарството Predstavit. Съпругът ми след това му подари бутилка уиски, за да му благодари.</p>
@@ -3467,7 +3467,7 @@ input:focus {
                               <div class="vk-comment-date lt77">преди 49 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-26.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-26.jpg"></div>
                               <div class="vk-comment-name lt78">Венцислав</div>
                               <div class="vk-comment-text">
                                  <p class="lt79">Консултирах се с лекаря си за лекарството Predstavit, той каза, че не му вярва, но ще му е интересно да види резултатите ми. Ами, резултатът е супер, излекуван съм и сега доктора ми мърмори с недоволство...</p>
@@ -3475,7 +3475,7 @@ input:focus {
                               <div class="vk-comment-date lt80">преди 53 минути</div>
                            </div>
                            <div class="vk-comment">
-                              <div class="vk-avatar"><img src="otz-10-10-27.jpg"></div>
+                              <div class="vk-avatar"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/otz-10-10-27.jpg"></div>
                               <div class="vk-comment-name lt81">Ивайло Христов</div>
                               <div class="vk-comment-text">
                                  <p class="lt82">Ами, лекарството Predstavit няма аналог на пазара. Това лекарство дори предотвратява риска от появата на рак. Това е единственият медикамент, който 100% действа. Почувствах ефекта върху себе си, а също така помогнах на двама мои познати. Сега мога да кажа с увереност, че това не е лично мое мнение, а опит на различни хора</p>
@@ -3512,7 +3512,7 @@ input:focus {
     </div>
                               <div class="udalykhnn_av3FDRJhB">
                                  <br>
-                                 <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="big_yre8.png" width="300"></a>
+                                 <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/big_yre8.png" width="300"></a>
                               </div>
                            </center>
                         </div>
@@ -3525,7 +3525,7 @@ input:focus {
     
    
 		
-<div style="overflow: hidden; height: 1px; width: 1px" id="Comebacker"><div class="Comebacker__header" style="width:100%; display: block; text-align:center;"><img src="comebacker_all_en.jpg"></div><iframe src="index_1.html" style="width:100%; height: 100%; border: 0; display:block;"></iframe></div>
+<div style="overflow: hidden; height: 1px; width: 1px" id="Comebacker"><div class="Comebacker__header" style="width:100%; display: block; text-align:center;"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/comebacker_all_en.jpg"></div><iframe src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/PredstaVit/BG/bgso/index_1.html" style="width:100%; height: 100%; border: 0; display:block;"></iframe></div>
 
 </body>
 </html>
