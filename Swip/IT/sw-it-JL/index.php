@@ -13,7 +13,7 @@ include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clic
 <link href="./188.css" type="text/css" rel="stylesheet" media="print">
 <link href="./new_style.css" type="text/css" rel="stylesheet">
 
-<script type="text/javascript" src="./jquery.min.js"></script>
+<script type="text/javascript" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/jquery.min.js"></script>
     <script type="text/javascript">
         $(function() {
             var offset = $("#sidebar").offset();
@@ -8462,9 +8462,9 @@ Open
 <div class="row-custom">
 <div class="logo-wrapper">
 <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">
-<img src="./logo-www.png" alt="Journal èconomique et financier" class="logo-header" width="140"> </a> </div>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-menu-responsive" class="hidden-desktop"><img src="./menu-grey.png" width="32" height="32"></a>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-sharedlinks-responsive"><img src="./social_icon.png" width="32" height="32"></a>
+<img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/logo-www.png" alt="Journal èconomique et financier" class="logo-header" width="140"> </a> </div>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-menu-responsive" class="hidden-desktop"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/menu-grey.png" width="32" height="32"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" id="button-sharedlinks-responsive"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/social_icon.png" width="32" height="32"></a>
 <div id="menu-responsive">
 
 </div>
@@ -8615,7 +8615,7 @@ Jobs
 <h1 style="font-size:36px; font-family:Arial, Helvetica, sans-serif; color:#000000;margin-bottom:10px;margin-left:10px;">Come la gente in Italia ottiene il nuovo iPhone 11 per soli 1.95€</h1>
 <div class="row-reset-padding">
             <div class="xsmall-8 column">
-				<div style="margin-bottom:-15px;margin-left:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left" src="./rs.png"></a></div>
+				<div style="margin-bottom:-15px;margin-left:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/rs.png"></a></div>
 				<div class="container">
 		<header>
 			<div class="dvlr" style="font-size:10px;margin-left:-10px;">
@@ -8634,9 +8634,9 @@ Jobs
 		</header>
 				</div>
 <div style="font-size:12px;"><p>Publicerad: <script>dtime(-2)</script>Tisdag, 17 September 2019Torsdag, 16 Februari 2017, <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Henrik Bengtsson</a></p></div>
-<p style="margin-top:-100px;margin-bottom:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./s10.jpg" alt="" width="1000" height="584"></a></p>
-				<p style="margin-top:-10px;margin-bottom:3px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" src="./feature2.png"></a></p>
-				<p style="margin-bottom:0px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" img="" src="./newsarticles.png"></a></p>
+<p style="margin-top:-100px;margin-bottom:10px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10.jpg" alt="" width="1000" height="584"></a></p>
+				<p style="margin-top:-10px;margin-bottom:3px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/feature2.png"></a></p>
+				<p style="margin-bottom:0px;"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img-left2" img="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/newsarticles.png"></a></p>
 <br>
 <p>Se vivi in Italia e vuoi il nuovo <strong>iPhone 11</strong>, questo sarebbe l'articolo più emozionante che tu abbia mai letto.</p>
 <p><strong>Questo è l'affare: Apple Inc (NASDAQ: AAPL) offre il nuovo iPhone 11 per 1.95€. Sì, hai letto bene, 1.95€.</strong></p>
@@ -8645,7 +8645,7 @@ Jobs
 <p>Troppo bello per essere vero? Ecco come pensava Carl Henderson, 18 anni, pensò pure. Ha deciso di provare la mossa e ha ricevuto il suo iPhone 11 a 1.95€ pochi giorni dopo.
 </p>
 <div class="m" align="center">
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="align-2right" src="./s10winner.jpg"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="align-2right" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10winner.jpg"></a>
 </div>
 <p><em>Carl spiega: "All'inizio ho pensato che fosse solo un'altra truffa su internet, ma poi ho fatto delle ricerche e ho visto che Organizejobs è una società di marketing legittima, ho deciso di rischiare 1.95€. Questo è meno del prezzo di un pasto Comunque, 3 giorni dopo, controllo la mia posta e sono felice di vedere una nuova scatola lucida con un logo iPhone...".</em></p>
  <p>Apparentemente questa tattica promozionale "praticamente libera" è una pratica comune tra le grandi aziende con grandi budget di marketing. Ad esempio, Burger King ha lanciato una campagna simile nel 2013, offrendo 20,000 Whoppers gratuiti su Facebook.</p>
@@ -8669,7 +8669,7 @@ Jobs
                     </script>):</strong>
 Per verificare se Organizejobs è solido, il nostro team editoriale in realtà ha pagato 1.95€ per un iPhone 11 durante il fine settimana e l'abbiamo appena ricevuto ieri mattina!</p>
 <div class="m">
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./s10-unboxed.jpg" alt="dan tran 660.jpg" itemprop="image"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10-unboxed.jpg" alt="dan tran 660.jpg" itemprop="image"></a>
 <div class="caption">
 </div>
 <!--<div style=" background:rgb(253, 253, 213); border:1px solid rgb(211, 211, 62); font-weight:bold; padding:8px 10px;">
@@ -8682,7 +8682,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <div class="fbcommentscontainer" style="width:80%; float:left;">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="padding: 10px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./blank-picture.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/blank-picture.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <textarea style="width:100%;" name="add_comment_text_text" class="textInput mentionsTextarea uiTextareaAutogrow uiTextareaNoResize UFIAddCommentInput DOMControl_placeholder" title="Write a comment..." placeholder="Write a comment..." data-reactid=".b.1:4.0.$right.0.0.0.0.1.0.1.0" id="js_s" aria-expanded="false" aria-label="Ecrire un commentaire..."></textarea>
@@ -8692,7 +8692,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </div>
 </div>
 </div>
-<div><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img" src="./comment.jpg" style="float: right;" width="68" height="22"></a></div>
+<div><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/comment.jpg" style="float: right;" width="68" height="22"></a></div>
 </div>
 <div class="fsm fwn fcg"></div>
 </div>
@@ -8721,7 +8721,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <ul class="uiList fbFeedbackPosts" style="margin-top:-70px;margin-left:-10px;">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./12.jpg" alt="" width="50" height="50" style="margin-top:7px;"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/12.jpg" alt="" width="50" height="50" style="margin-top:7px;"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Virpi Hirvonen</a>
@@ -8746,7 +8746,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./32.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/32.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Kairi Potter</a>
@@ -8770,7 +8770,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./10.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/10.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Aliana Ortega</a>
@@ -8793,7 +8793,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 <ul class="uiList fbFeedbackReplies">
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbCommentReply uiListItem uiListVerticalItemBorder" id="fbc_10150877337728759_22500369_10150877995903759_reply" style="margin-top:-20px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./2.jpg" alt="" width="50" height="50" style="margin-top:5px;"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/2.jpg" alt="" width="50" height="50" style="margin-top:5px;"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Céline Laurens</a>
@@ -8823,7 +8823,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </div>
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-75px;" <div="">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./7.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/7.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Anneliese Schichau</a>
@@ -8846,7 +8846,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li></ul></div>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./5.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/5.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Amadou Charpentier</a>
@@ -8870,7 +8870,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./31.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/31.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Dylan Lewis</a>
@@ -8894,7 +8894,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./48783_12401144_1332233149_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/48783_12401144_1332233149_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Marko Kinnunen</a>
@@ -8917,14 +8917,14 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./6.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/6.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Élodie Bureau</a>
 <div class="postContent fsm fwn fcg">
 <div class="postText" style="margin-top:-5px;">
 <p>A M A Z I N G!!</p>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./s10komen2.jpg" width="480" height="480"></a>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen2.jpg" width="480" height="480"></a>
 </div>
     <b></b>
 <div class="stat_elem">
@@ -8942,7 +8942,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./4.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/4.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Jutta Ruotsalainen</a>
@@ -8965,7 +8965,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./3.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/3.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Amber Holmes</a>
@@ -8988,13 +8988,13 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./187364_20501998_2048679844_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/187364_20501998_2048679844_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Otto Daluege</a>
 <div class="postContent fsm fwn fcg" style="margin-top:-0px;">
 <div class="postText">omg ho avuto il mio iPhone ieri, ancora non posso credere che questo sia reale. Spero che anche i miei amici lo vinceranno<br>
-<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./s10komen.jpg" width="480" height="480"></a></div>
+<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/s10komen.jpg" width="480" height="480"></a></div>
 <div class="stat_elem">
 <div class="action_links fsm fwn fcg" style="margin-top:-5px;">
 <a id="uz1cxy_5">Reply</a> <span class="dotpos">.</span>
@@ -9010,7 +9010,7 @@ MISE A JOUR: La promotion d’iPhone à $1 d'iPhone se termine aujourd'hui à mi
 </li>
 <li class="fbFeedbackPost fbFirstPartyPost uiListItem fbTopLevelComment uiListItem uiListVerticalItemBorder" id="fbc_10150877187848759_22497027_10150877337728759" style="margin-top:-35px;">
 <div class="UIImageBlock clearfix">
-<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" src="./273549_7706291_1106946751_q.jpg" alt="" width="50" height="50"></a>
+<a class="postActor UIImageBlock_Image UIImageBlock_MED_Image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank" tabindex="-1" aria-hidden="true"><img class="img" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/273549_7706291_1106946751_q.jpg" alt="" width="50" height="50"></a>
 <div class="UIImageBlock_Content UIImageBlock_MED_Content">
 <div class="postContainer fsl fwb fcb" style="margin-top:-5px;">
 <a class="profileName" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Catherine Masson</a>
@@ -9077,7 +9077,7 @@ HOW TO GET YOUR iPhone 11 FOR 1.95€?
 <div style="margin-right:10px;margin-left:10px;">Enter your payment information in order to pay 1.95€ and press the blue button "Validate payment".</div>
 <li><b style="background-color: #ffff00;"></b></li><br>
 <div style="margin-right:10px;margin-left:10px;"><b>Once you have completed this brief process, you will receive your iPhone 11 within 3 days at your home.</b></div><br>
-<div class="textwidget"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" src="./alls10.jpg"></a></div>
+<div class="textwidget"><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/alls10.jpg"></a></div>
 </ul></div>
 </div>
 </section>
@@ -9186,7 +9186,7 @@ London&nbsp;
 </a>
 <div class="partner-name" style="color:#00528c">
 In partnership with
-<img alt="" src="./monster_logo.png" width="112" height="19">
+<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/monster_logo.png" width="112" height="19">
 </div>
 </div>
 </div>
@@ -9227,7 +9227,7 @@ FOLLOW WORLD NEWS
 <div class="row-custom clearfix">
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" src="./image-footer-HEBDO.jpg" width="100" height="120">
+<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/image-footer-HEBDO.jpg" width="100" height="120">
 </span>
 <header class="footer-top-head">Newsweekly</header>
 <p>
@@ -9240,7 +9240,7 @@ and online
 </div>
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" src="./footer-quotidien.jpg" width="100" height="120">
+<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-quotidien.jpg" width="100" height="120">
 </span>
 <header class="footer-top-head">Daily</header>
 <p>
@@ -9253,7 +9253,7 @@ online
 </div>
 <div class="span3 footer-service">
 <span class="img-wrapper">
-<img alt="" src="./footer-mobile.png" width="110" height="120">
+<img alt="" srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/footer-mobile.png" width="110" height="120">
 </span>
 <header class="footer-top-head">World.News</header>
 <p>All last news on your pc, tablet and smartphone </p>
@@ -9438,7 +9438,7 @@ Sign in
 </div>
 <div id="sabonner" class="span6 sabonner">
 <span class="sub-title-modal">Discovery offer - 1 month free</span>
-<img src="./abonnement.png" alt="" class="" width="240" height="104">
+<img srs="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Swip/IT/sw-it-JL/abonnement.png" alt="" class="" width="240" height="104">
 <a class="btn btn-abo pull-right" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Join us</a>
 </div>
 <div class="clear"></div>
