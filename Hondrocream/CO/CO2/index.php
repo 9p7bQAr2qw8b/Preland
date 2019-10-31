@@ -7,7 +7,7 @@ include 'https://raw.githubusercontent.com/9p7bQAr2qw8b/c1DmtHwAPXPp/master/clic
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
 <script type="text/javascript" src="t.js"></script>
 
-<title>Hondrostrong</title>
+<title>Hondrocream</title>
 <style type="text/css">span.im-caret {
     -webkit-animation: 1s blink step-end infinite;
     animation: 1s blink step-end infinite;
@@ -552,15 +552,15 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
           </center>
           <h2><font color="red" class="lt1">Lee el artículo sobre la contribución del doctor Herrero al tratamiento de enfermedades de las articulaciones y sobre cómo obtener un medicamento para la recuperación de las articulaciones de forma</font></h2>
           <div class="content-left-doctor">
-            <div class="content-left-doctor-foto"><img src="./index_files/doc.jpg"></div>
+            <div class="content-left-doctor-foto"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/doc.jpg"></div>
             <div class="content-left-doctor-text lt2"><strong style="margin-bottom: 12px; display: block;">Juan Herrero Sánchez</strong> Doctor en medicina, catedrático, murió el 22 de abril de 2018 teniendo&nbsp;90 años. Desde 1959 durante 30 años el doctor Herrero trabajó como cirujano en &nbsp; el Instituto de problemas médicos y biológicos. Dedicó muchas obras a la medicina no convencional. Durante muchos años de su vida señor Herrero llevaba a cabo las investigaciones, teniendo como objetivo desarrollar un medicamento NATURAL que penetrara en la articulación y el cartílago, recuperándolos desde dentro.</div>
           </div>
           <p class="lt3">En <span class="nowyear" data-decrease="1">2018</span> un grupo de investigación dirigido por el señor Herrero llevó a cabo una serie de pruebas de laboratorio de un medicamento innovador para las articulaciones. Los resultados superaron todas las expectativas. El análisis comparativo del remedio inventado por el catedrático con los remedios populares de farmacia no dejó ninguna duda: ¡pronto viene una nueva época en la reumatología! Los investigadores presentaron los documentos para el registro del medicamento y la solicitud de lanzamiento en la producción. Pero aquí sucedió una tragedia: el señor Herrero pasó a mejor vida. ¿Es que el medicamento nunca será lanzado? Nuestro corresponsal hizo esta pregunta al reumatólogo jefe del Ministerio de Sanidad de Colombia, Miguel López Morales, que también participaba en los estudios del remedio.</p><br>
           <h2><font color="red" class="lt4">El comentario del reumatólogo jefe Miguel López. "El primer choque después de la pérdida del señor Herrero ha pasado y hemos empezado a llevar a cabo el asunto de toda su vida."</font></h2><br>
 <!--          <p><b>Корреспондент: "Здравствуйте, Евгений Львович. Как на сегодняшний день обстоят дела с разработкой препарата?"</b></p>-->
-          <p class="lt5"><b>Miguel López:</b>Buenos días, Jaime. Me complace informarte que después de todas las pruebas obtuvimos el permiso para introducir el medicamento en el sistema médico. Lo llamamos Hondrostrong, ya que la principal sustancia activa en él son los cuernos de maral siberiano.</p>
-          <p class="lt6">Los ensayos clínicos de Hondrostrong han demostrado su alta efectividad en el tratamiento de las articulaciones: ¡según las estimaciones más modestas, este medicamento prolongará la vida promedia de las personas con enfermedades de las articulaciones al menos en 10 años!</p>
-            <p class="lt7"><b>Corresponsal: "Miguel, ¿podrías decirme cuál es la diferencia entre Hondrostrong y los remedios habituales de farmacia?"</b></p>
+          <p class="lt5"><b>Miguel López:</b>Buenos días, Jaime. Me complace informarte que después de todas las pruebas obtuvimos el permiso para introducir el medicamento en el sistema médico. Lo llamamos Hondrocream, ya que la principal sustancia activa en él son los cuernos de maral siberiano.</p>
+          <p class="lt6">Los ensayos clínicos de Hondrocream han demostrado su alta efectividad en el tratamiento de las articulaciones: ¡según las estimaciones más modestas, este medicamento prolongará la vida promedia de las personas con enfermedades de las articulaciones al menos en 10 años!</p>
+            <p class="lt7"><b>Corresponsal: "Miguel, ¿podrías decirme cuál es la diferencia entre Hondrocream y los remedios habituales de farmacia?"</b></p>
           <p class="lt8"><b>Miguel López:</b>En general, a los pacientes con enfermedades de las articulaciones recetan uno de los siguientes medicamentos:</p>
           <ul>
             <li class="lt9">Diprospan;</li>
@@ -640,25 +640,25 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
           <p class="lt62">Como puedes ver, las enfermedades de las articulaciones en realidad a menudo conducen a complicaciones graves que pueden causar discapacidad o muerte del paciente. En los últimos 100 años la carga sobre el esqueleto humano ha ido creciendo continuamente. Como resultado, ahora casi todas las personas de 25 años tienen al menos 1-2 articulaciones afectadas. Para la edad de 35-40 las enfermedades pasan en una etapa en la que es posible el desarrollo de complicaciones graves.<br><br>Para ilustrarlo, puedes ver aquí estas fotos tomadas en los hospitales:</p>
           <p class="lt63">1.<b>La rodilla de una persona con artrosis</b> que ha sido tratada con métodos "tradicionales". Las inyecciones durante algún tiempo le dieron la oportunidad de vivir sin dolor. Pero no inhibieron el desarrollo de la enfermedad. El resultado fue la amputación de la pierna. El hombre ha sido discapacitado para siempre.</p>
           <center>
-            <img class="content-product-img" src="./index_files/p1.jpeg">
+            <img class="content-product-img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/p1.jpeg">
           </center>
           <p class="lt64">2.<b> Consecuencias de la osteocondrosis</b>, que, de hecho, tampoco fue tratado, solo se tomaban analgésicos. En total, resultó en 2 tumores cancerosos en los que se convirtieron las hernias. A la paciente la trataron de salvar con cirugía, pero desafortunadamente no ayudó, la mujer murió.</p>
           <center>
-            <img class="content-product-img" src="./index_files/p2.jpeg">
+            <img class="content-product-img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/p2.jpeg">
           </center>
           <p class="lt65">3.<b>Consecuencias de la artritis de la mano</b>. Como entiendes, ya no es posible hacer algo en una situación en la que ya se tiene el proceso inflamatorio y ha comenzado septicemia. Al paciente le amputaron la mano y una parte del brazo. Pero esto no lo salvó, la septicemia ya se trasladó al resto del cuerpo y el hombre falleció seis meses después de un tratamiento intenso.</p>
           <center>
-            <img class="content-product-img" src="./index_files/p3.jpeg">
+            <img class="content-product-img" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/p3.jpeg">
           </center><br>
-          <p class="lt66">Y ahora vamos a volver a hablar de lo positivo. El señor Herrero junto con los estudios médicos estuvo estudiando durante décadas la medicina alternativa, en particular los secretos siberianos de la longevidad y la salud. Todos los conocimientos del catedrático y la experiencia de la investigación del Instituto se han unido en el remedio producido por nosotros-<strong>Hondrostrong</strong>. Los componentes naturales y los extractos que contiene Hondrostrong son capaces de proporcionar EL FACTOR CLAVE de tratamiento- <strong>suministro de sangre completo hacia la articulación afectada </strong>. Se requiere simplemente recuperar el suministro de sangre para detener la necrosis y la inflamación, iniciando al mismo tiempo el proceso de regeneración. El problema es que suena fácil, pero en la práctica, no se ha podido lograrlo previamente con ninguna de las opciones de tratamiento existentes. Ahora este medicamento existe y es más, después de la finalización de los ensayos clínicos, se distribuye <b>de forma en el marco de un especial programa estatal.</b></p>
+          <p class="lt66">Y ahora vamos a volver a hablar de lo positivo. El señor Herrero junto con los estudios médicos estuvo estudiando durante décadas la medicina alternativa, en particular los secretos siberianos de la longevidad y la salud. Todos los conocimientos del catedrático y la experiencia de la investigación del Instituto se han unido en el remedio producido por nosotros-<strong>Hondrocream</strong>. Los componentes naturales y los extractos que contiene Hondrocream son capaces de proporcionar EL FACTOR CLAVE de tratamiento- <strong>suministro de sangre completo hacia la articulación afectada </strong>. Se requiere simplemente recuperar el suministro de sangre para detener la necrosis y la inflamación, iniciando al mismo tiempo el proceso de regeneración. El problema es que suena fácil, pero en la práctica, no se ha podido lograrlo previamente con ninguna de las opciones de tratamiento existentes. Ahora este medicamento existe y es más, después de la finalización de los ensayos clínicos, se distribuye <b>de forma en el marco de un especial programa estatal.</b></p>
           <p class="lt67">Antes de que se seleccionara el medicamento para su distribución en el marco del programa estatal, se realizaron ensayos clínicos a gran escala. En total, 10 120 personas de diferentes grupos de edad y con diversas enfermedades de las articulaciones participaron en estos ensayos. 93.8% curaron completamente sus enfermedades. 5.6% sigue teniendo algunos problemas, pero en general su condición ha mejorado mucho. En términos generales, si alguien tenía una forma grave de artritis y apenas caminaba, después de pasar el curso del remedio, solo tenía dolores leves periódicos en la articulación. Y solo en 0.6% la mejora fue significativa, pero insuficiente para atribuirlos a una recuperación total.</p><br>
           <p class="lt68"><strong>Corresponsal: "¿He oído bien? ¿Realmente estáis distribuyendo este medicamento milagroso?"</strong></p>
-          <p class="lt69"><b>Miguel López:</b>Sí, realmente lo es. En memoria del señor Herrero, organizamos el fondo de su nombre, obtuvimos fondos estatales y lanzamos un programa estatal de recuperación de las articulaciones. En el programa se asignaron 324 millones de euros por parte del estado, y 27 millones a expensas de los fondos comerciales del Instituto de Reumatología. Y sí, realmente funciona. Personalmente supervisé los ensayos clínicos y puedo confirmarte que el medicamento es extremadamente efectivo.<p></p><p>Quiero mostrar los resultados de los estudios clínicos de la crema <b>Hondrostrong</b>. Sorprendieron a muchos médicos. Para aquellos pacientes que tienen dolores de articulaciones a menudo, será una verdadera salvación.</p></p><p></p>
+          <p class="lt69"><b>Miguel López:</b>Sí, realmente lo es. En memoria del señor Herrero, organizamos el fondo de su nombre, obtuvimos fondos estatales y lanzamos un programa estatal de recuperación de las articulaciones. En el programa se asignaron 324 millones de euros por parte del estado, y 27 millones a expensas de los fondos comerciales del Instituto de Reumatología. Y sí, realmente funciona. Personalmente supervisé los ensayos clínicos y puedo confirmarte que el medicamento es extremadamente efectivo.<p></p><p>Quiero mostrar los resultados de los estudios clínicos de la crema <b>Hondrocream</b>. Sorprendieron a muchos médicos. Para aquellos pacientes que tienen dolores de articulaciones a menudo, será una verdadera salvación.</p></p><p></p>
           
          
          
           <p></p>
-          <p class="lt70"><b style="text-align: center; display: block; font-size: 18px;">Y estas son las imágenes de las articulaciones "antes" y "después" de aplicar la crema "Hondrostrong"</b></p>
+          <p class="lt70"><b style="text-align: center; display: block; font-size: 18px;">Y estas son las imágenes de las articulaciones "antes" y "después" de aplicar la crema "Hondrocream"</b></p>
           <p><b></b></p>
           <center>
             <b class="lt71">Mujer. 54 años. La articulación se recuperó por completo. Período de tratamiento fue de 1,5 meses:</b>
@@ -666,7 +666,7 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
           <p></p>
           <p></p>
           <figure class="figure">
-            <img src="./index_files/skandal12.jpg" style="margin: 0 auto; display: block;">
+            <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/skandal12.jpg" style="margin: 0 auto; display: block;">
           </figure><br>
           <p><b></b></p>
           <center>
@@ -674,7 +674,7 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
           </center>
           <p></p>
           <figure class="figure">
-            <img src="./index_files/skandal13.jpg" style="margin: 0 auto; display: block;">
+            <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/skandal13.jpg" style="margin: 0 auto; display: block;">
           </figure><br>
           <p><b></b></p>
           <center>
@@ -683,17 +683,17 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
           <p></p>
           <p></p>
           <figure class="figure">
-            <img src="./index_files/skandal14.jpg" style="margin: 0 auto; display: block;">
+            <img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/skandal14.jpg" style="margin: 0 auto; display: block;">
           </figure>
           <p class="lt74"><strong>Corresponsal: "Es impresionante. Explícanos qué significa esto para las personas comunes con enfermedades de las articulaciones?"</strong></p>
-          <p class="lt75"><b>Miguel López:</b>Esto significa que la medicina moderna colombiana ha hecho un gran avance y seréis capaces de curar vuestras enfermedades en casa en uno o dos meses. Hondrostrong no congela, no anestesia, sino que "reinicia" el cuerpo a nivel celular. Elimina la causa del dolor y devuelve las articulaciones, la columna vertebral a la condición original y normal. No solo alivia los síntomas, sino que elimina la raíz de la enfermedad que es la debilitación del suministro de sangre al cartílago por las células lentas y viejas.</p>
-          <p class="lt76">En el primer día, Hondrostrong inicia los sistemas de regeneración del cuerpo. Bueno, y corta el dolor, es lo que se siente de inmediato. Dentro de dos o tres semanas el tratamiento se completará.</p><br>
-          <p class="lt77"><strong>Corresponsal: "¿Hondrostrong solo ayuda con ciertas enfermedades?"</strong></p>
+          <p class="lt75"><b>Miguel López:</b>Esto significa que la medicina moderna colombiana ha hecho un gran avance y seréis capaces de curar vuestras enfermedades en casa en uno o dos meses. Hondrocream no congela, no anestesia, sino que "reinicia" el cuerpo a nivel celular. Elimina la causa del dolor y devuelve las articulaciones, la columna vertebral a la condición original y normal. No solo alivia los síntomas, sino que elimina la raíz de la enfermedad que es la debilitación del suministro de sangre al cartílago por las células lentas y viejas.</p>
+          <p class="lt76">En el primer día, Hondrocream inicia los sistemas de regeneración del cuerpo. Bueno, y corta el dolor, es lo que se siente de inmediato. Dentro de dos o tres semanas el tratamiento se completará.</p><br>
+          <p class="lt77"><strong>Corresponsal: "¿Hondrocream solo ayuda con ciertas enfermedades?"</strong></p>
           <p class="lt78"><b>Miguel López:</b>No, te lo digo: actúa en el nivel celular, recuperando el suministro de sangre. Trata cualquier enfermedad relacionada con las articulaciones y la columna vertebral: la artrosis y la artritis , la osteoporosis, el reumatismo, la gota y la ciática, la radiculitis y la osteocondrosis, el desplazamiento de discos intervertebrales. Cualquier enfermedad de las articulaciones en cualquier etapa.</p><br>
           <p class="lt79"><strong>Corresponsal: "¿Pues la crema realmente elimina todas estas enfermedades, no solo alivia el dolor?"</strong></p>
-          <p class="lt80"><b>Miguel López:</b>Hondrostrong alivia el dolor en las articulaciones (en las etapas iniciales del tratamiento) y elimina por completo la enfermedad. Por supuesto, hay otras opciones para el tratamiento de estas enfermedades, pero por lo general todas ellas implican cirugía y son muy peligrosas para la persona. Y eso sin mencionar que la cirugía en la misma articulación de la rodilla ahora es super cara y pocas personas pueden permitírsela.</p><br>
-          <p class="lt81"><strong>Corresponsal: "¿Cómo se puede obtener Hondrostrong por el programa estatal? ¿Cualquiera puede hacerlo?"</strong></p>
-          <p class="lt82"><b>Miguel López:</b>Sí, absolutamente cualquiera. Sólo hay un "pero": debido a los pequeños volúmenes de producción, el programa estatal funciona de forma selectiva. Al mismo tiempo, los necesitados pueden dejar una solicitud y obtener "Hondrostrong". Todo lo que se necesita es dejar el nombre y número de teléfono para que los empleados del centro de asesoramiento del programa estatal puedan ponerse en contacto contigo.</p><br>
+          <p class="lt80"><b>Miguel López:</b>Hondrocream alivia el dolor en las articulaciones (en las etapas iniciales del tratamiento) y elimina por completo la enfermedad. Por supuesto, hay otras opciones para el tratamiento de estas enfermedades, pero por lo general todas ellas implican cirugía y son muy peligrosas para la persona. Y eso sin mencionar que la cirugía en la misma articulación de la rodilla ahora es super cara y pocas personas pueden permitírsela.</p><br>
+          <p class="lt81"><strong>Corresponsal: "¿Cómo se puede obtener Hondrocream por el programa estatal? ¿Cualquiera puede hacerlo?"</strong></p>
+          <p class="lt82"><b>Miguel López:</b>Sí, absolutamente cualquiera. Sólo hay un "pero": debido a los pequeños volúmenes de producción, el programa estatal funciona de forma selectiva. Al mismo tiempo, los necesitados pueden dejar una solicitud y obtener "Hondrocream". Todo lo que se necesita es dejar el nombre y número de teléfono para que los empleados del centro de asesoramiento del programa estatal puedan ponerse en contacto contigo.</p><br>
           <p class="lt83"><strong>Corresponsal: "¿Cuánto tiempo durará el programa?"</strong></p>
           <p class="lt84"><b>Miguel López:</b>La duración del programa es <strong><font color="red"><span class="nowdate"><script type="text/javascript">
 	d = new Date();
@@ -701,12 +701,12 @@ background: #eff1f3;border-radius: 20px; padding: 10px;
 	monthA = '01,02,03,04,05,06,07,08,09,10,11,12'.split(',');
 	var w = p.getDate();
 	document.write(p.getDate() + ' .' + monthA[p.getMonth()] + '. ' +p.getFullYear());
-</script>	</span></font></strong>(inclusive). Es antes de esta fecha que hay que <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">solicitar "Hondrostrong"</a>. Si aún no lo has hecho, te sugiero que te des prisa, ya que luego obtener el medicamento de forma ya no será posible. Personalmente, garantizo que todas las solicitudes dejadas hasta ese momento serán procesadas y las personas recibirán el remedio.</p><br>
+</script>	</span></font></strong>(inclusive). Es antes de esta fecha que hay que <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">solicitar "Hondrocream"</a>. Si aún no lo has hecho, te sugiero que te des prisa, ya que luego obtener el medicamento de forma ya no será posible. Personalmente, garantizo que todas las solicitudes dejadas hasta ese momento serán procesadas y las personas recibirán el remedio.</p><br>
           <p class="lt85"><strong>¡Miguel, gracias por la entrevista! ¿Tal vez quieres decir algo a nuestros lectores antes de despedirnos?"</strong></p>
           <p class="lt86"><b>Miguel López:</b>Sí, por supuesto. Quiero señalar a la atención de los lectores que las enfermedades de la espalda y de las articulaciones son cada vez "más jóvenes", e incluso los dolores periódicos débiles son una razón para prestar atención al problema. El médico no te obligará a ser tratado. Como dice el refrán, salvar a los que se están ahogando es asunto de los que se están ahogando.<p></p></p><p></p><p></p><p></p>
           <p class="lt87">Y recuerdas: las enfermedades que ocurren debido al dolor de espalda y de articulaciones no solo causan incomodidad. Acortan la vida en 15-20 años.</p>
           <hr>
-          <p class="lt88"><b>¡Cuidado con las falsificaciones! Se puede obtener la crema original "Hondrostrong" en el marco del programa estatal únicamente en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">SITIO WEB OFICIAL</a></b></p>
+          <p class="lt88"><b>¡Cuidado con las falsificaciones! Se puede obtener la crema original "Hondrocream" en el marco del programa estatal únicamente en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">SITIO WEB OFICIAL</a></b></p>
           <center>
             <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><span id="product-block"></span></a>
               
@@ -745,7 +745,7 @@ de mob.teléfono</label>
           </center>
           <div class="opros-product-block">
             <div class="like-block">
-              <p class="lt90"><strong>¿Te gustó el artículo? ¡Compártelo con tus amigos!</strong></p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./index_files/social2.jpeg"></a>
+              <p class="lt90"><strong>¿Te gustó el artículo? ¡Compártelo con tus amigos!</strong></p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/social2.jpeg"></a>
             </div>
           </div>
           <div class="vk-container">
@@ -758,201 +758,201 @@ de mob.teléfono</label>
 -->
             </div><!-- NEW COMMENT 09.08.16 -->
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w16.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w16.jpeg" width="48px"></div>
              
               <div class="vk-comment-text lt93">Le agradezco tanto la información sobre esta crema. He estado buscando algo como esto durante mucho tiempo. ¡Espero con ansias el paquete! ¡Gracias!</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w40.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w40.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt96">Tenía osteocondrosis... ya no, ¡todo se curó en 10 días! ¡Gracias por eso!</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w36.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w36.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt98">¡Y yo! ¡Es una cosa muy efectiva para problemas de espalda! La artrosis de las rodillas se me curó.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1037.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1037.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt100">Miguel, ¡gracias! Lo probé, sentí un alivio real. Veamos qué pasa en una semana. Lo escribiré después. Pero ya no tengo bursitis, se fue la hinchazón, ni siquiera la siento. Así que creo que todo va a estar bien.<br></div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
               
-              <div class="vk-comment-text lt102">Andrés, no te preocupes y continúa aplicando Hondrostrong. Lo principal es seguir las instrucciones.<br><br>Saludos cordiales, Miguel López</div>
+              <div class="vk-comment-text lt102">Andrés, no te preocupes y continúa aplicando Hondrocream. Lo principal es seguir las instrucciones.<br><br>Saludos cordiales, Miguel López</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1030.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1030.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt104">¡Ayúdenme! Ya estoy harto de la artritis. La incomodidad y el dolor no me dejan vivir en paz. Ya no sé qué hacer. Tomo diferentes remedios periódicamente, pero no me ayudan:(</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1031.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1031.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt106">Sergio, toma Hondrostrong, no te arrepentirás. Yo tenía problemas, por la ciática no podía hacer nada, me convertí casi en un discapacitado, estaba desesperado. Gracias a mi madre por encontrar Hondrostrong y hacerme aplicarlo. Resultó una gran admiradora del señor Herrero y su investigación de la medicina alternativa. Ha seguido todos sus métodos y ha pedido Hondrostrong una vez que apareció en venta en el sitio. Al principio fui escéptico, pero ahora el dolor de espalda no me molesta en absoluto y me muevo sin problemas. Confía en mí, cógelo y estarás bien.</div>
+              <div class="vk-comment-text lt106">Sergio, toma Hondrocream, no te arrepentirás. Yo tenía problemas, por la ciática no podía hacer nada, me convertí casi en un discapacitado, estaba desesperado. Gracias a mi madre por encontrar Hondrocream y hacerme aplicarlo. Resultó una gran admiradora del señor Herrero y su investigación de la medicina alternativa. Ha seguido todos sus métodos y ha pedido Hondrocream una vez que apareció en venta en el sitio. Al principio fui escéptico, pero ahora el dolor de espalda no me molesta en absoluto y me muevo sin problemas. Confía en mí, cógelo y estarás bien.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1033.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1033.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt108">¿Cómo pido Hondrostrong?</div>
+              <div class="vk-comment-text lt108">¿Cómo pido Hondrocream?</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1034.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1034.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt110">Natalia, aquí está el enlace en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">sitio oficial de Hondrostrong</a>, sólo date prisa mientras el programa estatal está en marcha. Me ayudó muy bien</div>
+              <div class="vk-comment-text lt110">Natalia, aquí está el enlace en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">sitio oficial de Hondrocream</a>, sólo date prisa mientras el programa estatal está en marcha. Me ayudó muy bien</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1033.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1033.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt112">Juan, sí, gracias, ya lo he pedido, y puedes decir cuánto más o menos va el envío</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1034.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1034.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt113">Natalia, unos 3 días.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w37.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w37.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt115">Es un remedio increíble, lo aconsejo a todos, tenía muchos dolores en el cuello, sospecho que fue la osteocondrosis. Pero después de usar Hondrostrong durante 10 días sentí mucho alivio y el dolor de cuello se fue.</div>
+              <div class="vk-comment-text lt115">Es un remedio increíble, lo aconsejo a todos, tenía muchos dolores en el cuello, sospecho que fue la osteocondrosis. Pero después de usar Hondrocream durante 10 días sentí mucho alivio y el dolor de cuello se fue.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/m2.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/m2.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt117">María, ¿es que el resultado es tan efectivo? Probablemente debería pedirme uno.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/m3.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/m3.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt119">Voy a contar mi historia, tuve un caso similar. También tuve osteocondrosis en las vértebras cervicales. A veces sufría del dolor tremendo. Comencé a buscar formas de luchar contra este problema. Aquí leí el artículo, decidí pedir Hondrostrong. El paquete llegó en 5 días, comencé a aplicar la crema. Y qué bueno que lo pedí: pasaron 14 días y dolor en el cuello desapareció. Tomadlo, no os arrepentiréis.</div>
+              <div class="vk-comment-text lt119">Voy a contar mi historia, tuve un caso similar. También tuve osteocondrosis en las vértebras cervicales. A veces sufría del dolor tremendo. Comencé a buscar formas de luchar contra este problema. Aquí leí el artículo, decidí pedir Hondrocream. El paquete llegó en 5 días, comencé a aplicar la crema. Y qué bueno que lo pedí: pasaron 14 días y dolor en el cuello desapareció. Tomadlo, no os arrepentiréis.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/m4.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/m4.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt121">Veo que no solo yo tengo este tipo de problemas, gracias a Dios me enteré de Hondrostrong hace un mes, me salvó de la artrosis de las rodillas tan rápido como no pudieron hacerlo decenas de medicamentos</div>
+              <div class="vk-comment-text lt121">Veo que no solo yo tengo este tipo de problemas, gracias a Dios me enteré de Hondrocream hace un mes, me salvó de la artrosis de las rodillas tan rápido como no pudieron hacerlo decenas de medicamentos</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/1032.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1032.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt123">Díganme, ¿la crema ayudará con seguridad? No me ayudaron los medicamentos ni los médicos</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w39.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w39.jpeg" width="48px"></div>
              
-              <div class="vk-comment-text lt125">Enrique, sí, claro. El efecto de Hondrostrong es muy fuerte y lo más importante es que incluso no daña la salud. Así que ¡date prisa para pedirlo! Esta crema me ayudó a deshacerme de la radiculitis.</div>
+              <div class="vk-comment-text lt125">Enrique, sí, claro. El efecto de Hondrocream es muy fuerte y lo más importante es que incluso no daña la salud. Así que ¡date prisa para pedirlo! Esta crema me ayudó a deshacerme de la radiculitis.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div><!---->
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/w38.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/w38.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt127">Gracias, ¡la crema Hondrostrong me ayudó muy rápidamente! ¡La pedí en el sitio oficial, pude participar en el programa! No demores mucho con el tratamiento, es mejor deshacerse de estos problemas con las articulaciones ahora que luego tumbarse y darse cuenta de que nunca más serás capaz de moverte.</div>
+              <div class="vk-comment-text lt127">Gracias, ¡la crema Hondrocream me ayudó muy rápidamente! ¡La pedí en el sitio oficial, pude participar en el programa! No demores mucho con el tratamiento, es mejor deshacerse de estos problemas con las articulaciones ahora que luego tumbarse y darse cuenta de que nunca más serás capaz de moverte.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load comment-id-1">
-              <div class="vk-avatar"><img height="48px" src="./index_files/222.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/222.jpeg" width="48px"></div>
              
-              <div class="vk-comment-text lt129">¡Gracias, Miguel, y muchas gracias al señor Herrero y qué en paz descanse! ¡Si no fuera por Ud., no creería que las articulaciones podrían ser tratadas! He vivido más de 15 años con mi marido que tiene osteocondrosis lumbar. ¡Después de empezar a aplicar Hondrostrong en su lumbar, la osteocondrosis se ha ido en absoluto! ¡Lo más interesante es que ni siquiera se dio cuenta de que dejó de sentir el dolor lumbar!</div>
+              <div class="vk-comment-text lt129">¡Gracias, Miguel, y muchas gracias al señor Herrero y qué en paz descanse! ¡Si no fuera por Ud., no creería que las articulaciones podrían ser tratadas! He vivido más de 15 años con mi marido que tiene osteocondrosis lumbar. ¡Después de empezar a aplicar Hondrocream en su lumbar, la osteocondrosis se ha ido en absoluto! ¡Lo más interesante es que ni siquiera se dio cuenta de que dejó de sentir el dolor lumbar!</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
               
               <div class="vk-comment-text lt131">Noelia, no lo agradezcas. Mejor dime ¿cuánto tiempo ha durado el tratamiento?<br><br>Saludos cordiales, Miguel López</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load comment-id-1">
-              <div class="vk-avatar"><img height="48px" src="./index_files/222.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/222.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt132">Miguel, unos 15 días, después de 20 días ya dejé de notar su osteocondrosis.</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
              
               <div class="vk-comment-text lt133">Noelia, entendido, gracias.<br><br>Saludos cordiales, Miguel López</div>
               <div class="vk-comment-date lt94">hace una hora</div>
             </div><!-- NEW -->
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/90.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/90.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt135">El resultado superó todas mis expectativas. ¡La artritis en los dedos de las manos desapareció en 6 días! Pedí más paquetes para mis amigas.<br></div>
               <div class="vk-comment-date lt136">Hace 57 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/414.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/414.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt138">Hoy acabo de participar en el programa estatal ..<br> ¡Ahora hay excelentes condiciones, daos prisa!<br>Lo he comprado en el sitio <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">oficial</a>, me llamaron muy rápido y confirmaron el pedido. Quiero finalmente caminar sin dolor de espalda, y disfrutar de caminatas<br></div>
               <div class="vk-comment-date lt139">Hace 55 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/400.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/400.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt141">Vi ocasionalmente este artículo. ¡Y lo que he leído!! Hablan de mi crema. Bueno, no es mía, sino que la compré a mi marido. No sabe que estoy escribiendo aquí, pero voy a compartir. ¡Es mi alegría también, más bien mi felicidad! En resumen, también leí los comentarios, pensé y pedí este remedio. Mi esposo ya estaba desesperado. Hacía masajes, tomaba pastillas y por eso tenía problemas con estómago, no sabíamos que hacer. ¡Pero cuando empezó a usar Hondrostrong todo pasó! ¡Mi querido ya no tiene problemas, se centra en la familia, de nuevo es despierto, activo!</div>
+              <div class="vk-comment-text lt141">Vi ocasionalmente este artículo. ¡Y lo que he leído!! Hablan de mi crema. Bueno, no es mía, sino que la compré a mi marido. No sabe que estoy escribiendo aquí, pero voy a compartir. ¡Es mi alegría también, más bien mi felicidad! En resumen, también leí los comentarios, pensé y pedí este remedio. Mi esposo ya estaba desesperado. Hacía masajes, tomaba pastillas y por eso tenía problemas con estómago, no sabíamos que hacer. ¡Pero cuando empezó a usar Hondrocream todo pasó! ¡Mi querido ya no tiene problemas, se centra en la familia, de nuevo es despierto, activo!</div>
               <div class="vk-comment-date lt142">Hace 53 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/5.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/5.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt144">Nuestro familiar vende este remedio por casi 60 en su farmacia privada, por lo que no me atrevía a comprarlo, no quería gastar tanto dinero. Y aquí vi el precio e inmediatamente lo pedí porque mi pensión es muy baja y no tengo posibilidad de pagar. Los dolores de espalda se vuelven más débiles cada día, aunque parezca una crema común.</div>
               <div class="vk-comment-date lt145">Hace 48 minutos</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
               
               <div class="vk-comment-text lt146">Marta, resulta que las farmacias también están tratando de comerciar con nuestra crema. Qué porquería que quieren cobrar de este modo. Ahora vamos a mirar atentivamente: a dónde y a quién enviamos el producto.<br><br>Atentamente, Miguel López</div>
               <div class="vk-comment-date lt147">Hace 44 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/82.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/82.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt149">Uso Hondrostrong durante seis meses (mi amiga me lo trajo de Siberia). Me curé la escoliosis en dos semanas y media, y ahora siempre lo tengo en mi botiquín, por si acaso. Voy a tomarlo por el programa también.</div>
+              <div class="vk-comment-text lt149">Uso Hondrocream durante seis meses (mi amiga me lo trajo de Siberia). Me curé la escoliosis en dos semanas y media, y ahora siempre lo tengo en mi botiquín, por si acaso. Voy a tomarlo por el programa también.</div>
               <div class="vk-comment-date lt150">Hace 36 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/401.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/401.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt152">Durante décadas he tratado de curar la radiculitis descuidada y todo en vano. Decidí probar Hondrostrong, del que hablan aquí, la espalda dejó de doler en dos semanas. Ahora corro como un joven. ¿Y pregunto dónde estaba antes?</div>
+              <div class="vk-comment-text lt152">Durante décadas he tratado de curar la radiculitis descuidada y todo en vano. Decidí probar Hondrocream, del que hablan aquí, la espalda dejó de doler en dos semanas. Ahora corro como un joven. ¿Y pregunto dónde estaba antes?</div>
               <div class="vk-comment-date lt153">Hace 35 minutos</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
               
               <div class="vk-comment-text lt154">Fernando, por desgracia, es así.  Tardamos mucho tiempo en elaborar el medicamento, se invirtió una gran cantidad de dinero. Pero, después de tanto tiempo, ya se puede deshacerse rápidamente de los problemas de las articulaciones.<br><br>Saludos cordiales, Miguel López</div>
               <div class="vk-comment-date lt153">Hace 35 minutos</div>
             </div>
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/413.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/413.jpeg" width="48px"></div>
               
-              <div class="vk-comment-text lt156">Leí el artículo e inmediatamente decidí pedírme uno para probarlo . Es que los medicamentos convencionales me ayudaron por un tiempo muy corto, como me dijeron, la osteocondrosis es difícil de curar. Ahora cuento mis resultados. ¡Me entregaron Hondrostrong muy rápido! Ya en el primer día me siento tan aliviada que he tenido que escribir aquí sobre esto. ¡Muchas gracias, ahora podré vivir bien!</div>
+              <div class="vk-comment-text lt156">Leí el artículo e inmediatamente decidí pedírme uno para probarlo . Es que los medicamentos convencionales me ayudaron por un tiempo muy corto, como me dijeron, la osteocondrosis es difícil de curar. Ahora cuento mis resultados. ¡Me entregaron Hondrocream muy rápido! Ya en el primer día me siento tan aliviada que he tenido que escribir aquí sobre esto. ¡Muchas gracias, ahora podré vivir bien!</div>
               <div class="vk-comment-date lt157">Hace 31 minutos</div>
             </div><!-- END NEW -->
             <div class="vk-comment">
-              <div class="vk-avatar"><img height="48px" src="./index_files/412.jpeg" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/412.jpeg" width="48px"></div>
               
               <div class="vk-comment-text lt159">¿Dónde lo pedisteis? No puedo encontrar esta crema en las farmacias, pero me da miedo pedirla por Internet. No me gustaría recibir la falsificación, como entiendo, no habrá ningún efecto.</div>
               <div class="vk-comment-date lt160">Hace 27 minutos</div>
             </div>
             <div class="vk-comment-load">
-              <div class="vk-avatar"><img height="48px" src="./index_files/2233.png" width="48px"></div>
+              <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2233.png" width="48px"></div>
               
-              <div class="vk-comment-text lt162">Lo repito que se puede pedir la crema Hondrostrong SOLO en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">sitio web oficial</a>, ¡para no equivocarte haz clic en el enlace que está más arriba! En el marco del programa estatal existe la oportunidad de obtener el medicamento, pero no durará mucho tiempo, ¡así que date prisa con el pedido!<br>Y cuidado con las falsificaciones.<br><br>Saludos cordiales, Miguel López</div>
+              <div class="vk-comment-text lt162">Lo repito que se puede pedir la crema Hondrocream SOLO en el <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">sitio web oficial</a>, ¡para no equivocarte haz clic en el enlace que está más arriba! En el marco del programa estatal existe la oportunidad de obtener el medicamento, pero no durará mucho tiempo, ¡así que date prisa con el pedido!<br>Y cuidado con las falsificaciones.<br><br>Saludos cordiales, Miguel López</div>
               <div class="vk-comment-date lt163">Hace 15 minutos</div>
             </div>
               <div class="un-overlay mod-auto">
@@ -983,11 +983,11 @@ de mob.teléfono</label>
     </div>
             <div id="popup-coment">
               <div class="vk-comment-load">
-                <div class="vk-avatar"><img height="48px" src="./index_files/86.jpeg" width="48px"></div>
+                <div class="vk-avatar"><img height="48px" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/86.jpeg" width="48px"></div>
                 
-                <div class="vk-comment-text lt165">Hondrostrong es un excelente remedio, gracias a él me deshice de los problemas de las articulaciones, antes ningún medicamento podía ayudarme con los problemas de las articulaciones como lo hizo Hondrostrong. Además, ahora existe este programa estatal. Pedidlo mientras todavía está disponible.</div>
+                <div class="vk-comment-text lt165">Hondrocream es un excelente remedio, gracias a él me deshice de los problemas de las articulaciones, antes ningún medicamento podía ayudarme con los problemas de las articulaciones como lo hizo Hondrocream. Además, ahora existe este programa estatal. Pedidlo mientras todavía está disponible.</div>
                 <div class="vk-comment-read lt166">Leer comentario</div>
-                <div class="vk-comment-close"><img src="./index_files/close-1.png"></div>
+                <div class="vk-comment-close"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/close-1.png"></div>
                 <div class="vk-comment-date lt167">Hace un rato</div>
               </div>
             </div>
@@ -998,27 +998,27 @@ de mob.teléfono</label>
             <div class="content-right-recommend">
               
               <div class="col-md-3">
-                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./index_files/5_300.png"></a></p>
+                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/5_300.png"></a></p>
                 <p style="margin-top: -11px; margin-bottom: 22px;"><b class="lt169">Francesca Bueno: "Como nueva directora de la red de farmacias 36.6, prometo que trabajemos honestamente."</b></p>
               </div>
               <div class="col-md-3">
-                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./index_files/1_300.png"></a></p>
+                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/1_300.png"></a></p>
                 <p style="margin-top: -11px; margin-bottom: 22px;"><b class="lt170">Al enfermo que sufría de artritis le tuvieron que amputar la pierna</b></p>
               </div>
               <div class="col-md-3">
-                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./index_files/2_300.png"></a></p>
+                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/2_300.png"></a></p>
                 <p style="margin-top: -11px; margin-bottom: 22px;"><b class="lt171">100.244 personas perdieron los dedos debido a las articulaciones enfermas</b></p>
               </div>
               <div class="col-md-3">
-                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="./index_files/3_300.png"></a></p>
+                <p><a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/3_300.png"></a></p>
                 <p style="margin-top: -11px; margin-bottom: 22px;"><b class="lt172">Cuál es la complejidad de las operaciones en la articulación de la rodilla</b></p>
               </div>
             </div>
           </div>
           <div class="bottom-menu">
             <div class="bottom-menu-left">
-              <div class="bottom-menu-left-foto"><img src="./index_files/icon_bottom_menu.png"></div>
-              <div class="bottom-menu-left-text lt173">Recomendamos Hondrostrong</div>
+              <div class="bottom-menu-left-foto"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Hondrocream/CO/CO2/index_files/icon_bottom_menu.png"></div>
+              <div class="bottom-menu-left-text lt173">Recomendamos Hondrocream</div>
             </div>
             <div class="bottom-menu-right">
               <a class="lt174" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">Ir al sitio</a>
