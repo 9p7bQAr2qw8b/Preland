@@ -327,7 +327,7 @@ body.home,body.archive,body.category{background:#f6f7fb}
 .page-links{clear:both;margin:0 0 1.5em}
 .breadcrumbs{overflow:hidden;padding:0;margin:35px 0 0}
 .breadcrumbs li{display:inline-block;position:relative;margin-right:14px;padding-bottom:3px;font-size:14px;line-height:1.1;color:#959595}
-.breadcrumbs li:after{position:absolute;content:'';background:url("51af3d96be8b852f48053efb84e19a0c99687a64.png") no-repeat;width:5px;height:10px;top:3px;right:-12px}
+.breadcrumbs li:after{position:absolute;content:'';background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/51af3d96be8b852f48053efb84e19a0c99687a64.png") no-repeat;width:5px;height:10px;top:3px;right:-12px}
 .breadcrumbs li:last-child:after{background:none}
 .breadcrumbs li a{text-decoration:none;color:#8a8a8a}
 .breadcrumbs li a:hover{color:#5284d0;border-bottom:1px solid #5284d0;text-decoration:none}
@@ -368,7 +368,7 @@ embed,iframe,object{max-width:100%}
 .header-title:hover{color:#323f4d}
 .header-fav{display:inline-block;vertical-align:top;color:#ff8728;font-size:13px;font-size:.8125rem;line-height:1;text-decoration:none;margin:10px 0 0 10px}
 .header-fav:hover{border-bottom:1px dashed;color:#ff8728}
-.header-fav:before{content:"";background-image:url("24398f731769924422aa19976a15b6da3e75ce71.png");display:inline-block;height:10px;width:10px;margin-right:5px}
+.header-fav:before{content:"";background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/24398f731769924422aa19976a15b6da3e75ce71.png");display:inline-block;height:10px;width:10px;margin-right:5px}
 .header-description{width:90%;color:#6b6b6b;font-size:13px;font-size:.8125rem;line-height:1.3}
 .header-modules{display:block;position:relative;width:15%;margin:0 5%;float:left;height:5px}
 .header-search-btn{display:none}
@@ -379,7 +379,7 @@ input[type="search"].header-search-field::-webkit-input-placeholder{color:#b0bbc
 input[type="search"].header-search-field::-moz-placeholder{color:#b0bbcc}
 input[type="search"].header-search-field:-moz-placeholder{color:#b0bbcc}
 input[type="search"].header-search-field:-ms-input-placeholder{color:#b0bbcc}
-input[type="submit"].header-search-submit{background:url("f5f9703411f56fb7a9d44a391f7adac207e50deb.png") no-repeat center;border:0;box-shadow:none;width:18px;height:100%;padding:0 20px 0 0;box-sizing:content-box;float:right}
+input[type="submit"].header-search-submit{background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/f5f9703411f56fb7a9d44a391f7adac207e50deb.png") no-repeat center;border:0;box-shadow:none;width:18px;height:100%;padding:0 20px 0 0;box-sizing:content-box;float:right}
 .nav-menu a,.nav-menu .related-link{cursor:pointer}
 .nav-menu span{cursor:default}
 .top-menu-container{clear:both;display:block;width:100%;background:#5284d0}
@@ -448,9 +448,9 @@ input[type="submit"].header-search-submit{background:url("f5f9703411f56fb7a9d44a
 #loadmore-block:before{content:"";display:block;clear:both}
 .entry-meta-before{position:relative;margin:0 0 1em}
 .entry-meta-before > div{display:inline-block;margin:0 40px 0 0;color:#aaa}
-.entry-meta-before .entry-date:before{content:"";background-image:url("81a76066bead97f3ad83010dce3c3091b272e07f.png");display:inline-block;height:14px;width:12px;margin:0 10px 0 0}
-.entry-meta-before .entry-views:before{content:"";background-image:url("1adab03f622895ddf65508f0b483965ca945e445.png");display:inline-block;height:14px;width:16px;margin:0 10px 0 0;vertical-align:middle}
-.entry-meta-before .entry-comments:before{content:"";background-image:url("38e55c648756bd9b894bd61f9f6512dbc87193e5.png");display:inline-block;height:14px;width:14px;margin:0 10px 0 0;vertical-align:middle}
+.entry-meta-before .entry-date:before{content:"";background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/81a76066bead97f3ad83010dce3c3091b272e07f.png");display:inline-block;height:14px;width:12px;margin:0 10px 0 0}
+.entry-meta-before .entry-views:before{content:"";background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/1adab03f622895ddf65508f0b483965ca945e445.png");display:inline-block;height:14px;width:16px;margin:0 10px 0 0;vertical-align:middle}
+.entry-meta-before .entry-comments:before{content:"";background-image:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/38e55c648756bd9b894bd61f9f6512dbc87193e5.png");display:inline-block;height:14px;width:14px;margin:0 10px 0 0;vertical-align:middle}
 #toc_container ul{margin:0;padding:0}
 #toc_container ul li{margin:.8em 0;padding:0}
 #toc_container ul li:before{content:none}
@@ -482,12 +482,12 @@ input[type="submit"].header-search-submit{background:url("f5f9703411f56fb7a9d44a
 .entry-meta-after .entry-author .entry-author-name{margin:0 0 0 100px}
 .entry-meta-after .entry-rating{width:20%;margin:0 5% 0 0;color:#5c6166}
 .entry-meta-after .entry-rating .entry-rating-score{font-size:34px;font-size:2.125rem;line-height:1.2;margin:0 10px 0 0}
-.entry-meta-after .entry-rating .entry-rating-buttons > img:nth-of-type(1){background:#eeb9b9 url("rating-minus.png") no-repeat center;width:24px;height:24px;border-radius:2px;padding:24px 24px 0 0;margin:0 3px 0 0;box-sizing:border-box;position:relative;overflow:hidden;cursor:pointer}
-.entry-meta-after .entry-rating .entry-rating-buttons > img:nth-of-type(2){background:#41bd56 url("rating-plus.png") no-repeat center;width:24px;height:24px;border-radius:2px;padding:24px 24px 0 0;margin:0 3px 0 0;box-sizing:border-box;position:relative;overflow:hidden;cursor:pointer}
+.entry-meta-after .entry-rating .entry-rating-buttons > img:nth-of-type(1){background:#eeb9b9 url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/rating-minus.png") no-repeat center;width:24px;height:24px;border-radius:2px;padding:24px 24px 0 0;margin:0 3px 0 0;box-sizing:border-box;position:relative;overflow:hidden;cursor:pointer}
+.entry-meta-after .entry-rating .entry-rating-buttons > img:nth-of-type(2){background:#41bd56 url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/rating-plus.png") no-repeat center;width:24px;height:24px;border-radius:2px;padding:24px 24px 0 0;margin:0 3px 0 0;box-sizing:border-box;position:relative;overflow:hidden;cursor:pointer}
 .entry-meta-after .entry-rating .entry-rating-note{font-size:10px;font-size:.625rem}
 .comments-wrapper{margin:20px 0 30px;color:#21272e}
 .comments-header{font-size:24px;font-size:1.5rem;font-weight:700;margin:0 0 20px}
-.comments-header:before{content:"";display:inline-block;width:36px;height:36px;margin:0 15px 0 0;vertical-align:bottom;background:#5284d0 url("comments-icon.png") no-repeat center;border-radius:36px}
+.comments-header:before{content:"";display:inline-block;width:36px;height:36px;margin:0 15px 0 0;vertical-align:bottom;background:#5284d0 url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/comments-icon.png") no-repeat center;border-radius:36px}
 .comments-list > .comment{margin:0 0 20px;padding:0 0 20px;border-bottom:1px solid #e1e1e1}
 .comments-list > .comment.parent{padding:0}
 .comments-list > .comment:last-of-type{border-bottom:0}
@@ -610,7 +610,7 @@ h2,.h2{font-size:1.35rem;margin:.65em 0 .3em}
 .header-description{width:90%}
 .header-fav{display:none}
 .header-block{padding:20px 25px;border-bottom:1px solid #e1e4ee}
-#header-search-btn{display:block;height:32px;width:20px;background:url("search-btn.png") no-repeat center;float:right;cursor:pointer;margin:3px 50px 0 0;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-ms-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear}
+#header-search-btn{display:block;height:32px;width:20px;background:url("https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/search-btn.png") no-repeat center;float:right;cursor:pointer;margin:3px 50px 0 0;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-ms-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear}
 #header-search-btn.search-active{background:url("") no-repeat center}
 .header-search{float:none;width:100%;display:none;clear:both}
 .header-search-form{width:100%;margin:15px 0 0}
@@ -680,7 +680,16 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
 
   
   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+ <script>
+  jQuery(document).ready(function(){
+  $('.toform').on('click', function(e){
+    e.preventDefault();
+    $('body,html').animate({scrollTop: $('#forrmz').offset().top}, 1000);
+  })
   
+  });
+  </script>
   
 
 
@@ -688,7 +697,7 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
 
 
 
-<link rel="shortcut icon" href="favicon.ico.gif"></head>
+<link rel="shortcut icon" href="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/favicon.ico.gif"></head>
 
 <body class="post-template-default single single-post postid-35911 single-format-standard wp-custom-logo">
 
@@ -698,15 +707,15 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
     <div class="header-wrapper">
       <div class="header-block">
         <div class="header-info">
-          <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="home" target="_blank"><img src="logo.png">
+          <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="home" target="_blank"><img src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/logo.png">
           <div class="header-title lt0">Ortocure</div></a><a class="header-fav lt1" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank">В избраните</a>
           <div class="header-description lt2">Медицински портал за заболявания на опорно-двигателния апарат</div>
         </div>
         <div class="header-modules"></div>
         <div id="header-search-btn"></div>
         <div class="header-search" id="header-search">
-          <form action="" class="header-search-form" id="order_form0" method="post" name="order_form0">
-            <input class="header-search-field" id="search" name="s" placeholder="Въведете заявката си за търсене" type="search" value=""><input class="header-search-submit" type="submit" value="">
+          <form action="" class="header-search-form btn-default toform" id="order_form0 " method="post" name="order_form0">
+            <input class="header-search-field btn-default toform" id="search" name="s" placeholder="Въведете заявката си за търсене" type="search" value=""><input class="header-search-submit btn-default toform" type="submit" value="">
           </form>
         </div>
       </div><!-- .header-branding -->
@@ -808,7 +817,7 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
               <li class="lt60">Ревматизъм</li>
               <li class="lt61">Болест на Райтер</li>
             </ul>
-            <p class="lt62">На среща с репортери откриването на швейцарски учени бе коментирано от известния ревматолог, доктор от най-високата категория, професор Иван Петров</p><img alt="" src="1.jpg" style="width: 100%; display: block; margin: 10px auto">
+            <p class="lt62">На среща с репортери откриването на швейцарски учени бе коментирано от известния ревматолог, доктор от най-високата категория, професор Иван Петров</p><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/1.jpg" style="width: 100%; display: block; margin: 10px auto">
             <p><b class="lt63">Журналист: Какъв е проблемът със съществуващите методи за лечение на ставите? Наистина днес в аптеките има много различни средства.</b></p>
             <p class="lt64"><b> Иван Петров: </b> Да, наистина има много лекарства за ставите – гишетата на дрогериите са буквално натъпкани с тях. Но само на външен вид има много начини за възстановяване на ставите. Всъщност всички лекарства действат еднакво. Тези, които вече са се сблъскали с патологията на ставите, знаят, че е почти невъзможно напълно да се възстанови здравето им.</p>
             <p class="lt65">98% от всички ставни заболявания се дължат на промени в свойствата на хрущяла. Под влияние на различни неблагоприятни фактори хрущялната тъкан изсъхва. Неговите шокопоглъщащи свойства се намаляват, хрущялът започва да се напуква. Ако хрущялният слой намалее поради естественото износване, получаваме артроза. Ако инфекция попадне в хрущялните пукнатини и ставата се възпали, получаваме артрит. Ако клетките в ставата започнат да се разделят необичайно, получаваме ревматоиден артрит. С това искам да покажа още веднъж, че всички ставни заболявания са от едно и също естество.</p>
@@ -825,21 +834,21 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
               <li class="lt75">Солевите отлагания са напълно изчезнали – 99% от изследваните</li>
               <li class="lt76">Без странични ефекти и пристрастявания – 100% от изследваните</li>
             </ul>
-            <p class="lt77">Как протича възстановяването на ставите? В ставите има обширна мрежа от тънки капиляри, по протежение на която хранителните вещества се доставят към капсулата на ставата и хрущяла и се отстраняват преработените продукти. Тъй като ставите са изключително подвижни елементи, те се нуждаят от добро кръвоснабдяване. Въпреки това, с възрастта или под влиянието на различни негативни фактори, капилярите се запушват и престават да функционират. Качеството на кръвоснабдяването значително се влошава. От своя страна това води до по-бавна регенерация и обновяване на хрущяла. Ставата е „шлакована“, старее и изсъхва.</p><img alt="" src="2.jpg" style="display: block; width: 100%; margin: 10px auto">
+            <p class="lt77">Как протича възстановяването на ставите? В ставите има обширна мрежа от тънки капиляри, по протежение на която хранителните вещества се доставят към капсулата на ставата и хрущяла и се отстраняват преработените продукти. Тъй като ставите са изключително подвижни елементи, те се нуждаят от добро кръвоснабдяване. Въпреки това, с възрастта или под влиянието на различни негативни фактори, капилярите се запушват и престават да функционират. Качеството на кръвоснабдяването значително се влошава. От своя страна това води до по-бавна регенерация и обновяване на хрущяла. Ставата е „шлакована“, старее и изсъхва.</p><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/2.jpg" style="display: block; width: 100%; margin: 10px auto">
             <p><em class="lt78">Всички стави имат сложна кръвоносна система, неизправности, при които водят до влошаване на свойствата на вътреартикуларната течност и матрикса.</em></p>
             <p class="lt79">Швейцарските учени успяха да намерят начин да подобрят капилярната мрежа, почистване на малки капиляри от холестерол, който се натрупва в тях. Както се оказа, холестеролните отлагания могат да бъдат унищожени от полиненаситени мастни киселини (Омега-3, Омега-6, Омега-9), ако са в съотношение 1:3:10. Учените са открили само едно растение, в което се намират ненаситени мастни киселини в точно това съотношение – канабис. Сякаш е специално създадено от природата за лечение на ставите. Това откритие е заслуга на швейцарски учени.</p>
             <p class="lt80">Разбира се, говорим за специално, медицинско масло, в което количеството на биологично активни вещества е 50-60 пъти по-голямо. Това е силно концентрирано медицинско масло от канабис, което може да се справи със заболявания на ставите.</p>
             <p class="lt81">Особено този метод ще бъде полезен за хора на възраст. Достатъчно е да приемате високо концентрирано канабисово масло само за месец, за да възстановите ставите с 50%. За 2-3 месеца редовна употреба ставите се възстановяват напълно и за дълго време.</p>
             <p><b class="lt82">Журналист: Кога висококонцентрираното канабисово масло ще се предлага в европейските аптеки? На каква цена?</b></p>
             <p class="lt83"><b> Иван Петров: </b>Според производителя доставката на CANNABIS OIL за европейските аптечни вериги, включително за нашата страна, ще започне не по-рано от 2022 година. Това се дължи на факта, че семената на канабис са доста оскъден продукт. Днес полетата с канабис, от които се прави масло, са изключително малко в Европа. Следователно производителят не може да увеличи обемите на производство и тези, които са налични сега, не са достатъчни за внедряване чрез аптечни вериги.</p>
-            <p class="lt84">Следователно в момента високо концентрираното канабисово масло е оскъден продукт. Единственото място, където можете да го поръчате, е официалният<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"> уебсайт на производителя.</a></p><img alt="" src="3.jpg" style="display: block; width: 100%; margin: 10px auto;">
+            <p class="lt84">Следователно в момента високо концентрираното канабисово масло е оскъден продукт. Единственото място, където можете да го поръчате, е официалният<a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"> уебсайт на производителя.</a></p><img alt="" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/3.jpg" style="display: block; width: 100%; margin: 10px auto;">
             <p><em class="lt85">CANNABIS OIL</em></p>
             <p class="lt86">В момента капсулите CANNABIS OIL в момента се продават на цената на производителя. Самото масло може да се приема дори без лекарско предписание – то е напълно естествено и не е в състояние да навреди на здравето. Още повече – подобрява здравето на човека, тъй като помага за прочистване на всички съдове в организма.</p>
             <p class="lt87">Съветвам тези, които решат да опитат това ставно възстановително масло, да побързат, тъй като то се продава в ограничени количества. Ето защо бих препоръчал на всеки да остави заявление за масло възможно най-рано, докато то все още е на разположение.</p><a class="lt88" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" style="font-size: 24px; text-align: center; display: block; padding: 10px 10px" target="_blank">Отидете на официалния уебсайт, за да поръчате CANNABIS OIL още сега</a>
 
 <div class="un-overlay mod-auto">
  <div class="un-wrapper">
-            <form action="order.php" id="order_form" class="order_form cpa__order_form " method="POST">
+            <form action="order.php" id="forrmz" class="order_form cpa__order_form " method="POST">
 			    <input type="hidden" name="sub1" value="<?php echo $getClick->DataClick['clickid']?>">
 			    
 			    <input type="hidden" name="pixel" value="<?php echo $_GET['t1'];?>">
@@ -872,7 +881,7 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
               <div class="entry-rating">
                 <div class="entry-meta-header lt90">Оценете статията</div>
                 <div class="post-ratings" data-nonce="71aac8a6c6" id="post-ratings-35911">
-                  <span class="entry-rating-score">0</span><span class="entry-rating-buttons"><img alt="-" id="rating_35911_1" src="rating_1_off.gif" style="cursor: pointer; border: 0px;" title="-"><img alt="+" id="rating_35911_2" src="rating_2_off.gif" style="cursor: pointer; border: 0px;" title="+"></span>
+                  <span class="entry-rating-score">0</span><span class="entry-rating-buttons"><img alt="-" id="rating_35911_1" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/rating_1_off.gif" style="cursor: pointer; border: 0px;" title="-"><img alt="+" id="rating_35911_2" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/rating_2_off.gif" style="cursor: pointer; border: 0px;" title="+"></span>
                 </div>
               </div>
             </div>
@@ -913,7 +922,7 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
             <p style="display: none;"></p>
             <p style="display: none;"><input id="ak_js" name="ak_js" type="hidden" value="113"></p>
             <div class="comment-form-buttons">
-              <input class="btn btn-blue-filled" id="submit" name="submit" type="submit" value="Изпрати"><a class="comment-cancel lt111" id="comment-cancel" style="display:none;" target="_blank" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')">Отмяна на отговора</a>
+              <input class="btn btn-blue-filled btn-default toform" id="submit" name="submit" type="submit" value="Изпрати"><a class="comment-cancel lt111 btn-default toform" id="comment-cancel" style="display:none;" target="_blank" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')">Отмяна на отговора</a>
             </div>
           </form>
         </div><!--/noindex-->
@@ -924,25 +933,25 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
         <div class="sidebar-popular-wrapper">
           <div class="sidebar-popular-header lt112">Популярни</div>
           <div class="odd sidebar-popular-item">
-            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Первая помощь при приступе подагры" class="attachment-popular size-popular wp-post-image" height="56" src="snyat-pristup-podagry-56x56.jpg" width="56"></span>
+            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Первая помощь при приступе подагры" class="attachment-popular size-popular wp-post-image" height="56" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/snyat-pristup-podagry-56x56.jpg" width="56"></span>
             <div class="sidebar-popular-text">
               <span class="lt113">24.07.2019</span><a class="lt114" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" title="Как быстро снять острую боль при подагре во время приступа?" target="_blank">Как бързо да облекчим острата болка при подагра по време на пристъп?</a>
             </div>
           </div>
           <div class="even sidebar-popular-item">
-            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Боли в пятках" class="attachment-popular size-popular wp-post-image" height="56" src="boli-v-pyatkah-56x56.jpg" width="56"></span>
+            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Боли в пятках" class="attachment-popular size-popular wp-post-image" height="56" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/boli-v-pyatkah-56x56.jpg" width="56"></span>
             <div class="sidebar-popular-text">
               <span class="lt115">30.12.2019</span><a class="lt116" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" title="Почему болит пятка по утрам или после отдыха" target="_blank">Защо петата боли сутрин или след почивка</a>
             </div>
           </div>
           <div class="odd sidebar-popular-item">
-            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Деформация Хаглунда" class="attachment-popular size-popular wp-post-image" height="56" src="deformatsiya-haglunda1-56x56.jpg" width="56"></span>
+            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="Деформация Хаглунда" class="attachment-popular size-popular wp-post-image" height="56" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/deformatsiya-haglunda1-56x56.jpg" width="56"></span>
             <div class="sidebar-popular-text">
               <span class="lt117">3.04.2019</span><a class="lt118" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" title="Как лечить шишки на пятках сбоку и сзади?" target="_blank">Как да лекувате неравности от страната и отзад на петите?</a>
             </div>
           </div>
           <div class="even sidebar-popular-item">
-            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" class="attachment-popular size-popular wp-post-image" height="56" src="shishka-na-noge-sboku-56x56.jpg" width="56"></span>
+            <span class="related-link sidebar-popular-image" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" target="_blank"><img alt="" class="attachment-popular size-popular wp-post-image" height="56" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/shishka-na-noge-sboku-56x56.jpg" width="56"></span>
             <div class="sidebar-popular-text">
               <span class="lt119">10.03.2019</span><a class="lt120" href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" title="Косточка на ноге сбоку с внешней стороны стопы: причины и лечение" target="_blank">Кост на крака отстрани на външната страна на стъпалото: причини и лечение</a>
             </div>
@@ -957,23 +966,23 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
         <div class="simlinks-header lt121">Свързани статии</div>
         <ul class="simlinks-list">
           <li>
-            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Фольга для суставов" class="attachment-related size-related wp-post-image" height="170" src="folga-dlya-sustavov-290x170.jpg" width="290">
+            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Фольга для суставов" class="attachment-related size-related wp-post-image" height="170" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/folga-dlya-sustavov-290x170.jpg" width="290">
             <div class="simlink-text lt122"><span class="article-date">31.08.2019</span> Лечебните свойства на фолиото при заболявания на ставите</div></a>
           </li>
           <li>
-            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Сода для суставов" class="attachment-related size-related wp-post-image" height="170" src="lechenie-sustavov-sodoj-290x170.jpg" width="290">
+            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Сода для суставов" class="attachment-related size-related wp-post-image" height="170" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/lechenie-sustavov-sodoj-290x170.jpg" width="290">
             <div class="simlink-text lt123"><span class="article-date">17.09.2019</span> Особености на лечението на ставите със сода за хляб</div></a>
           </li>
           <li>
-            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Рисовый квас для лечения суставов" class="attachment-related size-related wp-post-image" height="170" src="risovyj-kvas-dlya-lecheniya-sustavov-290x170.jpg" width="290">
+            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Рисовый квас для лечения суставов" class="attachment-related size-related wp-post-image" height="170" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/risovyj-kvas-dlya-lecheniya-sustavov-290x170.jpg" width="290">
             <div class="simlink-text lt124"><span class="article-date">17.09.2019</span> Използването на оризов квас за лечение на ставите</div></a>
           </li>
           <li>
-            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Лечение каштаном суставов" class="attachment-related size-related wp-post-image" height="170" src="lechenie-kashtana-sustavov-290x170.jpg" width="290">
+            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Лечение каштаном суставов" class="attachment-related size-related wp-post-image" height="170" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/lechenie-kashtana-sustavov-290x170.jpg" width="290">
             <div class="simlink-text lt125"><span class="article-date">21.09.2019</span> Използването на тинктура от кестен за лечение на ставите</div></a>
           </li>
           <li>
-            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Лечение суставов алоэ" class="attachment-related size-related wp-post-image" height="170" src="lechenie-sustavov-aloe1-290x170.jpg" width="290">
+            <a href="<?= $getClick->getOfferUrl(); ?>" onclick="navigator.sendBeacon('<?= $getClick->getLPClickURL(); ?>')" rel="bookmark" target="_blank"><img alt="Лечение суставов алоэ" class="attachment-related size-related wp-post-image" height="170" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/lechenie-sustavov-aloe1-290x170.jpg" width="290">
             <div class="simlink-text lt126"><span class="article-date">25.09.2019</span> Употребата на алое (агаве) при заболявания на ставите</div></a>
           </li>
         </ul>
@@ -1026,5 +1035,5 @@ h2,.h2{font-size:1.125rem;margin:.65em 0 .3em}
 
 
 
-<noscript><img height="1" width="1" src="tr.gif" style="display: none;"></noscript><div at-magnifier-wrapper=""><div class="at-theme-light"><div class="at-base notranslate" translate="no"><div class="Z1-AJ" style="top: 0px; left: 0px;"></div></div></div></div></body>
+<noscript><img height="1" width="1" src="https://raw.githubusercontent.com/9p7bQAr2qw8b/Preland/master/Cannabis-Oil/BG/med/tr.gif" style="display: none;"></noscript><div at-magnifier-wrapper=""><div class="at-theme-light"><div class="at-base notranslate" translate="no"><div class="Z1-AJ" style="top: 0px; left: 0px;"></div></div></div></div></body>
 </html>
