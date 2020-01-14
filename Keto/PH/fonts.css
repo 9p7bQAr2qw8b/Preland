@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'cherry_cream_sodaregular';
+    src: url("cherrycreamsoda-webfont.woff2") format('woff2'),
+         url("cherrycreamsoda-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'utopiaregular';
+    src: url("unicode.utopia-webfont.woff2") format('woff2'),
+         url("unicode.utopia-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
