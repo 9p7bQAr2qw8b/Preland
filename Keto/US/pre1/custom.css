@@ -1,0 +1,53 @@
+.wrp-top-flag{
+    width: 100%;
+    max-width: 346px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    list-style: none;
+}
+.top-flag{
+    /*margin-left:  190px;*/
+    margin-top: 13px;
+}
+.top-flag img{
+    width: 53px;
+    margin-top: -1px;
+}
+.wrp-top-flag.mob{
+    margin-right: 18px;
+  }
+.wrp-top-flag.mob .top-flag{
+    margin-top: -2px;
+}
+.header-state{
+    font-size: 13px;
+    line-height: 50px;
+    margin-left: 6px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar{
+    min-height: 40px
+}
+@media only screen and (max-width: 1000px) {
+    .wrp-top-flag{
+        width: auto;
+    }
+    .top-flag{
+        margin-left:  10px;
+    }
+}
+@media (min-width: 767px){
+    .wrp-top-flag.mob{
+        display: none;
+    }
+    .content-box .content{
+        margin-top: 0px;
+    }
+    .mobile{
+        display: none;
+    }
+}
