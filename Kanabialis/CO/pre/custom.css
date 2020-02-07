@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+.pbold{
+	font-weight: bold;
+	font-size: 16px;
+}
+.profImg{
+	float: left;
+	width: 250px;
+	margin-right: 10px;
+}
+
+.frame{
+	border:1px solid black;
+	background: #fff7ee;
+	padding: 10px 20px;
+}
+.frame img{
+	display: block;
+	margin:0 auto;
+	width: 450px;
+}
+.mains3{
+	text-align: center;
+	font-size: 20px;
+}
+.offer .container{
+	padding: 0 0px;
+}
+.bg-table {
+    background-color: #FFCC00;
+}
+tbody {
+    border-top: 1px solid rgb(204, 204, 204);
+}
+th, tr, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.comments tr, .comments td {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: gray;
+}
+.comments th, .comments tr, .comments td {
+    text-align: left !important;
+}
+.flex {
+    display: flex;
+}
+.checked {
+    color: orange;
+}
+img{
+	max-width: 100%;
+}
+.offerRel h3{
+	text-align: center;
+}
+.guarantee {
+    border-radius: 8px;
+    min-height: 133px;
+    padding: 15px;
+    background: #f7f7f7;
+    background: -webkit-linear-gradient(top, #f7f7f7 0, #d9d9d9 100%);
+    background: linear-gradient(to bottom,#f7f7f7 0,#d9d9d9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#d9d9d9', GradientType=0);
+    color: #171717;
+    text-shadow: 0 1px 1px #fff;
+    border: 1px solid #c4c4c4;
+    position: relative;
+}
+.guarantee-content h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    margin:10px 0;
+}
+.guarancy {
+    font-weight: bold;
+    text-decoration: underline;
+}
+li {
+    color: #444;
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0 0 5px;
+}
+.checkedList{
+	list-style: none;
+	padding-left: 20px;
+}
+.checkedList li i{
+	margin-right: 5px;
+}
+img.prod{
+    width: 500px;
+}
+.buttbutt {
+    display: block;
+    color: white;
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 1em;
+    background-color: red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 95%;
+    box-sizing: border-box;
+    transition: all .3s ease;
+}
+.buttbutt:hover {
+    background-color: brown;
+}
+.prod_img {
+    max-width: 200px !important;
+}
+@media screen and (max-width: 500px) {
+    .profImg {
+        float: none !important;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .doctorText {
+        width: 100% !important;
+    }
+    .doctorBlock {
+        flex-direction: column;
+        align-content: space-between;
+    }
+    h1.titleRed {
+        font-size: 36px !important;
+    }
+    .testimonialMain {
+        flex-direction: column;
+    }
+    .testimonialImg {
+        width: 100% !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    .testimonialText {
+        width: 100% !important;
+    }
+}

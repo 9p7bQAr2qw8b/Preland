@@ -1,0 +1,67 @@
+@import url("style.css");
+
+@media screen and (max-width: 992px){
+	.testimonialMain,.offerBlock{
+		display: block;
+	}
+	.testimonialImg{
+		width: 100%;
+		text-align: center;
+		display: block;
+	}
+	.testimonialImg img{
+		max-width: 320px;
+	}
+	.testimonialText{
+		width: 100%;
+		margin: 0;
+	}
+}
+@media screen and (max-width: 768px){
+	.ui-pnotify{
+		display: none!important;
+	}
+	.offerbackground,.arrowOffer{
+		display: none;
+	}
+	.chartInside{
+		width: 90%;
+    	margin-left: 10%;
+	}
+	.offerImg{
+		margin: auto;
+		width: 100%;
+		max-width: 300px;
+	}
+	.offerText{
+		width: 100%;
+	}
+	#qualityBox{
+		right: 0px;
+	}
+	.formBlock{
+		box-sizing: border-box;
+		padding: 0 20px;
+	}
+}
+@media screen and (max-width: 600px){
+	.warranty{
+		display: none;
+	}
+	.barDesc span{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 468px){
+	.barDesc span{
+		font-size: 8px;
+	}
+
+	.redactorImg{
+		width: 40%;
+		margin-right: auto;
+	}
+	.redactorText{
+		width: 60%;
+	}
+}
