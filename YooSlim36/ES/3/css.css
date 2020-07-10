@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Archivo Narrow Regular'), local('ArchivoNarrow-Regular'), url("tss0ApVBdCYD5Q7hcxTE1ArZ0bb-iXk.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Archivo Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Archivo Narrow Bold'), local('ArchivoNarrow-Bold'), url("tss3ApVBdCYD5Q7hcxTE1ArZ0b5LrGlT-9c.ttf") format('truetype');
+}
