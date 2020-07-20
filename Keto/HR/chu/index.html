@@ -1,0 +1,2781 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>KetoDiet</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5">
+    <link rel="shortcut icon" type="image/x-icon">
+    <style>
+        a,
+        p,
+        span {
+            font-family: 'Titillium Web', sans-serif
+        }
+
+        .article-copy a,
+        .article-copy li,
+        .article-copy p {
+            font-family: 'PT Serif', Georgia, serif
+        }
+
+        .article-body .main-content {
+            position: relative;
+            overflow: hidden;
+            background-color: #fff
+        }
+
+        .article-copy a {
+            color: #00b3e5
+        }
+
+        article[role=content] {
+            margin: 0;
+            width: 100%;
+            position: relative
+        }
+
+        .article-body {
+            position: relative
+        }
+
+        .article-copy .article-content ul {
+            list-style: inside
+        }
+
+        .article-header .article-title {
+            width: 100%;
+            margin-top: 0
+        }
+
+        .published-date {
+            display: inline
+        }
+
+        article[role=content] .article-copy {
+            width: 100%;
+            position: relative
+        }
+
+        .article-copy li,
+        .article-copy p {
+            font-size: 17px;
+            font-size: 1.0625rem;
+            line-height: 1.5625rem;
+            margin: 0 0 .6875rem
+        }
+
+        .correction-notes {
+            margin: 0 0 15px
+        }
+
+        .correction-notes p {
+            color: #888 !important;
+            margin-top: 15px;
+            padding-left: 6px;
+            font-style: italic;
+            font-size: 14px
+        }
+
+        .correction-date {
+            border-top: 1px solid #cecece;
+            padding-top: 10px
+        }
+
+        .article-copy .article-content .article-topics ul {
+            list-style: none
+        }
+
+        .article-copy .author-byline .author a:hover {
+            color: #00b3e5
+        }
+
+        .article-topics {
+            display: flex;
+            align-items: baseline
+        }
+
+        .article-topics--row {
+            flex-direction: row
+        }
+
+        .article-body .article-topics p {
+            margin: 0 10px 0 0
+        }
+
+        .article-topics ul li {
+            display: inline-block;
+            margin: 0 10px 10px 0
+        }
+
+        .article-topics ul li a {
+            color: #fff
+        }
+
+        @media (min-width:940px) {
+            article .article-body {
+                position: relative;
+                width: 100%;
+                display: inline-block
+            }
+
+            article[role=content] .article-copy {
+                float: left
+            }
+        }
+
+        @media (min-width:1024px) {
+            .article-body {
+                width: 100%
+            }
+
+            .article-body .article-header {
+                margin-right: 320px
+            }
+
+            .section__main .article-body .article-header {
+                margin: 0
+            }
+        }
+
+        @media (min-width:1025px) {
+            .subscribe-button {
+                border-radius: 7px;
+                padding: 10px 23px
+            }
+        }
+
+        body,
+        html {
+            height: 100%
+        }
+
+        main[role=container] {
+            min-height: 100%
+        }
+
+        .tertiary-sidebar {
+            float: left;
+            width: 100%
+        }
+
+        .section__sidebar .tertiary-sidebar {
+            float: none;
+            width: inherit
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        a {
+            color: #000
+        }
+
+        h1 {
+            font-size: 18px
+        }
+
+        h3 {
+            font-size: 14px
+        }
+
+        h3 {
+            line-height: 1.4
+        }
+
+        a,
+        article,
+        body,
+        div,
+        fieldset,
+        figure,
+        footer,
+        form,
+        h1,
+        h3,
+        h4,
+        header,
+        html,
+        img,
+        label,
+        legend,
+        li,
+        nav,
+        ol,
+        p,
+        section,
+        span,
+        strong,
+        ul {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font-family: inherit;
+            vertical-align: baseline
+        }
+
+        article,
+        figure,
+        footer,
+        header,
+        nav,
+        section {
+            display: block;
+            margin: 19px 0;
+        }
+
+        body {
+            line-height: 1
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        body {
+            background-color: #fff;
+            position: relative
+        }
+
+        input[type=submit] {
+            background-color: #17ce28;
+            -moz-box-shadow: 0 3px 0 0 #13941c;
+            -webkit-box-shadow: 0 3px 0 0 #13941c;
+            -webkit-appearance: none
+        }
+
+        main[role=container] {
+            padding: 0 10px;
+            margin-top: 0;
+            display: block;
+            position: relative
+        }
+
+        li,
+        p {
+            font-size: 16px;
+            line-height: 1.3
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit
+        }
+
+        a:hover {
+            color: #00b3e5
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        input[type=submit] {
+            color: #fff;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 3px 0 0 #13941c;
+            text-shadow: 0 1px 0 #13941c;
+            border: none;
+            text-align: center;
+            line-height: 22px;
+            padding: 5px 8%;
+            display: inline-block;
+            cursor: pointer
+        }
+
+        input[type=email],
+        input[type=password],
+        input[type=text] {
+            border: 1px solid #333;
+            border-radius: 5px;
+            color: #000;
+            font-size: 16px;
+            line-height: 1;
+            padding: 0 2%;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            height: 40px
+        }
+
+        a,
+        div,
+        form,
+        h1,
+        h3,
+        li,
+        ul {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box
+        }
+
+        input {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        .subscribe-button {
+            background: 98% 57% no-repeat #00b3e5;
+            border-radius: 2px;
+            color: #FFF;
+            cursor: pointer;
+            display: inline-block;
+            padding: 5px 10px
+        }
+
+        @media (min-width:400px) {
+            main[role=container] {
+                padding: 0 .937475rem;
+                max-width: 70.62495rem;
+                margin: 0 auto
+            }
+        }
+
+        @media (min-width:1280px) {
+            main[role=container] {
+                display: block;
+                margin: 0 auto;
+                padding: 0;
+                width: 1100px
+            }
+        }
+
+        h1,
+        h3,
+        h4 {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        html {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box
+        }
+
+        a.social-login__link--facebook:hover,
+        a.social-login__link--google:hover {
+            opacity: .8
+        }
+
+        .footer-section,
+        .footer-section:after,
+        .header,
+        .header-meganav__wrapper,
+        .header-meganav__wrapper:after,
+        .header-nav,
+        .header-top,
+        .header-top:after,
+        .header:after,
+        .social-login,
+        .social-login:after {
+            clear: both
+        }
+
+        h1,
+        h3,
+        h4 {
+            color: #000;
+            margin: 0 0 .93747rem;
+            letter-spacing: -.0375rem
+        }
+
+        .header-search__field,
+        body {
+            font-size: 1rem;
+            line-height: 1.4375rem;
+            font-family: "PT Serif", Georgia, serif;
+            color: #4d4d4d
+        }
+
+        .section-top-content__tabs .section-top-content__button {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        .section-top-content__tabs .section-top-content__button {
+            font-size: .875rem;
+            line-height: 1.0625rem;
+            font-weight: 700;
+            text-transform: uppercase
+        }
+
+        html {
+            box-sizing: border-box
+        }
+
+        *,
+        :after,
+        :before {
+            -webkit-box-sizing: inherit;
+            -moz-box-sizing: inherit;
+            box-sizing: inherit
+        }
+
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+        .footer__wrapper,
+        .header-meganav__wrapper,
+        .header-nav__wrapper,
+        .header-wrapper,
+        .section__inner {
+            max-width: 70.62495rem;
+            margin: 0 .93747rem
+        }
+
+        @media only screen and (min-width:40.063rem) {
+
+            .footer__wrapper,
+            .header-meganav__wrapper,
+            .header-nav__wrapper,
+            .header-wrapper,
+            .section__inner {
+                margin: 0 auto;
+                padding: 0 .93747rem
+            }
+        }
+
+        .section-top-content {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 1.375rem
+        }
+
+        .section__inner,
+        .section__sidebar {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            -webkit-box-direction: normal;
+            -moz-box-direction: normal
+        }
+
+        .section {
+            width: 100%
+        }
+
+        .section__inner--no-main {
+            padding: 0;
+            margin: 0
+        }
+
+        .section__inner {
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-orient: vertical;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -ms-flex-direction: column;
+            flex-direction: column
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .section__inner {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: row;
+                -moz-box-orient: horizontal;
+                -moz-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row
+            }
+        }
+
+        .section__main {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 0 auto;
+            -moz-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            width: 100%;
+            margin: 0 0 1.375rem
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .section__main {
+                -webkit-box-flex: 1;
+                -webkit-flex: 1 1 0;
+                -moz-box-flex: 1;
+                -ms-flex: 1 1 0px;
+                flex: 1 1 0;
+                width: auto
+            }
+        }
+
+        .section__sidebar {
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 0 auto;
+            -moz-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            width: 100%;
+            margin: 0 0 1.375rem
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .section__sidebar {
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 18.75rem;
+                -moz-box-flex: 0;
+                -ms-flex: 0 0 18.75rem;
+                flex: 0 0 18.75rem;
+                width: 18.75rem
+            }
+
+            .section__sidebar--right {
+                margin-left: 1.375rem;
+                position: relative;
+                overflow: hidden
+            }
+        }
+
+        img {
+            width: 100%;
+            height: auto
+        }
+
+        p {
+            margin: 0 0 .6875rem
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0
+        }
+
+        .font-sans-serif-xxs--regular {
+            font-size: 1rem !important;
+            line-height: 1.1875rem !important;
+            font-weight: 400 !important
+        }
+
+        .font-sans-serif-xxs--regular {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif !important
+        }
+
+        .font-sans-serif-xxs--bold {
+            font-size: 1rem !important;
+            line-height: 1.1875rem !important;
+            font-weight: 700 !important
+        }
+
+        .font-sans-serif-xxs--bold {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif !important
+        }
+
+        .article__eyebrow-container {
+            margin: 0 0 .6875rem
+        }
+
+        .article__eyebrow {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #820000;
+            margin-right: .17188rem
+        }
+
+        .article__eyebrow--environment {
+            color: #bc9617
+        }
+
+        .article__eyebrow .article__eyebrow-link {
+            font-family: inherit;
+            color: inherit
+        }
+
+        .header-meganav__footer-link,
+        .primary-nav__link,
+        .primary-nav__link:visited {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        .article__eyebrow .article__eyebrow-link:hover {
+            text-decoration: underline
+        }
+
+        .primary-nav__link,
+        .primary-nav__link:visited {
+            color: #002837;
+            font-weight: 700;
+            text-transform: capitalize
+        }
+
+        .header-meganav__footer-link,
+        .header-meganav__footer-link:visited,
+        .header-meganav__footer-secondary-links a,
+        .header-meganav__footer-secondary-links a:visited,
+        .primary-nav__link:hover,
+        .primary-nav__link:visited:hover {
+            color: #00b3e5
+        }
+
+        .primary-nav__link:after {
+            content: "";
+            background-color: #002837;
+            position: absolute;
+            bottom: -1px;
+            height: 0;
+            left: 0;
+            right: 0;
+            -webkit-transition: .2s;
+            -o-transition: .2s;
+            -moz-transition: .2s;
+            transition: .2s;
+            z-index: 10
+        }
+
+        .header-meganav__footer-link:focus,
+        .header-meganav__footer-link:hover,
+        .header-meganav__footer-link:visited:focus,
+        .header-meganav__footer-link:visited:hover,
+        .header-meganav__footer-secondary-links a:focus,
+        .header-meganav__footer-secondary-links a:hover,
+        .header-meganav__footer-secondary-links a:visited:focus,
+        .header-meganav__footer-secondary-links a:visited:hover {
+            color: #288eb7
+        }
+
+        .header-meganav__footer-link {
+            font-size: 1rem;
+            line-height: 1.1875rem;
+            text-transform: uppercase
+        }
+
+        button {
+            cursor: pointer
+        }
+
+        .footer .signup-form__button,
+        .header__login-form .button-submit,
+        a.social-login__link--facebook,
+        a.social-login__link--google {
+            font-size: 1rem;
+            font-weight: 700;
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
+            line-height: 1rem;
+            padding: .45833rem;
+            border: 0;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            display: inline-block;
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            -webkit-transition: all .2s;
+            -o-transition: all .2s;
+            -moz-transition: all .2s;
+            transition: all .2s;
+            cursor: pointer
+        }
+
+        .footer .signup-form__button:focus,
+        .footer .signup-form__button:hover,
+        .header__login-form .button-submit:focus,
+        .header__login-form .button-submit:hover,
+        a.social-login__link--facebook:focus,
+        a.social-login__link--facebook:hover,
+        a.social-login__link--google:focus,
+        a.social-login__link--google:hover {
+            color: #fff;
+            text-decoration: none
+        }
+
+        .footer .signup-form__button {
+            background: #005587
+        }
+
+        .footer .signup-form__button:focus,
+        .footer .signup-form__button:hover {
+            background: #193c5b
+        }
+
+        .header__login-form .button-submit {
+            background: #00b3e5
+        }
+
+        .header__login-form .button-submit:focus,
+        .header__login-form .button-submit:hover {
+            background: #288eb7
+        }
+
+        a.social-login__link--facebook,
+        a.social-login__link--google {
+            font-size: .9375rem;
+            line-height: .9375rem;
+            position: relative;
+            padding-left: 2.75rem;
+            margin-bottom: .6875rem
+        }
+
+        @media only screen and (min-width:0rem) and (max-width:22.5rem) {
+
+            a.social-login__link--facebook,
+            a.social-login__link--google {
+                padding: .45833rem .34375rem .45833rem 1.375rem
+            }
+        }
+
+        .primary-nav__hamburger {
+            top: 4px;
+            display: block;
+            width: 100%;
+            height: 4px;
+            position: relative;
+            left: 0;
+            background-color: #000;
+            margin-bottom: 4px
+        }
+
+        .backtotop__icon:hover,
+        .social__button:hover {
+            opacity: .7
+        }
+
+        .header__login-form fieldset {
+            border: 0;
+            margin: 0;
+            padding: 0
+        }
+
+        .header__login-form input[type=email],
+        .header__login-form input[type=password],
+        .signup-form input[type=email] {
+            background: 0 0;
+            border: 0;
+            border-bottom: 2px solid #000;
+            padding-left: 3px;
+            font-family: "PT Serif", Georgia, serif;
+            font-size: 1rem;
+            line-height: 1rem;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+            height: auto
+        }
+
+        .header__login-form input[type=email]:-webkit-autofill,
+        .header__login-form input[type=email]:-webkit-autofill:focus,
+        .header__login-form input[type=email]:-webkit-autofill:hover,
+        .header__login-form input[type=password]:-webkit-autofill,
+        .header__login-form input[type=password]:-webkit-autofill:focus,
+        .header__login-form input[type=password]:-webkit-autofill:hover,
+        .signup-form input[type=email]:-webkit-autofill,
+        .signup-form input[type=email]:-webkit-autofill:focus,
+        .signup-form input[type=email]:-webkit-autofill:hover {
+            -webkit-box-shadow: 0 0 0 1000px #f5f5f5 inset
+        }
+
+        .header__login-form .form-row {
+            display: table;
+            width: 100%;
+            margin-bottom: .6875rem;
+            padding: 0 .93747rem
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header__login-form .form-row {
+                padding: 0;
+                margin-bottom: .6875rem
+            }
+        }
+
+        .social__button {
+            display: inline-block;
+            background: #999;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            padding: 2px;
+            -webkit-transition: all .1s;
+            -o-transition: all .1s;
+            -moz-transition: all .1s;
+            transition: all .1s
+        }
+
+        .social__button--large {
+            width: 32px;
+            height: 32px
+        }
+
+        .social__button--facebook {
+            background: #3B5998
+        }
+
+        .social__button--twitter {
+            background: #1DA1F2
+        }
+
+        .social__button--linkedin {
+            background: #0077B5
+        }
+
+        .social__button--whatsapp {
+            background: #4DC247
+        }
+
+        .social__button--reddit {
+            background: #FF5700
+        }
+
+        .header {
+            width: 100%;
+            margin: 0 0 1.375rem;
+            padding-top: .6875rem;
+            background: #fff;
+            z-index: 999;
+            position: relative
+        }
+
+        .header:after,
+        .header:before {
+            content: ' ';
+            display: table
+        }
+
+        .header p {
+            margin-bottom: 0
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header {
+                border-bottom: 1px solid #bfbfbf;
+                margin: 1.87495rem 0 1.375rem;
+                padding-top: 0
+            }
+        }
+
+        .header-nav__wrapper,
+        .header-wrapper {
+            padding: 0;
+            margin: 0
+        }
+
+        .header-top:after,
+        .header-top:before {
+            content: ' ';
+            display: table
+        }
+
+        @media only screen and (min-width:64.063rem) {
+
+            .header-nav__wrapper,
+            .header-wrapper {
+                margin: 0 auto;
+                padding: 0 .93747rem;
+                position: relative
+            }
+
+            .header-top {
+                margin-bottom: .6875rem;
+                padding: 0
+            }
+        }
+
+        .header-search {
+            display: none;
+            width: 100%;
+            position: absolute;
+            top: 2.775rem;
+            background: #f5f5f5;
+            padding: 1.375rem .6875rem;
+            border-top: 1px solid #bfbfbf;
+            z-index: 500;
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2)
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-search {
+                padding: 1.375rem 0;
+                top: 3.375rem
+            }
+        }
+
+        .header-logo {
+            text-align: center;
+            margin: 0 auto;
+            height: 1.4rem
+        }
+
+        .header-logo img {
+            width: auto;
+            height: 1.4rem;
+            background: 0 0;
+            padding: 0;
+            border: 0
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-logo {
+                height: 2rem
+            }
+
+            .header-logo img {
+                width: auto;
+                height: 2rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-logo {
+                float: left;
+                width: 42.2%;
+                margin-right: 2%;
+                height: 3.5rem
+            }
+
+            .header-logo img {
+                width: 21.875rem;
+                height: 3.5rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-nav {
+                position: relative
+            }
+        }
+
+        .primary-nav__item:last-child {
+            margin-right: 0
+        }
+
+        .header-nav {
+            top: 0;
+            left: 0;
+            width: 100%
+        }
+
+        .header-nav:after,
+        .header-nav:before {
+            content: ' ';
+            display: table
+        }
+
+        .header-nav:after {
+            clear: both
+        }
+
+        .primary-nav {
+            width: 100%;
+            position: absolute;
+            text-align: left;
+            background: #f5f5f5;
+            padding: 0;
+            z-index: 500;
+            top: 2.775rem;
+            display: none
+        }
+
+        .primary-nav__list {
+            padding: 0;
+            overflow-y: scroll;
+            height: 100vh
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__list {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex;
+                overflow-y: visible;
+                height: auto
+            }
+        }
+
+        .primary-nav__item {
+            display: block;
+            padding: .6875rem;
+            border-bottom: 1px solid #fff;
+            position: relative
+        }
+
+        .primary-nav__item--secondary-link .primary-nav__link,
+        .primary-nav__item--secondary-link .primary-nav__link:hover {
+            color: #00b3e5
+        }
+
+        .primary-nav__item--promotion-link {
+            background: #00b3e5
+        }
+
+        .primary-nav__item--promotion-link .primary-nav__link,
+        .primary-nav__item--promotion-link .primary-nav__link:active,
+        .primary-nav__item--promotion-link .primary-nav__link:hover,
+        .primary-nav__item--promotion-link .primary-nav__link:visited {
+            color: #fff
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__item {
+                display: inline-block;
+                margin: 0 1.03125rem 0 0;
+                padding: 0 0 .51563rem;
+                border-bottom: 0
+            }
+
+            .primary-nav__item--promotion-link {
+                display: none
+            }
+        }
+
+        .primary-nav__item--more {
+            padding: 0;
+            border: none
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__item--more {
+                padding: 0 0 .51563rem;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex
+            }
+
+            .primary-nav__item--more:hover .primary-nav__more-list {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: flex
+            }
+
+            .primary-nav__item--more:after {
+                content: '»';
+                display: inline-block;
+                margin-left: 10px;
+                vertical-align: middle;
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                transform: rotate(90deg);
+                font-weight: 700;
+                font-family: Arial, Helvetica, sans-serif
+            }
+
+            .primary-nav__link:focus:after,
+            .primary-nav__link:hover:after {
+                height: .34375rem;
+                background-color: #002837
+            }
+        }
+
+        .primary-nav__link {
+            font-size: 1.125rem;
+            line-height: 1.3125rem;
+            display: inline-block;
+            width: 100%
+        }
+
+        .primary-nav__link--more {
+            display: none
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__link--more {
+                display: inline-block
+            }
+        }
+
+        .primary-nav__hamburger-wrapper {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: relative
+        }
+
+        .primary-nav__hamburger {
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            -moz-transition: .5s;
+            transition: .5s
+        }
+
+        .primary-nav__hamburger:nth-child(2) {
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__more-list {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                margin: 1px 0 0;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                -moz-box-orient: vertical;
+                -moz-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                background: #f5f5f5
+            }
+
+            .primary-nav__more-list .primary-nav__item {
+                display: block;
+                padding: .6875rem;
+                border-bottom: 1px solid #fff;
+                position: relative;
+                margin: 0
+            }
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .primary-nav {
+                top: 3.375rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav {
+                float: left;
+                width: auto;
+                position: relative;
+                display: block !important;
+                top: auto;
+                padding: .34375rem 0 0;
+                background: 0 0;
+                -webkit-box-shadow: none;
+                -moz-box-shadow: none;
+                box-shadow: none;
+                text-align: left;
+                border: none
+            }
+        }
+
+        .primary-nav__button {
+            display: block;
+            background: #fff;
+            width: 1.75rem;
+            height: 1.75rem;
+            border: 0;
+            padding: 0;
+            position: absolute;
+            left: .6875rem;
+            top: .5125rem;
+            cursor: pointer;
+            outline: 0
+        }
+
+        .primary-nav__button[aria-expanded=false] .primary-nav__hamburger,
+        .primary-nav__button[aria-expanded=false] .primary-nav__hamburger:after,
+        .primary-nav__button[aria-expanded=false] .primary-nav__hamburger:before {
+            background-color: #002837
+        }
+
+        .primary-nav__button-text {
+            height: 1px;
+            left: -9000rem;
+            overflow: hidden;
+            position: absolute;
+            top: auto;
+            width: 1px
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .primary-nav__button {
+                top: .8125rem;
+                left: .93747rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .primary-nav__button {
+                display: none
+            }
+        }
+
+        .header-meganav {
+            display: none;
+            width: 100%;
+            position: absolute;
+            top: 2.775rem;
+            margin-bottom: -3.5rem;
+            border-top: 1px solid #bfbfbf;
+            background: #f5f5f5;
+            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+            z-index: 500
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-meganav {
+                height: auto;
+                top: 3.375rem;
+                margin-bottom: -3.5rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-meganav {
+                top: 100%;
+                margin-bottom: 0
+            }
+        }
+
+        .header-meganav__wrapper {
+            margin: 0;
+            padding: .6875rem .93747rem;
+            height: 100vh;
+            overflow-y: scroll
+        }
+
+        .header-meganav__wrapper:after,
+        .header-meganav__wrapper:before {
+            content: ' ';
+            display: table
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-meganav__wrapper {
+                margin: 0 auto
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-meganav__wrapper {
+                padding: 1.87495rem .93747rem 1.375rem;
+                height: auto;
+                overflow-y: visible
+            }
+        }
+
+        .header-meganav__col {
+            margin-bottom: .6875rem;
+            padding-bottom: .6875rem;
+            border-bottom: 1px solid #bfbfbf
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-meganav__col {
+                width: 22rem;
+                margin: 0 auto 1.375rem
+            }
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-meganav__col {
+                float: right;
+                width: 29.66667%;
+                margin-left: 5.5%;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: 0
+            }
+
+            .header-meganav__col:last-of-type {
+                margin-left: 0;
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: 0
+            }
+        }
+
+        .header-meganav h3,
+        .header-meganav legend {
+            font-size: 1.375rem;
+            line-height: 1.5625rem;
+            font-weight: 700;
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif;
+            margin-bottom: .6875rem;
+            color: #000
+        }
+
+        .header-meganav__content {
+            position: relative
+        }
+
+        @media only screen and (min-width:64.063rem) {
+
+            .header-meganav h3,
+            .header-meganav legend {
+                font-size: 1.75rem;
+                line-height: 1.9375rem;
+                margin-bottom: 1.375rem;
+                width: 70%
+            }
+
+            .header-meganav__content {
+                padding-bottom: .93747rem;
+                border-bottom: 1px solid #bfbfbf;
+                min-height: 211px
+            }
+        }
+
+        .header-meganav__manage .header-meganav__content,
+        .header-meganav__register .header-meganav__content {
+            margin-bottom: 0
+        }
+
+        .header-meganav__manage .header-meganav__content p,
+        .header-meganav__register .header-meganav__content p {
+            padding-right: 7rem
+        }
+
+        .header-meganav__manage .header-meganav__blurb,
+        .header-meganav__manage .header-meganav__image,
+        .header-meganav__register .header-meganav__blurb,
+        .header-meganav__register .header-meganav__image {
+            display: none
+        }
+
+        @media only screen and (min-width:40.063rem) {
+
+            .header-meganav__manage .header-meganav__blurb,
+            .header-meganav__manage .header-meganav__image,
+            .header-meganav__register .header-meganav__blurb,
+            .header-meganav__register .header-meganav__image {
+                display: block
+            }
+        }
+
+        .header-meganav__register .header-meganav__image {
+            bottom: -.6875rem
+        }
+
+        .header-meganav__manage .header-meganav__image {
+            right: -.6875rem
+        }
+
+        @media only screen and (min-width:64.063rem) {
+
+            .header-meganav__manage .header-meganav__content,
+            .header-meganav__register .header-meganav__content {
+                margin-bottom: 1.375rem
+            }
+
+            .header-meganav__manage .header-meganav__content p,
+            .header-meganav__register .header-meganav__content p {
+                padding-right: 11rem
+            }
+
+            .header-meganav__register .header-meganav__image {
+                bottom: .6875rem
+            }
+
+            .header-meganav__manage .header-meganav__image {
+                right: -1.375rem
+            }
+        }
+
+        .header-meganav__image {
+            width: 6rem;
+            float: right;
+            position: absolute;
+            right: 0;
+            bottom: 0
+        }
+
+        .header-meganav__blurb {
+            font-size: .875rem;
+            line-height: 1.1875rem
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-meganav__image {
+                width: auto;
+                bottom: .6875rem
+            }
+
+            .header-meganav__blurb {
+                font-size: .9375rem;
+                line-height: 1.1875rem;
+                position: absolute;
+                bottom: 1.03125rem;
+                left: 0
+            }
+        }
+
+        .footer .signup-form,
+        .footer-additional .footer-wrapper {
+            position: relative
+        }
+
+        .header-meganav__footer-link {
+            font-weight: 700
+        }
+
+        .header-meganav__footer-secondary-links {
+            font-size: .875rem;
+            line-height: 1rem;
+            margin-top: .34375rem
+        }
+
+        .header-meganav .divider {
+            margin: 0 1em;
+            color: #999
+        }
+
+        .header__login-form legend {
+            margin-bottom: .6875rem
+        }
+
+        .header__login-form .form-row {
+            display: table;
+            width: 100%;
+            margin-bottom: .6875rem;
+            padding: 0
+        }
+
+        .header__login-form .form-label {
+            display: table-cell;
+            vertical-align: bottom;
+            width: 5rem;
+            padding-right: .6875rem
+        }
+
+        .header__login-form .form-input {
+            display: table-cell
+        }
+
+        .header__login-form label {
+            font-size: .9375rem;
+            display: block;
+            line-height: 1.5rem;
+            text-align: right
+        }
+
+        .footer {
+            display: inline-block
+        }
+
+        .header__login-form input[type=email],
+        .header__login-form input[type=password] {
+            width: 100%;
+            line-height: 1.5rem
+        }
+
+        .header__login-form .button-submit {
+            width: 5rem;
+            float: right;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+            text-shadow: none
+        }
+
+        .footer {
+            width: 100%;
+            margin: 1.87495rem 0 0;
+            background-color: #f5f5f5;
+            padding: 1.375rem 0
+        }
+
+        .footer__wrapper {
+            padding: 0 .93747rem;
+            margin: 0
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .footer__wrapper {
+                margin: 0 auto;
+                position: relative
+            }
+        }
+
+        @media only screen and (max-width:64rem) {
+            .footer--pad-bottom {
+                padding-bottom: 120px
+            }
+        }
+
+        .footer-section {
+            padding: .6875rem 0;
+            margin-bottom: .6875rem
+        }
+
+        .footer-section:after,
+        .footer-section:before {
+            content: ' ';
+            display: table
+        }
+
+        .footer-newsletter {
+            padding: 1.375rem 0
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .footer-newsletter {
+                padding: 0;
+                border-bottom: 0
+            }
+        }
+
+        .footer .signup-form__label {
+            font-family: "PT Serif", Georgia, serif;
+            margin: 0 .6875rem .6875rem 0;
+            float: left
+        }
+
+        .footer__heading {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        .footer .signup-form__input {
+            width: 100%;
+            margin: 0 .6875rem .6875rem 0
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .footer .signup-form__input {
+                float: left;
+                width: 32%;
+                margin-right: 2%
+            }
+        }
+
+        .footer .signup-form__button {
+            width: 7rem;
+            float: left;
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            text-shadow: none !important
+        }
+
+        @media only screen and (min-width:0rem) and (max-width:40rem) {
+            .footer-newsletter {
+                padding-bottom: 1.87495rem
+            }
+        }
+
+        .footer__heading {
+            font-size: 1.5rem;
+            line-height: 1.6875rem;
+            font-weight: 700
+        }
+
+        .footer-nav {
+            text-align: center;
+            margin-bottom: .6875rem
+        }
+
+        .footer-nav--border {
+            padding-bottom: .6875rem;
+            border-bottom: 1px solid #bfbfbf
+        }
+
+        .footer-nav a {
+            color: #000
+        }
+
+        .footer-nav a:hover {
+            color: #00b3e5
+        }
+
+        .footer-nav__item {
+            display: inline-block;
+            margin: 0 .6875rem 0 0;
+            padding: 0 .6875rem 0 0;
+            border-right: 1px solid #4d4d4d
+        }
+
+        .footer-nav__item:last-child {
+            margin-right: 0;
+            border-right: 0;
+            padding-right: 0
+        }
+
+        .footer-nav__item a {
+            font-family: "PT Serif", Georgia, serif
+        }
+
+        .footer-additional {
+            text-align: center;
+            display: inline-block;
+            width: 100%
+        }
+
+        .footer-copyright {
+            display: inline-block;
+            color: #000;
+            width: 100%;
+            font-size: .875rem;
+            line-height: 1rem
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .footer-additional {
+                text-align: left
+            }
+
+            .footer-copyright {
+                font-size: .875rem;
+                line-height: 4rem;
+                float: left;
+                width: auto
+            }
+        }
+
+        .backtotop {
+            width: 9rem;
+            line-height: 40px;
+            font-weight: 600;
+            margin: 1.375rem auto
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .backtotop {
+                margin: 0;
+                position: absolute;
+                right: 0;
+                top: .6875rem
+            }
+        }
+
+        .backtotop__link {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        .backtotop__link,
+        .backtotop__link:hover {
+            color: #000
+        }
+
+        .backtotop__icon {
+            display: inline-block;
+            float: right;
+            width: 40px;
+            height: 40px
+        }
+
+        @media only screen and (min-width:0rem) and (max-width:40rem) {
+            .section-article-list .card:nth-last-child {
+                border-bottom: 0;
+                padding-bottom: 0
+            }
+        }
+
+        .content__title {
+            letter-spacing: -.0375rem;
+            font-size: 2rem;
+            line-height: 2.1875rem;
+            font-weight: 700
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .content__title {
+                font-size: 3.125rem;
+                line-height: 3.1875rem;
+                font-weight: 700
+            }
+        }
+
+        .header-search__input,
+        .section-top-content li,
+        .section-top-content__tabs .section-top-content__button {
+            font-family: "Titillium Web", Helvetica, "Trebuchet MS", Arial, sans-serif
+        }
+
+        .header-search__input {
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            background: 0 0 !important
+        }
+
+        .header-search__input {
+            font-size: 2rem !important;
+            line-height: 2.1875rem !important;
+            color: #999 !important;
+            border: none !important;
+            box-shadow: none !important;
+            outline: 0;
+            padding: 0 !important;
+            -moz-border-radius: 0 !important;
+            -webkit-border-radius: 0 !important;
+            border-radius: 0 !important
+        }
+
+        .header-search__input::-webkit-input-placeholder {
+            color: #999
+        }
+
+        .header-search__input:-moz-placeholder {
+            color: #999;
+            opacity: 1
+        }
+
+        .header-search__input::-moz-placeholder {
+            color: #999;
+            opacity: 1
+        }
+
+        .header-search__input:-ms-input-placeholder {
+            color: #999
+        }
+
+        .header-search__input::-ms-input-placeholder {
+            color: #999
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-search {
+                top: 100%
+            }
+        }
+
+        .header-search__form {
+            margin: 0;
+            width: 90%
+        }
+
+        .header-search__field {
+            border: 0;
+            border-bottom: 1px solid #bfbfbf;
+            display: inline-block;
+            width: 100%;
+            line-height: 1.6rem
+        }
+
+        .header-search-inner {
+            position: relative
+        }
+
+        @media only screen and (min-width:40.063rem) {
+            .header-search-inner {
+                margin: 0 .93747rem
+            }
+        }
+
+        .header-search button {
+            position: absolute;
+            padding: 0;
+            top: 8px;
+            right: 0;
+            border: none;
+            background: 0 0;
+            outline: 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: #999
+        }
+
+        @media only screen and (min-width:64.063rem) {
+            .header-search-inner {
+                margin: 0 auto
+            }
+
+            .header-search button {
+                right: .93747rem
+            }
+        }
+
+        .social__button-container {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            -webkit-box-direction: normal;
+            -moz-box-direction: normal
+        }
+
+        .social__button-container {
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-flex-direction: row;
+            -moz-box-orient: horizontal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            margin: 0 0 .6875rem
+        }
+
+        .social__button-container .social__button {
+            margin-right: .34375rem
+        }
+
+        .social__button-container .social__button:last-of-type {
+            margin-right: 0
+        }
+
+        .social-login {
+            display: -ms-flex;
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin-bottom: .6875rem;
+            width: 100%
+        }
+
+        .social-login:after,
+        .social-login:before {
+            content: ' ';
+            display: table
+        }
+
+        .social-login__link {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox
+        }
+
+        .social-login__link {
+            display: -ms-flex;
+            display: -moz-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-direction: column;
+            -webkit-flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            flex-direction: column
+        }
+
+        @media only screen and (min-width:0rem) {
+            .social-login__link {
+                width: 48%;
+                margin-right: 4%;
+                float: left
+            }
+
+            .social-login__link:last-of-type {
+                margin-right: 0
+            }
+        }
+
+        a.social-login__link--facebook {
+            background: url("urn:scrapbook:download:error:http://bloggerzlive.com/wp-content/themes/new-scientist/img/furniture/fb-f-logo__white_29.png") .34375rem center no-repeat #3B5998;
+            -moz-background-size: 1.375rem 1.375rem;
+            -o-background-size: 1.375rem 1.375rem;
+            background-size: 1.375rem 1.375rem
+        }
+
+        a.social-login__link--google {
+            background: url("urn:scrapbook:download:error:http://bloggerzlive.com/wp-content/themes/new-scientist/img/furniture/btn_google_light_normal_ios-cropped.png") .34375rem center no-repeat #b4554a;
+            -moz-background-size: 1.375rem 1.375rem;
+            -o-background-size: 1.375rem 1.375rem;
+            background-size: 1.375rem 1.375rem
+        }
+
+        .section-top-content__tabs {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox
+        }
+
+        .section-top-content__tabs {
+            display: flex;
+            overflow: hidden;
+            background-color: #f5f5f5
+        }
+
+        .section-top-content ol {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox
+        }
+
+        .section-top-content__tabs .section-top-content__button {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 0 auto;
+            -moz-box-flex: 1;
+            -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+            background-color: inherit;
+            text-transform: uppercase;
+            border: none;
+            outline: 0;
+            cursor: pointer;
+            padding: .45833rem;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
+            -moz-transition: .3s;
+            transition: .3s;
+            border-right: 3px solid #fff
+        }
+
+        .section-top-content__tabs .section-top-content__button:last-child {
+            border-right: none
+        }
+
+        .section-top-content__tabs .section-top-content__button:hover {
+            background-color: #ddd
+        }
+
+        .section-top-content__tabs .section-top-content__button--active,
+        .section-top-content__tabs .section-top-content__button--active:active,
+        .section-top-content__tabs .section-top-content__button--active:hover {
+            color: #fff;
+            background-color: #00b3e5
+        }
+
+        .section-top-content__content {
+            display: none
+        }
+
+        .section-top-content__content--active {
+            display: block
+        }
+
+        .section-top-content ol {
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -moz-box-orient: vertical;
+            -moz-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            counter-reset: top-content-counter
+        }
+
+        .section-top-content li {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox
+        }
+
+        .section-top-content li {
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+            -moz-box-orient: horizontal;
+            -moz-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            font-size: 1.375rem;
+            line-height: 1.5625rem;
+            font-weight: 700;
+            letter-spacing: -.0375rem;
+            background-color: #f5f5f5;
+            counter-increment: top-content-counter;
+            border-top: 3px solid #fff;
+            padding: .6875rem
+        }
+
+        .section-top-content li::after {
+            content: counter(top-content-counter);
+            font-size: 2rem;
+            line-height: 2.1875rem;
+            font-weight: 700;
+            color: #00b3e5;
+            -webkit-align-self: center;
+            -ms-flex-item-align: center;
+            align-self: center
+        }
+
+        .section-top-content li a {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -moz-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            margin-right: 1.375rem
+        }
+
+        /* dynamic two-rows-strip css */
+        /* dynamic customized css */
+
+        .btn__wrap {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 10px 25px;
+            background-color: #00b3e5;
+            border-radius: 2px;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+            -webkit-transition: .3s;
+            -o-transition: .3s;
+            transition: .3s;
+            margin: 19px 0;
+        }
+
+        .btn:hover {
+            background-color: #15c1f1;
+        }
+
+
+        .comments {
+            font-size: 16px;
+        }
+
+        .media {
+            display: flex;
+        }
+
+        .media+.media {
+            margin-top: 20px;
+        }
+
+        .media-left {
+            min-width: 50px;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            overflow: hidden;
+            border-radius: 3px;
+        }
+
+        .media-list {
+            padding-left: 0;
+        }
+
+        .media-left img {
+            max-width: 100%;
+        }
+
+        .panel-heading {
+            background-color: #efefef;
+            padding: 5px 10px;
+        }
+
+        .media-body {
+            border-radius: 3px;
+            border: 1px solid #efefef;
+        }
+
+        .panel-body {
+            padding: 5px 10px;
+        }
+
+        .media-body .author {
+            display: block;
+            font-size: 1rem;
+            color: #000;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .media-body .metadata {
+            display: block;
+            color: #000;
+            font-size: .8125rem;
+            line-height: 1.2;
+        }
+
+        .title-comments {
+            font-size: 1.4rem;
+            font-weight: bold;
+            line-height: 1.5rem;
+            color: rgba(0, 0, 0, .87);
+            margin-bottom: 1rem;
+            padding-bottom: .25rem;
+            border-bottom: 1px solid rgba(34, 36, 38, .15);
+        }
+
+        .media-left img {
+            width: 50px;
+        }
+
+        .media {
+            margin-top: 0px;
+        }
+
+        .media__content {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .product {
+            display: block;
+            margin: 0 auto;
+            max-width: 250px;
+            width: 100%;
+        }
+    </style>
+
+
+
+
+
+
+
+    <link rel="shortcut icon" href="favicon.ico.gif">
+</head>
+
+<body style="background-position: center 134px !important; padding-top: 0px;">
+    <header class="header">
+        <div class="header-wrapper" id="top">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/"><img alt="New Scientist" src="logo.svg"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav js-header-nav">
+            <div class="header-nav__wrapper">
+                <button class="primary-nav__button header-dropdown-toggle" id="primary-nav-toggle" tabindex="0" title="Menu"><span class="primary-nav__hamburger-wrapper"><span class="primary-nav__hamburger"></span><span class="primary-nav__hamburger"></span><span class="primary-nav__hamburger"></span></span><span class="primary-nav__button-text lt0">Izbornik</span></button>
+                <nav class="primary-nav" role="navigation">
+                    <ul class="primary-nav__list" id="menu-main">
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt1" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">vijesti</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt2" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">podcasti</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt3" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">video</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt4" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">tehnologija</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt5" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">prostor</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt6" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">fizika</a>
+                        </li>
+                        <li class="primary-nav__item">
+                            <a class="primary-nav__link lt7" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">zdravlje</a>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--more">
+                            <a class="primary-nav__link primary-nav__link--more lt8" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">više</a>
+                            <ul class="primary-nav__more-list">
+                                <li class="primary-nav__item">
+                                    <a class="primary-nav__link lt9" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">um</a>
+                                </li>
+                                <li class="primary-nav__item">
+                                    <a class="primary-nav__link lt10" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">srijeda</a>
+                                </li>
+                                <li class="primary-nav__item">
+                                    <a class="primary-nav__link lt11" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">križaljke</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--secondary-link">
+                            <a class="primary-nav__link lt12" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">trgovina</a>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--secondary-link">
+                            <a class="primary-nav__link lt13" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">obilasci</a>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--secondary-link">
+                            <a class="primary-nav__link lt14" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">događaji</a>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--secondary-link">
+                            <a class="primary-nav__link lt15" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">rad</a>
+                        </li>
+                        <li class="primary-nav__item primary-nav__item--promotion-link">
+                            <a class="primary-nav__link lt16" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">PRIJAVITE SE ZA DNEVNI BILTTEN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="header-search" role="search">
+            <div class="header-search-inner header-nav__wrapper">
+                <form action="" class="header-search__form">
+                    <input class="header-search__input header-search__field" name="q" placeholder="Search" type="text" value="">
+                </form><button id="search-close"><svg viewBox="0 0 32 32">
+                        <g>
+                            <path class="path1" d="M32.139 4.892l-4.335-4.335-11.171 11.165-11.171-11.165-4.335 4.335 11.171 11.171-11.171 11.165 4.335 4.342 11.171-11.171 11.171 11.171 4.335-4.342-11.171-11.165"></path>
+                        </g>
+                    </svg></button>
+            </div>
+        </div>
+        <div class="header-meganav" role="group">
+            <div class="header-meganav__wrapper">
+                <div class="header-meganav__col header-meganav__login">
+                    <div class="header-meganav__content">
+                        <form action="" class="header__login-form" method="post">
+                            <input name="form-name" type="hidden" value="form-login-menu">
+                            <fieldset>
+                                <legend class="lt17">Prijavite</legend>
+                                <div class="social-login">
+                                    <a class="social-login__link social-login__link--facebook lt18" title="Connect to facebook" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Prijavite se putem Facebooka</a><a class="social-login__link social-login__link--google lt19" title="Connect to google" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Prijavite se na Google</a>
+                                </div>
+                                <div class="form-row">
+                                    <label class="form-label required lt20" for="email">Email</label><input class="form-input" id="email" name="email" required="required" type="email" style="background-image: url(&quot;3d6a268da228c55ab56bebb6b6daab08563b2d54.png&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off" value="">
+                                </div>
+                                <div class="form-row">
+                                    <label class="form-label required lt21" for="password">Lozinka</label><input class="form-input" id="password" name="password" required="required" type="password" style="background-image: url(&quot;3d6a268da228c55ab56bebb6b6daab08563b2d54.png&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" autocomplete="off">
+                                </div><input class="button-submit" type="submit" value="Sign in">
+                            </fieldset><input id="_target_path" name="_target_path" type="hidden" value="/">
+                        </form>
+                    </div>
+                    <div class="header-meganav__footer">
+                        <a class="header-meganav__footer-link lt22" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Zaboravili ste lozinku?</a>
+                        <p class="header-meganav__footer-secondary-links"><a class="lt23" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Registrirajte se besplatno</a><span class="divider lt24">|</span><a class="lt25" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Obrazovni pristup</a></p>
+                    </div>
+                </div>
+                <div class="header-meganav__col header-meganav__register">
+                    <div class="header-meganav__content">
+                        <h3 class="lt26">Prijavite se za više mrežnih članaka</h3>
+                        <div class="header-meganav__image js-img-add"></div>
+                        <p class="header-meganav__blurb lt27">Izbor najboljih članaka koje su urednici izabrali ručno dostupan samo registriranim korisnicima.</p>
+                    </div>
+                    <div class="header-meganav__footer">
+                        <a class="header-meganav__footer-link lt28" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Sada povećajte pristup</a>
+                    </div>
+                </div>
+                <div class="header-meganav__col header-meganav__manage">
+                    <div class="header-meganav__content">
+                        <h3 class="lt29">Upravljajte svojom pretplatom</h3>
+                        <div class="header-meganav__image js-img-add"></div>
+                        <p class="header-meganav__blurb lt30">Provjerite pretplatni paket, ažurirajte svoje podatke, obnovite ili nadogradite.</p>
+                    </div>
+                    <div class="header-meganav__footer">
+                        <a class="header-meganav__footer-link lt31" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Ovdje upravljajte svojom pretplatom</a>
+                        <p class="header-meganav__footer-secondary-links"><a class="lt32" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Aktiviranje pretplate</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="main-container" role="container">
+        <article class="post-2226874 article type-article" id="2226874" role="content">
+            <div class="section">
+                <div class="section__inner section__inner--no-main">
+                    <div class="section__main">
+                        <div class="article-body js-scroll-point">
+                            <div class="article-copy main-content">
+                                <header class="article-header">
+                                    <h1 class="article-title content__title lt33">Brzo smršavite - stvarno!</h1>
+                                    <div class="social__button-container">
+                                        <span class="social__button social__button--facebook social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--twitter social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--whatsapp social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--linkedin social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z" fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--reddit social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M27 15.5a2.452 2.452 0 0 1-1.338 2.21c.098.38.147.777.147 1.19 0 1.283-.437 2.47-1.308 3.563-.872 1.092-2.06 1.955-3.567 2.588-1.506.634-3.143.95-4.91.95-1.768 0-3.403-.316-4.905-.95-1.502-.632-2.69-1.495-3.56-2.587-.872-1.092-1.308-2.28-1.308-3.562 0-.388.045-.777.135-1.166a2.47 2.47 0 0 1-1.006-.912c-.253-.4-.38-.842-.38-1.322 0-.678.237-1.26.712-1.744a2.334 2.334 0 0 1 1.73-.726c.697 0 1.29.26 1.78.782 1.785-1.258 3.893-1.928 6.324-2.01l1.424-6.467a.42.42 0 0 1 .184-.26.4.4 0 0 1 .32-.063l4.53 1.006c.147-.306.368-.553.662-.74a1.78 1.78 0 0 1 .97-.278c.508 0 .94.18 1.302.54.36.36.54.796.54 1.31 0 .512-.18.95-.54 1.315-.36.364-.794.546-1.302.546-.507 0-.94-.18-1.295-.54a1.793 1.793 0 0 1-.533-1.308l-4.1-.92-1.277 5.86c2.455.074 4.58.736 6.37 1.985a2.315 2.315 0 0 1 1.757-.757c.68 0 1.256.242 1.73.726.476.484.713 1.066.713 1.744zm-16.868 2.47c0 .513.178.95.534 1.315.356.365.787.547 1.295.547.508 0 .942-.182 1.302-.547.36-.364.54-.802.54-1.315 0-.513-.18-.95-.54-1.31-.36-.36-.794-.54-1.3-.54-.5 0-.93.183-1.29.547a1.79 1.79 0 0 0-.54 1.303zm9.944 4.406c.09-.09.135-.2.135-.323a.444.444 0 0 0-.44-.447c-.124 0-.23.042-.32.124-.336.348-.83.605-1.486.77a7.99 7.99 0 0 1-1.964.248 7.99 7.99 0 0 1-1.964-.248c-.655-.165-1.15-.422-1.486-.77a.456.456 0 0 0-.32-.124.414.414 0 0 0-.306.124.41.41 0 0 0-.135.317.45.45 0 0 0 .134.33c.352.355.837.636 1.455.843.617.207 1.118.33 1.503.366a11.6 11.6 0 0 0 1.117.056c.36 0 .733-.02 1.117-.056.385-.037.886-.16 1.504-.366.62-.207 1.104-.488 1.456-.844zm-.037-2.544c.507 0 .938-.182 1.294-.547.356-.364.534-.802.534-1.315 0-.505-.18-.94-.54-1.303a1.75 1.75 0 0 0-1.29-.546c-.506 0-.94.18-1.3.54-.36.36-.54.797-.54 1.31s.18.95.54 1.315c.36.365.794.547 1.3.547z" fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--email social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <g fill-rule="evenodd"></g>
+                                                    <path d="M27 22.757c0 1.24-.988 2.243-2.19 2.243H7.19C5.98 25 5 23.994 5 22.757V13.67c0-.556.39-.773.855-.496l8.78 5.238c.782.467 1.95.467 2.73 0l8.78-5.238c.472-.28.855-.063.855.495v9.087z"></path>
+                                                    <path d="M27 9.243C27 8.006 26.02 7 24.81 7H7.19C5.988 7 5 8.004 5 9.243v.465c0 .554.385 1.232.857 1.514l9.61 5.733c.267.16.8.16 1.067 0l9.61-5.733c.473-.283.856-.96.856-1.514v-.465z"></path>
+                                                </g>
+                                            </svg></span><span class="social__button social__button--print js-print-button social__button--large" rel="nofollow"><svg role="img" style="fill: rgb(255, 255, 255);" version="1.1" viewBox="0 0 32 32" xmlns="">
+                                                <g>
+                                                    <path d="M24.67 10.62h-2.86V7.49H10.82v3.12H7.95c-.5 0-.9.4-.9.9v7.66h3.77v1.31L15 24.66h6.81v-5.44h3.77v-7.7c-.01-.5-.41-.9-.91-.9zM11.88 8.56h8.86v2.06h-8.86V8.56zm10.98 9.18h-1.05v-2.1h-1.06v7.96H16.4c-1.58 0-.82-3.74-.82-3.74s-3.65.89-3.69-.78v-3.43h-1.06v2.06H9.77v-3.58h13.09v3.61zm.75-4.91c-.4 0-.72-.32-.72-.72s.32-.72.72-.72c.4 0 .72.32.72.72s-.32.72-.72.72zm-4.12 2.96h-6.1v1.06h6.1v-1.06zm-6.11 3.15h6.1v-1.06h-6.1v1.06z"></path>
+                                                </g>
+                                            </svg></span>
+                                    </div>
+                                    <section class="article__eyebrow-container">
+                                        <span class="article__eyebrow article__eyebrow--environment eyebrow--article font-sans-serif-xxs--bold"><a class="article__eyebrow-link lt34" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Okoliš</a></span><span class="published-date font-sans-serif-xxs--regular lt35">
+                                            06.07.20</span>
+                                    </section>
+                                </header>
+                                <div class="article-content">
+                                    <p class="author-byline font-sans-serif-xxs--regular lt36">By <span class="author font-sans-serif-KetoDiets--bold"><a class="author font-sans-serif-KetoDiets--bold" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Michael Marshall</a></span></p>
+                                    <h2 class="lt37">Znanstvenici su stvorili jedinstven način gubitka kilograma. Sada možete smršavjeti za manje od tjedan dana.</h2>
+                                    <figure class="article-image-inline">
+                                        <img src="c0155437-photosynthesis_in_canadian_pondweed-spl.jpg">
+                                    </figure>
+                                    <h2 class="lt38">Pretilost - kuga 21. stoljeća</h2>
+                                    <p class="lt39">Tijekom posljednjih pet godina, prekomjerna težina uzrokovala je smrt više od milijun ljudi. Tijelo moderne osobe uspjelo se prilagoditi nestabilnoj prehrani, pa je prestao davati gubitak kilograma dijetom. Mozak ograničenje u prehrani doživljava kao prehrambeni stres, koji sprječava tijelo da radi.<br>Kako sljedeći put kad probavni algoritmi ne budu zalutali, tijelo počinje skladištiti masti u rezervi. Čim je dijeta završena, osoba počinje dobivati na težini. Što je dijeta duže trajala, to će se težina odgoditi nakon njezinog završetka.</p>
+                                    <figure class="article-image-inline">
+                                        <img src="img9.jpg">
+                                    </figure>
+                                    <h2 class="lt40">Znanost zvuči alarm</h2>
+                                    <p class="lt41">Znanstvenici iz cijelog svijeta okupili su se na simpoziju u Japanu kako bi riješili problem svjetske pretilosti. Tada su prvi dokazali da se osoba za 5-7 dana navikne na dijetu i prestane gubiti kilograme. Ograničenje prehrane prestalo je raditi za mršavljenje. Samo pojačava nagomilavanje masti.<br>Da biste bili sigurni da će smršaviti, dijeta ne bi trebala trajati mjesecima. Na simpoziju se postavilo pitanje stvaranja brzo djelujućeg lijeka koji će obnoviti prehrambene procese za mršavljenje.</p>
+                                    <figure class="article-image-inline">
+                                        <img src="img10.jpg">
+                                    </figure>
+                                    <h2 class="lt42">Rezultat je pronađen</h2>
+                                    <p class="lt43">Japanska vlada dala je znanstvenike tajnim dizajnom. Uz njihovu pomoć stvoren je <a href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/" target="_blank">KetoDiet</a>. Tijekom uzimanja lijeka on restrukturira tijelo.<br>Neuronske mreže ne prenose u mozak signal da gubite kilograme, pa nema osjećaja gladi i slabosti, kao i kod drugih metoda gubitka kilograma. KetoDiet ubrzava metabolizam, pretvara sloj masti u energiju i obnavlja rad unutarnjih organa.<br>Lijek poboljšava probavne procese i omogućuje tijelu da se riješi viška kilograma. Tijekom tečaja <a href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/" target="_blank">KetoDiet</a> uklanja najproblematičniju tjelesnu masnoću i pokreće pravilno funkcioniranje probavnog trakta. Nakon završetka tečaja, ponovno dobivanje mase nije moguće: tijelo je već programirano za pravi posao za mršavljenje i održavanje težine.</p>
+                                    <figure class="article-image-inline">
+                                        <img class="product" src="img11.jpg">
+                                    </figure>
+                                    <h2 class="lt44">Pozornost, čuvati krivotvorina!</h2>
+                                    <p class="lt45">U sklopu kampanje Život i zdravlje, proizvođač pokreće prodaju <a target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/"> KetoDiet </a> sa popustom na 1000 paketa.<br>Budite oprezni: KetoDiet je postao predmet pažnje na crnom farmaceutskom tržištu, tako da lažni možete kupiti u ljekarnama. <br> Zajamčeno visokokvalitetni lijek možete kupiti samo na <a target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/"> web stranici službenog proizvođača.</a></p>
+                                    <a href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/" target="_blank">
+                                        <div class="btn__wrap">
+                                            <div class="btn lt46">Dobiti popust 50%</div>
+                                        </div>
+                                    </a>
+                                    <section class="correction-notes">
+                                        <p></p>
+                                        <p></p>
+                                    </section>
+                                    <section class="article-topics article-topics--row">
+                                        <p class="font-sans-serif-xxs--bold lt47">Više o tim temama:</p>
+                                        <ul>
+                                            <li>
+                                                <a class="subscribe-button font-sans-serif-xxs--bold lt48" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">pretilost</a>
+                                            </li>
+                                            <li>
+                                                <a class="subscribe-button font-sans-serif-xxs--bold lt49" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">gubitak kilograma</a>
+                                            </li>
+                                            <li>
+                                                <a class="subscribe-button font-sans-serif-xxs--bold lt50" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">prekomjerna težina</a>
+                                            </li>
+                                        </ul><br>
+                                    </section>
+                                    <section>
+                                        <br>
+                                        <div class="comments">
+                                            <h3 class="title-comments lt51">Komentari (10)</h3>
+                                            <ul class="media-list">
+                                                <!-- Комментарий (уровень 1) -->
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face1.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt52">Ileana Stan</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt53">
+                                                                        06.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt54">Ni ja nisam mogla smršavjeti. Kao da ne jedete ništa, ali masne štapiće ... Hvala Bogu da sam saznala za KetoDiet i izgubila gotovo pola težine</div>
+                                                                <div class="media__content"><img alt="" src="face1-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face2.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt55">Viorica Leahu</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt56">
+                                                                        07.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt57">Često idem na dijetu, ali ne osjećam promjene. Pomoći će miKetoDiet?</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face3.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt58">Emma Cabarteux</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt59">
+                                                                        08.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt60">Definitivno će pomoći! Imala sam potpuno isti problem. KetoDiet značajno reorganizira tijelo. Gledajte, uopće nisam promijenila prehranu i smršala sam!</div>
+                                                                <div class="media__content"><img alt="" src="face3-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face4.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt61">Amalia Medenjak</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt62">
+                                                                        09.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt63">I smršala sam i udala se)))</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face5.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt64">Luisa Tabermak</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt65">
+                                                                        11.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt66">Pogledajte kako sam postala lijepa! KetoDiet, hvala!!</div>
+                                                                <div class="media__content"><img alt="" src="face5-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face6.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt67">Margherita Mancini</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt68">
+                                                                        11.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt69">Odlučila sam se i naručiti i bila sam zadovoljana rezultatima. Pijem ga cijeli tjedan i već se vidi da sam smršala)</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face7.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt70">Johanna Wachenhusen</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt71">
+                                                                        14.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt72">Toliko sam dugo patila s dijetama i sve nije pomoglo! Čim je KetoDiet počeo piti i to je to, problem je riješen!</div>
+                                                                <div class="media__content"><img alt="" src="face7-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face8.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt73">Traian Buzescul</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt74">
+                                                                        16.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt75">Muž i ja smo skupa smršavili. Hvala KetoDiet!!</div>
+                                                                <div class="media__content"><img alt="" src="face8-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face9.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt76">Florea Popescu</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt77">
+                                                                        19.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt78">Pogledaj moje mršavo lice. Još uvijek sumnjate u KetoDiet?))</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="media">
+                                                    <div class="media-left"><img alt="" class="media-object img-rounded" src="face10.jpg"></div>
+                                                    <div class="media-body">
+                                                        <div class="panel panel-primary">
+                                                            <div class="panel-heading">
+                                                                <div class="author lt79">Nora Schürmann</div>
+                                                                <div class="metadata">
+                                                                    <span class="date lt80">
+                                                                        20.07.20</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="panel-body">
+                                                                <div class="media-text text-justify lt81">A tko je sada kraljica plaže?)))</div>
+                                                                <div class="media__content"><img alt="" src="face10-1.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="mediaTextarea">
+                                                <h2 class="media__title lt82">Ostavite komentar</h2>
+                                                <div class="media__textarea">
+                                                    <textarea cols="30" id="media__textarea" name="" rows="10"></textarea>
+                                                </div>
+                                                <div class="media__wrap">
+                                                    <div class="media__btn lt83" id="media__btn">Pošaljite</div>
+                                                    <div class="media__info lt84" id="media__info">Vaš je komentar poslan na moderiranje</div>
+                                                </div>
+                                            </div>
+                                            <style class="lt85">
+                                                .media__textarea textarea {
+                                                    width: 100%;
+                                                    resize: none;
+                                                }
+
+                                                .media__btn {
+                                                    display: inline-block;
+                                                    padding: 5px 15px;
+                                                    background-color: #008dc9;
+                                                    border-radius: 3px;
+                                                    color: #fff;
+                                                    cursor: pointer;
+                                                }
+
+                                                .media__info {
+                                                    display: none;
+                                                    padding: 5px 15px;
+                                                    background-color: #e3ffe3;
+                                                    border-radius: 3px;
+                                                }
+
+                                                .media__info_active {
+                                                    display: inline-block;
+                                                }
+                                            </style>
+
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__sidebar section__sidebar--right">
+                        <section class="tertiary-sidebar js-sticky-sidebar" id="tertiary-sidebar">
+                            <div class="section-top-content">
+                                <div class="section-top-content__tabs">
+                                    <button class="section-top-content__button section-top-content__button--active lt86">U trendu</button><button class="section-top-content__button lt87">Najnovije</button><button class="section-top-content__button lt88">Videozapis</button><button class="section-top-content__button lt89">Besplatno</button>
+                                </div>
+                                <div class="section-top-content__content section-top-content__content--active" id="Trending">
+                                    <ol>
+                                        <li>
+                                            <a class="lt90" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Novi koronavirus može biti opasniji za ljude s viškom kilograma.</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt91" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Koji su simptomi pretilosti i mogu li postati smrtni?</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt92" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">KetoDiet može pomoći u rješavanju pretilosti tijekom prijema</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt93" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Seks i pretilost: mitovi i stvarnost</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt94" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Koliko je česta pretilost u djece mlađe od 5 godina?</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="section-top-content__content" id="Latest">
+                                    <ol>
+                                        <li>
+                                            <a class="lt95" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">WHO proglasio izbijanje koronavirusa međunarodnim zdravstvenim hitnim slučajevima</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt96" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Dvije zvijezde s neobičnim kolebanjem protežu prostor i vrijeme oko sebe</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt97" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Ova sićušna staklena kuglica kvantno je ohlađena na gotovo apsolutnoj nuli</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt98" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Genetski modificirani mikrobiom mogao bi zaštititi pčele od bolesti</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt99" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Novi koronavirus: Koliko brzo će liječenje biti spremno i hoće li djelovati?</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="section-top-content__content" id="Video">
+                                    <ol>
+                                        <li>
+                                            <a class="lt100" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Genetska revolucija: Možemo li predvidjeti školsku uspješnost iz DNK?</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt101" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Kako biti nadljudski: Znanost koja stoji iza izvanrednih sposobnosti</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt102" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Kad ćemo se čuti s vanzemaljcima? Možda smo to već učinili</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt103" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Problem s plastikom - i kako znanost to može riješiti</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt104" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Kako sam napravio najprecizniji termometar na svijetu - koristeći zvuk</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="section-top-content__content" id="Free">
+                                    <ol>
+                                        <li>
+                                            <a class="lt105" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">WHO proglasio izbijanje koronavirusa međunarodnim hitnim slučajevima</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt106" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Dvije zvijezde s neobičnim kolebanjem protežu prostor i vrijeme oko sebe</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt107" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Ova sićušna staklena kuglica kvantno je ohlađena na gotovo apsolutnoj nuli</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt108" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Novi koronavirus: Koliko brzo će liječenje biti spremno i hoće li djelovati?</a>
+                                        </li>
+                                        <li>
+                                            <a class="lt109" rel="bookmark" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Vegetarijanci mogu imati manji rizik od infekcije mokraćnog sustava</a>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer footer--pad-bottom">
+        <div class="footer__wrapper">
+            <div class="footer-section">
+                <div class="footer-newsletter">
+                    <h3 class="footer__heading lt110">Prijavite se na naš newsletter</h3>
+                    <form action="" class="signup-form" id="signup-form" method="post" name="signup-form">
+                        <input name="newsletter" type="hidden" value="true"><input name="disable_errors" type="hidden" value="true"><label class="signup-form__label lt111" for="signup-email">Unesite svoju adresu e-pošte da biste započeli</label><input class="signup-form__input" id="signup-email" name="sign-up[email]" placeholder="Your email" required="required" type="email" style="background-image: url(&quot;13c2fd198e5af3882d709e238baa7ba3f32b709a.png&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" value=""><input class="signup-form__button" type="submit" value="Sign up">
+                    </form>
+                </div>
+            </div>
+            <nav class="footer-nav footer-nav--border">
+                <ul>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt112" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Kontaktirajte nas</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt113" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Pomoć</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt114" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">O nama</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt115" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Privatnosti &amp; cookies</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt116" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Ugovor o &amp; korisniku</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer-nav">
+                <ul>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt117" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Oglašavajte</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt118" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Pišite nam</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt119" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Događaji</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt120" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Znanstveni poslovi</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt121" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Udruživanje</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt122" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">RSS feedovi</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer-nav">
+                <ul>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt123" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Poklon pretplate</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt124" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Pretplate za studente</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt125" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Obrazovne pretplate</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="footer-nav__item lt126" target="_blank" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/">Korporativne pretplate</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer-additional">
+                <div class="footer-wrapper">
+                    <div class="footer-copyright lt127">© Copyright New Scientist Ltd.</div>
+                    <div class="backtotop">
+                        <a class="backtotop__link lt128" href="http://bloggerzlive.com/keto-diet/hr/stiencist/l/" target="_blank">Back to top<span class="backtotop__icon"><svg class="icon" viewBox="0 0 32 32">
+                                    <g>
+                                        <path class="path1" d="M13.582 23.962v-11.203l-4.272 4.272v-3.911l6.108-6.101 6.101 6.101v3.911l-4.272-4.272v11.203h-3.665z"></path>
+                                        <path class="path2" d="M15.418 30.937c-0.004 0-0.008 0-0.013 0-8.27 0-14.975-6.704-14.975-14.975s6.704-14.975 14.975-14.975c8.27 0 14.975 6.704 14.975 14.975-0.011 8.261-6.702 14.957-14.96 14.975zM15.418 3.519c-0.004 0-0.008 0-0.013 0-6.872 0-12.443 5.571-12.443 12.443s5.571 12.443 12.443 12.443c6.872 0 12.443-5.571 12.443-12.443-0.007-6.865-5.567-12.429-12.429-12.443z"></path>
+                                    </g>
+                                </svg></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <noscript></noscript>
+    <div at-magnifier-wrapper="">
+        <div class="at-theme-light">
+            <div class="at-base notranslate" translate="no">
+                <div class="Z1-AJ" style="top: 0px; left: 0px;"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
