@@ -1,0 +1,126 @@
+.tip {
+    clear: both;
+    background-color: #413f3f;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    box-shadow: 0 0 12px -2px #f9614d;
+    position: relative;
+    color: white;
+}
+.tip::after {
+    content: "!";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    right: 0%;
+    background-color: white;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Arial', serif;
+    font-size: 75px;
+    color: red;
+    text-shadow: 0px 0px 4px aliceblue, 0px 0px 8px black;
+    border: 10px solid #413f3f;
+    box-shadow: 0 0 9px -4px black inset;
+    
+}
+.tip h1 {
+    text-align: center;
+    padding: 30px 0 15px;
+}
+.tip p {
+    padding-bottom: 15px;
+}
+.tip img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    filter: drop-shadow(0px 0px 4px #f9614d)
+}
+.tips_pic {
+    max-width: 280px !important;
+}
+.btn {
+    display: block;
+    margin: 20px auto 50px;
+    background: #f9614d;
+    height: 5em;
+    width: 70%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1.4em;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.buy_tip {
+    margin-top: 20px;
+    background-color: #caf7bc;
+    color: black;
+}
+.buy_tip::after {
+    top: -50px;
+    border-color: #caf7bc;
+}
+form {
+    border: 3px solid #f9614d;
+    -webkit-border-radius: 20px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    background-color: #e4ffdc;
+    box-shadow: 0px 0px 1px 0px;
+}
+input {
+    display: block;
+    margin: 0 auto 15px;
+    height: 2.5em;
+    width: 50%;
+    -webkit-border-radius: 5px;
+    border: 2px solid #bfbfbf;
+    box-sizing: border-box;
+    padding: 0 1%;
+}
+select {
+    display: none;
+}
+label {
+    width: 50%;
+    display: block;
+    margin: 0 auto 5px;
+    text-align: center;
+}
+button {
+    display: block;
+    margin: 50px auto 30px;
+    background-color: #f9614d; 
+    width: 70%;
+    border: none;
+    -webkit-border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+@media screen and (max-width: 467px) {
+    .btn {
+        padding: .8em 1.4em;
+        height: auto;
+    }
+    label,
+    input,
+    button {
+        width: 90%;
+    }
+    
+}

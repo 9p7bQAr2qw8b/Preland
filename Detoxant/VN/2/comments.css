@@ -1,0 +1,128 @@
+.social_btns {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    opacity: .8;
+    margin: 0px 0% 30px;
+}
+.social_btns ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.social_btns ul li {
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 4px 4px 3px;
+    margin: 5px 5px 0 0;
+    
+}
+@media screen and (max-width: 750px) {
+    .social_btns ul li {
+        flex-grow: 2;    
+    }
+}
+.social_btns ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    opacity: .8;
+}
+.social_btns ul li:hover a {
+    opacity: 1;
+}
+.social_btns ul li a span {
+    font-size: .8em;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin-left: 4px;
+    padding-right: 3px;
+}
+.comments {
+    max-width: 100%;
+    margin-left: 15%;
+}
+.comment_header {
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding-top: 20px;
+}
+.comm_wrapper {
+    position: relative;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0 0 12px -4px inset;
+}
+.comm_author {
+    position: absolute;
+    top: -25px;
+    left: -15%;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid aliceblue;
+    box-shadow: 0 0 12px -4px ;
+    box-sizing: border-box;
+}
+.comm_header {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.comm_header date,
+.comm_header span {
+    color: grey;
+    font-weight: 400;
+    font-size: .8em;
+}
+.comm_text {
+    opacity: .8;
+}
+.comments_sidebar {
+    display: none;
+}
+footer {
+    width: 100%;
+    background-color: #554e4e;
+    height: 3em;
+    text-align: center;
+    padding-top: 1em;
+    box-sizing: border-box;
+    color: transparent;
+    box-shadow: 0 0 10px -2px black;
+    text-decoration: overline, underline;
+}
+@media screen and (max-width: 1488px) {
+    .comments {
+        width: 85%;
+        margin-left: 15%;
+    }
+    .comm_author {
+        left: -15%;
+    }
+}
+@media screen and (max-width: 840px) {
+    .comments_sidebar {
+        display: none;
+    }
+    .comments_footer {
+        display: block;
+    }
+}
+@media screen and (max-width: 700px) {
+    .comm_author {
+        width: 60px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .comments {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .comm_author {
+        left: -20%;
+    }
+}

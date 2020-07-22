@@ -1,0 +1,105 @@
+.about_author {
+    border-left: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 13% 10px 50px;
+    border-bottom-left-radius: 10px;
+    margin: 0 0 50px 0;
+    width: 30%;
+    box-sizing: border-box;
+/*    #128282*/
+    
+}
+.author_name {
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 20px 20px;
+    
+}
+.author_status {
+    font-size: .5em;
+    font-weight: 400;
+    opacity: .8;
+}
+.avatar {
+    display: block;
+    margin: 0 auto 50px ;
+    width: 80%;
+    border-radius: 50% 50px;
+    border: 10px solid aliceblue;
+    box-shadow: 0 0 9px -4px ;
+}
+.author_info {
+    display: inline-block;
+    float: left;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 20px;
+    
+}
+.author_info tr:nth-child(2n) {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 9px -4px inset;
+    -webkit-border-radius: 10px;
+}
+.author_info th {
+    font-size: 19.6px;
+    text-align: left;
+    padding: 5px;
+}
+.author_info td {
+    padding: 0 0 0 30px;
+}
+.status {
+    background-color: red;
+    border-radius: 10px;
+    padding: 2px;
+    color: white;
+}
+@media screen and (max-width: 840px) {
+    .about_author {
+        border: 1px solid #bfbfbf;
+        border-radius: 10px;
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .avatar {
+        display: inline-block;
+        max-width: 200px;
+        float: left;
+        margin-right: 50px;
+    }
+    .author_info {
+        margin-top: -80px;
+        width: 50%;
+        border-bottom: none;
+        
+    }
+    
+}
+@media screen and (max-width: 640px) {
+    .avatar {
+        float: none;
+        margin: 0 auto 50px;
+        display: block;
+    }
+    .author_info {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .author_info tr {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .author_info {
+        font-size: 1em;
+    }
+    .author_info th {
+        font-size: 1.2em;
+    }
+    .avatar {
+        margin-bottom: 20px;
+    }
+}
