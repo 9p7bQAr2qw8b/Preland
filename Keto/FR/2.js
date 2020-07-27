@@ -1,0 +1,1 @@
+var productname = "Eclipse Ket<span style='display:none'>"+randomString(6)+"(%</span>o"; var productimg = "./images/EclipseKeto.png"; var productlpbgimg1 = "./images/"; var productlpbgimg2 = "./images/";
